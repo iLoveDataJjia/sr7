@@ -1,0 +1,146 @@
+[
+  {
+    "nameUID": "Clara",
+    "static": {
+      "star": 5,
+      "path": "The Destruction",
+      "element": "Physical",
+      "hp": 1241,
+      "def": 485,
+      "atk": 737,
+      "spd": 90,
+      "taunt": 125,
+      "skills": [
+        {
+          "nameUID": "I Want to Help",
+          "type": "Normal Atk",
+          "desc": "Deals Physical DMG equal to 50% of Clara's ATK to a single enemy."
+        },
+        {
+          "nameUID": "Svarog Watches Over You",
+          "type": "Skill",
+          "desc": "Deals Physical DMG equal to 60% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 60% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used."
+        },
+        {
+          "nameUID": "Promise, Not Command",
+          "type": "Ultimate",
+          "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 15%, and she has a greatly increased chance of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increased by 96%.\nEnemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter can take effect 2 time(s)."
+        },
+        {
+          "nameUID": "Because We're Family",
+          "type": "Talent",
+          "desc": "Under the protection of Svarog, DMG taken by Clara is reduced by 10%.\nSvarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 80% of Clara's ATK."
+        }
+      ],
+      "traces": [
+        {
+          "nameUID": "Kinship",
+          "type": "Ascension 2",
+          "desc": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them."
+        },
+        {
+          "nameUID": "Under Protection",
+          "type": "Ascension 4",
+          "desc": "The chance to resist Crowd Control Debuffs increases by 35%."
+        },
+        {
+          "nameUID": "Revenge",
+          "type": "Ascension 6",
+          "desc": "Increase Svarog's Counter DMG by 30%."
+        }
+      ]
+    },
+    "dynamic": {
+      "tier": "S+",
+      "playstyle": "To optimize Clara's performance in combat, focus on channeling all ATK or Energy buffs towards her. This will enhance her Counter-Attack damage and expedite the charging of her Ultimate ability. It is crucial to have either a dedicated healer or a shielder in the party to ensure Clara's survival, as well as that of the entire team. As for the last slot, consider selecting a flex DPS character who can serve as a shield breaker or specialize in dealing high Single Target damage.",
+      "lightCones": ["Something Irreplaceable", "On the Fall of an Aeon", "Under the Blue Sky", "Collapsing Sky"],
+      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
+      "statPriority": {
+        "body": ["CRIT Rate", "CRIT DMG"],
+        "feet": ["ATK%", "Speed"],
+        "planarSphere": ["Physical DMG"],
+        "linkRope": ["ATK%"],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "ATK", "Speed"]
+      },
+      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal Atk"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "comp": {
+        "best": ["Clara", "March 7th", "Bronya", "Bailu"],
+        "f2p": ["Clara", "March 7th", "Tingyun", "Natasha"]
+      }
+    }
+  },
+  {
+    "nameUID": "March 7th",
+    "static": {
+      "star": 4,
+      "path": "The Preservation",
+      "element": "Ice",
+      "hp": 1058,
+      "def": 573,
+      "atk": 511,
+      "spd": 101,
+      "taunt": 150,
+      "skills": [
+        {
+          "typeUID": "Normal Atk",
+          "name": "Frigid Cold Arrow",
+          "desc": "Deals Ice DMG equal to 50% of March 7th's ATK to a single enemy."
+        },
+        {
+          "typeUID": "Skill",
+          "name": "The Power of Cuteness",
+          "desc": "Provides a single ally with a Shield that can absorb DMG equal to 38% of March 7th's DEF plus 190 for 3 turn(s).\nIf the ally's HP is 30% of their Max HP or higher, greatly increases the chance of enemies attacking that ally."
+        },
+        {
+          "typeUID": "Ultimate",
+          "name": "Glacial Cascade",
+          "desc": "Deals Ice DMG equal to 90% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot take action and will receive Additional Ice DMG equal to 30% of March 7th's ATK at the beginning of each turn."
+        },
+        {
+          "typeUID": "Talent",
+          "name": "Girl Power",
+          "desc": "After a shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 50% of her ATK.\nThis effect can be triggered 2 time(s) each turn."
+        }
+      ],
+      "traces": [
+        {
+          "typeUID": "Ascension 2",
+          "name": "Purify",
+          "desc": "Skill removes 1 debuff from an ally."
+        },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Reinforce",
+          "desc": "The duration of the Shield generated from Skill is extended for 1 turn(s)."
+        },
+        {
+          "typeUID": "Ascension 6",
+          "name": "Ice Spell",
+          "desc": "Increases Ultimate's base chance to Freeze enemies by 15%."
+        }
+      ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "March 7th is a valuable shielder who increases a party member's chance of being targeted by enemies. It is recommended to use her shielding abilities on tankier characters, including March herself, to enhance their defense. Embrace March 7th's energy as she fortifies your team and fearlessly intercepts incoming threats.",
+      "lightCones": ["Moment of Victory", "Day One of My New Life", "This Is Me!", "Amber"],
+      "relics": ["Knight of Purity Palace", "Musketeer of Wild Wheat"],
+      "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
+      "statPriority": {
+        "body": ["Effect HIT Rate", "DEF%"],
+        "feet": ["Speed", "DEF%"],
+        "planarSphere": ["DEF%"],
+        "linkRope": ["Energy Regen Rate", "DEF%"],
+        "subStats": ["DEF%", "Speed", "Effect HIT Rate", "HP%"]
+      },
+      "skillPriority": ["Skill", "Ultimate", "Talent", "Normal Atk"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "comp": {
+        "best": ["Clara", "March 7th", "Bronya", "Bailu"],
+        "f2p": ["Clara", "March 7th", "Tingyun", "Natasha"]
+      }
+    }
+  }
+]

@@ -1,4 +1,4 @@
-import { BuildPg } from "./pages/build/BuildPg";
+import { BuildPg } from "./pages/characters/Pg";
 
 /**
  * Entrypoint.
