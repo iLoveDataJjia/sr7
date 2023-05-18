@@ -66,8 +66,18 @@
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal Atk"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
       "comp": {
-        "best": ["Clara", "March 7th", "Bronya", "Bailu"],
-        "f2p": ["Clara", "March 7th", "Tingyun", "Natasha"]
+        "best": [
+          { "char": "Clara", "role": "Main DPS" },
+          { "char": "March 7th", "role": "Tank" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Clara", "role": "Main DPS" },
+          { "char": "March 7th", "role": "Tank" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
       }
     }
   },
@@ -138,8 +148,18 @@
       "skillPriority": ["Skill", "Ultimate", "Talent", "Normal Atk"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
-        "best": ["Clara", "March 7th", "Bronya", "Bailu"],
-        "f2p": ["Clara", "March 7th", "Tingyun", "Natasha"]
+        "best": [
+          { "char": "Clara", "role": "Main DPS" },
+          { "char": "March 7th", "role": "Tank" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Clara", "role": "Main DPS" },
+          { "char": "March 7th", "role": "Tank" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
       }
     }
   }
