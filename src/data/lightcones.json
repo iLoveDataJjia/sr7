@@ -1,0 +1,44 @@
+[
+  {
+    "nameUID": "Before Dawn",
+    "path": "The Erudition",
+    "star": 5,
+    "source": "Long Night",
+    "desc": "Increases the wearer's CRIT DMG by 36/42/48/54/60%.\nIncreases the wearer's Skill and Ultimate DMG by 18/21/24/27/30%.\nAfter the wearer uses their Skill or Ultimate, they gain Somnus Corpus.\nUpon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48/56/64/72/80%."
+  },
+  {
+    "nameUID": "Something Irreplaceable",
+    "path": "The Destruction",
+    "star": 5,
+    "source": "Kinship",
+    "desc": "Increases the wearer's ATK by 24/28/32/36/40%.\nWhen the wearer defeats an enemy or is hit, immediately restores HP equal to 8/9/10/11/12% of the wearer's ATK.\nAt the same time, the wearer's DMG is increased by 24/28/32/36/40% until the end of their next turn.\nThis effect cannot stack and can only trigger 1 time per turn."
+  },
+  {
+    "nameUID": "On the Fall of an Aeon",
+    "path": "The Destruction",
+    "star": 5,
+    "source": "Moth to Flames",
+    "desc": "Whenever the wearer attacks, increase their ATK by  8/10/12/14/16% in this battle, up to 4 time(s).\nWhen the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by  12/15/18/21/24% for 2 turn(s)."
+  },
+  {
+    "nameUID": "Collapsing Sky",
+    "path": "The Destruction",
+    "star": 3,
+    "source": "Havoc",
+    "desc": "Increases the wearer's Basic ATK and Skill DMG by 20/25/30/35/40%."
+  },
+  {
+    "nameUID": "Mutual Demise",
+    "path": "The Destruction",
+    "star": 3,
+    "source": "Legion",
+    "desc": "If the wearer's current HP is less than 80%, CRIT Rate increases by 12/15/18/21/24%."
+  },
+  {
+    "nameUID": "Under the Blue Sky",
+    "path": "The Destruction",
+    "star": 4,
+    "source": "Rye Under the Sun",
+    "desc": "Increases the wearer's ATK by 16/20/24/28/32%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12/15/18/21/24% for 3 turn(s)."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "nameUID": "Space Sealing Station",
+    "setEffect2": "Increases the wearer's ATK by 12%.\nWhen the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%."
+  },
+  {
+    "nameUID": "Inert Salsotto",
+    "setEffect2": "Increases the wearer's CRIT Rate by 8%.\nWhen the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%."
+  }
+]

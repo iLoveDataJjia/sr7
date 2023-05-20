@@ -12,40 +12,40 @@
       "taunt": 125,
       "skills": [
         {
-          "nameUID": "I Want to Help",
-          "type": "Normal Atk",
+          "typeUID": "Normal Atk",
+          "name": "I Want to Help",
           "desc": "Deals Physical DMG equal to 50% of Clara's ATK to a single enemy."
         },
         {
-          "nameUID": "Svarog Watches Over You",
-          "type": "Skill",
+          "typeUID": "Skill",
+          "name": "Svarog Watches Over You",
           "desc": "Deals Physical DMG equal to 60% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 60% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used."
         },
         {
-          "nameUID": "Promise, Not Command",
-          "type": "Ultimate",
+          "typeUID": "Ultimate",
+          "name": "Promise, Not Command",
           "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 15%, and she has a greatly increased chance of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increased by 96%.\nEnemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter can take effect 2 time(s)."
         },
         {
-          "nameUID": "Because We're Family",
-          "type": "Talent",
+          "typeUID": "Talent",
+          "name": "Because We're Family",
           "desc": "Under the protection of Svarog, DMG taken by Clara is reduced by 10%.\nSvarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 80% of Clara's ATK."
         }
       ],
       "traces": [
         {
-          "nameUID": "Kinship",
-          "type": "Ascension 2",
+          "typeUID": "Ascension 2",
+          "name": "Kinship",
           "desc": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them."
         },
         {
-          "nameUID": "Under Protection",
-          "type": "Ascension 4",
+          "typeUID": "Ascension 4",
+          "name": "Under Protection",
           "desc": "The chance to resist Crowd Control Debuffs increases by 35%."
         },
         {
-          "nameUID": "Revenge",
-          "type": "Ascension 6",
+          "typeUID": "Ascension 6",
+          "name": "Revenge",
           "desc": "Increase Svarog's Counter DMG by 30%."
         }
       ]
@@ -53,14 +53,14 @@
     "dynamic": {
       "tier": "S+",
       "playstyle": "To optimize Clara's performance in combat, focus on channeling all ATK or Energy buffs towards her. This will enhance her Counter-Attack damage and expedite the charging of her Ultimate ability. It is crucial to have either a dedicated healer or a shielder in the party to ensure Clara's survival, as well as that of the entire team. As for the last slot, consider selecting a flex DPS character who can serve as a shield breaker or specialize in dealing high Single Target damage.",
-      "lightCones": ["Something Irreplaceable", "On the Fall of an Aeon", "Under the Blue Sky", "Collapsing Sky"],
+      "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "Under the Blue Sky", "Collapsing Sky"],
       "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
       "ornaments": ["Space Sealing Station", "Inert Salsotto"],
       "statPriority": {
         "body": ["CRIT Rate", "CRIT DMG"],
         "feet": ["ATK%", "Speed"],
-        "planarSphere": ["Physical DMG"],
-        "linkRope": ["ATK%"],
+        "sphere": ["Physical DMG"],
+        "rope": ["ATK%"],
         "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "ATK", "Speed"]
       },
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal Atk"],
@@ -135,14 +135,14 @@
     "dynamic": {
       "tier": "A",
       "playstyle": "March 7th is a valuable shielder who increases a party member's chance of being targeted by enemies. It is recommended to use her shielding abilities on tankier characters, including March herself, to enhance their defense. Embrace March 7th's energy as she fortifies your team and fearlessly intercepts incoming threats.",
-      "lightCones": ["Moment of Victory", "Day One of My New Life", "This Is Me!", "Amber"],
+      "lightcones": ["Moment of Victory", "Day One of My New Life", "This Is Me!", "Amber"],
       "relics": ["Knight of Purity Palace", "Musketeer of Wild Wheat"],
       "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
       "statPriority": {
         "body": ["Effect HIT Rate", "DEF%"],
         "feet": ["Speed", "DEF%"],
-        "planarSphere": ["DEF%"],
-        "linkRope": ["Energy Regen Rate", "DEF%"],
+        "sphere": ["DEF%"],
+        "rope": ["Energy Regen Rate", "DEF%"],
         "subStats": ["DEF%", "Speed", "Effect HIT Rate", "HP%"]
       },
       "skillPriority": ["Skill", "Ultimate", "Talent", "Normal Atk"],

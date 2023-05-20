@@ -1,0 +1,12 @@
+[
+  {
+    "nameUID": "Champion of Streetwise Boxing",
+    "setEffect2": "Increases Physical DMG by 10%.",
+    "setEffect4": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle.\nThis effect can stack up to 5 time(s)."
+  },
+  {
+    "nameUID": "Musketeer of Wild Wheat",
+    "setEffect2": "ATK increases by 10%.",
+    "setEffect4": "The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%."
+  }
+]
