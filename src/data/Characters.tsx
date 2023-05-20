@@ -6,9 +6,9 @@ import data from "./characters.json";
  *  - https://genshin.gg/star-rail/characters/clara/ (profil picture)
  *  - https://honkailab.com/characters/clara-build/ (skill picture)
  */
-export function getCharacters(uids: string[]) {
-  const out = (data as Character[]).filter((_) => uids.includes(_.nameUID));
-  return out;
+export function getCharacters(nameUIDs?: string[]) {
+  if (!nameUIDs) return data as Character[];
+  else return (data as Character[]).filter((_) => nameUIDs.includes(_.nameUID));
 }
 
 /**
@@ -37,7 +37,7 @@ export interface Character {
     }[];
   };
   dynamic: {
-    tier: string;
+    tier: Tier;
     playstyle: string;
     lightcones: string[];
     relics: string[];

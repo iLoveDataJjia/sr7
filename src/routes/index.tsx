@@ -3,18 +3,16 @@ import { default as CharactersIndex } from "./characters";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 /**
- * Page entrypoint.
+ * Route entrypoint.
  */
 export default function Index() {
   return (
-    <div>
-      <NavBar />
+    <div className="relative mx-auto max-w-5xl">
       <BrowserRouter>
-        <div className="mx-auto max-w-4xl">
-          <Routes>
-            <Route path="characters" element={<CharactersIndex />} />
-          </Routes>
-        </div>
+        <NavBar className="sticky top-0 z-50" />
+        <Routes>
+          <Route path="characters/*" element={<CharactersIndex />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );

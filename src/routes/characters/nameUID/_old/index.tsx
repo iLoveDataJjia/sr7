@@ -1,9 +1,9 @@
-import { ReactComponent as Star } from "../../assets/general/star.svg";
+import { ReactComponent as Star } from "../../../assets/general/star.svg";
 
 /**
- * Character build.
+ * Route entrypoint.
  */
-export function BuildPg() {
+export default function Index(props: { nameUID: string }) {
   return (
     <div className="relative">
       <div className="sticky min-h-screen bg-[url(./assets/characters/clara/wp.jpg)] bg-cover bg-center brightness-[0.20]" />

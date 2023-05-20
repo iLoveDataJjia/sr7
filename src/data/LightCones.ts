@@ -5,9 +5,9 @@ import data from "./lightcones.json";
  * Get light cone(s).
  *  - https://honkailab.com/honkai-star-rail-light-cones/ (light cones picture)
  */
-export function getLightCones(uids: string[]) {
-  const out = (data as LightCone[]).filter((_) => uids.includes(_.nameUID));
-  return out;
+export function getLightCones(nameUIDs: string[]) {
+  if (!nameUIDs) return data as LightCone[];
+  else return (data as LightCone[]).filter((_) => nameUIDs.includes(_.nameUID));
 }
 
 /**

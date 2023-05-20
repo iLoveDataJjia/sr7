@@ -1,14 +1,15 @@
-import Index from "./pages";
+import Index from "./routes";
 
 /**
  * Entrypoint.
  */
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
-      <div className="max-h-min">
+    <>
+      <span className="fixed inset-0 -z-50 bg-slate-950" />
+      <div className="text-white">
         <Index />
       </div>
-    </div>
+    </>
   );
 }
