@@ -24,7 +24,7 @@ export default function Comp({ character }: { character: Character }) {
     <div className="w-44 rounded-md bg-indigo-900 shadow">
       <div className="flex flex-col items-center space-y-3 px-6 py-3 shadow">
         <Webp src={`./characters/${nameUID}/photo.webp`} className="h-24 w-24 rounded-full shadow" />
-        <p className="text-2xl font-bold">{nameUID}</p>
+        <p className="text-2xl font-semibold">{nameUID}</p>
         <span className="h-[0.1px] w-full bg-white opacity-50" />
         <Webp src={`./elements/${element}.webp`} className="h-14 w-14 drop-shadow" />
       </div>
