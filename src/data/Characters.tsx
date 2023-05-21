@@ -20,11 +20,10 @@ export interface Character {
     star: number;
     path: Path;
     element: Element;
-    hp: number;
-    def: number;
-    atk: number;
-    spd: number;
-    taunt: number;
+    attributes: {
+      typeUID: Attribute;
+      value: number;
+    }[];
     skills: {
       typeUID: Skill;
       name: string;
@@ -65,15 +64,14 @@ export interface Character {
 }
 
 /**
- * Tier.
+ * Attribute.
  */
-export enum Tier {
-  "S+" = "S+",
-  "S" = "S",
-  "A" = "A",
-  "B" = "B",
-  "C" = "C",
-  "D" = "D",
+export enum Attribute {
+  "HP" = "HP",
+  "DEF" = "DEF",
+  "ATK" = "ATK",
+  "SPD" = "SPD",
+  "TAUNT" = "TAUNT",
 }
 
 /**
@@ -93,6 +91,18 @@ export enum Trace {
   "Ascension 2" = "Ascension 2",
   "Ascension 4" = "Ascension 4",
   "Ascension 6" = "Ascension 6",
+}
+
+/**
+ * Tier.
+ */
+export enum Tier {
+  "S+" = "S+",
+  "S" = "S",
+  "A" = "A",
+  "B" = "B",
+  "C" = "C",
+  "D" = "D",
 }
 
 /**

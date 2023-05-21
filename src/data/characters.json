@@ -5,11 +5,28 @@
       "star": 5,
       "path": "The Destruction",
       "element": "Physical",
-      "hp": 1241,
-      "def": 485,
-      "atk": 737,
-      "spd": 90,
-      "taunt": 125,
+      "attributes": [
+        {
+          "typeUID": "HP",
+          "value": 1241
+        },
+        {
+          "typeUID": "DEF",
+          "value": 485
+        },
+        {
+          "typeUID": "ATK",
+          "value": 737
+        },
+        {
+          "typeUID": "SPD",
+          "value": 90
+        },
+        {
+          "typeUID": "TAUNT",
+          "value": 125
+        }
+      ],
       "skills": [
         {
           "typeUID": "Normal Atk",
@@ -52,7 +69,7 @@
     },
     "dynamic": {
       "tier": "S+",
-      "playstyle": "To optimize Clara's performance in combat, focus on channeling all ATK or Energy buffs towards her. This will enhance her Counter-Attack damage and expedite the charging of her Ultimate ability. It is crucial to have either a dedicated healer or a shielder in the party to ensure Clara's survival, as well as that of the entire team. As for the last slot, consider selecting a flex DPS character who can serve as a shield breaker or specialize in dealing high Single Target damage.",
+      "playstyle": "To optimize Clara's performance in combat, focus on channeling all ATK or Energy buffs towards her. This will enhance her Counter-Attack damage and expedite the charging of her Ultimate ability. It is crucial to have either a dedicated healer or a shielder in the party to ensure Clara's survival, as well as that of the entire team.",
       "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "Under the Blue Sky", "Collapsing Sky"],
       "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
       "ornaments": ["Space Sealing Station", "Inert Salsotto"],
@@ -87,11 +104,28 @@
       "star": 4,
       "path": "The Preservation",
       "element": "Ice",
-      "hp": 1058,
-      "def": 573,
-      "atk": 511,
-      "spd": 101,
-      "taunt": 150,
+      "attributes": [
+        {
+          "typeUID": "HP",
+          "value": 1058
+        },
+        {
+          "typeUID": "DEF",
+          "value": 573
+        },
+        {
+          "typeUID": "ATK",
+          "value": 511
+        },
+        {
+          "typeUID": "SPD",
+          "value": 101
+        },
+        {
+          "typeUID": "TAUNT",
+          "value": 150
+        }
+      ],
       "skills": [
         {
           "typeUID": "Normal Atk",
@@ -134,7 +168,7 @@
     },
     "dynamic": {
       "tier": "A",
-      "playstyle": "March 7th is a valuable shielder who increases a party member's chance of being targeted by enemies. It is recommended to use her shielding abilities on tankier characters, including March herself, to enhance their defense. Embrace March 7th's energy as she fortifies your team and fearlessly intercepts incoming threats.",
+      "playstyle": "March 7th is a shielder who can be used with any team. Her shield increases the chance of a party member being targeted, making it ideal for tankier characters or even March herself.",
       "lightcones": ["Moment of Victory", "Day One of My New Life", "This Is Me!", "Amber"],
       "relics": ["Knight of Purity Palace", "Musketeer of Wild Wheat"],
       "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],

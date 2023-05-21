@@ -10,7 +10,7 @@ import Trace from "./Trace";
 export default function Index(props: { nameUID: string }) {
   const character = getCharacters([props.nameUID])[0];
   return (
-    <div className="space-y-8 px-4 py-2">
+    <div className="m-4 space-y-8">
       <General character={character} />
       <Equipement character={character} />
       <Trace character={character} />
