@@ -1,11 +1,11 @@
-import Webp from "../../../assets";
-import { ReactComponent as ATK } from "../../../assets/general/atk.svg";
-import { ReactComponent as DEF } from "../../../assets/general/def.svg";
-import { ReactComponent as HP } from "../../../assets/general/hp.svg";
-import { ReactComponent as SPD } from "../../../assets/general/spd.svg";
-import { ReactComponent as Star } from "../../../assets/general/star.svg";
-import { ReactComponent as TAUNT } from "../../../assets/general/taunt.svg";
-import { Attribute, Character, Tier } from "../../../data/Characters";
+import Webp from "../../assets";
+import { ReactComponent as ATK } from "../../assets/general/atk.svg";
+import { ReactComponent as DEF } from "../../assets/general/def.svg";
+import { ReactComponent as HP } from "../../assets/general/hp.svg";
+import { ReactComponent as SPD } from "../../assets/general/spd.svg";
+import { ReactComponent as Star } from "../../assets/general/star.svg";
+import { ReactComponent as TAUNT } from "../../assets/general/taunt.svg";
+import { Attribute, Character, Tier } from "../../data/Characters";
 import { useEffect, useState } from "react";
 
 /**

@@ -1,3 +1,4 @@
+import { getCharacters } from "../data/Characters";
 import NavBar from "./NavBar";
 import { default as CharactersIndex } from "./characters";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -11,7 +12,9 @@ export default function Index() {
       <BrowserRouter>
         <NavBar className="sticky top-0 z-50" />
         <Routes>
-          <Route path="characters/*" element={<CharactersIndex />} />
+          {getCharacters().map((_) => (
+            <Route key={_.nameUID} path={`characters/${_.nameUID}`} element={<CharactersIndex character={_} />} />
+          ))}
         </Routes>
       </BrowserRouter>
     </div>

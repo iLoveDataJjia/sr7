@@ -1,18 +1,19 @@
-import { getCharacters } from "../../data/Characters";
-import { default as NameUIDIndex } from "./nameUID";
-import { Routes, Route } from "react-router-dom";
+import { Character } from "../../data/Characters";
+import Comp from "./Comp";
+import Equipement from "./Equipement";
+import General from "./General";
+import Trace from "./Trace";
 
 /**
  * Route entrypoint.
  */
-export default function Index() {
+export default function Index(props: { character: Character }) {
   return (
-    <>
-      <Routes>
-        {getCharacters().map((_) => (
-          <Route key={_.nameUID} path={_.nameUID} element={<NameUIDIndex nameUID={_.nameUID} />} />
-        ))}
-      </Routes>
-    </>
+    <div className="m-4 space-y-8">
+      <General character={props.character} />
+      <Equipement character={props.character} />
+      <Trace character={props.character} />
+      <Comp character={props.character} />
+    </div>
   );
 }
