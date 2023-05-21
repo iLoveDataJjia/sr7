@@ -60,7 +60,7 @@ export default function Equipement({ character }: { character: Character }) {
   // Render
   return (
     // E0 the "Recommended banner" - TODO after launch
-    <div className="flex justify-between divide-x-2 divide-slate-950 rounded bg-indigo-950">
+    <div className="flex justify-between divide-x-2 divide-slate-950 rounded-md bg-indigo-950">
       {/* E1 */}
       <div className="flex grow flex-col p-4">
         <div className="flex items-center space-x-4">
@@ -94,7 +94,7 @@ export default function Equipement({ character }: { character: Character }) {
             <div className="space-y-8">
               {character.dynamic.relics.map((_, idx) => (
                 <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
-                  <div className="relative h-14 w-14 rounded bg-indigo-700 p-1">
+                  <div className="relative h-14 w-14 rounded-md bg-indigo-700 p-1">
                     <Webp src={`./relics/${_}.webp`} />
                     <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow">
                       {idx + 1}
@@ -109,7 +109,7 @@ export default function Equipement({ character }: { character: Character }) {
             <div className="space-y-8">
               {character.dynamic.ornaments.map((_, idx) => (
                 <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
-                  <div className="relative h-14 w-14 rounded bg-indigo-700 p-1">
+                  <div className="relative h-14 w-14 rounded-md bg-indigo-700 p-1">
                     <Webp src={`./ornaments/${_}.webp`} />
                     <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow">
                       {idx + 1}
@@ -132,15 +132,15 @@ export default function Equipement({ character }: { character: Character }) {
             {/* Main stats */}
             <div className="grid grid-flow-col grid-rows-2 gap-x-4 gap-y-2">
               {character.dynamic.statPriority.mainStats.map((_) => (
-                <div key={_.typeUID} className="flex w-52 items-center justify-between rounded bg-indigo-900 shadow">
-                  <Webp src={`./general/${_.typeUID}.webp`} className="h-10 w-10 rounded bg-gray-700 p-1" />
+                <div key={_.typeUID} className="flex w-52 items-center justify-between rounded-md bg-indigo-900 shadow">
+                  <Webp src={`./general/${_.typeUID}.webp`} className="h-10 w-10 rounded-md bg-gray-700 p-1" />
                   <p className="mx-auto text-xs font-semibold">{_.stats.join(" → ")}</p>
                 </div>
               ))}
             </div>
 
             {/* Sub stats */}
-            <div className="flex items-center justify-between self-stretch rounded bg-indigo-900 shadow">
+            <div className="flex items-center justify-between self-stretch rounded-md bg-indigo-900 shadow">
               <div className="h-11 w-11 rounded-md bg-gray-700 p-1 text-center text-xs font-bold shadow">Sub Stats</div>
               <p className="mx-auto text-xs font-semibold">{character.dynamic.statPriority.subStats.join(" → ")}</p>
             </div>

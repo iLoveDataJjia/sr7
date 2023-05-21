@@ -200,5 +200,29 @@
         ]
       }
     }
+  },
+  {
+    "nameUID": "Bronya",
+    "static": {
+      "element": "Wind"
+    }
+  },
+  {
+    "nameUID": "Bailu",
+    "static": {
+      "element": "Lightning"
+    }
+  },
+  {
+    "nameUID": "Natasha",
+    "static": {
+      "element": "Physical"
+    }
+  },
+  {
+    "nameUID": "Tingyun",
+    "static": {
+      "element": "Lightning"
+    }
   }
 ]

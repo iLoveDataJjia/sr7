@@ -7,8 +7,8 @@ import { Character } from "../../data/Characters";
 export default function Trace({ character }: { character: Character }) {
   // Pannel & Seperator JSX
   const Pannel = ({ src, title, desc }: { src: string; title: string; desc: string }) => (
-    <div className="flex items-center rounded bg-indigo-900 shadow">
-      <div className="flex h-24 w-16 flex-col items-center justify-center space-y-1 self-stretch rounded bg-gray-700 p-1 shadow">
+    <div className="flex items-center rounded-md bg-indigo-900 shadow">
+      <div className="flex h-24 w-16 flex-col items-center justify-center space-y-1 self-stretch rounded-md bg-gray-700 p-1 shadow">
         <Webp src={src} className="h-10 w-10" />
         <p className="text-center text-xs font-semibold">{title}</p>
       </div>
@@ -19,7 +19,7 @@ export default function Trace({ character }: { character: Character }) {
 
   // Render
   return (
-    <div className="divide-y-2 divide-slate-950 rounded bg-indigo-950">
+    <div className="divide-y-2 divide-slate-950 rounded-md bg-indigo-950">
       {/* E1 */}
       <div className="space-y-4 p-4">
         <div className="flex items-center space-x-4">
