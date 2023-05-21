@@ -26,7 +26,7 @@ export default function Equipement(props: { character: Character }) {
         return (
           <div
             className={
-              "bg-gradient-to-b from-purple-950 via-purple-800 via-60% to-purple-500" +
+              "bg-gradient-to-b from-purple-950 via-purple-700 via-60% to-purple-400" +
               (props.className ? ` ${props.className}` : "")
             }
           >
@@ -55,12 +55,12 @@ export default function Equipement(props: { character: Character }) {
   return (
     <div className="flex justify-between divide-x-2 divide-slate-950 rounded bg-indigo-950">
       {/* E1 */}
-      <div className="grow p-4">
+      <div className="flex grow flex-col p-4">
         <div className="flex items-center space-x-4">
           <span className="h-5 w-0.5 bg-blue-500" />
           <p className="text-lg font-bold">Light Cones</p>
         </div>
-        <div className="mx-auto max-w-min space-y-8 py-4">
+        <div className="m-auto space-y-8">
           {props.character.dynamic.lightcones.map((_, idx) => (
             <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
               <LightCone nameUID={_} className="relative h-16 w-16 rounded-md p-1 shadow">
@@ -93,7 +93,7 @@ export default function Equipement(props: { character: Character }) {
                       {idx + 1}
                     </div>
                   </div>
-                  <p className="w-48 px-4 text-center text-sm font-semibold">{_}</p>
+                  <p className="w-40 px-4 text-center text-sm font-semibold">{_}</p>
                 </div>
               ))}
             </div>
@@ -108,7 +108,7 @@ export default function Equipement(props: { character: Character }) {
                       {idx + 1}
                     </div>
                   </div>
-                  <p className="w-48 px-4 text-center text-sm font-semibold">{_}</p>
+                  <p className="w-40 px-4 text-center text-sm font-semibold">{_}</p>
                 </div>
               ))}
             </div>
@@ -121,7 +121,25 @@ export default function Equipement(props: { character: Character }) {
             <span className="h-5 w-0.5 bg-blue-500" />
             <p className="text-lg font-bold">Stat priority</p>
           </div>
-          <div></div>
+          <div className="flex flex-col items-center space-y-4 p-4">
+            {/* Main stats */}
+            <div className="grid grid-flow-col grid-rows-2 gap-x-4 gap-y-2">
+              {props.character.dynamic.statPriority.mainStats.map((_) => (
+                <div key={_.typeUID} className="flex w-52 items-center justify-between rounded bg-indigo-900 shadow">
+                  <Webp src={`./general/${_.typeUID}.webp`} className="h-10 w-10 rounded bg-gray-700 p-1" />
+                  <p className="mx-auto text-xs font-semibold">{_.stats.join(" → ")}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* Sub stats */}
+            <div className="flex items-center justify-between self-stretch rounded bg-indigo-900 shadow">
+              <div className="h-11 w-11 rounded-md bg-gray-700 p-1 text-center text-xs font-bold shadow">Sub Stats</div>
+              <p className="mx-auto text-xs font-semibold">
+                {props.character.dynamic.statPriority.subStats.join(" → ")}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

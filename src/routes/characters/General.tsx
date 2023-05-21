@@ -62,7 +62,7 @@ export default function General(props: { character: Character }) {
       {/* E1 */}
       <div className="flex items-center space-x-4 py-4">
         {/* Photo */}
-        <div className={`relative flex h-24 w-24 flex-col items-center rounded-md border-2 ${tierColor.border}`}>
+        <div className={`relative flex h-24 w-24 flex-col items-center rounded-md border-2 ${tierColor.border} shadow`}>
           <div className="absolute -top-4 flex">
             {Array.from({ length: props.character.static.star }, (_, idx) => (
               <Star key={idx} className="h-5 w-5 fill-yellow-500" />
@@ -96,7 +96,7 @@ export default function General(props: { character: Character }) {
       {/* TODO at the end when all sections are made */}
 
       {/* E3 */}
-      <div className="w-2/3 rounded-md bg-indigo-950">
+      <div className="w-2/3 rounded-md bg-indigo-950 shadow">
         <div className="space-y-2 p-4">
           <div className="flex items-center space-x-4">
             <span className="h-5 w-0.5 bg-blue-500" />
@@ -107,7 +107,7 @@ export default function General(props: { character: Character }) {
       </div>
 
       {/* E4 */}
-      <div className="grid grid-flow-col justify-stretch divide-x-2 divide-slate-950 rounded-md bg-indigo-950">
+      <div className="grid grid-flow-col justify-stretch divide-x-2 divide-slate-950 rounded-md bg-indigo-950 shadow">
         {props.character.static.attributes.map((attribute) => (
           <div key={attribute.typeUID} className="flex flex-col items-center py-6">
             <p className="text-3xl font-bold">{attribute.value}</p>

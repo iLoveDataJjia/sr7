@@ -74,10 +74,12 @@
       "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
       "ornaments": ["Space Sealing Station", "Inert Salsotto"],
       "statPriority": {
-        "body": ["CRIT Rate", "CRIT DMG"],
-        "feet": ["ATK%", "Speed"],
-        "sphere": ["Physical DMG"],
-        "rope": ["ATK%"],
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
         "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "ATK", "Speed"]
       },
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal Atk"],
@@ -173,10 +175,12 @@
       "relics": ["Knight of Purity Palace", "Musketeer of Wild Wheat"],
       "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
       "statPriority": {
-        "body": ["Effect HIT Rate", "DEF%"],
-        "feet": ["Speed", "DEF%"],
-        "sphere": ["DEF%"],
-        "rope": ["Energy Regen Rate", "DEF%"],
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Effect HIT Rate", "DEF%"] },
+          { "typeUID": "Feet", "stats": ["Speed", "DEF%"] },
+          { "typeUID": "Sphere", "stats": ["DEF%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate", "DEF%"] }
+        ],
         "subStats": ["DEF%", "Speed", "Effect HIT Rate", "HP%"]
       },
       "skillPriority": ["Skill", "Ultimate", "Talent", "Normal Atk"],

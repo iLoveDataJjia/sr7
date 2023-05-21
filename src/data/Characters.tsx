@@ -42,10 +42,7 @@ export interface Character {
     relics: string[];
     ornaments: string[];
     statPriority: {
-      body: Stat[];
-      feet: Stat[];
-      sphere: Stat[];
-      rope: Stat[];
+      mainStats: { typeUID: Piece; stats: Stat[] }[];
       subStats: Stat[];
     };
     skillPriority: Skill[];
@@ -103,6 +100,16 @@ export enum Tier {
   "B" = "B",
   "C" = "C",
   "D" = "D",
+}
+
+/**
+ * Piece.
+ */
+export enum Piece {
+  "Body" = "Body",
+  "Feet" = "Feet",
+  "Sphere" = "Sphere",
+  "Rope" = "Rope",
 }
 
 /**
