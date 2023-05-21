@@ -7,7 +7,7 @@ import { getLightCones } from "../../data/LightCones";
  */
 export default function Equipement(props: { character: Character }) {
   // Lightcones JSX
-  const LightCone = (props: { nameUID: string; className?: string; children?: JSX.Element }) => {
+  const LightConeColored = (props: { nameUID: string; className?: string; children?: JSX.Element }) => {
     const star = getLightCones([props.nameUID])[0].star;
     switch (star) {
       case 5:
@@ -53,6 +53,7 @@ export default function Equipement(props: { character: Character }) {
 
   // Render
   return (
+    // E0 the "Recommended banner" - TODO after launch
     <div className="flex justify-between divide-x-2 divide-slate-950 rounded bg-indigo-950">
       {/* E1 */}
       <div className="flex grow flex-col p-4">
@@ -63,11 +64,11 @@ export default function Equipement(props: { character: Character }) {
         <div className="m-auto space-y-8">
           {props.character.dynamic.lightcones.map((_, idx) => (
             <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
-              <LightCone nameUID={_} className="relative h-16 w-16 rounded-md p-1 shadow">
+              <LightConeColored nameUID={_} className="relative h-16 w-16 rounded-md p-1 shadow">
                 <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-90 items-center justify-center rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow">
                   {idx + 1}
                 </div>
-              </LightCone>
+              </LightConeColored>
               <p className="w-56 px-4 text-center font-semibold">{_}</p>
             </div>
           ))}
