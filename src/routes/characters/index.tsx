@@ -7,13 +7,13 @@ import Trace from "./Trace";
 /**
  * Route entrypoint.
  */
-export default function Index(props: { character: Character }) {
+export default function Index({ character }: { character: Character }) {
   return (
     <div className="m-4 space-y-8">
-      <General character={props.character} />
-      <Equipement character={props.character} />
-      <Trace character={props.character} />
-      <Comp character={props.character} />
+      <General character={character} />
+      <Equipement character={character} />
+      <Trace character={character} />
+      <Comp character={character} />
     </div>
   );
 }

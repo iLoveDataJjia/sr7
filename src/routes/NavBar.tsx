@@ -3,11 +3,9 @@ import Webp from "../assets";
 /**
  * Navigation bar.
  */
-export default function NavBar(props: { className?: string }) {
+export default function NavBar({ className }: { className?: string }) {
   return (
-    <div
-      className={"flex items-center justify-between bg-slate-950 p-4" + (props.className ? ` ${props.className}` : "")}
-    >
+    <div className={"flex items-center justify-between bg-slate-950 p-4" + (className ? ` ${className}` : "")}>
       <a className="flex items-center space-x-2" href="/">
         <Webp src="./general/logo.webp" className="h-10 w-10" />
         <div className="text-sm font-bold">SR7.ME</div>
