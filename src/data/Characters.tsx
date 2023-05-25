@@ -65,8 +65,8 @@ export interface Character {
  */
 export enum Attribute {
   "HP" = "HP",
-  "DEF" = "DEF",
   "ATK" = "ATK",
+  "DEF" = "DEF",
   "SPD" = "SPD",
   "TAUNT" = "TAUNT",
 }

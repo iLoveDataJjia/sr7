@@ -42,10 +42,10 @@ export default function General({ character }: { character: Character }) {
     switch (typeUID) {
       case Attribute["HP"]:
         return <HP className={"fill-rose-500" + (className ? ` ${className}` : "")} />;
-      case Attribute["DEF"]:
-        return <DEF className={"fill-sky-500" + (className ? ` ${className}` : "")} />;
       case Attribute["ATK"]:
         return <ATK className={"fill-indigo-500" + (className ? ` ${className}` : "")} />;
+      case Attribute["DEF"]:
+        return <DEF className={"fill-sky-500" + (className ? ` ${className}` : "")} />;
       case Attribute["SPD"]:
         return <SPD className={"fill-emerald-500" + (className ? ` ${className}` : "")} />;
       case Attribute["TAUNT"]:
