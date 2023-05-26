@@ -60,7 +60,7 @@
       "ornaments": ["Celestial Differentiator", "Inert Salsotto"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate"] },
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
           { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
           { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }

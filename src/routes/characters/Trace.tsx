@@ -8,11 +8,11 @@ export default function Trace({ character }: { character: Character }) {
   // Pannel & Seperator JSX
   const Pannel = ({ src, title, desc }: { src: string; title: string; desc: string }) => (
     <div className="flex items-center rounded-md bg-indigo-900 shadow">
-      <div className="flex h-24 w-16 flex-col items-center justify-center space-y-1 self-stretch rounded-md bg-gray-700 p-1 shadow">
+      <div className="flex h-24 w-16 flex-col items-center justify-center space-y-1 self-stretch rounded-md bg-gray-700 px-2 shadow">
         <Webp src={src} className="h-10 w-10" />
         <p className="text-center text-xs font-semibold">{title}</p>
       </div>
-      <p className="w-28 text-center text-xs font-semibold">{desc}</p>
+      <p className="w-28 px-2 text-center text-xs font-semibold">{desc}</p>
     </div>
   );
   const Separator = () => <div className="px-2 text-3xl font-black drop-shadow">→</div>;
