@@ -54,10 +54,10 @@
     },
     "dynamic": {
       "tier": "C",
-      "playstyle": "Maximize Arlan's damage potential by stacking support buffs and sacrificing HP for increased damage. Preserve Arlan's survivability with a Preservation character's shield to prevent defeat at low health.",
+      "playstyle": "Arlan, a damage dealer, enhances his power by sacrificing HP through his Skill. As his health percentage decreases relative to his Max HP, his strength increases. To safeguard Arlan from being incapacitated when his health is low, include Preservation characters in the party.",
       "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "A Secret Vow", "Mutual Demise"],
       "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
-      "ornaments": ["Celestial Differentiator", "Inert Salsotto"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
@@ -139,33 +139,38 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "A",
+      "playstyle": "Asta is a valuable combat character for enhancing the damage and speed of your team. Her ultimate ability increases the speed of all team members for two turns, while her talent accumulates Charges, boosting the attack of all fighters up to five times. Remember that Asta needs to hit an enemy to gain a Charge, and three Charges are removed every two turns.",
+      "lightcones": [
+        "But the Battle Isn't Over",
+        "Dance! Dance! Dance!",
+        "Carve the Moon, Weave the Clouds",
+        "Meshing Cogs"
+      ],
+      "relics": ["Musketeer of Wild Wheat", "Thief of Shooting Meteor"],
+      "ornaments": ["Fleet of the Ageless", "Talia - Kingdom of Banditry"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["HP%"] },
+          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Sphere", "stats": ["HP%", "Fire DMG"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["Speed", "Break Effect", "HP%"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Seele", "role": "Main DPS" },
           { "char": "Bronya", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Dan Heng", "role": "Main DPS" },
           { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
@@ -225,34 +230,34 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S+",
+      "playstyle": "Bailu is a healing specialist who keeps allies safe and is resilient thanks to scaling off HP. Her Skill, Singing Among Clouds, initially heals one ally and then randomly bounces to two others, including herself. With her Ultimate, Felicitous Thunderleap, Bailu not only heals all allies but also provides a buff called Invigoration, which acts like a pseudo-shield.",
+      "lightcones": ["Time Waits for No One", "Post-Op Conversation", "Shared Feeling", "Cornucopia"],
+      "relics": ["Passerby of Wandering Cloud", "Musketeer of Wild Wheat"],
+      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["Outgoing Healing", "HP%"] },
+          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Sphere", "stats": ["HP%"] },
+          { "typeUID": "Rope", "stats": ["HP%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["Speed", "HP%", "DEF%"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
+          { "char": "Seele", "role": "Main DPS" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
+          { "char": "Dan Heng", "role": "Main DPS" }
         ]
       }
     }
@@ -307,22 +312,22 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S+",
+      "playstyle": "Bronya excels with her Combat Redeployment skill, granting an ally an additional turn with boosted damage and removing one debuff. Maximize the use of Bronya's Ultimate to enhance all allies' attack and CRIT DMG. Bronya thrives when paired with a potent DPS character.",
+      "lightcones": ["But the Battle Isn't Over", "Past and Future", "Memories of the Past", "Chorus"],
+      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
+      "ornaments": ["Fleet of the Ageless"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Sphere", "stats": ["DEF%", "HP%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["Speed", "CRIT DMG", "DEF%", "HP%"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [
           { "char": "Clara", "role": "Main DPS" },

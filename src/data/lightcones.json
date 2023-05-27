@@ -357,7 +357,7 @@
     "desc": "Increases the wearer's Effect RES by 8/10/12/14/16%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16/20/24/28/32% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12/15/18/21/24%."
   },
   {
-    "nameUID": "The Battle Isn't Over",
+    "nameUID": "But the Battle Isn't Over",
     "path": "The Harmony",
     "star": 5,
     "source": "Heir",

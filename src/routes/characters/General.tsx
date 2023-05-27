@@ -23,13 +23,13 @@ export default function General({ character }: { character: Character }) {
         setTierColor({ border: "border-blue-500", text: "text-blue-500" });
         break;
       case Tier["A"]:
-        setTierColor({ border: "border-sky-500", text: "text-sky-500" });
+        setTierColor({ border: "border-blue-300", text: "text-blue-300" });
         break;
       case Tier["B"]:
         setTierColor({ border: "border-white-500", text: "text-white-500" });
         break;
       case Tier["C"]:
-        setTierColor({ border: "border-rose-500", text: "text-rose-500" });
+        setTierColor({ border: "border-red-300", text: "text-red-300" });
         break;
       case Tier["D"]:
         setTierColor({ border: "border-red-500", text: "text-red-500" });

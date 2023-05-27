@@ -27,7 +27,7 @@ export default function Comp({ character }: { character: Character }) {
         <p className="text-2xl font-semibold">
           {
             // Regex to fix "Trailblazer (?)" into "Trailblazer"
-            nameUID.replace(/(\w+) .*/, "$1")
+            nameUID.replace(/(\w+) \(.*\)/, "$1")
           }
         </p>{" "}
         <span className="h-[0.1px] w-full bg-white opacity-50" />
