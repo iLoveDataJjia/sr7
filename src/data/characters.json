@@ -330,15 +330,15 @@
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Dan Heng", "role": "Main DPS" },
           { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
@@ -480,32 +480,32 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "A",
+      "playstyle": "Dan Heng, a single-target DMG dealer, gains enhanced damage on slowed enemies with his Basic Attacks and Ultimate. His Skill can hit a single enemy multiple times, instantly applying Slow on a critical hit. When a party member affects Dan Heng with a Skill, his subsequent attacks bypass enemy Wind RES.",
+      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Arrows"],
+      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Wind DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Welt", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Tingyun", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
@@ -566,33 +566,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S+",
+      "playstyle": "Gepard's special ability, Integrity, draws enemy attention towards him. Using his Ultimate, Gepard creates a shield based on his DEF stat, protecting the entire party for three turns. Furthermore, his Skill performs a triple attack on a single target, greatly increasing the likelihood of freezing enemies and rendering them unable to move.",
+      "lightcones": ["Moment of Victory", "Texture of Memories", "Landau's Choice", "Amber"],
+      "relics": ["Knight of Purity Palace", "Guard of Wuthering Snow"],
+      "ornaments": ["Belobog of the Architects", "Fleet of the Ageless"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["DEF%"] },
+          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Sphere", "stats": ["DEF%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["DEF%", "Speed", "Effect HIT Rate", "HP%"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Normal ATK", "Talent"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Gepard", "role": "Tank" },
+          { "char": "Bailu", "role": "Healer" },
           { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
+          { "char": "Seele", "role": "Main DPS" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Gepard", "role": "Tank" },
           { "char": "Tingyun", "role": "Support" },
+          { "char": "Dan Heng", "role": "Main DPS" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
@@ -653,10 +653,10 @@
     },
     "dynamic": {
       "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "playstyle": "Herta's talent enables her to execute follow-up attacks on all enemies when they reach half health. Her Skill, \"One-Time Offer,\" is a straightforward AoE attack dealing Ice DMG to all enemies. If enemies are not at half health, they suffer an additional 20% DMG from this skill. Similarly, Herta's Ultimate, \"It's Magic, I Added Some Magic,\" inflicts Ice DMG on all enemies but with a higher multiplier.",
+      "lightcones": ["Before Dawn", "Night on the Milky Way", "Amber", "Arrows"],
+      "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["HP"] },
