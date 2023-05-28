@@ -1355,7 +1355,7 @@
           { "typeUID": "Sphere", "stats": ["Wind DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["ATK%", "Speed", "ATK%"]
+        "subStats": ["ATK%", "Speed", "Effect HIT Rate"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
