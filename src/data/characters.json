@@ -1257,33 +1257,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "B",
+      "playstyle": "Qingque, a luck-based Main DPS, leverages her Skill \"A Scoop of Moon\" to draw two tiles and stack up to four DMG buffs without ending her turn. When Qingque accumulates four matching tiles, her Basic ATK receives a massive DMG boost, enabling her to strike adjacent enemies. This enhanced ATK does not generate Skill Points. With her Ultimate, \"A Quartet? Woo-hoo!,\" Qingque unleashes heavy Quantum DMG upon all enemies while obtaining four matching tiles, ensuring her relentless onslaught of AoE DMG.",
+      "lightcones": ["Before Dawn", "Today is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
+      "relics": ["Genius of Brilliant Stars", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
       "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Qingque", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Qingque", "role": "Main DPS" },
           { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
@@ -1343,33 +1343,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "B",
+      "playstyle": "Sampo's primary mechanic involves stacking Wind Shear on enemies, inflicting DoT based on his ATK stat. His Basic attacks, Skill, and Ultimate can apply Wind Shear thanks to his Talent. Both his Skill and Ultimate deal AoE damage, allowing Wind Shear to stack on multiple enemies. Additionally, Sampo's Ultimate benefits other party members' DoT Debuffs, such as Bleed, Shock, Burn, Freeze, and Wind Shear.",
+      "lightcones": ["In the Name of the World", "Eyes of the Prey", "Good Night and Sleep Well", "Void"],
+      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
+      "ornaments": ["Pan-Galactic Commercial Enterprise"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["ATK%", "Effect HIT Rate"] },
+          { "typeUID": "Feet", "stats": ["Speed", "ATK%"] },
+          { "typeUID": "Sphere", "stats": ["Wind DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["ATK%", "Speed", "ATK%"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Bronya", "role": "Support" },
+          { "char": "Sampo", "role": "Sub DPS" },
+          { "char": "Serval", "role": "Sub DPS" },
+          { "char": "Welt", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
+          { "char": "Sampo", "role": "Sub DPS" },
+          { "char": "Serval", "role": "Sub DPS" },
+          { "char": "Hook", "role": "Main DPS" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
