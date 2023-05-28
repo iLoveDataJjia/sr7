@@ -1769,34 +1769,34 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S",
+      "playstyle": "Trailblazer's Skill taunts enemies and grants him 1 stack. Each time the Trailblazer is hit, he gains 1 stack of Magma Will for a max of 8 stack(s). Consuming 4 stacks enhances his Basic ATK, dealing damage to a single enemy and adjacent enemies. The first Eidolon unlocks the enhanced attack, adding damage based on Trailblazer's DEF. His Ultimate deals damage scaling with ATK and DEF. After using the Ultimate, his next Basic ATK is automatically enhanced without consuming Magma Will stacks.",
+      "lightcones": ["Moment of Victory", "Landau's Choice", "This Is Me!", "Amber"],
+      "relics": ["Knight of Purity Palace", "Guard of Wuthering Snow"],
+      "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["DEF%"] },
+          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Sphere", "stats": ["DEF%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["Speed", "DEF%", "HP%"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Talent", "Normal ATK", "Skill"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" },
+          { "char": "Bailu", "role": "Healer" },
           { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
+          { "char": "Seele", "role": "Main DPS" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" },
+          { "char": "Natasha", "role": "Healer" },
           { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
+          { "char": "Dan Heng", "role": "Main DPS" }
         ]
       }
     }
@@ -1937,33 +1937,38 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S",
+      "playstyle": "Welt's Skill bounces off multiple enemies, allowing him to easily Weakness Break with Imaginary. When the Toughness Bar of enemies is broken by an Imaginary Element character, they are afflicted with Imprison, delaying their action and reducing their SPD. Welt's Talent boosts his damage against Slowed enemies. With his A2 unlocked, casting Welt's Ultimate increases enemy damage received by 12%. After unlocking his A6 passive, allies dealing with enemies with broken Toughness Bars deal 20% more damage.",
+      "lightcones": [
+        "In the Name of the World",
+        "Resolution Shines As Pearls of Sweat",
+        "Good Night and Sleep Well",
+        "Loop"
+      ],
+      "relics": ["Wastelander of Banditry Desert"],
+      "ornaments": ["Pan-Galactic Commercial Enterprise", "Fleet of the Ageless"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Sphere", "stats": ["Imaginary DMG"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "Speed", "Effect HIT Rate"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Bronya", "role": "Support" },
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Welt", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Welt", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
