@@ -57,7 +57,12 @@ export default function General({ character }: { character: Character }) {
   return (
     <div
       className={`relative justify-between space-y-8 rounded-xl bg-slate-950 bg-cover bg-right`}
-      style={{ backgroundImage: `url(/src/assets/characters/${character.nameUID.replace(" ", "%20")}/wp.webp)` }}
+      style={{
+        backgroundImage: `url(/src/assets/characters/${character.nameUID
+          .replaceAll(" ", "%20")
+          .replaceAll("(", "%28")
+          .replaceAll(")", "%29")}/wp.webp)`,
+      }}
     >
       {/* E1 */}
       <div className="flex items-center space-x-4 py-4">

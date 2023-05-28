@@ -1429,34 +1429,34 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S+",
+      "playstyle": "Seele's main mechanic, Resurgence, grants her an extra turn upon defeating an enemy. To perform the Double Resurgence trick, defeat an enemy with a Basic Attack or Skill, activate Seele's Ultimate before the turn ends, use her Ultimate to eliminate another enemy, and defeat a third enemy with a Basic Attack or Skill. This enables you to double your Resurgence and gain two additional turns. Seele's Technique grants her stealth in the overworld, and attacking while in this state triggers automatic Resurgence at the start of battles.",
+      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Darting Arrow"],
+      "relics": ["Genius of Brilliant Stars", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%"] },
+          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 4", "Ascension 2"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Seele", "role": "Main DPS" },
           { "char": "Bronya", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" }
         ]
       }
     }
@@ -1515,34 +1515,34 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "A",
+      "playstyle": "Serval excels at dealing strong Lightning AoE DMG to multiple enemies and inflicting Shock, a damage over time effect, with her Skill. Her Ultimate not only deals a huge chunk of DMG, but also extends the duration of Shock on affected enemies. Unlocking Mania at Character Ascension 6 grants Serval a 20% ATK boost for 2 turns after defeating an enemy. It is ideal to defeat an enemy before using her Ultimate for optimal DMG output.",
+      "lightcones": ["Before Dawn", "Today is Another Peaceful Day", "Night on the Milky Way", "Data Bank"],
+      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Celestial Differentiator"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Serval", "role": "Sub DPS" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Serval", "role": "Sub DPS" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "March 7th", "role": "Tank" }
         ]
       }
     }
@@ -1601,33 +1601,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "A",
+      "playstyle": "Sushang is a powerful DPS unit specializing in dealing high Physical DMG through the Sword Stance mechanic. Sword Stance is an additional instance of Physical DMG triggered by breaking an enemy's Weakness, both with her Skill and Ultimate. Additionally, her SPD increases when a party member breaks an enemy's Weakness. Sushang also advances herself forward after using her Basic Attack or Skill if there are enemies on the field with Weakness Break. Her Ultimate inflicts massive DMG and advances her turn by 100%, granting her an extra turn.",
+      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Darting Arrow"],
+      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Talia - Kingdom of Banditry"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Sushang", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Sushang", "role": "Main DPS" },
           { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
@@ -1679,6 +1679,92 @@
           "typeUID": "Ascension 6",
           "name": "Jubilant Passage",
           "desc": "Tingyun immediately regenerates 5 Energy at the start of her turn."
+        }
+      ]
+    },
+    "dynamic": {
+      "tier": "S",
+      "playstyle": "Tingyun's Skill grants the Benediction buff to the targeted character, increasing their ATK and enabling additional instances of Lightning DMG. Her Ultimate further enhances the targeted character's DMG and restores their energy.",
+      "lightcones": ["Dance! Dance! Dance!", "Carve the Moon, Weave the Clouds", "But the Battle Isn't Over", "Chorus"],
+      "relics": ["Musketeer of Wild Wheat", "Eagle of Twilight Line"],
+      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["ATK%"] },
+          { "typeUID": "Feet", "stats": ["Speed", "ATK%"] },
+          { "typeUID": "Sphere", "stats": ["ATK%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["Speed", "ATK%", "HP%", "DEF%"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
+    }
+  },
+  {
+    "nameUID": "Trailblazer (Fire)",
+    "static": {
+      "star": 5,
+      "path": "The Preservation",
+      "element": "Fire",
+      "attributes": [
+        { "typeUID": "HP", "value": 1241 },
+        { "typeUID": "ATK", "value": 601 },
+        { "typeUID": "DEF", "value": 606 },
+        { "typeUID": "SPD", "value": 95 },
+        { "typeUID": "TAUNT", "value": 150 }
+      ],
+      "skills": [
+        {
+          "typeUID": "Normal ATK",
+          "name": "Ice-Breaking Light",
+          "desc": "Single Target Deals Fire DMG equal to 50% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will. Blast Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to 90% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to 36% of the Trailblazer's ATK to enemies adjacent to it."
+        },
+        {
+          "typeUID": "Skill",
+          "name": "Ever-Burning Amber",
+          "desc": "Increases the Trailblazer's DMG Reduction by 40% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s)."
+        },
+        {
+          "typeUID": "Ultimate",
+          "name": "War-Flaming Lance",
+          "desc": "Deals Fire DMG equal to 50% of the Trailblazer's ATK plus 75% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will."
+        },
+        {
+          "typeUID": "Talent",
+          "name": "Treasure of the Architects",
+          "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4% of the Trailblazer's DEF plus 20. The Shield lasts for 2 turn(s)."
+        }
+      ],
+      "traces": [
+        {
+          "typeUID": "Ascension 2",
+          "name": "The Strong Defends the Weak",
+          "desc": "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s)."
+        },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Unwavering Gallantry",
+          "desc": "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP."
+        },
+        {
+          "typeUID": "Ascension 6",
+          "name": "Action Beats Overthinking",
+          "desc": "When the Trailblazer is protected by a Shield at the beginning of the turn, increases their ATK by 15% and regenerates 5 Energy until the action is over."
         }
       ]
     },
@@ -1769,119 +1855,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "B",
+      "playstyle": "Upon reaching Ascension 6, Trailblazer gains a 25% DMG Boost to his Skill or Ultimate from his Skill. Unlocking the 6th Eidolon further enhances his capabilities, granting him up to a 20% ATK boost when performing a Weakness Break or defeating an enemy. Additionally, the 4th Eidolon provides a 25% CRIT Rate boost against enemies with Weakness Break.",
+      "lightcones": ["On the Fall of an Aeon", "Something Irreplaceable", "The Moles Welcome You", "Collapsing Sky"],
+      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["Speed", "ATK%"] },
+          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Trailblazer (Physical)", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Trailblazer (Physical)", "role": "Main DPS" },
           { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      }
-    }
-  },
-  {
-    "nameUID": "Trailblazer (Fire)",
-    "static": {
-      "star": 5,
-      "path": "The Preservation",
-      "element": "Fire",
-      "attributes": [
-        { "typeUID": "HP", "value": 1241 },
-        { "typeUID": "ATK", "value": 601 },
-        { "typeUID": "DEF", "value": 606 },
-        { "typeUID": "SPD", "value": 95 },
-        { "typeUID": "TAUNT", "value": 150 }
-      ],
-      "skills": [
-        {
-          "typeUID": "Normal ATK",
-          "name": "Ice-Breaking Light",
-          "desc": "Single Target Deals Fire DMG equal to 50% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will. Blast Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to 90% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to 36% of the Trailblazer's ATK to enemies adjacent to it."
-        },
-        {
-          "typeUID": "Skill",
-          "name": "Ever-Burning Amber",
-          "desc": "Increases the Trailblazer's DMG Reduction by 40% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s)."
-        },
-        {
-          "typeUID": "Ultimate",
-          "name": "War-Flaming Lance",
-          "desc": "Deals Fire DMG equal to 50% of the Trailblazer's ATK plus 75% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will."
-        },
-        {
-          "typeUID": "Talent",
-          "name": "Treasure of the Architects",
-          "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4% of the Trailblazer's DEF plus 20. The Shield lasts for 2 turn(s)."
-        }
-      ],
-      "traces": [
-        {
-          "typeUID": "Ascension 2",
-          "name": "The Strong Defends the Weak",
-          "desc": "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s)."
-        },
-        {
-          "typeUID": "Ascension 4",
-          "name": "Unwavering Gallantry",
-          "desc": "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP."
-        },
-        {
-          "typeUID": "Ascension 6",
-          "name": "Action Beats Overthinking",
-          "desc": "When the Trailblazer is protected by a Shield at the beginning of the turn, increases their ATK by 15% and regenerates 5 Energy until the action is over."
-        }
-      ]
-    },
-    "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
-        ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
-      },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
-      "comp": {
-        "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
+          { "char": "Pela", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
