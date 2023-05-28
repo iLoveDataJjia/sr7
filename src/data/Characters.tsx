@@ -117,6 +117,7 @@ export enum Piece {
  */
 export enum Role {
   "Main DPS" = "Main DPS",
+  "Sub DPS" = "Sub DPS",
   "Tank" = "Tank",
   "Support" = "Support",
   "Healer" = "Healer",

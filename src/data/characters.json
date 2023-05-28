@@ -80,7 +80,7 @@
           { "char": "Arlan", "role": "Main DPS" },
           { "char": "Natasha", "role": "Healer" },
           { "char": "Tingyun", "role": "Support" },
-          { "char": "Trailblazer (Fire)", "role": "Tank" }
+          { "char": "March 7th", "role": "Tank" }
         ]
       }
     }
@@ -654,32 +654,32 @@
     "dynamic": {
       "tier": "D",
       "playstyle": "Herta's talent enables her to execute follow-up attacks on all enemies when they reach half health. Her Skill, \"One-Time Offer,\" is a straightforward AoE attack dealing Ice DMG to all enemies. If enemies are not at half health, they suffer an additional 20% DMG from this skill. Similarly, Herta's Ultimate, \"It's Magic, I Added Some Magic,\" inflicts Ice DMG on all enemies but with a higher multiplier.",
-      "lightcones": ["Before Dawn", "Night on the Milky Way", "Amber", "Arrows"],
+      "lightcones": ["Before Dawn", "The Birth of the Self", "Night on the Milky Way", "Sagacity"],
       "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],
       "ornaments": ["Space Sealing Station", "Inert Salsotto"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT DMG", "CRIT Rate", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Herta", "role": "Sub DPS" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "Herta", "role": "Sub DPS" },
           { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
+          { "char": "Trailblazer (Fire)", "role": "Tank" }
         ]
       }
     }
@@ -738,33 +738,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "B",
+      "playstyle": "Himeko is a master of obliterating multiple enemies using powerful Fire attacks like her Ultimate and Follow Up Attack. She gains Charge when an enemy's Weakness breaks, and with three Charge stacks, an ally's attack triggers a devastating AoE Fire Follow Up attack. Additionally, Himeko's attacks deal increased damage to burned enemies. She maintains a higher chance of landing critical hits as long as her HP remains at 80% or above.",
+      "lightcones": ["Before Dawn", "Night on the Milky Way", "The Seriousness of Breakfast", "Data Bank"],
+      "relics": ["Firesmith of Lava-Forging", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Fire DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Himeko", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
+          { "char": "Himeko", "role": "Main DPS" },
+          { "char": "Hook", "role": "Sub DPS" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
@@ -824,33 +824,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "A",
+      "playstyle": "Hook, a formidable Main DPS, excels in dealing high single-target damage and inflicting Burn on enemies with her Skill, \"Hey! Remember Hook?\", which applies significant Fire damage and a two-turn Burn debuff. Empowered by her Ultimate, \"Boom! Here Comes the Fire!\", the Skill becomes a devastating AoE attack, amplifying its effects. Burned enemies trigger Hook's Talent, \"Ha! Oil to the Flames!\", granting additional Fire damage and Energy restoration.",
+      "lightcones": ["On the Fall of an Aeon", "Something Irreplaceable", "Woof! Walk Time!", "Collapsing Sky"],
+      "relics": ["Firesmith of Lava-Forging", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Fire DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Hook", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" },
+          { "char": "Hook", "role": "Main DPS" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
@@ -910,33 +910,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S+",
+      "playstyle": "Jing Yuan stands as the game's most potent AoE DMG dealer. Maximizing the use of his Skill and Ultimate prior to the Lightning-Lord's turn is crucial to amplify the subsequent follow-up attacks. Upon unlocking the Bonus Ability, War Martial, Jing Yuan's CRIT Rate rises by 10% after employing his skill.",
+      "lightcones": ["Before Dawn", "Today is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
+      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
+      "ornaments": ["Inert Salsotto", "Space Sealing Station"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Jing Yuan", "role": "Main DPS" },
           { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
