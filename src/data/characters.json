@@ -1089,33 +1089,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S",
+      "playstyle": "Natasha epitomizes the role of a pure healer. Her Skill, \"Love, Heal, and Choose,\" heals a single ally and provides a small heal over time for the subsequent two turns. With her Ultimate, \"Gift of Rebirth,\" Natasha restores a substantial amount of health to all allies based on her HP.",
+      "lightcones": ["Time Waits for No One", "Post-Op Conversation", "Warmth Shortens Cold Nights", "Cornucopia"],
+      "relics": ["Passerby of Wandering Cloud"],
+      "ornaments": ["Fleet of the Ageless"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["Outgoing Healing", "HP%"] },
+          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Sphere", "stats": ["HP%"] },
+          { "typeUID": "Rope", "stats": ["HP%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["Speed", "HP%", "DEF%"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
+          { "char": "Natasha", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Dan Heng", "role": "Main DPS" },
           { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
@@ -1171,33 +1171,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "A",
+      "playstyle": "Pela enhances ally damage by debuffing enemies' DEF and turns the tide of battle by dispelling positive effects. Her Skill, \"Frostbite,\" removes buffs from enemies, while her Ultimate, \"Zone Suppression,\" reduces enemy DEF. Additionally, Pela's Talent, \"Data Collecting,\" grants Energy upon inflicting debuffs, allowing her to activate her Ultimate more frequently.",
+      "lightcones": ["Resolution Shines As Pearls of Sweat", "Eyes of the Prey", "In the Name of the World", "Void"],
+      "relics": ["Thief of Shooting Meteor"],
+      "ornaments": ["Pan-Galactic Commercial Enterprise", "Fleet of the Ageless"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["Effect HIT Rate"] },
+          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["Effect HIT Rate", "Speed", "ATK%"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
+      "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Bronya", "role": "Support" },
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
+          { "char": "Hook", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }

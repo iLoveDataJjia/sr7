@@ -67,7 +67,7 @@ export default function Equipement({ character }: { character: Character }) {
           <span className="h-5 w-0.5 bg-blue-500" />
           <p className="text-lg font-bold">Light Cones</p>
         </div>
-        <div className="m-auto space-y-8">
+        <div className="m-auto space-y-8 p-4">
           {character.dynamic.lightcones.map((_, idx) => (
             <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
               <LightConeColored nameUID={_} className="relative h-16 w-16 rounded-md p-1 shadow">
@@ -82,7 +82,7 @@ export default function Equipement({ character }: { character: Character }) {
       </div>
 
       {/* E2 & E3 */}
-      <div className="divide-y-2 divide-slate-950">
+      <div className="flex flex-col divide-y-2 divide-slate-950">
         {/* E2 */}
         <div className="p-4">
           <div className="flex items-center space-x-4">
@@ -115,7 +115,7 @@ export default function Equipement({ character }: { character: Character }) {
                       {idx + 1}
                     </div>
                   </div>
-                  <p className="w-40 px-4 text-center text-sm font-semibold">{_}</p>
+                  <p className="w-44 px-4 text-center text-sm font-semibold">{_}</p>
                 </div>
               ))}
             </div>
@@ -123,12 +123,12 @@ export default function Equipement({ character }: { character: Character }) {
         </div>
 
         {/* E3 */}
-        <div className="p-4">
+        <div className="flex grow flex-col p-4">
           <div className="flex items-center space-x-4">
             <span className="h-5 w-0.5 bg-blue-500" />
             <p className="text-lg font-bold">Stat priority</p>
           </div>
-          <div className="flex flex-col items-center space-y-4 p-4">
+          <div className="my-auto flex flex-col items-center space-y-4 p-4">
             {/* Main stats */}
             <div className="grid grid-flow-col grid-rows-2 gap-x-4 gap-y-2">
               {character.dynamic.statPriority.mainStats.map((_) => (
