@@ -54,7 +54,7 @@
     },
     "dynamic": {
       "tier": "C",
-      "playstyle": "Arlan, a damage dealer, enhances his power by sacrificing HP through his Skill. As his health percentage decreases relative to his Max HP, his strength increases. To safeguard Arlan from being incapacitated when his health is low, include Preservation characters in the party.",
+      "playstyle": "Arlan, a damage dealer, increases his power by sacrificing HP through his Skill. As his health percentage decreases relative to his Max HP, his damage grows. To protect Arlan from incapacitation at low health, include Preservation characters in the party. When Arlan's health is below 30% and he defeats an enemy, he can heal himself based on his Max HP.  At 50% HP, Arlan gains a shield that blocks the next incoming attack.",
       "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "A Secret Vow", "Mutual Demise"],
       "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
       "ornaments": ["Space Sealing Station", "Inert Salsotto"],
@@ -399,7 +399,7 @@
     },
     "dynamic": {
       "tier": "S",
-      "playstyle": "To optimize Clara's performance in combat, focus on channeling all ATK or Energy buffs towards her. This will enhance her Counter-Attack damage and expedite the charging of her Ultimate ability. It is crucial to have either a dedicated healer or a shielder in the party to ensure Clara's survival, as well as that of the entire team.",
+      "playstyle": "Clara is an offensive unit adept at counterattacking enemies. She takes reduced damage and retaliates with a counterattack when attacked. The Mark of Counter mechanic marks enemies who target Clara, making them more vulnerable to her Skill. Clara's Ultimate further reduces damage taken and increases her chances of being targeted. Clara's Ultimate also enhances her counterattack to deal area-of-effect damage when other party members are hit.",
       "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "Under the Blue Sky", "Collapsing Sky"],
       "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
       "ornaments": ["Space Sealing Station", "Inert Salsotto"],
@@ -1012,7 +1012,7 @@
     },
     "dynamic": {
       "tier": "A",
-      "playstyle": "March 7th is a shielder who can be used with any team. Her shield increases the chance of a party member being targeted, making it ideal for tankier characters or even March herself.",
+      "playstyle": "March 7th's Skill grants a DEF-scaling shield to a chosen party member. If the shielded character has over 30% HP, they become a target more frequently. At A2, March can remove debuffs using her Skill. When an enemy attacks a shielded character, March retaliates with a Follow Up attack. Her Ultimate deals AoE Ice damage and has a chance to Freeze enemies.",
       "lightcones": ["Moment of Victory", "Day One of My New Life", "This Is Me!", "Amber"],
       "relics": ["Knight of Purity Palace", "Musketeer of Wild Wheat"],
       "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
@@ -2028,33 +2028,33 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
-      "playstyle": "TODO",
-      "lightcones": ["A Secret Vow", "Adversarial", "Amber", "Arrows"],
-      "relics": ["Band of Sizzling Thunder", "Champion of Streetwise Boxing"],
-      "ornaments": ["Belobog of the Architects", "Celestial Differentiator"],
+      "tier": "S",
+      "playstyle": "Yanqing is a powerful Main DPS who deals high damage with Soulsteel Sync, but loses it upon taking damage. Yanqing's Skill, Darting Ironthorn, inflicts Ice damage on an enemy and triggers Soulsteel Sync. Soulsteel Sync provides a 15% increase in Crit Rate and Crit Damage, a 50% chance of performing a follow-up attack with a 65% chance of freezing the target, and frozen enemies take Ice damage at the start of each turn. Yanqing's Ultimate, Amidst the Raining Bliss, deals Ice damage to a single enemy and further boosts his Crit Rate. If Soulsteel Sync is active, it also increases his Crit Damage.",
+      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Arrows"],
+      "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
       "statPriority": {
         "mainStats": [
-          { "typeUID": "Body", "stats": ["HP"] },
-          { "typeUID": "Feet", "stats": ["HP"] },
-          { "typeUID": "Sphere", "stats": ["HP"] },
-          { "typeUID": "Rope", "stats": ["HP"] }
+          { "typeUID": "Body", "stats": ["CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["HP", "ATK", "HP%", "ATK%"]
+        "subStats": ["CRIT DMG", "ATK%", "Speed", "CRIT Rate"]
       },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Yanqing", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
           { "char": "Bronya", "role": "Support" },
           { "char": "Bailu", "role": "Healer" }
         ],
         "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
+          { "char": "Yanqing", "role": "Main DPS" },
           { "char": "Tingyun", "role": "Support" },
+          { "char": "Pela", "role": "Tank" },
           { "char": "Natasha", "role": "Healer" }
         ]
       }
