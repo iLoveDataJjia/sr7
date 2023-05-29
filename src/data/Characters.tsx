@@ -75,7 +75,7 @@ export enum Attribute {
  * Skill.
  */
 export enum Skill {
-  "Normal Atk" = "Normal Atk",
+  "Normal ATK" = "Normal ATK",
   "Skill" = "Skill",
   "Ultimate" = "Ultimate",
   "Talent" = "Talent",

@@ -359,7 +359,7 @@
       ],
       "skills": [
         {
-          "typeUID": "Normal Atk",
+          "typeUID": "Normal ATK",
           "name": "I Want to Help",
           "desc": "Deals Physical DMG equal to 50% of Clara's ATK to a single enemy."
         },
@@ -412,7 +412,7 @@
         ],
         "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "ATK", "Speed"]
       },
-      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal Atk"],
+      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
       "comp": {
         "best": [
@@ -972,7 +972,7 @@
       ],
       "skills": [
         {
-          "typeUID": "Normal Atk",
+          "typeUID": "Normal ATK",
           "name": "Frigid Cold Arrow",
           "desc": "Deals Ice DMG equal to 50% of March 7th's ATK to a single enemy."
         },
@@ -1025,7 +1025,7 @@
         ],
         "subStats": ["DEF%", "Speed", "Effect HIT Rate", "HP%"]
       },
-      "skillPriority": ["Skill", "Ultimate", "Talent", "Normal Atk"],
+      "skillPriority": ["Skill", "Ultimate", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
       "comp": {
         "best": [

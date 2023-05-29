@@ -1,10 +1,9 @@
-import Webp from "../../assets";
-import { ReactComponent as ATK } from "../../assets/general/atk.svg";
-import { ReactComponent as DEF } from "../../assets/general/def.svg";
-import { ReactComponent as HP } from "../../assets/general/hp.svg";
-import { ReactComponent as SPD } from "../../assets/general/spd.svg";
-import { ReactComponent as Star } from "../../assets/general/star.svg";
-import { ReactComponent as TAUNT } from "../../assets/general/taunt.svg";
+import { ReactComponent as ATK } from "../../assets/atk.svg";
+import { ReactComponent as DEF } from "../../assets/def.svg";
+import { ReactComponent as HP } from "../../assets/hp.svg";
+import { ReactComponent as SPD } from "../../assets/spd.svg";
+import { ReactComponent as Star } from "../../assets/star.svg";
+import { ReactComponent as TAUNT } from "../../assets/taunt.svg";
 import { Attribute, Character, Tier } from "../../data/Characters";
 import { useEffect, useState } from "react";
 
@@ -58,7 +57,7 @@ export default function General({ character }: { character: Character }) {
     <div
       className={`relative justify-between space-y-8 rounded-xl bg-slate-950 bg-cover bg-right`}
       style={{
-        backgroundImage: `url(/src/assets/characters/${character.nameUID
+        backgroundImage: `url(/characters/${character.nameUID
           .replaceAll(" ", "%20")
           .replaceAll("(", "%28")
           .replaceAll(")", "%29")}/wp.webp)`,
@@ -73,7 +72,7 @@ export default function General({ character }: { character: Character }) {
               <Star key={idx} className="h-5 w-5 fill-yellow-500" />
             ))}
           </div>
-          <Webp src={`./characters/${character.nameUID}/photo.webp`} className="p-1" />
+          <img src={`/characters/${character.nameUID}/photo.webp`} alt={character.nameUID} className="p-1" />
           <div
             className={`absolute -bottom-4 rounded-md border-2 ${tierColor.border} bg-slate-950 px-2 text-sm font-bold ${tierColor.text} ring-4 ring-slate-950`}
           >
@@ -86,11 +85,15 @@ export default function General({ character }: { character: Character }) {
           <p className="text-4xl font-bold">{character.nameUID}</p>
           <div className="flex space-x-6">
             <div className="flex items-center space-x-2">
-              <Webp src={`./elements/${character.static.element}.webp`} className="h-10 w-10" />
+              <img
+                src={`/elements/${character.static.element}.webp`}
+                alt={character.static.element}
+                className="h-10 w-10"
+              />
               <p className="text-xl font-bold">{character.static.element}</p>
             </div>
             <div className="flex items-center space-x-2">
-              <Webp src={`./paths/${character.static.path}.webp`} className="h-8 w-8" />
+              <img src={`/paths/${character.static.path}.webp`} alt={character.static.path} className="h-8 w-8" />
               <p className="text-xl font-bold">{character.static.path}</p>
             </div>
           </div>

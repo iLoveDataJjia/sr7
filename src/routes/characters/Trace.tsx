@@ -1,4 +1,3 @@
-import Webp from "../../assets";
 import { Character } from "../../data/Characters";
 
 /**
@@ -9,7 +8,7 @@ export default function Trace({ character }: { character: Character }) {
   const Pannel = ({ src, title, desc }: { src: string; title: string; desc: string }) => (
     <div className="flex items-center rounded-md bg-indigo-900 shadow">
       <div className="flex h-24 w-16 flex-col items-center justify-center space-y-1 self-stretch rounded-md bg-gray-700 px-2 shadow">
-        <Webp src={src} className="h-10 w-10" />
+        <img src={src} alt={desc} className="h-10 w-10" />
         <p className="text-center text-xs font-semibold">{title}</p>
       </div>
       <p className="w-28 px-2 text-center text-xs font-semibold">{desc}</p>
@@ -32,7 +31,7 @@ export default function Trace({ character }: { character: Character }) {
               return [
                 <Pannel
                   key={skill}
-                  src={`./characters/${character.nameUID}/${skill}.webp`}
+                  src={`/characters/${character.nameUID}/${skill}.webp`}
                   title={skill}
                   desc={character.static.skills.filter((_) => _.typeUID === skill)[0].name}
                 />,
@@ -41,7 +40,7 @@ export default function Trace({ character }: { character: Character }) {
               return [
                 <Pannel
                   key={skill}
-                  src={`./characters/${character.nameUID}/${skill}.webp`}
+                  src={`/characters/${character.nameUID}/${skill}.webp`}
                   title={skill}
                   desc={character.static.skills.filter((_) => _.typeUID === skill)[0].name}
                 />,
@@ -63,7 +62,7 @@ export default function Trace({ character }: { character: Character }) {
               return [
                 <Pannel
                   key={trace}
-                  src={`./characters/${character.nameUID}/${trace}.webp`}
+                  src={`/characters/${character.nameUID}/${trace}.webp`}
                   title={trace}
                   desc={character.static.traces.filter((_) => _.typeUID === trace)[0].name}
                 />,
@@ -72,7 +71,7 @@ export default function Trace({ character }: { character: Character }) {
               return [
                 <Pannel
                   key={trace}
-                  src={`./characters/${character.nameUID}/${trace}.webp`}
+                  src={`/characters/${character.nameUID}/${trace}.webp`}
                   title={trace}
                   desc={character.static.traces.filter((_) => _.typeUID === trace)[0].name}
                 />,

@@ -1,4 +1,3 @@
-import Webp from "../../assets";
 import { Character } from "../../data/Characters";
 import { getLightCones } from "../../data/LightCones";
 
@@ -25,7 +24,7 @@ export default function Equipement({ character }: { character: Character }) {
               "bg-gradient-to-b from-amber-700 via-amber-500 via-60% to-amber-200" + (className ? ` ${className}` : "")
             }
           >
-            <Webp src={`./lightcones/${nameUID}.webp`} />
+            <img src={`/lightcones/${nameUID}.webp`} alt={nameUID} />
             {children && children}
           </div>
         );
@@ -37,7 +36,7 @@ export default function Equipement({ character }: { character: Character }) {
               (className ? ` ${className}` : "")
             }
           >
-            <Webp src={`./lightcones/${nameUID}.webp`} />
+            <img src={`/lightcones/${nameUID}.webp`} alt={nameUID} />
             {children && children}
           </div>
         );
@@ -48,7 +47,7 @@ export default function Equipement({ character }: { character: Character }) {
               "bg-gradient-to-b from-blue-950 via-blue-800 via-60% to-blue-500" + (className ? ` ${className}` : "")
             }
           >
-            <Webp src={`./lightcones/${nameUID}.webp`} />
+            <img src={`/lightcones/${nameUID}.webp`} alt={nameUID} />
             {children && children}
           </div>
         );
@@ -95,7 +94,7 @@ export default function Equipement({ character }: { character: Character }) {
               {character.dynamic.relics.map((_, idx) => (
                 <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
                   <div className="relative h-14 w-14 rounded-md bg-indigo-700 p-1">
-                    <Webp src={`./relics/${_}.webp`} />
+                    <img src={`/relics/${_}.webp`} alt={_} />
                     <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow">
                       {idx + 1}
                     </div>
@@ -110,7 +109,7 @@ export default function Equipement({ character }: { character: Character }) {
               {character.dynamic.ornaments.map((_, idx) => (
                 <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
                   <div className="relative h-14 w-14 rounded-md bg-indigo-700 p-1">
-                    <Webp src={`./ornaments/${_}.webp`} />
+                    <img src={`/ornaments/${_}.webp`} alt={_} />
                     <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow">
                       {idx + 1}
                     </div>
@@ -133,7 +132,11 @@ export default function Equipement({ character }: { character: Character }) {
             <div className="grid grid-flow-col grid-rows-2 gap-x-4 gap-y-2">
               {character.dynamic.statPriority.mainStats.map((_) => (
                 <div key={_.typeUID} className="flex w-52 items-center justify-between rounded-md bg-indigo-900 shadow">
-                  <Webp src={`./general/${_.typeUID}.webp`} className="h-10 w-10 rounded-md bg-gray-700 p-1" />
+                  <img
+                    src={`/general/${_.typeUID}.webp`}
+                    alt={_.typeUID}
+                    className="h-10 w-10 rounded-md bg-gray-700 p-1"
+                  />
                   <p className="mx-auto text-xs font-semibold">{_.stats.join(" → ")}</p>
                 </div>
               ))}
