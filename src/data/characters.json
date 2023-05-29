@@ -142,7 +142,7 @@
       "tier": "A",
       "playstyle": "Asta is a valuable combat character for enhancing the damage and speed of your team. Her ultimate ability increases the speed of all team members for two turns, while her talent accumulates Charges, boosting the attack of all fighters up to five times. Remember that Asta needs to hit an enemy to gain a Charge, and three Charges are removed every two turns.",
       "lightcones": [
-        "But the Battle Isn't Over",
+        "But The Battle Isn't Over",
         "Dance! Dance! Dance!",
         "Carve the Moon, Weave the Clouds",
         "Meshing Cogs"
@@ -314,7 +314,7 @@
     "dynamic": {
       "tier": "S+",
       "playstyle": "Bronya excels with her Combat Redeployment skill, granting an ally an additional turn with boosted damage and removing one debuff. Maximize the use of Bronya's Ultimate to enhance all allies' attack and CRIT DMG. Bronya thrives when paired with a potent DPS character.",
-      "lightcones": ["But the Battle Isn't Over", "Past and Future", "Memories of the Past", "Chorus"],
+      "lightcones": ["But The Battle Isn't Over", "Past and Future", "Memories of the Past", "Chorus"],
       "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
       "ornaments": ["Fleet of the Ageless"],
       "statPriority": {
@@ -1685,7 +1685,7 @@
     "dynamic": {
       "tier": "S",
       "playstyle": "Tingyun's Skill grants the Benediction buff to the targeted character, increasing their ATK and enabling additional instances of Lightning DMG. Her Ultimate further enhances the targeted character's DMG and restores their energy.",
-      "lightcones": ["Dance! Dance! Dance!", "Carve the Moon, Weave the Clouds", "But the Battle Isn't Over", "Chorus"],
+      "lightcones": ["Dance! Dance! Dance!", "Carve the Moon, Weave the Clouds", "But The Battle Isn't Over", "Chorus"],
       "relics": ["Musketeer of Wild Wheat", "Eagle of Twilight Line"],
       "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
       "statPriority": {

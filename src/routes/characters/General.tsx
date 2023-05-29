@@ -5,36 +5,28 @@ import { ReactComponent as SPD } from "../../assets/spd.svg";
 import { ReactComponent as Star } from "../../assets/star.svg";
 import { ReactComponent as TAUNT } from "../../assets/taunt.svg";
 import { Attribute, Character, Tier } from "../../data/Characters";
-import { useEffect, useState } from "react";
 
 /**
  * General tab.
  */
 export default function General({ character }: { character: Character }) {
   // Tier color
-  const [tierColor, setTierColor] = useState({ border: "border-slate-950", text: "text-slate-950" });
-  useEffect(() => {
+  const tierColor = (() => {
     switch (character.dynamic.tier) {
       case Tier["S+"]:
-        setTierColor({ border: "border-amber-500", text: "text-amber-500" });
-        break;
+        return { border: "border-amber-500", text: "text-amber-500" };
       case Tier["S"]:
-        setTierColor({ border: "border-blue-500", text: "text-blue-500" });
-        break;
+        return { border: "border-blue-500", text: "text-blue-500" };
       case Tier["A"]:
-        setTierColor({ border: "border-blue-300", text: "text-blue-300" });
-        break;
+        return { border: "border-blue-300", text: "text-blue-300" };
       case Tier["B"]:
-        setTierColor({ border: "border-white-500", text: "text-white-500" });
-        break;
+        return { border: "border-white-500", text: "text-white-500" };
       case Tier["C"]:
-        setTierColor({ border: "border-red-300", text: "text-red-300" });
-        break;
+        return { border: "border-red-300", text: "text-red-300" };
       case Tier["D"]:
-        setTierColor({ border: "border-red-500", text: "text-red-500" });
-        break;
+        return { border: "border-red-500", text: "text-red-500" };
     }
-  }, []);
+  })();
 
   // Attribute icon JSX
   const AttributeIcon = ({ typeUID, className }: { typeUID: Attribute; className?: string }) => {
