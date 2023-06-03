@@ -16,39 +16,66 @@
         {
           "typeUID": "Normal ATK",
           "name": "Lightning Rush",
-          "desc": "Deals Lightning DMG equal to 50% of Arlan's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Lightning DMG equal to 50/100/110% of Arlan's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Shackle Breaker",
-          "desc": "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 120% of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 120/240/264% of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Frenzied Punishment",
-          "desc": "Deals Lightning DMG equal to 192% of Arlan's ATK to a single enemy and Lightning DMG equal to 96% of Arlan's ATK to enemies adjacent to it."
+          "source": "Blast",
+          "cost": "110 energy",
+          "desc": "Deals Lightning DMG equal to 192/320/346% of Arlan's ATK to a single enemy and Lightning DMG equal to 96/160/173% of Arlan's ATK to enemies adjacent to it.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Pain and Anger",
-          "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of 36% more DMG."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of 36/72/79% more DMG.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Revival",
-          "desc": "If the current HP percentage is 30% or lower when defeating an enemy, immediately restores HP equal to 20% of Max HP."
+          "desc": "If the current HP percentage is 30% or lower when defeating an enemy, immediately restores HP equal to 20% of Max HP.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
-          "name": "Perseverance",
-          "desc": "The chance to resist DoT Debuffs increases by 50%."
+          "name": "Endurance",
+          "desc": "The chance to resist DoT Debuffs increases by 50%.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Effect RES", "value": "+8%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Repel",
-          "desc": "Upon entering battle, if Arlan's HP is less than or equal to 50%, he can nullify all DMG received except for DoT until after he is attacked."
+          "desc": "Upon entering battle, if Arlan's HP is less than or equal to 50%, he can nullify all DMG received except for DoT until after he is attacked.",
+          "minors": [
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "Effect RES", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -102,39 +129,64 @@
         {
           "typeUID": "Normal ATK",
           "name": "Spectrum Beam",
-          "desc": "Deals Fire DMG equal to 50% of Asta's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Fire DMG equal to 50/100/110% of Asta's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Meteor Storm",
-          "desc": "Deals Fire DMG equal to 25% of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 25% of Asta's ATK to a random enemy."
+          "source": "Bounce",
+          "cost": null,
+          "desc": "Deals Fire DMG equal to 25/50/55% of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 25/50/55% of Asta's ATK to a random enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Astral Blessing",
-          "desc": "Increases SPD of all allies by 36 for 2 turn(s)."
+          "source": "Support",
+          "cost": "120 energy",
+          "desc": "Increases SPD of all allies by 36/50/53 for 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Astrometry",
-          "desc": "Gains 1 atack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every stack of Charging Asta has, all allies' ATK increases by 7.0%, up to 5 time(s). Starting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
+          "source": "Support",
+          "cost": null,
+          "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every stack of Charging Asta has, all allies' ATK increases by 7/14/15%, up to 5 time(s). Starting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Sparks",
-          "desc": "Asta's Basic ATK has a 80% base chance to Burn enemies for 3 turn(s). Burned enemies take Fire DoT equal to 50% of the DMG dealt by Asta's Basic ATK at the start of each turn."
+          "desc": "Asta's Basic ATK has a 80% base chance to Burn enemies for 3 turn(s), making the enemy take Fire DoT equal to 50% of Asta's Basic ATK DMG at the start of each turn.",
+          "minors": [
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A2" },
+            { "stat": "Fire DMG", "value": "+3.2%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Ignite",
-          "desc": "When Asta is on the field, all allies' Fire DMG increases by 18%."
+          "desc": "When Asta is on the field, all allies' Fire DMG increases by 18%.",
+          "minors": [
+            { "stat": "Fire DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Constellation",
-          "desc": "Asta's DEF increases by 6% for every current Charging stack she posseses."
+          "desc": "Asta's DEF increases by 6% for every current Charging stack she possesses.",
+          "minors": [
+            { "stat": "CRIT Rate", "value": "+4%", "unlock": "Unlocks at A6" },
+            { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "Fire DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -193,39 +245,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "Diagnostic Kick",
-          "desc": "Deals Lightning DMG equal to 50% of Bailu's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Lightning DMG equal to 50/100/110% of Bailu's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Singing Among Clouds",
-          "desc": "Heals a single ally for 7.8% of Bailu's Max HP plus 78. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."
+          "source": "Restore",
+          "cost": null,
+          "desc": "Heals a single ally for 8/11/12% of Bailu's Max HP plus 78/312/347. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Felicitous Thunderleap",
-          "desc": "Heals all allies for 9% of Bailu's Max HP plus 90. Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack."
+          "source": "Restore",
+          "cost": "100 energy",
+          "desc": "Heals all allies for 9/13/14% of Bailu's Max HP plus 90/360/401. Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
-          "name": "Gourdful Elixir",
-          "desc": "After an ally with Invigoration is hit, restores the ally's HP for 3.6% of Bailu's Max HP plus 36. This effect can trigger 2 time(s). When an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for 12% of Bailu's Max HP plus 120 HP. This effect can be triggered 1 time per battle."
+          "name": "Gourdful of Elixir",
+          "source": "Restore",
+          "cost": null,
+          "desc": "After an ally with Invigoration is hit, restores the ally's HP for 4/5/6% of Bailu's Max HP plus 36/144/160. This effect can trigger 2 time(s). When an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for 12/18/19% of Bailu's Max HP plus 120/480/534 HP. This effect can be triggered 1 time per battle.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
-          "name": "Vidyadhara Geo-Veins",
-          "desc": "Invigoration can trigger 1 more time(s)."
+          "name": "Qihuang Analects",
+          "desc": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.",
+          "minors": [
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A2" },
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
-          "name": "Qihuang Analects",
-          "desc": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns."
+          "name": "Vidyadhara Ichor Lines",
+          "desc": "Invigoration can trigger 1 more time(s).",
+          "minors": [
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A5" },
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Aquatic Benediction",
-          "desc": "Characters with Invigoration receive 10% less DMG."
+          "desc": "Characters with Invigoration receive 10% less DMG.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -279,35 +357,64 @@
         {
           "typeUID": "Normal ATK",
           "name": "Windrider Bullet",
-          "desc": "Deals Wind DMG equal to 50% of Bronya's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Wind DMG equal to 50/100/110% of Bronya's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Combat Redeployment",
-          "desc": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 33% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again."
+          "source": "Support",
+          "cost": null,
+          "desc": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 33/66/72% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "The Belobog March",
-          "desc": "Increases the ATK of all allies by 33%, and increase their CRIT DMG equal to 12% of Bronya's CRIT DMG plus 12% for 2 turn(s)."
+          "source": "Support",
+          "cost": "120 energy",
+          "desc": "Increases the ATK of all allies by 33/55/59%, and increase their CRIT DMG equal to 12/16/17% of Bronya's CRIT DMG plus 12/20/21% for 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Leading the Way",
-          "desc": "After using her Basic ATK, Bronya's next action will be Advanced Forward by 15%."
+          "source": "Support",
+          "cost": null,
+          "desc": "After using her Basic ATK, Bronya's next action will be Advanced Forward by 15/30/33%.",
+          "enchanced": []
         }
       ],
       "traces": [
-        { "typeUID": "Ascension 2", "name": "Command", "desc": "The CRIT Rate for Basic ATK increases to 100%." },
+        {
+          "typeUID": "Ascension 2",
+          "name": "Command",
+          "desc": "The CRIT Rate for Basic ATK increases to 100%.",
+          "minors": [
+            { "stat": "CRIT DMG", "value": "+5.3%", "unlock": "Unlocks at A2" },
+            { "stat": "Wind DMG", "value": "+3.2%", "unlock": "Unlocks at A3" }
+          ]
+        },
         {
           "typeUID": "Ascension 4",
           "name": "Battlefield",
-          "desc": "At the start of the battle, all allies' DEF increases by 20% for 2 turn(s)."
+          "desc": "At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).",
+          "minors": [
+            { "stat": "Wind DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "CRIT DMG", "value": "+8%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Military Might",
-          "desc": "When Bronya is on the field, all allies deal 10% more DMG."
+          "desc": "When Bronya is on the field, all allies deal  10% more DMG.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "CRIT DMG", "value": "+10.7%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "Wind DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -361,39 +468,66 @@
         {
           "typeUID": "Normal ATK",
           "name": "I Want to Help",
-          "desc": "Deals Physical DMG equal to 50% of Clara's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Physical DMG equal to 50/100/110% of Clara's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Svarog Watches Over You",
-          "desc": "Deals Physical DMG equal to 60% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 60% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used."
+          "source": "AoE ATK",
+          "cost": null,
+          "desc": "Deals Physical DMG equal to 60/120/132% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 60/120/132% of Clara's ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after this Skill is used.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Promise, Not Command",
-          "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 15%, and she has a greatly increased chance of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increased by 96%.\nEnemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter can take effect 2 time(s)."
+          "source": "Enhance",
+          "cost": "110 energy",
+          "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 15/25/27%, and she has greatly increased chances of being attacked by enemies for 2 turn(s). In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 96/160/173%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect 2 time(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Because We're Family",
-          "desc": "Under the protection of Svarog, DMG taken by Clara is reduced by 10%.\nSvarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 80% of Clara's ATK."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 80/160/176% of Clara's ATK.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Kinship",
-          "desc": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them."
+          "desc": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them.",
+          "minors": [
+            { "stat": "Physical DMG", "value": "+3.2%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Under Protection",
-          "desc": "The chance to resist Crowd Control Debuffs increases by 35%."
+          "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Physical DMG", "value": "+4.8%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Revenge",
-          "desc": "Increase Svarog's Counter DMG by 30%."
+          "desc": "Increase Svarog's Counter DMG by 30%.",
+          "minors": [
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "Physical DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -446,37 +580,66 @@
       "skills": [
         {
           "typeUID": "Normal ATK",
-          "name": "Knight Spear Technique: North Wind",
-          "desc": "Deals Wind DMG equal to 50% of Dan Heng's ATK to a single enemy."
+          "name": "Cloudlancer Art: North Wind",
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deal Wind DMG equal to 50/100/110% of Dan Heng's ATK to a target enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
-          "name": "Knight Spear Technique: Torrent",
-          "desc": "Deals Wind DMG equal to 130% of Dan Heng's ATK to a single enemy. On a CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12% for 2 turn(s)."
+          "name": "Cloudlancer Art: Torrent",
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Wind DMG equal to 130/260/286% of Dan Heng's ATK to a single enemy. On a CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12% for 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Ethereal Dream",
-          "desc": "Deals Wind DMG equal to 240% of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by 72%."
+          "source": "Single Target",
+          "cost": "100 energy",
+          "desc": "Deals Wind DMG equal to 240/400/432% of Dan Heng's ATK to a single enemy. If the enemy is Slowed, Dan Heng's Ultimate's DMG multiplier increases by 72/120/130%.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Superiority of Reach",
-          "desc": "When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by 18%. This effect can be triggered again after 2 turn(s)."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by 18/36/40%. This effect can be triggered again after 2 turn(s).",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Hidden Dragon",
-          "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies."
+          "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+          "minors": [
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "Wind DMG", "value": "+3.2%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
-          "name": "Shadow of Despair",
-          "desc": "When launching an attack, there is a 50% fixed chance to increase SPD by 20% for 2 turn(s)."
+          "name": "Faster Than Light",
+          "desc": "After launching an attack, there is a 50% fixed chance to increase own SPD by 20% for 2 turn(s).",
+          "minors": [
+            { "stat": "Wind DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
-        { "typeUID": "Ascension 6", "name": "High Gale", "desc": "Basic ATK deals 40% more DMG to Slowed enemies." }
+        {
+          "typeUID": "Ascension 6",
+          "name": "High Gale",
+          "desc": "Basic ATK deals 40% more damage to Slowed enemies.",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "Wind DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
+          ]
+        }
       ]
     },
     "dynamic": {
@@ -529,39 +692,64 @@
         {
           "typeUID": "Normal ATK",
           "name": "Fist of Conviction",
-          "desc": "Deals Ice DMG equal to 50% of Gepard's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Ice DMG equal to 50/100/110% of Gepard's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
-          "name": "Daunting Smite",
-          "desc": "Deals Ice DMG equal to 100% of Gepard's ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 30% of Gepard's ATK at the beginning of each turn."
+          "name": "Intimidating Strike",
+          "source": "Impair",
+          "cost": null,
+          "desc": "Deals Ice DMG equal to 100/200/220% of Gepard's ATK to a single enemy, with a 65% base chance to Freeze that enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Ice DoT equal to 30/60/66% of Gepard's ATK each turn.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Enduring Bulwark",
-          "desc": "Applies a Shield to all allies, absorbing DMG equal to 30% of Gepard's DEF plus 150 for 3 turn(s)."
+          "source": "Defense",
+          "cost": "100 energy",
+          "desc": "Apply a Shield to all allies, absorbing DMG equal to 30/45/48% of Gepard's DEF plus 150/600/668 for 3 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Unyielding Will",
-          "desc": "When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to 25% of his Max HP. This effect can only trigger once per battle."
+          "source": "Restore",
+          "cost": null,
+          "desc": "When struck with a killing blow, instead of becoming incapacitated, Gepard's HP immediately restores 25/50/55% of his Max HP. This effect can only trigger once per battle.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Integrity",
-          "desc": "Gepard has a higher chance to be attacked by enemies."
+          "desc": "Gepard has a higher chance to be attacked by enemies.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "Ice DMG", "value": "+3.2%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Commander",
-          "desc": "When \"Unyielding Will\" is triggered, Gepard's Energy will be restored to 100%."
+          "desc": "When Unyielding Will is triggered, Gepard's Energy will be restored to 100%.",
+          "minors": [
+            { "stat": "Ice DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Fighting Spirit",
-          "desc": "Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn."
+          "desc": "Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn.",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "Effect RES", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "Ice DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -615,39 +803,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "What Are You Looking At?",
-          "desc": "Deals Ice DMG equal to 50% of Herta's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Ice DMG equal to 50/100/110% of Herta's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "One-Time Offer",
-          "desc": "Deals Ice DMG equal to 50% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%."
+          "source": "AoE ATK",
+          "cost": null,
+          "desc": "Deals Ice DMG equal to 50/100/110% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "It's Magic, I Added Some Magic",
-          "desc": "Deals Ice DMG equal to 120% of Herta's ATK to all enemies."
+          "source": "AoE ATK",
+          "cost": "110 energy",
+          "desc": "Deals Ice DMG equal to 120/200/216% of Herta's ATK to all enemies.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Fine, I'll Do It Myself",
-          "desc": "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25% of Herta's ATK to all enemies."
+          "source": "AoE ATK",
+          "cost": null,
+          "desc": "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25/40/43% of Herta's ATK to all enemies.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Efficiency",
-          "desc": "When Skill is used, the DMG Boost on target enemies increases by an extra 25%."
+          "desc": "When Skill is used, the DMG Boost effect on target enemies increases by an extra 25%.",
+          "minors": [
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A2" },
+            { "stat": "Ice DMG", "value": "+3.2%", "unlock": "Unlocks at A3" },
+            { "stat": "CRIT Rate", "value": "+2.7%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Puppet",
-          "desc": "The chance to resist Crowd Control debuffs increases by 35%."
+          "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+          "minors": [
+            { "stat": "Ice DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A5" },
+            { "stat": "Ice DMG", "value": "+4.8%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Icing",
-          "desc": "When Ultimate is used, deals 20% more DMG to Frozen enemies."
+          "desc": "When Ultimate is used, deals 20% more DMG to Frozen enemies.",
+          "minors": [
+            { "stat": "CRIT Rate", "value": "+4%", "unlock": "Unlocks at A6" },
+            { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -701,39 +915,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "Sawblade Tuning",
-          "desc": "Deals Fire DMG equal to 50% of Himeko's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Fire DMG equal to 50/100/110% of Himeko's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Molten Detonation",
-          "desc": "Deals Fire DMG equal to 100% of Himeko's ATK to a single enemy and Fire DMG equal to 40% of Himeko's ATK to any adjacent enemies."
+          "source": "Blast",
+          "cost": null,
+          "desc": "Deals Fire DMG equal to 100/200/220% of Himeko's ATK to a single enemy and Fire DMG equal to 40/80/88% of Himeko's ATK to any adjacent enemies.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Heavenly Flare",
-          "desc": "Deals Fire DMG equal to 138% of Himeko's ATK to all enemies. Additionally, Himeko regenerates 5 Energy for each enemy defeated."
+          "source": "AoE ATK",
+          "cost": "120 energy",
+          "desc": "Deals Fire DMG equal to 138/230/248% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Victory Rush",
-          "desc": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points). If Himeko is fully Charged when ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to 70% of her ATK to all enemies, consuming all Charge points. At the start of the battle, Himeko gains 1 point of Charge."
+          "source": "AoE ATK",
+          "cost": null,
+          "desc": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points). If Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to 70/140/154% of her ATK to all enemies, consuming all Charge points. At the start of the battle, Himeko gains 1 point of Charge.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Starfire",
-          "desc": "After using an attack, there is a 50% base chance to inflict Burn on enemies for 2 turn(s). When afflicted with Burn, enemies take Fire DoT equal to 30% of Himeko's Basic ATK at the start of each turn."
+          "desc": "After using an attack, there is a 50% base chance to inflict Burn on enemies for 2 turn(s). When afflicted with Burn, enemies take Fire DoT equal to 30% of Himeko's ATK at the start of each turn.",
+          "minors": [
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "Fire DMG", "value": "+3.2%", "unlock": "Unlocks at A3" },
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Magma",
-          "desc": "Skill deals 20% more DMG to enemies currently afflicted with Burn."
+          "desc": "Skill deals 20% more DMG to enemies currently afflicted with Burn.",
+          "minors": [
+            { "stat": "Fire DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "Fire DMG", "value": "+4.8%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Benchmark",
-          "desc": "When current HP percentage is 80% or higher, CRIT Rate increases by 15%."
+          "desc": "When current HP percentage is 80% or higher, CRIT Rate increases by 15%.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -787,39 +1027,73 @@
         {
           "typeUID": "Normal ATK",
           "name": "Hehe! Don't Get Burned!",
-          "desc": "Deals Fire DMG equal to 50% of Hook's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Fire DMG equal to 50/100/110% of Hook's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Hey! Remember Hook?",
-          "desc": "Single Target Deals Fire DMG equal to 120% of Hook's ATK to a single enemy. In addition, there is a 100% base chance to inflict Burn for 2 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 25% of Hook's ATK at the beginning of each turn. Blast Deals Fire DMG equal to 140% of Hook's ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to 40% of Hook's ATK to enemies adjacent to it. When afflicted with Burn, enemies will take Fire DoT equal to 25% of Hook's ATK at the beginning of each turn."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Fire DMG equal to 120/240/264% of Hook's ATK to a single enemy. In addition, there is a 100% base chance to inflict Burn for 2 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 25/65/71% of Hook's ATK at the beginning of each turn.",
+          "enchanced": [
+            {
+              "nameUID": "Hey! Remember Hook?",
+              "source": "Blast",
+              "cost": null,
+              "desc": "Deals Fire DMG equal to 140/280/308% of Hook's ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 40/80/88% of Hook's ATK to enemies adjacent to it. When afflicted with Burn, enemies will take Fire DoT equal to 25/65/71% of Hook's ATK at the beginning of each turn."
+            }
+          ]
         },
         {
           "typeUID": "Ultimate",
           "name": "Boom! Here Comes the Fire!",
-          "desc": "Deals Fire DMG equal to 240% of Hook's ATK to a single enemy. After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it."
+          "source": "Single Target",
+          "cost": "120 energy",
+          "desc": "Deals Fire DMG equal to 240/400/432% of Hook's ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Ha! Oil to the Flames!",
-          "desc": "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 50% of Hook's ATK and regenerates 5 extra Energy."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 50/100/110% of Hook's ATK and regenerates 5 extra Energy.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Innocence",
-          "desc": "Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered."
+          "desc": "Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.",
+          "minors": [
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "CRIT DMG", "value": "+5.3%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Naivete",
-          "desc": "The chance to resist Crowd Control Debuffs increases by 35%."
+          "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
-          "name": "Playing with Fire",
-          "desc": "When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy."
+          "name": "Playing With Fire",
+          "desc": "When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy.",
+          "minors": [
+            { "stat": "CRIT DMG", "value": "+8%", "unlock": "Unlocks at A6" },
+            { "stat": "HP", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -873,39 +1147,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "Glistening Light",
-          "desc": "Deals Lightning DMG equal to 50% of Jing Yuan's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Jing Yuan deals Lightning DMG equal to 50/100/110% of his ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Rifting Zenith",
-          "desc": "Deals Lightning DMG equal to 50% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn."
+          "source": "AoE ATK",
+          "cost": null,
+          "desc": "Deals Lightning DMG equal to 50/100/110% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Lightbringer",
-          "desc": "Deals Lightning DMG equal to 120% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn."
+          "source": "AoE ATK",
+          "cost": "130 energy",
+          "desc": "Deals Lightning DMG equal to 120/200/216% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Prana Extirpated",
-          "desc": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to 33% of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the target enemy. The Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action."
+          "source": "Bounce",
+          "cost": null,
+          "desc": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to 33/66/70% of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the target enemy.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Battalia Crush",
-          "desc": "If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn."
+          "desc": "If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn.",
+          "minors": [
+            { "stat": "CRIT Rate", "value": "+2.7%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Savant Providence",
-          "desc": "At the start of the battle, immediately regenerates 15 Energy."
+          "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "CRIT Rate", "value": "+4%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "War Marshal",
-          "desc": "After using Skill, CRIT Rate increases by 10% for 2 turn(s)."
+          "desc": "After using Skill, CRIT Rate increases by 10% for 2 turn(s).",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "CRIT Rate", "value": "+5.3%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -949,64 +1249,74 @@
       "path": "The Preservation",
       "element": "Ice",
       "attributes": [
-        {
-          "typeUID": "HP",
-          "value": 1058
-        },
-        {
-          "typeUID": "DEF",
-          "value": 573
-        },
-        {
-          "typeUID": "ATK",
-          "value": 511
-        },
-        {
-          "typeUID": "SPD",
-          "value": 101
-        },
-        {
-          "typeUID": "TAUNT",
-          "value": 150
-        }
+        { "typeUID": "HP", "value": 1058 },
+        { "typeUID": "DEF", "value": 573 },
+        { "typeUID": "ATK", "value": 511 },
+        { "typeUID": "SPD", "value": 101 },
+        { "typeUID": "TAUNT", "value": 150 }
       ],
       "skills": [
         {
           "typeUID": "Normal ATK",
           "name": "Frigid Cold Arrow",
-          "desc": "Deals Ice DMG equal to 50% of March 7th's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Ice DMG equal to 50/100/110% of March 7th's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "The Power of Cuteness",
-          "desc": "Provides a single ally with a Shield that can absorb DMG equal to 38% of March 7th's DEF plus 190 for 3 turn(s).\nIf the ally's HP is 30% of their Max HP or higher, greatly increases the chance of enemies attacking that ally."
+          "source": "Defense",
+          "cost": null,
+          "desc": "Provides a single ally with a Shield that can absorb DMG equal to 38/57/61% of March 7th's DEF plus 190/760/846 for 3 turn(s). If the ally's HP is 30% of their Max HP or higher, greatly increases the chance of enemies attacking that ally.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Glacial Cascade",
-          "desc": "Deals Ice DMG equal to 90% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot take action and will receive Additional Ice DMG equal to 30% of March 7th's ATK at the beginning of each turn."
+          "source": "AoE Attack",
+          "cost": "120 energy",
+          "desc": "Deals Ice DMG equal to 90/150/162% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will recieve additional Ice DMG equal to 30/60/66% of March 7th's ATK at the beginning of each turn.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Girl Power",
-          "desc": "After a shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 50% of her ATK.\nThis effect can be triggered 2 time(s) each turn."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "After a shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 50/100/110% of her ATK. This effect can be triggered 2 time(s) each turn.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Purify",
-          "desc": "Skill removes 1 debuff from an ally."
+          "desc": "Skill removes 1 debuff from an ally.",
+          "minors": [
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A2" },
+            { "stat": "Ice DMG", "value": "+3.2%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Reinforce",
-          "desc": "The duration of the Shield generated from Skill is extended for 1 turn(s)."
+          "desc": "The duration of the Shield generated from her Skill is extended for 1 turn(s).",
+          "minors": [
+            { "stat": "Ice DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Ice Spell",
-          "desc": "Increases Ultimate's base chance to Freeze enemies by 15%."
+          "desc": "Increases Ultimate's base chance to Freeze enemies by 15%.",
+          "minors": [
+            { "stat": "Ice DMG", "value": "+4.8%", "unlock": "Unlocks at A6" },
+            { "stat": "Ice DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -1060,31 +1370,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "Behind the Kindness",
-          "desc": "Deals Physical DMG equal to 50% of Natasha's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Physical DMG equal to 50/100/110% of Natasha's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Love, Heal, and Choose",
-          "desc": "Restores a single ally for 7% of Natasha's Max HP plus 70. Restores the ally for another 4.8% of Natasha's Max HP plus 48 at the beginning of each turn for 2 turn(s)."
+          "source": "Restore",
+          "cost": null,
+          "desc": "Restores a single ally for 7/10/11% of Natasha's Max HP plus 70/280/312. Restores the ally for another 5/7/8% of Natasha's Max HP plus 48/192/214 at the beginning of each turn for 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Gift of Rebirth",
-          "desc": "Heals all allies for 9.2% of Natasha's Max HP plus 92."
+          "source": "Restore",
+          "cost": "90 energy",
+          "desc": "Heals all allies for 9/14/15% of Natasha's Max HP plus 92/368/409.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Innervation",
-          "desc": "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 25%. This effect also works on continuous healing."
+          "source": "Restore",
+          "cost": null,
+          "desc": "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 25/50/55%. This effect also works on continuous healing.",
+          "enchanced": []
         }
       ],
       "traces": [
-        { "typeUID": "Ascension 2", "name": "Healer", "desc": "Natasha's Outgoing Healing increases by 10%." },
-        { "typeUID": "Ascension 4", "name": "Soothe", "desc": "The Skill removes 1 debuff(s) from a target ally." },
+        {
+          "typeUID": "Ascension 2",
+          "name": "Soothe",
+          "desc": "The Skill removes 1 debuff(s) from a target ally.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A3" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Healer",
+          "desc": "Natasha's Outgoing Healing increases by 10%.",
+          "minors": [
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
+        },
         {
           "typeUID": "Ascension 6",
           "name": "Recuperation",
-          "desc": "Increases the duration of her Skill's continuous healing effect for 1 turn(s)."
+          "desc": "Increases the duration of her Skill's continuous healing effect for 1 turn(s).",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "Effect RES", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -1138,35 +1482,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "Frost Shot",
-          "desc": "Deals Ice DMG equal to 50% of Pela's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Ice DMG equal to 50/100/110% of Pela's ATK as to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Frostbite",
-          "desc": "Removes 1 buff(s) and deals Ice DMG equal to 105% of Pela's ATK to a single target enemy."
+          "source": "Impair",
+          "cost": null,
+          "desc": "Removes 1 buff(s) and deals Ice DMG equal to 105/210/231% of Pela's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Zone Suppression",
-          "desc": "Deals Ice DMG equal to 60% of Pela's ATK to all enemies, with a 100% base chance to inflict Exposed on all enemies. When Exposed, enemies' DEF is reduced by 30% for 2 turn(s)."
+          "source": "Impair",
+          "cost": "110 energy",
+          "desc": "Deals Ice DMG equal to 60/100/108% of Pela's ATK to all enemies, with a base chance of 100% to inflict the Exposed on all enemies. When Exposed, enemies' DEF is reduced by 30/40/42% for 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Data Collecting",
-          "desc": "If the enemy is debuffed after Pela's attack, Pela will restore 5 extra Energy. This effect can only be triggered 1 time per attack."
+          "source": "Support",
+          "cost": null,
+          "desc": "If the enemy is debuffed after Pela's attack, Pela will restore 5/10/11 extra Energy. This effect can only be triggered 1 time per attack.",
+          "enchanced": []
         }
       ],
       "traces": [
-        { "typeUID": "Ascension 2", "name": "Bash", "desc": "Pela deals 20% more DMG to debuffed enemies." },
+        {
+          "typeUID": "Ascension 2",
+          "name": "Bash",
+          "desc": "Deals 20% more DMG to debuffed enemies.",
+          "minors": [
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "Ice DMG", "value": "+3.2%", "unlock": "Unlocks at A3" },
+            { "stat": "Effect HIT Rate", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
+        },
         {
           "typeUID": "Ascension 4",
           "name": "The Secret Strategy",
-          "desc": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%."
+          "desc": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%.",
+          "minors": [
+            { "stat": "Ice DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "Ice DMG", "value": "+4.8%", "unlock": "Unlocks at A6" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Wipe Out",
-          "desc": "Using Skill to remove buff(s) increases the DMG of the next attack by 20%."
+          "desc": "Using Skill to remove buff(s) increases the DMG of Pela's next attack by 20%.",
+          "minors": [
+            { "stat": "Effect HIT Rate", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -1220,39 +1594,72 @@
         {
           "typeUID": "Normal ATK",
           "name": "Flower Pick",
-          "desc": "Tosses 1 jade tile of the suit with the fewest tiles in hand to deal Quantum DMG equal to 50% of Qingque's ATK to a single enemy. Cherry on Top!: Deals Quantum DMG equal to 120% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 50% of Qingque's ATK to enemies adjacent to it. \"Cherry on Top!\" cannot recover Skill Points."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 50/100/110% of Qingque's ATK to a single enemy.",
+          "enchanced": [
+            {
+              "nameUID": "Cherry on Top!",
+              "source": "Blast",
+              "cost": null,
+              "desc": "Deals Quantum DMG equal to 120/240/264% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 50/100/110% of Qingque's ATK to enemies adjacent to it. \"Cherry on Top!\" cannot recover Skill Points."
+            }
+          ]
         },
         {
           "typeUID": "Skill",
           "name": "A Scoop of Moon",
-          "desc": "Immediately draws 2 jade tile(s) and increases DMG by 14% until the end of the current turn. This effect may be stacked up to 4 time(s). The turn will not end after this Skill is used."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "Immediately draws 2 jade tile(s) and increases DMG by 14/28/31% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "A Quartet? Woo-hoo!",
-          "desc": "Deals Quantum DMG equal to 120% of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit."
+          "source": "AoE ATK",
+          "cost": "140 energy",
+          "desc": "Deals Quantum DMG equal to 120/200/216% of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Celestial Jade",
-          "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increased by 36% and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\". The \"Hidden Hand\" state ends after using \"Cherry onn Top!\"."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by 36/72/79%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\"  The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Tile Battle",
-          "desc": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle."
+          "desc": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+          "minors": [
+            { "stat": "Quantum DMG", "value": "+3.2%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Bide Time",
-          "desc": "Using the Skill increases DMG Boost effect of attacks by an extra 10%."
+          "desc": "Using the Skill increases DMG Boost effect of attacks by an extra 10%.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Quantum DMG", "value": "+4.8%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Winning Hand",
-          "desc": "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK."
+          "desc": "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "Quantum DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -1306,39 +1713,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "Dazzling Blades",
-          "desc": "Deals Wind DMG equal to 50% of Sampo's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Wind DMG equal to 50/100/110% of Sampo's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Ricochet Love",
-          "desc": "Deals Wind DMG equal to 28% of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 28% of Sampo's ATK to a random enemy."
+          "source": "Bounce",
+          "cost": null,
+          "desc": "Deals Wind DMG equal to 28/56/62% of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 28/56/62% of Sampo's ATK to a random enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Surprise Present",
-          "desc": "Deals Wind DMG equal to 96% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by 20% for 2 turn(s)."
+          "source": "Impair",
+          "cost": "120 energy",
+          "desc": "Deals Wind DMG equal to 96/160/172% of Sampo's ATK to all enemies, with a 100% base chance to increase the target's DoT taken by 20/30/32% for 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Windtorn Dagger",
-          "desc": "Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 20% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."
+          "source": "Impair",
+          "cost": null,
+          "desc": "Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 20/52/57% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Trap",
-          "desc": "Extends the duration of Wind Shear caused by Talent by 1 turn(s)."
+          "desc": "Extends the duration of Wind Shear caused by Talent by 1 turn.",
+          "minors": [
+            { "stat": "Effect HIT Rate", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Defensive Position",
-          "desc": "Using Ultimate additionally regenerates 10 Energy."
+          "desc": "Using Ultimate additionally regenerates 10 Energy.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Effect HIT Rate", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Spice Up",
-          "desc": "Enemies with Wind Shear effect deal 15% less DMG to Sampo."
+          "desc": "Enemies with Wind Shear effect deal 15% less damage to Sampo.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "Effect HIT Rate", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -1392,39 +1825,64 @@
         {
           "typeUID": "Normal ATK",
           "name": "Thwack",
-          "desc": "Deals Quantum DMG equal to 50% of Seele's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Quantum DMG equal to 50/100/110% of Seele's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Sheathed Blade",
-          "desc": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 110% of Seele's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 110/220/242% of Seele's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Butterfly Flurry",
-          "desc": "Seele enters the buffed state and deals Quantum DMG equal to 255% of her ATK to a single enemy."
+          "source": "Single Target",
+          "cost": "120 energy",
+          "desc": "Seele enters the buffed state and deals Quantum DMG equal to 255/425/459% of Seele's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Resurgence",
-          "desc": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by 40% for 1 turn(s). Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\" Extirpating Slash: When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by 40/80/88% for 1 turn(s). Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Nightshade",
-          "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies."
+          "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+          "minors": [
+            { "stat": "CRIT DMG", "value": "+5.3%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
-          "name": "Rippling Waves",
-          "desc": "After using a Basic ATK, Seele's next action will be Advanced Forward by 20%."
+          "name": "Lacerate",
+          "desc": "While Seele is in the buffed state, her Quantum RES PEN increases by 20%.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "CRIT DMG", "value": "+8%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
-          "name": "Lacerate",
-          "desc": "While Seele is in the buffed state, her Quantum RES PEN increases by 20%."
+          "name": "Rippling Waves",
+          "desc": "After using a Basic ATK, Seele's next action will be Advanced Forward by 20%.",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "CRIT DMG", "value": "+10.7%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -1478,39 +1936,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "Roaring Thunderclap",
-          "desc": "Deals Lightning DMG equal to 50% of Serval's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Lightning DMG equal to 50/100/110% of Serval's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Lightning Flash",
-          "desc": "Deals Lightning DMG equal to 70% of Serval's ATK to a single enemy and Lightning DMG equal to 30% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies take Lightning DoT equal to 40% of Serval's ATK at the beginning of each turn."
+          "source": "Blast",
+          "cost": null,
+          "desc": "Deals Lightning DMG equal to 70/140/154% of Serval's ATK to a single enemy and Lightning DMG equal to 30/60/66% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies take Lightning DoT equal to 40/104/114% of Serval's ATK at the beginning of each turn.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Here Comes the Mechanical Fever",
-          "desc": "Deals Lightning DMG equal to 108% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s)."
+          "source": "AoE ATK",
+          "cost": "100 energy",
+          "desc": "Deals Lightning DMG equal to 108/180/194% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Galvanic Chords",
-          "desc": "After Serval attacks, deals additional Lightning DMG equal to 36% of Serval's ATK to all Shocked enemies."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "After Serval attacks, deals additional Lightning DMG equal to 36/72/79% of Serval's ATK to all Shocked enemies.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Rock 'n' Roll",
-          "desc": "Skill has a 20% increased base chance to Shock enemies."
+          "desc": "Skill has a 20% increased base chance to Shock enemies.",
+          "minors": [
+            { "stat": "Effect HIT Rate", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "CRIT Rate", "value": "+2.7%", "unlock": "Unlocks at A3" },
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "String Vibration",
-          "desc": "At the start of the battle, immediately regenerates 15 Energy."
+          "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+          "minors": [
+            { "stat": "CRIT Rate", "value": "+4%", "unlock": "Unlocks at A4" },
+            { "stat": "Effect HIT Rate", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "CRIT Rate", "value": "+4%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Mania",
-          "desc": "Upon defeating an enemy, ATK is increasedd by 20% for 2 turn(s)."
+          "desc": "Upon defeating an enemy, ATK increases by 20% for 2 turn(s).",
+          "minors": [
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "Effect HIT Rate", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -1564,39 +2048,64 @@
         {
           "typeUID": "Normal ATK",
           "name": "Cloudfencer Art: Starshine",
-          "desc": "Deals Physical DMG equal to 50% of Sushang's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Physical DMG equal to 50/100/110% of Sushang's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Cloudfencer Art: Mountainfall",
-          "desc": "Deals Physical DMG equal to 105% of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing additional Physical DMG equal to 50% of Sushang's ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Physical DMG equal to 105/210/231% of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 50/100/110% of Sushang's ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Shape of Taixu: Dawn Herald",
-          "desc": "Deals Physical DMG equal to 192% of Sushang's ATK to a single enemy and immediately Advances Forward her actions by 100%. In addition, Sushang's ATK increases by 18% and using her Skill has 2 additional chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG."
+          "source": "Single Target",
+          "cost": "120 energy",
+          "desc": "Deals Physical DMG equal to 192/320/346% of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by 18/30/32% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Dancing Blade",
-          "desc": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by 15.00% for 2 turn(s)."
+          "source": "Support",
+          "cost": null,
+          "desc": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by 15/20/21% for 2 turn(s).",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Guileless",
-          "desc": "When her HP is at 50% of Max HP or lower, reduces the chance of Sushang being attacked by enemies."
+          "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+          "minors": [
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Riposte",
-          "desc": "For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2%. Stacks up to 10 time(s)."
+          "desc": "For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5%. Stacks up to 10 time(s).",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Vanquisher",
-          "desc": "After using Basic ATK or Skill, if there are enemies on the field with Weakness Break, Sushang's action is Advanced Forward by 15%."
+          "desc": "After using Basic ATK or Skill, if there are enemies on the field with Weakness Break, Sushang's action is Advanced Forward by 15%.",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "HP", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -1650,35 +2159,64 @@
         {
           "typeUID": "Normal ATK",
           "name": "Dislodged",
-          "desc": "Deals Lightning DMG equal to 50% of Tingyun's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Tingyun deals Lightning DMG equal to 50/100/110% of her ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Soothing Melody",
-          "desc": "Grants a single ally with Benediction to increase their ATK by 25%, up to 15% of Tingyun's current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 20% of that ally's ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."
+          "source": "Support",
+          "cost": null,
+          "desc": "Grants a single ally with Benediction to increase their ATK by 25/50/55%, up to 15/25/27% of Tingyun's current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 20/40/44% of that ally's ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Amidst the Rejoicing Clouds",
-          "desc": "Regenerates 50 Energy for a single ally and increases the target's DMG by 20% for 2 turn(s)."
+          "source": "Support",
+          "cost": "130 energy",
+          "desc": "Regenerates 50 Energy for a single ally and increases the target's DMG by 20/50/56% for 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Violet Sparknado",
-          "desc": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 30% of that ally's ATK to the same enemy."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 30/60/66% of that ally's ATK to the same enemy.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Nourished Joviality",
-          "desc": "Tingyun's SPD increases by 20% for 1 turn after using Skill."
+          "desc": "Tingyun's SPD increases by 20% for 1 turn after using Skill.",
+          "minors": [
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
-        { "typeUID": "Ascension 4", "name": "Knell Subdual", "desc": "Increases Basic ATK DMG by 40%." },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Knell Subdual",
+          "desc": "Basic ATK DMG increases by 40%.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A5" }
+          ]
+        },
         {
           "typeUID": "Ascension 6",
           "name": "Jubilant Passage",
-          "desc": "Tingyun immediately regenerates 5 Energy at the start of her turn."
+          "desc": "Tingyun immediately regenerates 5 Energy at the start of her turn.",
+          "minors": [
+            { "stat": "Lightning DMG", "value": "+4.8%", "unlock": "Unlocks at A6" },
+            { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -1732,39 +2270,71 @@
         {
           "typeUID": "Normal ATK",
           "name": "Ice-Breaking Light",
-          "desc": "Single Target Deals Fire DMG equal to 50% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will. Blast Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to 90% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to 36% of the Trailblazer's ATK to enemies adjacent to it."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Fire DMG equal to 50/100/110% of the Trailblazer's ATK to a target enemy and gain 1 stack of Magma Will.",
+          "enchanced": [
+            {
+              "nameUID": "Ice-Breaking Light",
+              "source": "Blast",
+              "cost": null,
+              "desc": "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to 90/135/146% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to 36/54/58% of the Trailblazer's ATK to adjacent enemies."
+            }
+          ]
         },
         {
           "typeUID": "Skill",
           "name": "Ever-Burning Amber",
-          "desc": "Increases the Trailblazer's DMG Reduction by 40% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s)."
+          "source": "Defense",
+          "cost": null,
+          "desc": "Increases the Trailblazer's DMG Reduction by 40/50/52% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "War-Flaming Lance",
-          "desc": "Deals Fire DMG equal to 50% of the Trailblazer's ATK plus 75% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will."
+          "source": "AoE ATK",
+          "cost": "120 energy",
+          "desc": "Deals Fire DMG equal to 50/100/110% of the Trailblazer's ATK plus 75/150/165% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Treasure of the Architects",
-          "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4% of the Trailblazer's DEF plus 20. The Shield lasts for 2 turn(s)."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4/6/6% of the Trailblazer's DEF plus 20/80/89. The Shield lasts for 2 turn(s).",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "The Strong Defends the Weak",
-          "desc": "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s)."
+          "desc": "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).",
+          "minors": [
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Unwavering Gallantry",
-          "desc": "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP."
+          "desc": "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A4" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Action Beats Overthinking",
-          "desc": "When the Trailblazer is protected by a Shield at the beginning of the turn, increases their ATK by 15% and regenerates 5 Energy until the action is over."
+          "desc": "When the Trailblazer is protected by a Shield at the beginning of the turn, increases ATK by 15% and regenerates 5 Energy until the action is over.",
+          "minors": [
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -1818,39 +2388,66 @@
         {
           "typeUID": "Normal ATK",
           "name": "Farewell Hit",
-          "desc": "Deals Physical DMG equal to 50% of the Trailblazer's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Physical DMG equal to 50/100/110% of the Trailblazer's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "RIP Home Run",
-          "desc": "Deals Physical DMG equal to 62% of the Trailblazer's ATK to a single enemy and any adjacent enemies."
+          "source": "Blast",
+          "cost": null,
+          "desc": "Deals Physical DMG equal to 62/125/137% of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Stardust Ace",
-          "desc": "Choose between two attack modes to deliver a full strike. Blowout: Farewell Hit deals Physical DMG equal to 300% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to 180% of the Trailblazer's ATK to a single enemy and Physical DMG equal to 108% of the Trailblazer's ATK to adjacent enemies."
+          "source": "Enhance",
+          "cost": "120 energy",
+          "desc": "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to 300/450/480% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to 180/270/288% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to 108/162/172% of the Trailblazer's ATK to enemies adjacent to it.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Perfect Pickoff",
-          "desc": "Each time this character inflicts Weakness Break on an enemy, ATK increases by 10%. This effect stacks up to 2 time(s)."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer's ATK increases by 10/20/22%. This effect stacks up to 2 time(s).",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Ready for Battle",
-          "desc": "At the start of the battle, immediately regenerates 15 Energy."
+          "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+          "minors": [
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Perseverance",
-          "desc": "Each Talent stack increases the Trailblazer's DEF by 10%."
+          "desc": "Each stack of Talent increases the Trailblazer's DEF by 10%.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Fighting Will",
-          "desc": "When using Skill or Ultimate \"Blowout: RIP Home Run\", DMG dealt to the target enemy is increased by 25%."
+          "desc": "When using Skill or Ultimate Blowout: RIP Home Run, DMG dealt to the target enemy is increased by 25%.",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "HP", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
@@ -1904,35 +2501,65 @@
         {
           "typeUID": "Normal ATK",
           "name": "Gravity Suppression",
-          "desc": "Deals Imaginary DMG equal to 50% of Welt's ATK to a single enemy."
+          "source": "Single Attack",
+          "cost": null,
+          "desc": "Deals Imaginary DMG equal to 50/100/110% of Welt's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Edge of the Void",
-          "desc": "Deals Imaginary DMG equal to 36% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to 36% of Welt's ATK to a random enemy. On hit, there is a 65% base chance to reduce the enemy's SPD by 10% for 2 turn(s)."
+          "source": "Bounce",
+          "cost": null,
+          "desc": "Deals Imaginary DMG equal to 36/72/79% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to 36/72/79% of Welt's ATK to a random enemy. On hit, there is a 65/75/77% base chance to reduce the enemy's SPD by 10% for 2 turn(s).",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Synthetic Black Hole",
-          "desc": "Deals Imaginary DMG equal to 90% of Welt's ATK to all enemies, with a 100% base chance for enemies hit by this ability to be Imprisoned for 1 turn. Imprisoned enemies have their actions delayed by 32% and SPD reduced by 10%."
+          "source": "AoE ATK",
+          "cost": "120 energy",
+          "desc": "Deals Imaginary DMG equal to 90/150/162% of Welt's ATK to all enemies, with a 100% base chance for enemies hit by this ability to be Imprisoned for 1 turn. Imprisoned enemies have their actions delayed by 32/40/42% and SPD reduced by 10%.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Time Distortion",
-          "desc": "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 30% of his ATK to the enemy."
+          "source": "Enhance",
+          "cost": null,
+          "desc": "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 30/60/66% of his ATK to the enemy.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Retribution",
-          "desc": "When using Ultimate, there is a 100% base chance to increase the DMG received by the targets by 12% for 2 turn(s)."
+          "desc": "When using Ultimate, there is a 100% base chance to increase the DMG received by the targets by 12% for 2 turn(s).",
+          "minors": [
+            { "stat": "Imaginary DMG", "value": "+3.2%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
-        { "typeUID": "Ascension 4", "name": "Judgment", "desc": "Using Ultimate additionally regenerates 10 Energy." },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Judgment",
+          "desc": "Using Welt's Ultimate additionally regenerates 10 Energy.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Imaginary DMG", "value": "+4.8%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
+        },
         {
           "typeUID": "Ascension 6",
           "name": "Punishment",
-          "desc": "Deals 20% more DMG to enemies inflicted with Weakness Break."
+          "desc": "Deals 20% more DMG to enemies inflicted with Weakness Break.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "Imaginary DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 75" }
+          ]
         }
       ]
     },
@@ -1991,39 +2618,64 @@
         {
           "typeUID": "Normal ATK",
           "name": "Frost Thorn",
-          "desc": "Deals Ice DMG equal to 50% of Yanqing's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Ice DMG equal to 50/100/110% of Yanqing's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Darting Ironthorn",
-          "desc": "Deals Ice DMG equal to 110% of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Ice DMG equal to 110/220/242% of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
+          "enchanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Amidst the Raining Bliss",
-          "desc": "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra 30% for one turn. Afterwards, deals Ice DMG equal to 210% of Yanqing's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": "140 energy",
+          "desc": "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra 30/50/54% for 1 turn. Afterwards, deals Ice DMG equal to 210/350/378% of Yanqing's ATK to a single enemy.",
+          "enchanced": []
         },
         {
           "typeUID": "Talent",
           "name": "One With the Sword",
-          "desc": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by 15% and his CRIT DMG increases by 15%. After Yanqing attacks an enemy, there is a 50% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 25% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take actions and receives Additional Ice DMG equal to 25% of Yanqing's ATK at the beginning of each turn. When Yanqing received DMG, the Soulsteel Sync effect will dissapear."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by 15/20/21% and his CRIT DMG increases by 15/30/33%. After Yanqing attacks an enemy, there is a 50/60/62% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 25/50/55% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 25/50/55% of Yanqing's ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+          "enchanced": []
         }
       ],
       "traces": [
         {
           "typeUID": "Ascension 2",
           "name": "Icing on the Kick",
-          "desc": "When Yanqing attacks, deals Additional Ice DMG equal to 30% of Yanqin's ATK to targets with Ice Weakness."
+          "desc": "When Yanqing attacks, deals additional Ice DMG equal to 30% of Yanqing's ATK to targets with Ice Weakness.",
+          "minors": [
+            { "stat": "Ice DMG", "value": "+3.2%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
         },
         {
           "typeUID": "Ascension 4",
           "name": "Frost Favors the Brave",
-          "desc": "When Soulsteel Sync is active, Effect RES increases by 20%."
+          "desc": "When Soulsteel Sync is active, Effect RES increases by 20%.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Ice DMG", "value": "+4.8%", "unlock": "Unlocks at A5" }
+          ]
         },
         {
           "typeUID": "Ascension 6",
           "name": "Gentle Blade",
-          "desc": "When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s)."
+          "desc": "When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s).",
+          "minors": [
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "Ice DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
         }
       ]
     },
