@@ -1,66 +1,108 @@
+import { ReactComponent as Star } from "../../assets/star.svg";
+import TextHighlighter from "../../components/TextHighlighter";
 import { Character } from "../../data/Characters";
 import { getLightCones } from "../../data/LightCones";
+import { getRelics } from "../../data/Relics";
+import { useMouseCSSPos } from "../../hooks/Mouse";
+
+/**
+ * Lightcone photo.
+ */
+function LightconePhoto({
+  nameUID,
+  className,
+  children,
+}: {
+  nameUID: string;
+  className?: string;
+  children?: JSX.Element;
+}) {
+  // Gradient color
+  const star = getLightCones([nameUID])[0].star;
+  const cssGradColor = (() => {
+    switch (star) {
+      case 5:
+        return "bg-gradient-to-b from-amber-700 via-amber-500 via-60% to-amber-200";
+      case 4:
+        return "bg-gradient-to-b from-purple-950 via-purple-700 via-60% to-purple-400";
+      case 3:
+        return "bg-gradient-to-b from-blue-950 via-blue-800 via-60% to-blue-500";
+      default:
+        return undefined;
+    }
+  })();
+
+  // Render
+  if (cssGradColor)
+    return (
+      <div className={`rounded-md ${cssGradColor} p-1 shadow` + (className ? ` ${className}` : "")}>
+        <img src={`/lightcones/${nameUID}.webp`} alt={nameUID} />
+        {children && children}
+      </div>
+    );
+  return className ? <span className={className} /> : <span />;
+}
+
+/**
+ * Lightcone pannel.
+ */
+function LightconePannel({ nameUID, className }: { nameUID: string; className?: string }) {
+  // Get data & Pannel position
+  const { star, path, source, desc } = getLightCones([nameUID])[0];
+  const cssPos = useMouseCSSPos();
+
+  // Render
+  return (
+    <div
+      className={
+        `w-96 space-y-4 rounded-md border-2 border-indigo-300 bg-slate-950 p-4 shadow` +
+        ` ${cssPos}` +
+        (className ? ` ${className}` : "")
+      }
+    >
+      <p className="font-bold text-blue-500">{nameUID}</p>
+      <div className="flex items-center justify-center space-x-4">
+        <div className="flex w-5/12 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
+          <img src={`/paths/${path}.webp`} alt={path} className="h-5 w-5" />
+          <p className="text-sm font-medium">{path}</p>
+        </div>
+        <div className="flex w-5/12 justify-center self-stretch rounded-md bg-slate-900 py-2 shadow">
+          {Array.from({ length: star }, (_, idx) => (
+            <Star key={idx} className="h-5 w-5 fill-yellow-500" />
+          ))}
+        </div>
+      </div>
+      <p className="text-sm font-semibold text-amber-500">{source}</p>
+      <TextHighlighter
+        text={desc}
+        regexGroup={/((?:\d+\/)+(?:\d+%?))/g}
+        cssHighlight="font-bold text-indigo-500"
+        className="break-all text-justify text-sm italic"
+      />
+    </div>
+  );
+}
+
+/**
+ * Relic pannel.
+ */
+function RelicPannel({ nameUID, className }: { nameUID: string; className?: string }) {
+  // Get data & Pannel position
+  // const { set } = getRelics([nameUID])[0];
+  const cssPos = useMouseCSSPos();
+
+  // Render
+  return;
+}
 
 /**
  * Equipement tab.
  */
 export default function Equipement({ character }: { character: Character }) {
-  // Lightcones JSX
-  const LightConeColored = ({
-    nameUID,
-    className,
-    children,
-  }: {
-    nameUID: string;
-    className?: string;
-    children?: JSX.Element;
-  }) => {
-    const star = getLightCones([nameUID])[0].star;
-    switch (star) {
-      case 5:
-        return (
-          <div
-            className={
-              "bg-gradient-to-b from-amber-700 via-amber-500 via-60% to-amber-200" + (className ? ` ${className}` : "")
-            }
-          >
-            <img src={`/lightcones/${nameUID}.webp`} alt={nameUID} />
-            {children && children}
-          </div>
-        );
-      case 4:
-        return (
-          <div
-            className={
-              "bg-gradient-to-b from-purple-950 via-purple-700 via-60% to-purple-400" +
-              (className ? ` ${className}` : "")
-            }
-          >
-            <img src={`/lightcones/${nameUID}.webp`} alt={nameUID} />
-            {children && children}
-          </div>
-        );
-      case 3:
-        return (
-          <div
-            className={
-              "bg-gradient-to-b from-blue-950 via-blue-800 via-60% to-blue-500" + (className ? ` ${className}` : "")
-            }
-          >
-            <img src={`/lightcones/${nameUID}.webp`} alt={nameUID} />
-            {children && children}
-          </div>
-        );
-      default:
-        return className ? <span className={className} /> : <span />;
-    }
-  };
-
-  // Render
   return (
-    // E0 the "Recommended banner" - TODO after launch
+    // E0 the "Recommended banner" - TODO after
     <div className="flex justify-between divide-x-2 divide-slate-950 rounded-md bg-indigo-950">
-      {/* E1 */}
+      {/* Lightcones */}
       <div className="flex grow flex-col p-4">
         <div className="flex items-center space-x-4">
           <span className="h-5 w-0.5 bg-blue-500" />
@@ -68,13 +110,20 @@ export default function Equipement({ character }: { character: Character }) {
         </div>
         <div className="m-auto space-y-8 p-4">
           {character.dynamic.lightcones.map((_, idx) => (
-            <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
-              <LightConeColored nameUID={_} className="relative h-16 w-16 rounded-md p-1 shadow">
-                <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-90 items-center justify-center rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow">
+            <div
+              key={idx}
+              className="group relative flex items-center rounded-md bg-indigo-900 shadow hover:bg-indigo-800"
+            >
+              <LightconePhoto nameUID={_} className="relative h-16 w-16">
+                <div
+                  className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-90 items-center justify-center
+                  rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow group-hover:bg-gray-600"
+                >
                   {idx + 1}
                 </div>
-              </LightConeColored>
+              </LightconePhoto>
               <p className="w-56 px-4 text-center font-semibold">{_}</p>
+              <LightconePannel nameUID={_} className="absolute z-50 hidden group-hover:block" />
             </div>
           ))}
         </div>

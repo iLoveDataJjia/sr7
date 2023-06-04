@@ -7,6 +7,24 @@ import { ReactComponent as TAUNT } from "../../assets/taunt.svg";
 import { Attribute, Character, Tier } from "../../data/Characters";
 
 /**
+ * Attribute icon.
+ */
+function AttributeIcon({ typeUID, className }: { typeUID: Attribute; className?: string }) {
+  switch (typeUID) {
+    case Attribute["HP"]:
+      return <HP className={"fill-rose-500" + (className ? ` ${className}` : "")} />;
+    case Attribute["ATK"]:
+      return <ATK className={"fill-indigo-500" + (className ? ` ${className}` : "")} />;
+    case Attribute["DEF"]:
+      return <DEF className={"fill-sky-500" + (className ? ` ${className}` : "")} />;
+    case Attribute["SPD"]:
+      return <SPD className={"fill-emerald-500" + (className ? ` ${className}` : "")} />;
+    case Attribute["TAUNT"]:
+      return <TAUNT className={"fill-amber-500" + (className ? ` ${className}` : "")} />;
+  }
+}
+
+/**
  * General tab.
  */
 export default function General({ character }: { character: Character }) {
@@ -28,22 +46,6 @@ export default function General({ character }: { character: Character }) {
     }
   })();
 
-  // Attribute icon JSX
-  const AttributeIcon = ({ typeUID, className }: { typeUID: Attribute; className?: string }) => {
-    switch (typeUID) {
-      case Attribute["HP"]:
-        return <HP className={"fill-rose-500" + (className ? ` ${className}` : "")} />;
-      case Attribute["ATK"]:
-        return <ATK className={"fill-indigo-500" + (className ? ` ${className}` : "")} />;
-      case Attribute["DEF"]:
-        return <DEF className={"fill-sky-500" + (className ? ` ${className}` : "")} />;
-      case Attribute["SPD"]:
-        return <SPD className={"fill-emerald-500" + (className ? ` ${className}` : "")} />;
-      case Attribute["TAUNT"]:
-        return <TAUNT className={"fill-amber-500" + (className ? ` ${className}` : "")} />;
-    }
-  };
-
   // Render
   return (
     <div
@@ -55,7 +57,7 @@ export default function General({ character }: { character: Character }) {
           .replaceAll(")", "%29")}/wp.webp)`,
       }}
     >
-      {/* E1 */}
+      {/* Character */}
       <div className="flex items-center space-x-4 py-4">
         {/* Photo */}
         <div className={`relative flex h-24 w-24 flex-col items-center rounded-md border-2 ${tierColor.border} shadow`}>
@@ -93,20 +95,20 @@ export default function General({ character }: { character: Character }) {
       </div>
 
       {/* E2 */}
-      {/* TODO at the end when all sections are made */}
+      {/* TODO after */}
 
-      {/* E3 */}
+      {/* Playstyle */}
       <div className="w-2/3 rounded-md bg-indigo-950 shadow">
         <div className="space-y-2 p-4">
           <div className="flex items-center space-x-4">
             <span className="h-5 w-0.5 bg-blue-500" />
             <p className="text-lg font-bold">Playstyle</p>
           </div>
-          <p className="text-sm italic">{character.dynamic.playstyle}</p>
+          <p className="break-all text-justify text-sm italic">{character.dynamic.playstyle}</p>
         </div>
       </div>
 
-      {/* E4 */}
+      {/* Attributes */}
       <div className="grid grid-flow-col justify-stretch divide-x-2 divide-slate-950 rounded-md bg-indigo-950 shadow">
         {character.static.attributes.map((attribute) => (
           <div key={attribute.typeUID} className="flex flex-col items-center py-6">
