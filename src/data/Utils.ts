@@ -30,6 +30,9 @@ export enum Element {
 export enum Stat {
   "HP" = "HP",
   "ATK" = "ATK",
+  "DEF" = "DEF",
+  "SPD" = "SPD",
+  "TAUNT" = "TAUNT",
   "HP%" = "HP%",
   "ATK%" = "ATK%",
   "DEF%" = "DEF%",
@@ -37,7 +40,6 @@ export enum Stat {
   "CRIT DMG" = "CRIT DMG",
   "Outgoing Healing" = "Outgoing Healing",
   "Effect HIT Rate" = "Effect HIT Rate",
-  "Speed" = "Speed",
   "Physical DMG" = "Physical DMG",
   "Fire DMG" = "Fire DMG",
   "Ice DMG" = "Ice DMG",
@@ -47,4 +49,5 @@ export enum Stat {
   "Imaginary DMG" = "Imaginary DMG",
   "Break Effect" = "Break Effect",
   "Energy Regen Rate" = "Energy Regen Rate",
+  "Effect RES" = "Effect RES",
 }

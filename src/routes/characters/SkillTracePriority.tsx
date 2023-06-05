@@ -1,32 +1,34 @@
-import { Character } from "../../data/Characters";
+import { Character, Trace, Skill } from "../../data/Characters";
 
 /**
  * Pannel.
  */
-function Pannel({ src, title, desc }: { src: string; title: string; desc: string }) {
+function Pannel({ src, typeUID, name }: { src: string; typeUID: Skill | Trace; name: string }) {
   return (
     <div className="flex items-center rounded-md bg-indigo-900 shadow">
       <div className="flex h-24 w-16 flex-col items-center justify-center space-y-1 self-stretch rounded-md bg-gray-700 px-2 shadow">
-        <img src={src} alt={desc} className="h-10 w-10" />
-        <p className="text-center text-xs font-semibold">{title}</p>
+        <img src={src} alt={name} className="h-10 w-10" />
+        <p className="text-center text-xs font-semibold">{typeUID}</p>
       </div>
-      <p className="w-28 px-2 text-center text-xs font-semibold">{desc}</p>
+      <p className="w-28 px-2 text-center text-xs font-semibold">{name}</p>
     </div>
   );
 }
 
 /**
- * Trace tab.
+ * Pannel separator.
  */
-export default function Trace({ character }: { character: Character }) {
-  // Pannel & Seperator JSX
+function Separator() {
+  return <div className="px-2 text-3xl font-black drop-shadow">→</div>;
+}
 
-  const Separator = () => <div className="px-2 text-3xl font-black drop-shadow">→</div>;
-
-  // Render
+/**
+ * Skill & trace priority tab.
+ */
+export default function SkillTracePriority({ character }: { character: Character }) {
   return (
     <div className="divide-y-2 divide-slate-950 rounded-md bg-indigo-950">
-      {/* E1 */}
+      {/* Skill priority */}
       <div className="space-y-4 p-4">
         <div className="flex items-center space-x-4">
           <span className="h-5 w-0.5 bg-blue-500" />
@@ -39,8 +41,8 @@ export default function Trace({ character }: { character: Character }) {
                 <Pannel
                   key={skill}
                   src={`/characters/${character.nameUID}/${skill}.webp`}
-                  title={skill}
-                  desc={character.static.skills.filter((_) => _.typeUID === skill)[0].name}
+                  typeUID={skill}
+                  name={character.static.skills.filter((_) => _.typeUID === skill)[0].name}
                 />,
               ];
             else
@@ -48,8 +50,8 @@ export default function Trace({ character }: { character: Character }) {
                 <Pannel
                   key={skill}
                   src={`/characters/${character.nameUID}/${skill}.webp`}
-                  title={skill}
-                  desc={character.static.skills.filter((_) => _.typeUID === skill)[0].name}
+                  typeUID={skill}
+                  name={character.static.skills.filter((_) => _.typeUID === skill)[0].name}
                 />,
                 <Separator key={idx} />,
               ];
@@ -57,7 +59,7 @@ export default function Trace({ character }: { character: Character }) {
         </div>
       </div>
 
-      {/* E2 */}
+      {/* Trace priority */}
       <div className="space-y-4 p-4">
         <div className="flex items-center space-x-4">
           <span className="h-5 w-0.5 bg-blue-500" />
@@ -70,8 +72,8 @@ export default function Trace({ character }: { character: Character }) {
                 <Pannel
                   key={trace}
                   src={`/characters/${character.nameUID}/${trace}.webp`}
-                  title={trace}
-                  desc={character.static.traces.filter((_) => _.typeUID === trace)[0].name}
+                  typeUID={trace}
+                  name={character.static.traces.filter((_) => _.typeUID === trace)[0].name}
                 />,
               ];
             else
@@ -79,8 +81,8 @@ export default function Trace({ character }: { character: Character }) {
                 <Pannel
                   key={trace}
                   src={`/characters/${character.nameUID}/${trace}.webp`}
-                  title={trace}
-                  desc={character.static.traces.filter((_) => _.typeUID === trace)[0].name}
+                  typeUID={trace}
+                  name={character.static.traces.filter((_) => _.typeUID === trace)[0].name}
                 />,
                 <Separator key={idx} />,
               ];

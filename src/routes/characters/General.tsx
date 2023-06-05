@@ -1,28 +1,6 @@
-import { ReactComponent as ATK } from "../../assets/atk.svg";
-import { ReactComponent as DEF } from "../../assets/def.svg";
-import { ReactComponent as HP } from "../../assets/hp.svg";
-import { ReactComponent as SPD } from "../../assets/spd.svg";
 import { ReactComponent as Star } from "../../assets/star.svg";
-import { ReactComponent as TAUNT } from "../../assets/taunt.svg";
-import { Attribute, Character, Tier } from "../../data/Characters";
-
-/**
- * Attribute icon.
- */
-function AttributeIcon({ typeUID, className }: { typeUID: Attribute; className?: string }) {
-  switch (typeUID) {
-    case Attribute["HP"]:
-      return <HP className={"fill-rose-500" + (className ? ` ${className}` : "")} />;
-    case Attribute["ATK"]:
-      return <ATK className={"fill-indigo-500" + (className ? ` ${className}` : "")} />;
-    case Attribute["DEF"]:
-      return <DEF className={"fill-sky-500" + (className ? ` ${className}` : "")} />;
-    case Attribute["SPD"]:
-      return <SPD className={"fill-emerald-500" + (className ? ` ${className}` : "")} />;
-    case Attribute["TAUNT"]:
-      return <TAUNT className={"fill-amber-500" + (className ? ` ${className}` : "")} />;
-  }
-}
+import StatIcon from "../../components/StatIcon";
+import { Character, Tier } from "../../data/Characters";
 
 /**
  * General tab.
@@ -114,7 +92,7 @@ export default function General({ character }: { character: Character }) {
           <div key={attribute.typeUID} className="flex flex-col items-center py-6">
             <p className="text-3xl font-bold">{attribute.value}</p>
             <div className="flex items-center space-x-1">
-              <AttributeIcon typeUID={attribute.typeUID} className="h-6 w-6" />
+              <StatIcon stat={attribute.typeUID} className="h-6 w-6" />
               <p className="text-xs uppercase">{attribute.typeUID}</p>
             </div>
           </div>

@@ -2,7 +2,7 @@ import { Character } from "../../data/Characters";
 import Comp from "./Comp";
 import Equipement from "./Equipement";
 import General from "./General";
-import Trace from "./Trace";
+import SkillTracePriority from "./SkillTracePriority";
 
 /**
  * Route entrypoint.
@@ -12,7 +12,7 @@ export default function Index({ character }: { character: Character }) {
     <div className="m-4 space-y-8">
       <General character={character} />
       <Equipement character={character} />
-      <Trace character={character} />
+      <SkillTracePriority character={character} />
       <Comp character={character} />
     </div>
   );

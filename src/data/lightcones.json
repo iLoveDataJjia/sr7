@@ -399,7 +399,7 @@
     "desc": "Increases the wearer's Max HP by 18/21/24/27/30% and Outgoing Healing by 12/14/16/18/20%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to 36/42/48/54/60% of the recorded Outgoing Healing value. This additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn."
   },
   {
-    "nameUID": "Today is Another Peaceful Day",
+    "nameUID": "Today Is Another Peaceful Day",
     "path": "The Erudition",
     "star": 4,
     "source": "A Storm is Coming",

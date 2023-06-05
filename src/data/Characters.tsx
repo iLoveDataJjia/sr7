@@ -21,18 +21,31 @@ export interface Character {
     path: Path;
     element: Element;
     attributes: {
-      typeUID: Attribute;
+      typeUID: Stat;
       value: number;
     }[];
     skills: {
       typeUID: Skill;
       name: string;
+      source: SkillSource;
+      cost: string | null;
       desc: string;
+      enhanced: {
+        nameUID: string;
+        source: SkillSource;
+        cost: string | null;
+        desc: string;
+      }[];
     }[];
     traces: {
       typeUID: Trace;
       name: string;
       desc: string;
+      minors: {
+        stat: Stat;
+        value: string;
+        unlock: string;
+      }[];
     }[];
   };
   dynamic: {
@@ -61,17 +74,6 @@ export interface Character {
 }
 
 /**
- * Attribute.
- */
-export enum Attribute {
-  "HP" = "HP",
-  "ATK" = "ATK",
-  "DEF" = "DEF",
-  "SPD" = "SPD",
-  "TAUNT" = "TAUNT",
-}
-
-/**
  * Skill.
  */
 export enum Skill {
@@ -79,6 +81,21 @@ export enum Skill {
   "Skill" = "Skill",
   "Ultimate" = "Ultimate",
   "Talent" = "Talent",
+}
+
+/**
+ * Skill source.
+ */
+export enum SkillSource {
+  "Single Target" = "Single Target",
+  "Blast" = "Blast",
+  "Enhance" = "Enhance",
+  "Bounce" = "Bounce",
+  "Support" = "Support",
+  "Restore" = "Restore",
+  "AoE ATK" = "AoE ATK",
+  "Impair" = "Impair",
+  "Defense" = "Defense",
 }
 
 /**

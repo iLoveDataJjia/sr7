@@ -19,7 +19,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Lightning DMG equal to 50/100/110% of Arlan's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -27,7 +27,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 120/240/264% of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -35,7 +35,7 @@
           "source": "Blast",
           "cost": "110 energy",
           "desc": "Deals Lightning DMG equal to 192/320/346% of Arlan's ATK to a single enemy and Lightning DMG equal to 96/160/173% of Arlan's ATK to enemies adjacent to it.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -43,7 +43,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of 36/72/79% more DMG.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -88,11 +88,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
@@ -132,7 +132,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Fire DMG equal to 50/100/110% of Asta's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -140,7 +140,7 @@
           "source": "Bounce",
           "cost": null,
           "desc": "Deals Fire DMG equal to 25/50/55% of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 25/50/55% of Asta's ATK to a random enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -148,7 +148,7 @@
           "source": "Support",
           "cost": "120 energy",
           "desc": "Increases SPD of all allies by 36/50/53 for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -156,7 +156,7 @@
           "source": "Support",
           "cost": null,
           "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every stack of Charging Asta has, all allies' ATK increases by 7/14/15%, up to 5 time(s). Starting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -204,11 +204,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["HP%"] },
-          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
           { "typeUID": "Sphere", "stats": ["HP%", "Fire DMG"] },
           { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["Speed", "Break Effect", "HP%"]
+        "subStats": ["SPD", "Break Effect", "HP%"]
       },
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
@@ -248,7 +248,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Lightning DMG equal to 50/100/110% of Bailu's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -256,7 +256,7 @@
           "source": "Restore",
           "cost": null,
           "desc": "Heals a single ally for 8/11/12% of Bailu's Max HP plus 78/312/347. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -264,7 +264,7 @@
           "source": "Restore",
           "cost": "100 energy",
           "desc": "Heals all allies for 9/13/14% of Bailu's Max HP plus 90/360/401. Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -272,7 +272,7 @@
           "source": "Restore",
           "cost": null,
           "desc": "After an ally with Invigoration is hit, restores the ally's HP for 4/5/6% of Bailu's Max HP plus 36/144/160. This effect can trigger 2 time(s). When an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for 12/18/19% of Bailu's Max HP plus 120/480/534 HP. This effect can be triggered 1 time per battle.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -316,11 +316,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["Outgoing Healing", "HP%"] },
-          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
           { "typeUID": "Sphere", "stats": ["HP%"] },
           { "typeUID": "Rope", "stats": ["HP%"] }
         ],
-        "subStats": ["Speed", "HP%", "DEF%"]
+        "subStats": ["SPD", "HP%", "DEF%"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
@@ -360,7 +360,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Wind DMG equal to 50/100/110% of Bronya's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -368,7 +368,7 @@
           "source": "Support",
           "cost": null,
           "desc": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 33/66/72% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -376,7 +376,7 @@
           "source": "Support",
           "cost": "120 energy",
           "desc": "Increases the ATK of all allies by 33/55/59%, and increase their CRIT DMG equal to 12/16/17% of Bronya's CRIT DMG plus 12/20/21% for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -384,7 +384,7 @@
           "source": "Support",
           "cost": null,
           "desc": "After using her Basic ATK, Bronya's next action will be Advanced Forward by 15/30/33%.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -427,11 +427,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
           { "typeUID": "Sphere", "stats": ["DEF%", "HP%"] },
           { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["Speed", "CRIT DMG", "DEF%", "HP%"]
+        "subStats": ["SPD", "CRIT DMG", "DEF%", "HP%"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
@@ -471,7 +471,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Physical DMG equal to 50/100/110% of Clara's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -479,7 +479,7 @@
           "source": "AoE ATK",
           "cost": null,
           "desc": "Deals Physical DMG equal to 60/120/132% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 60/120/132% of Clara's ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after this Skill is used.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -487,7 +487,7 @@
           "source": "Enhance",
           "cost": "110 energy",
           "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 15/25/27%, and she has greatly increased chances of being attacked by enemies for 2 turn(s). In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 96/160/173%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect 2 time(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -495,7 +495,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 80/160/176% of Clara's ATK.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -540,11 +540,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Physical DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "ATK", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "ATK", "SPD"]
       },
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
@@ -584,7 +584,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deal Wind DMG equal to 50/100/110% of Dan Heng's ATK to a target enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -592,7 +592,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Wind DMG equal to 130/260/286% of Dan Heng's ATK to a single enemy. On a CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12% for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -600,7 +600,7 @@
           "source": "Single Target",
           "cost": "100 energy",
           "desc": "Deals Wind DMG equal to 240/400/432% of Dan Heng's ATK to a single enemy. If the enemy is Slowed, Dan Heng's Ultimate's DMG multiplier increases by 72/120/130%.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -608,7 +608,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by 18/36/40%. This effect can be triggered again after 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -651,11 +651,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Wind DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
@@ -695,7 +695,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Ice DMG equal to 50/100/110% of Gepard's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -703,7 +703,7 @@
           "source": "Impair",
           "cost": null,
           "desc": "Deals Ice DMG equal to 100/200/220% of Gepard's ATK to a single enemy, with a 65% base chance to Freeze that enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Ice DoT equal to 30/60/66% of Gepard's ATK each turn.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -711,7 +711,7 @@
           "source": "Defense",
           "cost": "100 energy",
           "desc": "Apply a Shield to all allies, absorbing DMG equal to 30/45/48% of Gepard's DEF plus 150/600/668 for 3 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -719,7 +719,7 @@
           "source": "Restore",
           "cost": null,
           "desc": "When struck with a killing blow, instead of becoming incapacitated, Gepard's HP immediately restores 25/50/55% of his Max HP. This effect can only trigger once per battle.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -762,11 +762,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["DEF%"] },
-          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
           { "typeUID": "Sphere", "stats": ["DEF%"] },
           { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["DEF%", "Speed", "Effect HIT Rate", "HP%"]
+        "subStats": ["DEF%", "SPD", "Effect HIT Rate", "HP%"]
       },
       "skillPriority": ["Ultimate", "Skill", "Normal ATK", "Talent"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
@@ -806,7 +806,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Ice DMG equal to 50/100/110% of Herta's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -814,7 +814,7 @@
           "source": "AoE ATK",
           "cost": null,
           "desc": "Deals Ice DMG equal to 50/100/110% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -822,7 +822,7 @@
           "source": "AoE ATK",
           "cost": "110 energy",
           "desc": "Deals Ice DMG equal to 120/200/216% of Herta's ATK to all enemies.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -830,7 +830,7 @@
           "source": "AoE ATK",
           "cost": null,
           "desc": "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25/40/43% of Herta's ATK to all enemies.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -874,11 +874,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Ice DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT DMG", "CRIT Rate", "ATK%", "Speed"]
+        "subStats": ["CRIT DMG", "CRIT Rate", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
@@ -918,7 +918,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Fire DMG equal to 50/100/110% of Himeko's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -926,7 +926,7 @@
           "source": "Blast",
           "cost": null,
           "desc": "Deals Fire DMG equal to 100/200/220% of Himeko's ATK to a single enemy and Fire DMG equal to 40/80/88% of Himeko's ATK to any adjacent enemies.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -934,7 +934,7 @@
           "source": "AoE ATK",
           "cost": "120 energy",
           "desc": "Deals Fire DMG equal to 138/230/248% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -942,7 +942,7 @@
           "source": "AoE ATK",
           "cost": null,
           "desc": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points). If Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to 70/140/154% of her ATK to all enemies, consuming all Charge points. At the start of the battle, Himeko gains 1 point of Charge.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -986,11 +986,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Fire DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
@@ -1030,7 +1030,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Fire DMG equal to 50/100/110% of Hook's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -1038,7 +1038,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Fire DMG equal to 120/240/264% of Hook's ATK to a single enemy. In addition, there is a 100% base chance to inflict Burn for 2 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 25/65/71% of Hook's ATK at the beginning of each turn.",
-          "enchanced": [
+          "enhanced": [
             {
               "nameUID": "Hey! Remember Hook?",
               "source": "Blast",
@@ -1053,7 +1053,7 @@
           "source": "Single Target",
           "cost": "120 energy",
           "desc": "Deals Fire DMG equal to 240/400/432% of Hook's ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1061,7 +1061,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 50/100/110% of Hook's ATK and regenerates 5 extra Energy.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -1106,11 +1106,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Fire DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
@@ -1150,7 +1150,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Jing Yuan deals Lightning DMG equal to 50/100/110% of his ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -1158,7 +1158,7 @@
           "source": "AoE ATK",
           "cost": null,
           "desc": "Deals Lightning DMG equal to 50/100/110% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -1166,7 +1166,7 @@
           "source": "AoE ATK",
           "cost": "130 energy",
           "desc": "Deals Lightning DMG equal to 120/200/216% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1174,7 +1174,7 @@
           "source": "Bounce",
           "cost": null,
           "desc": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to 33/66/70% of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the target enemy.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -1212,17 +1212,17 @@
     "dynamic": {
       "tier": "S+",
       "playstyle": "Jing Yuan stands as the game's most potent AoE DMG dealer. Maximizing the use of his Skill and Ultimate prior to the Lightning-Lord's turn is crucial to amplify the subsequent follow-up attacks. Upon unlocking the Bonus Ability, War Martial, Jing Yuan's CRIT Rate rises by 10% after employing his skill.",
-      "lightcones": ["Before Dawn", "Today is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
+      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
       "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
       "ornaments": ["Inert Salsotto", "Space Sealing Station"],
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
@@ -1262,7 +1262,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Ice DMG equal to 50/100/110% of March 7th's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -1270,15 +1270,15 @@
           "source": "Defense",
           "cost": null,
           "desc": "Provides a single ally with a Shield that can absorb DMG equal to 38/57/61% of March 7th's DEF plus 190/760/846 for 3 turn(s). If the ally's HP is 30% of their Max HP or higher, greatly increases the chance of enemies attacking that ally.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Glacial Cascade",
-          "source": "AoE Attack",
+          "source": "AoE ATK",
           "cost": "120 energy",
           "desc": "Deals Ice DMG equal to 90/150/162% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will recieve additional Ice DMG equal to 30/60/66% of March 7th's ATK at the beginning of each turn.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1286,7 +1286,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "After a shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 50/100/110% of her ATK. This effect can be triggered 2 time(s) each turn.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -1329,11 +1329,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["Effect HIT Rate", "DEF%"] },
-          { "typeUID": "Feet", "stats": ["Speed", "DEF%"] },
+          { "typeUID": "Feet", "stats": ["SPD", "DEF%"] },
           { "typeUID": "Sphere", "stats": ["DEF%"] },
           { "typeUID": "Rope", "stats": ["Energy Regen Rate", "DEF%"] }
         ],
-        "subStats": ["DEF%", "Speed", "Effect HIT Rate", "HP%"]
+        "subStats": ["DEF%", "SPD", "Effect HIT Rate", "HP%"]
       },
       "skillPriority": ["Skill", "Ultimate", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
@@ -1373,7 +1373,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Physical DMG equal to 50/100/110% of Natasha's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -1381,7 +1381,7 @@
           "source": "Restore",
           "cost": null,
           "desc": "Restores a single ally for 7/10/11% of Natasha's Max HP plus 70/280/312. Restores the ally for another 5/7/8% of Natasha's Max HP plus 48/192/214 at the beginning of each turn for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -1389,7 +1389,7 @@
           "source": "Restore",
           "cost": "90 energy",
           "desc": "Heals all allies for 9/14/15% of Natasha's Max HP plus 92/368/409.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1397,7 +1397,7 @@
           "source": "Restore",
           "cost": null,
           "desc": "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 25/50/55%. This effect also works on continuous healing.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -1441,11 +1441,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["Outgoing Healing", "HP%"] },
-          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
           { "typeUID": "Sphere", "stats": ["HP%"] },
           { "typeUID": "Rope", "stats": ["HP%"] }
         ],
-        "subStats": ["Speed", "HP%", "DEF%"]
+        "subStats": ["SPD", "HP%", "DEF%"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
@@ -1485,7 +1485,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Ice DMG equal to 50/100/110% of Pela's ATK as to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -1493,7 +1493,7 @@
           "source": "Impair",
           "cost": null,
           "desc": "Removes 1 buff(s) and deals Ice DMG equal to 105/210/231% of Pela's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -1501,7 +1501,7 @@
           "source": "Impair",
           "cost": "110 energy",
           "desc": "Deals Ice DMG equal to 60/100/108% of Pela's ATK to all enemies, with a base chance of 100% to inflict the Exposed on all enemies. When Exposed, enemies' DEF is reduced by 30/40/42% for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1509,7 +1509,7 @@
           "source": "Support",
           "cost": null,
           "desc": "If the enemy is debuffed after Pela's attack, Pela will restore 5/10/11 extra Energy. This effect can only be triggered 1 time per attack.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -1553,11 +1553,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["Effect HIT Rate"] },
-          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
           { "typeUID": "Sphere", "stats": ["Ice DMG"] },
           { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["Effect HIT Rate", "Speed", "ATK%"]
+        "subStats": ["Effect HIT Rate", "SPD", "ATK%"]
       },
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
       "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
@@ -1597,7 +1597,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 50/100/110% of Qingque's ATK to a single enemy.",
-          "enchanced": [
+          "enhanced": [
             {
               "nameUID": "Cherry on Top!",
               "source": "Blast",
@@ -1612,7 +1612,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "Immediately draws 2 jade tile(s) and increases DMG by 14/28/31% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -1620,7 +1620,7 @@
           "source": "AoE ATK",
           "cost": "140 energy",
           "desc": "Deals Quantum DMG equal to 120/200/216% of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1628,7 +1628,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by 36/72/79%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\"  The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -1666,17 +1666,17 @@
     "dynamic": {
       "tier": "B",
       "playstyle": "Qingque, a luck-based Main DPS, leverages her Skill \"A Scoop of Moon\" to draw two tiles and stack up to four DMG buffs without ending her turn. When Qingque accumulates four matching tiles, her Basic ATK receives a massive DMG boost, enabling her to strike adjacent enemies. This enhanced ATK does not generate Skill Points. With her Ultimate, \"A Quartet? Woo-hoo!,\" Qingque unleashes heavy Quantum DMG upon all enemies while obtaining four matching tiles, ensuring her relentless onslaught of AoE DMG.",
-      "lightcones": ["Before Dawn", "Today is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
+      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
       "relics": ["Genius of Brilliant Stars", "Musketeer of Wild Wheat"],
       "ornaments": ["Space Sealing Station"],
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
       "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
@@ -1716,7 +1716,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Wind DMG equal to 50/100/110% of Sampo's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -1724,7 +1724,7 @@
           "source": "Bounce",
           "cost": null,
           "desc": "Deals Wind DMG equal to 28/56/62% of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 28/56/62% of Sampo's ATK to a random enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -1732,7 +1732,7 @@
           "source": "Impair",
           "cost": "120 energy",
           "desc": "Deals Wind DMG equal to 96/160/172% of Sampo's ATK to all enemies, with a 100% base chance to increase the target's DoT taken by 20/30/32% for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1740,7 +1740,7 @@
           "source": "Impair",
           "cost": null,
           "desc": "Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 20/52/57% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -1784,11 +1784,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["ATK%", "Effect HIT Rate"] },
-          { "typeUID": "Feet", "stats": ["Speed", "ATK%"] },
+          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
           { "typeUID": "Sphere", "stats": ["Wind DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["ATK%", "Speed", "Effect HIT Rate"]
+        "subStats": ["ATK%", "SPD", "Effect HIT Rate"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
@@ -1828,7 +1828,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Quantum DMG equal to 50/100/110% of Seele's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -1836,7 +1836,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 110/220/242% of Seele's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -1844,7 +1844,7 @@
           "source": "Single Target",
           "cost": "120 energy",
           "desc": "Seele enters the buffed state and deals Quantum DMG equal to 255/425/459% of Seele's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1852,7 +1852,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by 40/80/88% for 1 turn(s). Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -1899,7 +1899,7 @@
           { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 4", "Ascension 2"],
@@ -1939,7 +1939,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Lightning DMG equal to 50/100/110% of Serval's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -1947,7 +1947,7 @@
           "source": "Blast",
           "cost": null,
           "desc": "Deals Lightning DMG equal to 70/140/154% of Serval's ATK to a single enemy and Lightning DMG equal to 30/60/66% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies take Lightning DoT equal to 40/104/114% of Serval's ATK at the beginning of each turn.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -1955,7 +1955,7 @@
           "source": "AoE ATK",
           "cost": "100 energy",
           "desc": "Deals Lightning DMG equal to 108/180/194% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -1963,7 +1963,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "After Serval attacks, deals additional Lightning DMG equal to 36/72/79% of Serval's ATK to all Shocked enemies.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -2001,17 +2001,17 @@
     "dynamic": {
       "tier": "A",
       "playstyle": "Serval excels at dealing strong Lightning AoE DMG to multiple enemies and inflicting Shock, a damage over time effect, with her Skill. Her Ultimate not only deals a huge chunk of DMG, but also extends the duration of Shock on affected enemies. Unlocking Mania at Character Ascension 6 grants Serval a 20% ATK boost for 2 turns after defeating an enemy. It is ideal to defeat an enemy before using her Ultimate for optimal DMG output.",
-      "lightcones": ["Before Dawn", "Today is Another Peaceful Day", "Night on the Milky Way", "Data Bank"],
+      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Data Bank"],
       "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
       "ornaments": ["Space Sealing Station", "Celestial Differentiator"],
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
@@ -2051,7 +2051,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Physical DMG equal to 50/100/110% of Sushang's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -2059,7 +2059,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Physical DMG equal to 105/210/231% of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 50/100/110% of Sushang's ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -2067,7 +2067,7 @@
           "source": "Single Target",
           "cost": "120 energy",
           "desc": "Deals Physical DMG equal to 192/320/346% of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by 18/30/32% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -2075,7 +2075,7 @@
           "source": "Support",
           "cost": null,
           "desc": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by 15/20/21% for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -2118,11 +2118,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Physical DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
@@ -2162,7 +2162,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Tingyun deals Lightning DMG equal to 50/100/110% of her ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -2170,7 +2170,7 @@
           "source": "Support",
           "cost": null,
           "desc": "Grants a single ally with Benediction to increase their ATK by 25/50/55%, up to 15/25/27% of Tingyun's current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 20/40/44% of that ally's ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -2178,7 +2178,7 @@
           "source": "Support",
           "cost": "130 energy",
           "desc": "Regenerates 50 Energy for a single ally and increases the target's DMG by 20/50/56% for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -2186,7 +2186,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 30/60/66% of that ally's ATK to the same enemy.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -2229,11 +2229,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["ATK%"] },
-          { "typeUID": "Feet", "stats": ["Speed", "ATK%"] },
+          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
           { "typeUID": "Sphere", "stats": ["ATK%"] },
           { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["Speed", "ATK%", "HP%", "DEF%"]
+        "subStats": ["SPD", "ATK%", "HP%", "DEF%"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
@@ -2273,7 +2273,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Fire DMG equal to 50/100/110% of the Trailblazer's ATK to a target enemy and gain 1 stack of Magma Will.",
-          "enchanced": [
+          "enhanced": [
             {
               "nameUID": "Ice-Breaking Light",
               "source": "Blast",
@@ -2288,7 +2288,7 @@
           "source": "Defense",
           "cost": null,
           "desc": "Increases the Trailblazer's DMG Reduction by 40/50/52% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -2296,7 +2296,7 @@
           "source": "AoE ATK",
           "cost": "120 energy",
           "desc": "Deals Fire DMG equal to 50/100/110% of the Trailblazer's ATK plus 75/150/165% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -2304,7 +2304,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4/6/6% of the Trailblazer's DEF plus 20/80/89. The Shield lasts for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -2347,11 +2347,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["DEF%"] },
-          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
           { "typeUID": "Sphere", "stats": ["DEF%"] },
           { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["Speed", "DEF%", "HP%"]
+        "subStats": ["SPD", "DEF%", "HP%"]
       },
       "skillPriority": ["Ultimate", "Talent", "Normal ATK", "Skill"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
@@ -2391,7 +2391,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Physical DMG equal to 50/100/110% of the Trailblazer's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -2399,7 +2399,7 @@
           "source": "Blast",
           "cost": null,
           "desc": "Deals Physical DMG equal to 62/125/137% of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -2407,7 +2407,7 @@
           "source": "Enhance",
           "cost": "120 energy",
           "desc": "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to 300/450/480% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to 180/270/288% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to 108/162/172% of the Trailblazer's ATK to enemies adjacent to it.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -2415,7 +2415,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer's ATK increases by 10/20/22%. This effect stacks up to 2 time(s).",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -2460,11 +2460,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["Speed", "ATK%"] },
+          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
           { "typeUID": "Sphere", "stats": ["Physical DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "Speed"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
@@ -2504,7 +2504,7 @@
           "source": "Single Attack",
           "cost": null,
           "desc": "Deals Imaginary DMG equal to 50/100/110% of Welt's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -2512,7 +2512,7 @@
           "source": "Bounce",
           "cost": null,
           "desc": "Deals Imaginary DMG equal to 36/72/79% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to 36/72/79% of Welt's ATK to a random enemy. On hit, there is a 65/75/77% base chance to reduce the enemy's SPD by 10% for 2 turn(s).",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -2520,7 +2520,7 @@
           "source": "AoE ATK",
           "cost": "120 energy",
           "desc": "Deals Imaginary DMG equal to 90/150/162% of Welt's ATK to all enemies, with a 100% base chance for enemies hit by this ability to be Imprisoned for 1 turn. Imprisoned enemies have their actions delayed by 32/40/42% and SPD reduced by 10%.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -2528,7 +2528,7 @@
           "source": "Enhance",
           "cost": null,
           "desc": "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 30/60/66% of his ATK to the enemy.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -2577,11 +2577,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["Speed"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
           { "typeUID": "Sphere", "stats": ["Imaginary DMG"] },
           { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
         ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "Speed", "Effect HIT Rate"]
+        "subStats": ["CRIT Rate", "CRIT DMG", "SPD", "Effect HIT Rate"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
@@ -2621,7 +2621,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Ice DMG equal to 50/100/110% of Yanqing's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
@@ -2629,7 +2629,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "Deals Ice DMG equal to 110/220/242% of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
@@ -2637,7 +2637,7 @@
           "source": "Single Target",
           "cost": "140 energy",
           "desc": "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra 30/50/54% for 1 turn. Afterwards, deals Ice DMG equal to 210/350/378% of Yanqing's ATK to a single enemy.",
-          "enchanced": []
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
@@ -2645,7 +2645,7 @@
           "source": "Single Target",
           "cost": null,
           "desc": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by 15/20/21% and his CRIT DMG increases by 15/30/33%. After Yanqing attacks an enemy, there is a 50/60/62% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 25/50/55% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 25/50/55% of Yanqing's ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-          "enchanced": []
+          "enhanced": []
         }
       ],
       "traces": [
@@ -2688,11 +2688,11 @@
       "statPriority": {
         "mainStats": [
           { "typeUID": "Body", "stats": ["CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "Speed"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
           { "typeUID": "Sphere", "stats": ["Ice DMG"] },
           { "typeUID": "Rope", "stats": ["ATK%"] }
         ],
-        "subStats": ["CRIT DMG", "ATK%", "Speed", "CRIT Rate"]
+        "subStats": ["CRIT DMG", "ATK%", "SPD", "CRIT Rate"]
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],

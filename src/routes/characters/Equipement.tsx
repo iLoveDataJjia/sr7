@@ -2,6 +2,7 @@ import { ReactComponent as Star } from "../../assets/star.svg";
 import TextHighlighter from "../../components/TextHighlighter";
 import { Character } from "../../data/Characters";
 import { getLightCones } from "../../data/LightCones";
+import { getOrnaments } from "../../data/Ornaments";
 import { getRelics } from "../../data/Relics";
 import { useMouseCSSPos } from "../../hooks/Mouse";
 
@@ -44,9 +45,9 @@ function LightconePhoto({
 }
 
 /**
- * Lightcone pannel.
+ * Lightcone hover pannel.
  */
-function LightconePannel({ nameUID, className }: { nameUID: string; className?: string }) {
+function LightconeHover({ nameUID, className }: { nameUID: string; className?: string }) {
   // Get data & Pannel position
   const { star, path, source, desc } = getLightCones([nameUID])[0];
   const cssPos = useMouseCSSPos();
@@ -62,11 +63,11 @@ function LightconePannel({ nameUID, className }: { nameUID: string; className?: 
     >
       <p className="font-bold text-blue-500">{nameUID}</p>
       <div className="flex items-center justify-center space-x-4">
-        <div className="flex w-5/12 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
+        <div className="flex w-40 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
           <img src={`/paths/${path}.webp`} alt={path} className="h-5 w-5" />
           <p className="text-sm font-medium">{path}</p>
         </div>
-        <div className="flex w-5/12 justify-center self-stretch rounded-md bg-slate-900 py-2 shadow">
+        <div className="flex w-40 justify-center self-stretch rounded-md bg-slate-900 py-2 shadow">
           {Array.from({ length: star }, (_, idx) => (
             <Star key={idx} className="h-5 w-5 fill-yellow-500" />
           ))}
@@ -75,7 +76,7 @@ function LightconePannel({ nameUID, className }: { nameUID: string; className?: 
       <p className="text-sm font-semibold text-amber-500">{source}</p>
       <TextHighlighter
         text={desc}
-        regexGroup={/((?:\d+\/)+(?:\d+%?))/g}
+        regexGroup={/((?:\d+(?:\.\d+)?\/)+(?:\d+(?:\.\d+)?%?))/g}
         cssHighlight="font-bold text-indigo-500"
         className="break-all text-justify text-sm italic"
       />
@@ -84,15 +85,63 @@ function LightconePannel({ nameUID, className }: { nameUID: string; className?: 
 }
 
 /**
- * Relic pannel.
+ * Relic hover pannel.
  */
-function RelicPannel({ nameUID, className }: { nameUID: string; className?: string }) {
+function RelicHover({ nameUID, className }: { nameUID: string; className?: string }) {
   // Get data & Pannel position
-  // const { set } = getRelics([nameUID])[0];
+  const { setEffect2, setEffect4 } = getRelics([nameUID])[0];
   const cssPos = useMouseCSSPos();
 
   // Render
-  return;
+  return (
+    <div
+      className={
+        `w-96 space-y-4 rounded-md border-2 border-indigo-300 bg-slate-950 p-4 shadow` +
+        ` ${cssPos}` +
+        (className ? ` ${className}` : "")
+      }
+    >
+      <p className="font-bold text-blue-500">{nameUID}</p>
+      <div className="space-y-4 px-4">
+        <div className="flex items-center space-x-4">
+          <div className="rounded-md bg-slate-900 px-2.5 py-0.5 font-bold text-amber-500">2</div>
+          <div className="break-all text-justify text-sm italic">{setEffect2}</div>
+        </div>
+        <div className="flex items-center space-x-4">
+          <div className="rounded-md bg-slate-900 px-2.5 py-0.5 font-bold text-amber-500">4</div>
+          <div className="break-all text-justify text-sm italic">{setEffect4}</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Ornament hover pannel.
+ */
+function OrnamentHover({ nameUID, className }: { nameUID: string; className?: string }) {
+  // Get data & Pannel position
+  const { setEffect2 } = getOrnaments([nameUID])[0];
+  const cssPos = useMouseCSSPos();
+
+  // Render
+  return (
+    <div
+      className={
+        `w-96 space-y-4 rounded-md border-2 border-indigo-300 bg-slate-950 p-4 shadow` +
+        ` ${cssPos}` +
+        (className ? ` ${className}` : "")
+      }
+    >
+      <p className="font-bold text-blue-500">{nameUID}</p>
+      <div className="space-y-4 px-4">
+        <div className="flex items-center space-x-4">
+          <div className="shrink rounded-md bg-slate-900 px-2.5 py-0.5 font-bold text-amber-500">2</div>
+          <div className="break-all text-justify text-sm italic">{setEffect2}</div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 /**
@@ -123,7 +172,7 @@ export default function Equipement({ character }: { character: Character }) {
                 </div>
               </LightconePhoto>
               <p className="w-56 px-4 text-center font-semibold">{_}</p>
-              <LightconePannel nameUID={_} className="absolute z-50 hidden group-hover:block" />
+              <LightconeHover nameUID={_} className="absolute z-50 hidden group-hover:block" />
             </div>
           ))}
         </div>
@@ -141,14 +190,21 @@ export default function Equipement({ character }: { character: Character }) {
             {/* Relics */}
             <div className="space-y-8">
               {character.dynamic.relics.map((_, idx) => (
-                <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
+                <div
+                  key={idx}
+                  className="group relative flex items-center rounded-md bg-indigo-900 shadow hover:bg-indigo-800"
+                >
                   <div className="relative h-14 w-14 rounded-md bg-indigo-700 p-1">
                     <img src={`/relics/${_}.webp`} alt={_} />
-                    <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow">
+                    <div
+                      className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center
+                      rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow group-hover:bg-gray-600"
+                    >
                       {idx + 1}
                     </div>
                   </div>
                   <p className="w-40 px-4 text-center text-sm font-semibold">{_}</p>
+                  <RelicHover nameUID={_} className="absolute z-50 hidden group-hover:block" />
                 </div>
               ))}
             </div>
@@ -156,14 +212,21 @@ export default function Equipement({ character }: { character: Character }) {
             {/* Ornaments */}
             <div className="space-y-8">
               {character.dynamic.ornaments.map((_, idx) => (
-                <div key={idx} className="flex items-center rounded-md bg-indigo-900 shadow">
+                <div
+                  key={idx}
+                  className="group relative flex items-center rounded-md bg-indigo-900 shadow hover:bg-indigo-800"
+                >
                   <div className="relative h-14 w-14 rounded-md bg-indigo-700 p-1">
                     <img src={`/ornaments/${_}.webp`} alt={_} />
-                    <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow">
+                    <div
+                      className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center
+                      rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow group-hover:bg-gray-600"
+                    >
                       {idx + 1}
                     </div>
                   </div>
                   <p className="w-44 px-4 text-center text-sm font-semibold">{_}</p>
+                  <OrnamentHover nameUID={_} className="absolute z-50 hidden group-hover:block" />
                 </div>
               ))}
             </div>
