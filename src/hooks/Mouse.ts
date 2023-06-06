@@ -9,8 +9,21 @@ type MousePosition = "top-left" | "top-right" | "bottom-left" | "bottom-right";
  * Mouse position hook.
  */
 export function useMouseCSSPos() {
-  // Hooks & Corresponding CSS
+  // Hooks
   const [mousePosition, setMousePosition] = useState<MousePosition>("top-left");
+  const handleMouseMove = (event: MouseEvent) => {
+    const halfWidth = window.innerWidth / 2;
+    const halfHeight = window.innerHeight / 2;
+    const { clientX, clientY } = event;
+    if (clientY < halfHeight) setMousePosition(clientX < halfWidth ? "top-left" : "top-right");
+    else setMousePosition(clientX < halfWidth ? "bottom-left" : "bottom-right");
+  };
+  useEffect(() => {
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, []);
+
+  // Compute CSS & Return
   const cssPos = (() => {
     switch (mousePosition) {
       case "top-left":
@@ -23,21 +36,5 @@ export function useMouseCSSPos() {
         return "bottom-full right-0 -translate-y-4";
     }
   })();
-
-  // Effect & Return
-  const handleMouseMove = (event: MouseEvent) => {
-    const halfWidth = window.innerWidth / 2;
-    const halfHeight = window.innerHeight / 2;
-    const { clientX, clientY } = event;
-    if (clientY < halfHeight) {
-      setMousePosition(clientX < halfWidth ? "top-left" : "top-right");
-    } else {
-      setMousePosition(clientX < halfWidth ? "bottom-left" : "bottom-right");
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, []);
   return cssPos;
 }
