@@ -1,4 +1,4 @@
-import { ReactComponent as Star } from "../../assets/star.svg";
+import { ReactComponent as Star } from "../../assets/general/star.svg";
 import TextHighlighter from "../../components/TextHighlighter";
 import { Character } from "../../data/Characters";
 import { getLightCones } from "../../data/LightCones";

@@ -1,4 +1,4 @@
-import { ReactComponent as Star } from "../../assets/star.svg";
+import { ReactComponent as Star } from "../../assets/general/star.svg";
 import StatIcon from "../../components/StatIcon";
 import { Character, Tier } from "../../data/Characters";
 

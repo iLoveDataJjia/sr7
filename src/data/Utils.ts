@@ -39,7 +39,10 @@ export enum Stat {
   "CRIT Rate" = "CRIT Rate",
   "CRIT DMG" = "CRIT DMG",
   "Outgoing Healing" = "Outgoing Healing",
+  "Energy Regen Rate" = "Energy Regen Rate",
+  "Break Effect" = "Break Effect",
   "Effect HIT Rate" = "Effect HIT Rate",
+  "Effect RES" = "Effect RES",
   "Physical DMG" = "Physical DMG",
   "Fire DMG" = "Fire DMG",
   "Ice DMG" = "Ice DMG",
@@ -47,7 +50,4 @@ export enum Stat {
   "Wind DMG" = "Wind DMG",
   "Quantum DMG" = "Quantum DMG",
   "Imaginary DMG" = "Imaginary DMG",
-  "Break Effect" = "Break Effect",
-  "Energy Regen Rate" = "Energy Regen Rate",
-  "Effect RES" = "Effect RES",
 }
