@@ -36,17 +36,17 @@ function PannelHover({ charData, role, className }: { charData: Character; role:
           <p className="text-sm font-medium">{charData.static.path}</p>
         </div>
       </div>
-      <div className="mx-auto flex w-40 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
+      <div className="mx-auto flex w-40 items-center justify-center space-x-1.5 self-stretch rounded-md bg-slate-900 py-1.5 shadow">
         <img
           src={`/lightcones/${charData.dynamic.lightcones[0]}.webp`}
           alt={charData.dynamic.lightcones[0]}
-          className="h-5 w-5"
+          className="h-6 w-6"
         />
-        <img src={`/relics/${charData.dynamic.relics[0]}.webp`} alt={charData.dynamic.relics[0]} className="h-5 w-5" />
+        <img src={`/relics/${charData.dynamic.relics[0]}.webp`} alt={charData.dynamic.relics[0]} className="h-6 w-6" />
         <img
           src={`/ornaments/${charData.dynamic.ornaments[0]}.webp`}
           alt={charData.dynamic.ornaments[0]}
-          className="h-5 w-5"
+          className="h-6 w-6"
         />
       </div>
       <p className="text-sm font-semibold text-amber-500">{role}</p>
