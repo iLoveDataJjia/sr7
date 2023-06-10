@@ -2032,6 +2032,123 @@
     }
   },
   {
+    "nameUID": "Silver Wolf",
+    "static": {
+      "star": 5,
+      "path": "The Nihility",
+      "element": "Quantum",
+      "attributes": [
+        { "typeUID": "HP", "value": 1047 },
+        { "typeUID": "ATK", "value": 640 },
+        { "typeUID": "DEF", "value": 460 },
+        { "typeUID": "SPD", "value": 107 },
+        { "typeUID": "TAUNT", "value": 100 }
+      ],
+      "skills": [
+        {
+          "typeUID": "Normal ATK",
+          "name": "System Warning",
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Quantum DMG equal to 50/100/110% of Silver Wolf's ATK to a single enemy.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Skill",
+          "name": "Allow Changes?",
+          "source": "Impair",
+          "cost": null,
+          "desc": "There is a 75/85/87% base chance to add 1 Weakness of an on-field ally's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered. Each enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept. In addition, there is a 100% base chance to reduce the All-Type RES of the enemy further by 7.5/10/10% for 2 turn(s). Deals Quantum DMG equal to 98/196/216% of Silver Wolf's ATK to this enemy.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Ultimate",
+          "name": "Ultimate",
+          "source": "Impair",
+          "cost": "110 energy",
+          "desc": "There's a 85/100/103% base chance to decrease the target enemy's DEF by 36/45/47% for 3 turn(s). And at the same time, deals Quantum DMG equal to 228/380/410% of Silver Wolf's ATK to the target enemy.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Talent",
+          "name": "Awaiting System Response...",
+          "source": "Impair",
+          "cost": null,
+          "desc": "Silver Wolf can create three types of Bugs: reduce ATK by 5/10/11%, reduce DEF by 4/8/9%, and reduce SPD by 3/6/7%. Every time Silver Wolf attacks, she has a 60/72/74% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+          "enhanced": []
+        }
+      ],
+      "traces": [
+        {
+          "typeUID": "Ascension 2",
+          "name": "Generate",
+          "desc": "Bug's duration is extended for 1 turn(s). Every time an enemy is inflicted with Weakness Break, Silver Wolf has a 65% base chance of implanting a random Bug in the enemy.",
+          "minors": [
+            { "stat": "Effect HIT Rate", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "Quantum DMG", "value": "+3.2%", "unlock": "Unlocks at A3" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Inject",
+          "desc": "The duration of the Weakness implanted by Silver Wolf's Skill increases by 1 turn(s).",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Effect HIT Rate", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 6",
+          "name": "Side Note",
+          "desc": "If there are 3 or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional 3%.",
+          "minors": [
+            { "stat": "Quantum DMG", "value": "+4.8%", "unlock": "Unlocks at A6" },
+            { "stat": "Effect HIT Rate", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
+          ]
+        }
+      ]
+    },
+    "dynamic": {
+      "tier": "S+",
+      "playstyle": "Silver Wolf possesses a unique Skill that grants an extra Elemental Weakness to a chosen enemy. This additional weakness aligns with a random ally's element. Moreover, her attacks have a probability of debuffing foes by primarily reducing their DEF. As a support unit, Silver Wolf greatly benefits from having a DPS companion who can exploit the debuffs she inflicts on enemies.",
+      "lightcones": [
+        "Incessant Rain",
+        "Before the Tutorial Mission Starts",
+        "Resolution Shines As Pearls of Sweat",
+        "In the Name of the World"
+      ],
+      "relics": ["Musketeer of Wild Wheat", "Thief of Shooting Meteor"],
+      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Effect HIT Rate"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["Effect HIT Rate", "SPD", "Break Effect"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Qingque", "role": "Main DPS" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Trailblazer (Physical)", "role": "Sub DPS" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
+    }
+  },
+  {
     "nameUID": "Sushang",
     "static": {
       "star": 4,

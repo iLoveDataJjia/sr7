@@ -1,12 +1,14 @@
 import StatIcon from "../../components/StatIcon";
 import TextHighlighter from "../../components/TextHighlighter";
 import { Character, Trace, Skill } from "../../data/Characters";
+import { SkillSource } from "../../data/Characters";
+import { Stat } from "../../data/Utils";
 import { useMouseCSSPos } from "../../hooks/Mouse";
 
 /**
- * Skill pannel core elements.
+ * Skill pannel hover core elements.
  */
-function SkillPannelCore({
+function SkillPannelHoverCore({
   name,
   type,
   cost,
@@ -50,14 +52,68 @@ function SkillPannelCore({
 }
 
 /**
- * Skill pannel.
+ * Skill pannel hover.
  */
-function SkillPannel({ character, typeUID }: { character: Character; typeUID: Skill }) {
-  // Get data & CSS Mouse
-  const data = character.static.skills.filter((_) => _.typeUID === typeUID)[0];
+function SkillPannelHover({
+  typeUID,
+  name,
+  source,
+  cost,
+  desc,
+  enhanced,
+}: {
+  typeUID: Skill;
+  name: string;
+  source: SkillSource;
+  cost: string | null;
+  desc: string;
+  enhanced: {
+    nameUID: string;
+    source: SkillSource;
+    cost: string | null;
+    desc: string;
+  }[];
+}) {
+  // CSS & Remark JSX
   const cssPos = useMouseCSSPos();
   const remark =
     typeUID === Skill["Normal ATK"] ? "(Values shown for levels 1/6/7)" : "(Values shown for levels 1/10/12)";
+
+  // Render
+  return (
+    <div
+      className={
+        "absolute z-50 hidden w-96 space-y-4 rounded-md border-2 border-indigo-300 bg-slate-950 p-4 shadow group-hover:block" +
+        ` ${cssPos}`
+      }
+    >
+      <SkillPannelHoverCore name={name} type={typeUID} cost={cost} source={source} desc={desc} />
+      {enhanced.map((skillEnhanced) => (
+        <SkillPannelHoverCore
+          name={skillEnhanced.nameUID}
+          type="Enhanced"
+          cost={null}
+          source={skillEnhanced.source}
+          desc={skillEnhanced.desc}
+          key={skillEnhanced.nameUID}
+        />
+      ))}
+      <TextHighlighter
+        text={remark}
+        regexGroup={/((?:\d+(?:\.\d+)?\/)+(?:\d+(?:\.\d+)?%?))/g}
+        cssHighlight="font-bold text-indigo-500"
+        className="text-center text-xs italic text-slate-500"
+      />
+    </div>
+  );
+}
+
+/**
+ * Skill pannel.
+ */
+function SkillPannel({ character, typeUID }: { character: Character; typeUID: Skill }) {
+  // Get data
+  const data = character.static.skills.filter((_) => _.typeUID === typeUID)[0];
 
   // Render
   return (
@@ -73,29 +129,68 @@ function SkillPannel({ character, typeUID }: { character: Character; typeUID: Sk
       <p className="w-28 px-2 text-center text-xs font-semibold">{data.name}</p>
 
       {/* Hovered */}
+      <SkillPannelHover
+        typeUID={data.typeUID}
+        name={data.name}
+        source={data.source}
+        cost={data.cost}
+        desc={data.desc}
+        enhanced={data.enhanced}
+      />
+    </div>
+  );
+}
+
+/**
+ * Trace pannel hover.
+ */
+function TracePannelHover({
+  typeUID,
+  name,
+  desc,
+  minors,
+}: {
+  typeUID: Trace;
+  name: string;
+  desc: string;
+  minors: {
+    stat: Stat;
+    value: string;
+    unlock: string;
+  }[];
+}) {
+  // CSS
+  const cssPos = useMouseCSSPos();
+
+  // Return
+  return (
+    <div
+      className={
+        "absolute z-50 hidden w-96 space-y-4 rounded-md border-2 border-indigo-300 bg-slate-950 p-4 shadow group-hover:block" +
+        ` ${cssPos}`
+      }
+    >
+      <p className="font-bold text-blue-500">{name}</p>
       <div
-        className={
-          "absolute z-50 hidden w-96 space-y-4 rounded-md border-2 border-indigo-300 bg-slate-950 p-4 shadow group-hover:block" +
-          ` ${cssPos}`
-        }
+        className="mx-auto flex w-40 items-center justify-center self-stretch rounded-md bg-slate-900 py-2 text-sm font-bold
+      shadow"
       >
-        <SkillPannelCore name={data.name} type={data.typeUID} cost={data.cost} source={data.source} desc={data.desc} />
-        {data.enhanced.map((skillEnhanced) => (
-          <SkillPannelCore
-            name={skillEnhanced.nameUID}
-            type="Enhanced"
-            cost={null}
-            source={skillEnhanced.source}
-            desc={skillEnhanced.desc}
-            key={skillEnhanced.nameUID}
-          />
+        {typeUID}
+      </div>
+      <p className="text-sm font-semibold text-amber-500">Major trace</p>
+      <p className="break-all text-justify text-sm italic">{desc}</p>
+      <p className="text-sm font-semibold">Minor traces</p>
+      <div className="grid grid-flow-col justify-stretch divide-x-2 divide-slate-950 rounded-md bg-slate-900 shadow">
+        {minors.map((minor, idx) => (
+          <div key={idx} className="flex flex-col items-center py-3">
+            <p className="text-sm font-bold">{minor.value}</p>
+            <div className="flex items-center space-x-0.5">
+              <StatIcon stat={minor.stat} className="h-5 w-5" />
+              <p className="text-xs">{minor.stat}</p>
+            </div>
+            <p className="text-xs italic text-slate-500">{minor.unlock}</p>
+          </div>
         ))}
-        <TextHighlighter
-          text={remark}
-          regexGroup={/((?:\d+(?:\.\d+)?\/)+(?:\d+(?:\.\d+)?%?))/g}
-          cssHighlight="font-bold text-indigo-500"
-          className="text-center text-xs italic text-slate-500"
-        />
       </div>
     </div>
   );
@@ -107,7 +202,6 @@ function SkillPannel({ character, typeUID }: { character: Character; typeUID: Sk
 function TracePannel({ character, typeUID }: { character: Character; typeUID: Trace }) {
   // Get data
   const data = character.static.traces.filter((_) => _.typeUID === typeUID)[0];
-  const cssPos = useMouseCSSPos();
 
   // Render
   return (
@@ -123,35 +217,7 @@ function TracePannel({ character, typeUID }: { character: Character; typeUID: Tr
       <p className="w-28 px-2 text-center text-xs font-semibold">{data.name}</p>
 
       {/* Hovered */}
-      <div
-        className={
-          "absolute z-50 hidden w-96 space-y-4 rounded-md border-2 border-indigo-300 bg-slate-950 p-4 shadow group-hover:block" +
-          ` ${cssPos}`
-        }
-      >
-        <p className="font-bold text-blue-500">{data.name}</p>
-        <div
-          className="mx-auto flex w-40 items-center justify-center self-stretch rounded-md bg-slate-900 py-2 text-sm font-bold
-          shadow"
-        >
-          {data.typeUID}
-        </div>
-        <p className="text-sm font-semibold text-amber-500">Major trace</p>
-        <p className="break-all text-justify text-sm italic">{data.desc}</p>
-        <p className="text-sm font-semibold">Minor traces</p>
-        <div className="grid grid-flow-col justify-stretch divide-x-2 divide-slate-950 rounded-md bg-slate-900 shadow">
-          {data.minors.map((minor, idx) => (
-            <div key={idx} className="flex flex-col items-center py-3">
-              <p className="text-sm font-bold">{minor.value}</p>
-              <div className="flex items-center space-x-0.5">
-                <StatIcon stat={minor.stat} className="h-5 w-5" />
-                <p className="text-xs">{minor.stat}</p>
-              </div>
-              <p className="text-xs italic text-slate-500">{minor.unlock}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+      <TracePannelHover typeUID={typeUID} name={data.name} desc={data.desc} minors={data.minors} />
     </div>
   );
 }

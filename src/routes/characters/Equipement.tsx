@@ -243,11 +243,14 @@ export default function Equipement({ character }: { character: Character }) {
             {/* Main stats */}
             <div className="grid grid-flow-col grid-rows-2 gap-x-4 gap-y-2">
               {character.dynamic.statPriority.mainStats.map((_) => (
-                <div key={_.typeUID} className="flex w-52 items-center justify-between rounded-md bg-indigo-900 shadow">
+                <div
+                  key={_.typeUID}
+                  className="group flex w-52 items-center justify-between rounded-md bg-indigo-900 shadow hover:bg-indigo-800"
+                >
                   <img
                     src={`/general/${_.typeUID}.webp`}
                     alt={_.typeUID}
-                    className="h-10 w-10 rounded-md bg-gray-700 p-1"
+                    className="h-10 w-10 rounded-md bg-gray-700 p-1 group-hover:bg-gray-600"
                   />
                   <p className="mx-auto text-xs font-semibold">{_.stats.join(" → ")}</p>
                 </div>
@@ -255,8 +258,10 @@ export default function Equipement({ character }: { character: Character }) {
             </div>
 
             {/* Sub stats */}
-            <div className="flex items-center justify-between self-stretch rounded-md bg-indigo-900 shadow">
-              <div className="h-11 w-11 rounded-md bg-gray-700 p-1 text-center text-xs font-bold shadow">Sub Stats</div>
+            <div className="group flex items-center justify-between self-stretch rounded-md bg-indigo-900 shadow hover:bg-indigo-800">
+              <div className="h-11 w-11 rounded-md bg-gray-700 p-1 text-center text-xs font-bold shadow group-hover:bg-gray-600">
+                Sub Stats
+              </div>
               <p className="mx-auto text-xs font-semibold">{character.dynamic.statPriority.subStats.join(" → ")}</p>
             </div>
           </div>

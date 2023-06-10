@@ -35,6 +35,20 @@
     "desc": "Increases the wearer's CRIT DMG by 36/42/48/54/60%. Increases the wearer's Skill and Ultimate DMG by 18/21/24/27/30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48/56/64/72/80%."
   },
   {
+    "nameUID": "Before the Tutorial Mission Starts",
+    "path": "The Nihility",
+    "star": 4,
+    "source": "Quick on the Draw",
+    "desc": "Increases the wearer's Effect Hit Rate by 20/25/30/35/40%. When the wearer attacks DEF-reduced enemies, regenerates 4/5/6/7/8 Energy."
+  },
+  {
+    "nameUID": "But The Battle Isn't Over",
+    "path": "The Harmony",
+    "star": 5,
+    "source": "Heir",
+    "desc": "Increases the wearer's Energy Regeneration Rate by 10/12/14/16/18% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30/35/40/45/50% more DMG for 1 turn(s)."
+  },
+  {
     "nameUID": "Carve the Moon, Weave the Clouds",
     "path": "The Harmony",
     "star": 4,
@@ -159,6 +173,13 @@
     "star": 5,
     "source": "Flowers and Butterflies",
     "desc": "Increases the wearer's CRIT Rate by 18/21/24/27/30%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by 6/7/8/9/10%, and the CRIT DMG of their Ultimate is increased by 12/14/16/18/20%. This effect can stack up to 8 time(s)."
+  },
+  {
+    "nameUID": "Incessant Rain",
+    "path": "The Nihility",
+    "star": 5,
+    "source": "Mirage of Reality",
+    "desc": "Increases the wearer's Effect Hit Rate by 24/28/32/36/40%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by 12/14/16/18/20%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12/14/16/18/20% increased DMG for 1 turn."
   },
   {
     "nameUID": "Landau's Choice",
@@ -355,13 +376,6 @@
     "star": 5,
     "source": "Treasure",
     "desc": "Increases the wearer's Effect RES by 8/10/12/14/16%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16/20/24/28/32% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12/15/18/21/24%."
-  },
-  {
-    "nameUID": "But The Battle Isn't Over",
-    "path": "The Harmony",
-    "star": 5,
-    "source": "Heir",
-    "desc": "Increases the wearer's Energy Regeneration Rate by 10/12/14/16/18% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30/35/40/45/50% more DMG for 1 turn(s)."
   },
   {
     "nameUID": "The Birth of the Self",
