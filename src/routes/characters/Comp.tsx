@@ -1,5 +1,5 @@
 import { ReactComponent as Star } from "../../assets/general/star.svg";
-import { Character, getCharacters } from "../../data/Characters";
+import { Character, getCharacters, displayable } from "../../data/Characters";
 import { Role } from "../../data/Characters";
 import { useMouseCSSPos } from "../../hooks/Mouse";
 import { Link } from "react-router-dom";
@@ -72,12 +72,7 @@ function Pannel({ nameUID, role }: { nameUID: string; role: Role }) {
       {/* Displayed */}
       <div className="flex flex-col items-center space-y-3 px-6 py-3 shadow">
         <img src={`/characters/${nameUID}/photo.webp`} alt={nameUID} className="h-24 w-24 rounded-full shadow" />
-        <p className="text-2xl font-semibold">
-          {
-            // Regex to fix "Trailblazer (?)" into "Trailblazer"
-            nameUID.replace(/(\w+) \(.*\)/, "$1")
-          }
-        </p>
+        <p className="text-2xl font-semibold">{displayable(nameUID)}</p>
         <span className="h-[0.1px] w-full bg-white opacity-50" />
         <img
           src={`/elements/${charData.static.element}.webp`}

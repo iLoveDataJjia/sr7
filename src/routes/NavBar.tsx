@@ -1,6 +1,8 @@
 import { ReactComponent as Search } from "../assets/general/search.svg";
-import { getCharacters } from "../data/Characters";
-import { useState } from "react";
+import { ReactComponent as Star } from "../assets/general/star.svg";
+import { getCharacters, displayable, tierCSS } from "../data/Characters";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 /**
  * Search bar.
@@ -10,6 +12,20 @@ function SearchBar() {
   const [input, setInput] = useState("");
   const [isFocus, setIsFocus] = useState(false);
   const chars = getCharacters().filter((_) => _.nameUID.toLowerCase().startsWith(input.toLowerCase()));
+
+  // CSS
+  const roundedCss = (idx: number) => {
+    switch (idx) {
+      case 0:
+        return chars.length === 1 ? "rounded-md" : "rounded-t-md";
+      case chars.length - 1:
+        return "rounded-b-md";
+      default:
+        return "";
+    }
+  };
+  const bgCss = (idx: number) =>
+    idx % 2 === 0 ? "bg-indigo-900 hover:bg-indigo-700" : "bg-indigo-950 hover:bg-indigo-800";
 
   // Render
   return (
@@ -22,28 +38,45 @@ function SearchBar() {
         className="grow bg-transparent text-sm focus:outline-none"
         onChange={(e) => setInput(e.target.value)}
         onFocus={() => setIsFocus(true)}
-        onBlur={() => setIsFocus(false)}
+        onBlur={() => setTimeout(() => setIsFocus(false), 20)}
       />
 
       {/* On change & focus */}
-      {input !== "" && (
-        <div className="absolute -left-4 top-full flex min-w-full translate-y-4 flex-col justify-center shadow">
+      {input !== "" && isFocus && (
+        <div className="absolute -left-4 top-full flex w-max min-w-full translate-y-4 flex-col justify-center shadow">
           {chars.map((char, idx) => {
-            const roundedCss = (() => {
-              switch (idx) {
-                case 0:
-                  return chars.length === 1 ? "rounded-md" : "rounded-t-md";
-                case chars.length - 1:
-                  return "rounded-b-md";
-                default:
-                  return "";
-              }
-            })();
-            const bgCss = idx % 2 === 0 ? "bg-indigo-900" : "bg-indigo-950";
+            // CSS
+            const tierColorCSS = tierCSS(char.dynamic.tier);
+
+            // Render
             return (
-              <div key={char.nameUID} className={`p-4 ${bgCss} ${roundedCss}`}>
-                {char.nameUID}
-              </div>
+              <Link
+                to={`/characters/${char.nameUID.toLowerCase()}`}
+                key={char.nameUID}
+                className={`flex items-center p-4 ${bgCss(idx)} ${roundedCss(idx)}`}
+              >
+                <img
+                  src={`/characters/${char.nameUID}/photo.webp`}
+                  alt={char.nameUID}
+                  className="h-12 w-12 rounded-md"
+                />
+                <p className="px-8 text-2xl font-bold">{displayable(char.nameUID)}</p>
+                <div className="ml-auto flex items-center space-x-2.5">
+                  <div className="flex flex-col items-center space-y-0.5">
+                    <div className="flex items-center space-x-0.5">
+                      <p className="font-bold">{char.static.star}</p>
+                      <Star className="h-4 w-4 fill-amber-500" />
+                    </div>
+                    <div
+                      className={`rounded-md border-2 ${tierColorCSS.border} w-8 text-center text-sm font-bold ${tierColorCSS.text}`}
+                    >
+                      {char.dynamic.tier}
+                    </div>
+                  </div>
+                  <img src={`/elements/${char.static.element}.webp`} alt={char.static.element} className="h-7 w-7" />
+                  <img src={`/paths/${char.static.path}.webp`} alt={char.static.path} className="h-7 w-7" />
+                </div>
+              </Link>
             );
           })}
         </div>

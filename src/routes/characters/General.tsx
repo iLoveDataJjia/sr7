@@ -1,28 +1,13 @@
 import { ReactComponent as Star } from "../../assets/general/star.svg";
 import StatIcon from "../../components/StatIcon";
-import { Character, Tier } from "../../data/Characters";
+import { Character, tierCSS } from "../../data/Characters";
 
 /**
  * General tab.
  */
 export default function General({ character }: { character: Character }) {
   // Tier color
-  const tierColor = (() => {
-    switch (character.dynamic.tier) {
-      case Tier["S+"]:
-        return { border: "border-amber-500", text: "text-amber-500" };
-      case Tier["S"]:
-        return { border: "border-blue-500", text: "text-blue-500" };
-      case Tier["A"]:
-        return { border: "border-blue-300", text: "text-blue-300" };
-      case Tier["B"]:
-        return { border: "border-white-500", text: "text-white-500" };
-      case Tier["C"]:
-        return { border: "border-red-300", text: "text-red-300" };
-      case Tier["D"]:
-        return { border: "border-red-500", text: "text-red-500" };
-    }
-  })();
+  const tierColor = tierCSS(character.dynamic.tier);
 
   // Render
   return (
@@ -46,7 +31,7 @@ export default function General({ character }: { character: Character }) {
           </div>
           <img src={`/characters/${character.nameUID}/photo.webp`} alt={character.nameUID} className="p-1" />
           <div
-            className={`absolute -bottom-4 rounded-md border-2 ${tierColor.border} bg-slate-950 px-2 text-sm font-bold ${tierColor.text} ring-4 ring-slate-950`}
+            className={`absolute -bottom-4 rounded-md border-2 ${tierColor.border} w-8 bg-slate-950 text-center text-sm font-bold ${tierColor.text} ring-4 ring-slate-950`}
           >
             {character.dynamic.tier}
           </div>

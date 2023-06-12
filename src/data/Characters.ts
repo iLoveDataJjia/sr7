@@ -2,6 +2,33 @@ import { Path, Element, Stat } from "./Utils";
 import data from "./characters.json";
 
 /**
+ * Tier CSS border and text color.
+ */
+export function tierCSS(tier: Tier) {
+  switch (tier) {
+    case Tier["S+"]:
+      return { border: "border-amber-500", text: "text-amber-500" };
+    case Tier["S"]:
+      return { border: "border-blue-500", text: "text-blue-500" };
+    case Tier["A"]:
+      return { border: "border-blue-300", text: "text-blue-300" };
+    case Tier["B"]:
+      return { border: "border-white-500", text: "text-white-500" };
+    case Tier["C"]:
+      return { border: "border-red-300", text: "text-red-300" };
+    case Tier["D"]:
+      return { border: "border-red-500", text: "text-red-500" };
+  }
+}
+
+/**
+ * Regex to fix "Trailblazer (?)" into "Trailblazer".
+ */
+export function displayable(nameUID: string) {
+  return nameUID.replace(/(\w+) \(.*\)/, "$1");
+}
+
+/**
  * Get character(s).
  *  - https://genshin.gg/star-rail/characters/clara/ (profil picture)
  *  - https://honkailab.com/characters/clara-build/ (skill picture)

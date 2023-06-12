@@ -22,7 +22,7 @@ export default function Index() {
           {getCharacters().map((_) => (
             <Route key={_.nameUID} path={`characters/${_.nameUID}`} element={<CharactersIndex character={_} />} />
           ))}
-          <Route path="*" element={<Navigate to="/characters/arlan" />} />
+          <Route path="*" element={<Navigate to="/characters/clara" />} />
         </Routes>
       </BrowserRouter>
     </div>
