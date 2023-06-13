@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 export default function Index() {
   // Set <title>...</title>
   useEffect(() => {
-    document.title = `${window.location.host.toUpperCase()} - Build hub for Honkai Impact Star Rail. Unleash the power of your beloved waifus and husbandos!`;
+    document.title = `${window.location.host.toUpperCase()} - Honkai Impact Star Rail build hub. Unleash the power of your beloved waifus and husbandos!`;
   }, []);
 
   // Render
