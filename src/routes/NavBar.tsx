@@ -7,7 +7,17 @@ import { Link } from "react-router-dom";
 /**
  * Search bar result.
  */
-function SearchBarResult({ char, idx, className }: { char: Character; idx: number; className?: string }) {
+function SearchBarResult({
+  char,
+  idx,
+  className,
+  onClick,
+}: {
+  char: Character;
+  idx: number;
+  className?: string;
+  onClick?: () => void;
+}) {
   // CSS
   const bgCss = idx % 2 === 0 ? "bg-indigo-900 hover:bg-indigo-700" : "bg-indigo-950 hover:bg-indigo-800";
   const tierColorCSS = tierCSS(char.dynamic.tier);
@@ -18,7 +28,7 @@ function SearchBarResult({ char, idx, className }: { char: Character; idx: numbe
       to={`/characters/${char.nameUID.toLowerCase()}`}
       key={char.nameUID}
       className={`flex items-center px-4 py-2 ${bgCss}` + (className ? ` ${className}` : "")}
-      onClick={() => window.scroll({ top: 0, left: 0 })}
+      onClick={() => onClick?.()}
     >
       <img src={`/characters/${char.nameUID}/photo.webp`} alt={char.nameUID} className="h-10 w-10 rounded-md" />
       <p className="px-8 text-2xl font-bold">{displayable(char.nameUID)}</p>
@@ -59,6 +69,7 @@ function SearchBar() {
         type="text"
         placeholder="Search Character"
         className="grow bg-transparent text-sm focus:outline-none"
+        value={input}
         onChange={(e) => setInput(e.target.value)}
         onFocus={() => setIsFocus(true)}
         onBlur={() => setTimeout(() => setIsFocus(false), 100)}
@@ -81,6 +92,10 @@ function SearchBar() {
                   ? "rounded-b-md"
                   : ""
               }
+              onClick={() => {
+                setInput(char.nameUID);
+                window.scroll({ top: 0, left: 0 });
+              }}
             />
           ))}
         </div>
