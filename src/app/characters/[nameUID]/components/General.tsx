@@ -1,6 +1,7 @@
 import Star from "@/assets/general/star.svg";
 import StatIcon from "@/components/StatIcon";
 import { Character, tierCSS } from "@/data/Characters";
+import Image from "next/image";
 
 /**
  * General tab.
@@ -29,7 +30,13 @@ export default function General({ character }: { character: Character }) {
               <Star key={idx} className="h-5 w-5 fill-yellow-500" />
             ))}
           </div>
-          <img src={`/characters/${character.nameUID}/photo.webp`} alt={character.nameUID} className="p-1" />
+          <Image
+            src={`/characters/${character.nameUID}/photo.webp`}
+            alt={character.nameUID}
+            width={96}
+            height={96}
+            className="rounded-md p-1"
+          />
           <div
             className={`absolute -bottom-4 rounded-md border-2 ${tierColor.border} w-8 bg-slate-950 text-center text-sm font-bold ${tierColor.text} ring-4 ring-slate-950`}
           >
@@ -42,15 +49,16 @@ export default function General({ character }: { character: Character }) {
           <p className="text-4xl font-bold">{character.nameUID}</p>
           <div className="flex space-x-6">
             <div className="flex items-center space-x-2">
-              <img
+              <Image
                 src={`/elements/${character.static.element}.webp`}
                 alt={character.static.element}
-                className="h-10 w-10"
+                width={40}
+                height={40}
               />
               <p className="text-xl font-bold">{character.static.element}</p>
             </div>
             <div className="flex items-center space-x-2">
-              <img src={`/paths/${character.static.path}.webp`} alt={character.static.path} className="h-8 w-8" />
+              <Image src={`/paths/${character.static.path}.webp`} alt={character.static.path} width={32} height={32} />
               <p className="text-xl font-bold">{character.static.path}</p>
             </div>
           </div>

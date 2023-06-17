@@ -10,6 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/webp" href="/general/logo.webp" />
+      </head>
       <body>
         <span className="fixed inset-0 -z-50 bg-slate-950" />
         <div className="min-w-fit text-white">

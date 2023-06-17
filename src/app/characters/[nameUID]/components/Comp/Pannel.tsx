@@ -3,6 +3,7 @@
 import PannelHover from "./PannelHover";
 import { getCharacters, displayable } from "@/data/Characters";
 import { Role } from "@/data/Characters";
+import Image from "next/image";
 import Link from "next/link";
 
 /**
@@ -21,13 +22,21 @@ export default function Pannel({ nameUID, role }: { nameUID: string; role: Role 
     >
       {/* Displayed */}
       <div className="flex flex-col items-center space-y-3 px-6 py-3 shadow">
-        <img src={`/characters/${nameUID}/photo.webp`} alt={nameUID} className="h-24 w-24 rounded-full shadow" />
+        <Image
+          src={`/characters/${nameUID}/photo.webp`}
+          alt={nameUID}
+          width={96}
+          height={96}
+          className="rounded-full shadow"
+        />
         <p className="text-2xl font-semibold">{displayable(nameUID)}</p>
         <span className="h-[0.1px] w-full bg-white opacity-50" />
-        <img
+        <Image
           src={`/elements/${charData.static.element}.webp`}
           alt={charData.static.element}
-          className="h-14 w-14 drop-shadow"
+          width={56}
+          height={56}
+          className="drop-shadow"
         />
       </div>
       <div className="rounded-md bg-gray-700 p-1.5 text-center font-semibold shadow group-hover:bg-gray-600">

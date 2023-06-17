@@ -1,5 +1,6 @@
 import { metadata } from "../../layout";
 import SearchBar from "./SearchBar";
+import Image from "next/image";
 
 /**
  * Navigation bar.
@@ -10,7 +11,7 @@ export default function NavBar({ className }: { className?: string }) {
       className={"flex items-center justify-between space-x-8 bg-slate-950 p-4" + (className ? ` ${className}` : "")}
     >
       <a className="flex items-center space-x-2" href="/">
-        <img src="/general/logo.webp" alt="Logo" className="h-10 w-10" />
+        <Image src="/general/logo.webp" alt="Logo" width={40} height={40} />
         <div className="text-sm font-bold">SR7.NL</div>
       </a>
       <SearchBar />

@@ -1,4 +1,5 @@
 import { getLightCones } from "@/data/LightCones";
+import Image from "next/image";
 
 /**
  * Lightcone photo.
@@ -31,7 +32,7 @@ export default function LightconePhoto({
   if (cssGradColor)
     return (
       <div className={`rounded-md ${cssGradColor} p-1 shadow` + (className ? ` ${className}` : "")}>
-        <img src={`/lightcones/${nameUID}.webp`} alt={nameUID} />
+        <Image src={`/lightcones/${nameUID}.webp`} alt={nameUID} width={64} height={64} />
         {children && children}
       </div>
     );

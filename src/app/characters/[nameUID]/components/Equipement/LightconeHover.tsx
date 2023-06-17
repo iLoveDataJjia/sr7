@@ -4,6 +4,7 @@ import Star from "@/assets/general/star.svg";
 import TextHighlighter from "@/components/TextHighlighter";
 import { getLightCones } from "@/data/LightCones";
 import { useMouseCSSPos } from "@/hooks/Mouse";
+import Image from "next/image";
 
 /**
  * Lightcone hover pannel.
@@ -25,7 +26,7 @@ export default function LightconeHover({ nameUID, className }: { nameUID: string
       <p className="font-bold text-blue-500">{nameUID}</p>
       <div className="flex items-center justify-center space-x-4">
         <div className="flex w-40 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
-          <img src={`/paths/${path}.webp`} alt={path} className="h-5 w-5" />
+          <Image src={`/paths/${path}.webp`} alt={path} width={20} height={20} />
           <p className="text-sm font-medium">{path}</p>
         </div>
         <div className="flex w-40 justify-center self-stretch rounded-md bg-slate-900 py-2 shadow">

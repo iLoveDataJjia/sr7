@@ -3,6 +3,7 @@
 import Search from "@/assets/general/search.svg";
 import Star from "@/assets/general/star.svg";
 import { getCharacters, displayable, tierCSS, Character } from "@/data/Characters";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -32,7 +33,13 @@ function SearchBarResult({
       className={`flex items-center px-4 py-2 ${bgCss}` + (className ? ` ${className}` : "")}
       onClick={() => onClick?.()}
     >
-      <img src={`/characters/${char.nameUID}/photo.webp`} alt={char.nameUID} className="h-10 w-10 rounded-md" />
+      <Image
+        src={`/characters/${char.nameUID}/photo.webp`}
+        alt={char.nameUID}
+        className="rounded-md"
+        width={40}
+        height={40}
+      />
       <p className="px-8 text-2xl font-bold">{displayable(char.nameUID)}</p>
       <div className="ml-auto flex items-center space-x-3">
         <div className="flex flex-col items-center space-y-1">
@@ -46,8 +53,8 @@ function SearchBarResult({
             {char.dynamic.tier}
           </div>
         </div>
-        <img src={`/elements/${char.static.element}.webp`} alt={char.static.element} className="h-7 w-7" />
-        <img src={`/paths/${char.static.path}.webp`} alt={char.static.path} className="h-7 w-7" />
+        <Image src={`/elements/${char.static.element}.webp`} alt={char.static.element} width={28} height={28} />
+        <Image src={`/paths/${char.static.path}.webp`} alt={char.static.path} width={28} height={28} />
       </div>
     </Link>
   );
