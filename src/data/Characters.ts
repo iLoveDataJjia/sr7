@@ -35,7 +35,10 @@ export function displayable(nameUID: string) {
  */
 export function getCharacters(nameUIDs?: string[]) {
   if (!nameUIDs) return data as Character[];
-  else return (data as Character[]).filter((_) => nameUIDs.includes(_.nameUID));
+  else
+    return (data as Character[]).filter(
+      (_) => nameUIDs.includes(_.nameUID) || nameUIDs.includes(encodeURI(_.nameUID.toLowerCase())) // URI encoded access (ex: "trailblazer%20(fire)" can access "Trailblazer (Fire)")
+    );
 }
 
 /**

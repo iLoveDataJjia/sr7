@@ -1,23 +1,23 @@
-import { ReactComponent as ATK } from "../assets/stats/ATK.svg";
-import { ReactComponent as Break_Effect } from "../assets/stats/Break Effect.svg";
-import { ReactComponent as CRIT_DMG } from "../assets/stats/CRIT DMG.svg";
-import { ReactComponent as CRIT_Rate } from "../assets/stats/CRIT Rate.svg";
-import { ReactComponent as DEF } from "../assets/stats/DEF.svg";
-import { ReactComponent as Effect_HIT_Rate } from "../assets/stats/Effect HIT Rate.svg";
-import { ReactComponent as Effect_RES } from "../assets/stats/Effect RES.svg";
-import { ReactComponent as Energy_Regen_Rate } from "../assets/stats/Energy Regen Rate.svg";
-import { ReactComponent as Fire_DMG } from "../assets/stats/Fire DMG.svg";
-import { ReactComponent as HP } from "../assets/stats/HP.svg";
-import { ReactComponent as Ice_DMG } from "../assets/stats/Ice DMG.svg";
-import { ReactComponent as Imaginary_DMG } from "../assets/stats/Imaginary DMG.svg";
-import { ReactComponent as Lightning_DMG } from "../assets/stats/Lightning DMG.svg";
-import { ReactComponent as Outgoing_Healing } from "../assets/stats/Outgoing Healing.svg";
-import { ReactComponent as Physical_DMG } from "../assets/stats/Physical DMG.svg";
-import { ReactComponent as Quantum_DMG } from "../assets/stats/Quantum DMG.svg";
-import { ReactComponent as SPD } from "../assets/stats/SPD.svg";
-import { ReactComponent as TAUNT } from "../assets/stats/TAUNT.svg";
-import { ReactComponent as Wind_DMG } from "../assets/stats/Wind DMG.svg";
-import { Stat } from "../data/Utils";
+import ATK from "@/assets/stats/ATK.svg";
+import Break_Effect from "@/assets/stats/Break Effect.svg";
+import CRIT_DMG from "@/assets/stats/CRIT DMG.svg";
+import CRIT_Rate from "@/assets/stats/CRIT Rate.svg";
+import DEF from "@/assets/stats/DEF.svg";
+import Effect_HIT_Rate from "@/assets/stats/Effect HIT Rate.svg";
+import Effect_RES from "@/assets/stats/Effect RES.svg";
+import Energy_Regen_Rate from "@/assets/stats/Energy Regen Rate.svg";
+import Fire_DMG from "@/assets/stats/Fire DMG.svg";
+import HP from "@/assets/stats/HP.svg";
+import Ice_DMG from "@/assets/stats/Ice DMG.svg";
+import Imaginary_DMG from "@/assets/stats/Imaginary DMG.svg";
+import Lightning_DMG from "@/assets/stats/Lightning DMG.svg";
+import Outgoing_Healing from "@/assets/stats/Outgoing Healing.svg";
+import Physical_DMG from "@/assets/stats/Physical DMG.svg";
+import Quantum_DMG from "@/assets/stats/Quantum DMG.svg";
+import SPD from "@/assets/stats/SPD.svg";
+import TAUNT from "@/assets/stats/TAUNT.svg";
+import Wind_DMG from "@/assets/stats/Wind DMG.svg";
+import { Stat } from "@/data/Utils";
 
 /**
  * Attribute icon.
