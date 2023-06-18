@@ -16,7 +16,7 @@ export default function Equipement({ character }: { character: Character }) {
       <div className="flex grow flex-col p-4">
         <div className="flex items-center space-x-4">
           <span className="h-5 w-0.5 bg-blue-500" />
-          <p className="text-lg font-bold">Light Cones</p>
+          <h1 className="text-lg font-bold">Light Cones</h1>
         </div>
         <div className="m-auto space-y-8 p-4">
           {character.dynamic.lightcones.map((_, idx) => (
@@ -45,7 +45,7 @@ export default function Equipement({ character }: { character: Character }) {
         <div className="p-4">
           <div className="flex items-center space-x-4">
             <span className="h-5 w-0.5 bg-blue-500" />
-            <p className="text-lg font-bold">Relics & Ornaments</p>
+            <h1 className="text-lg font-bold">Relics & Ornaments</h1>
           </div>
           <div className="flex space-x-10 p-4">
             {/* Relics */}
@@ -98,7 +98,7 @@ export default function Equipement({ character }: { character: Character }) {
         <div className="flex grow flex-col p-4">
           <div className="flex items-center space-x-4">
             <span className="h-5 w-0.5 bg-blue-500" />
-            <p className="text-lg font-bold">Stat priority</p>
+            <h1 className="text-lg font-bold">Stat priority</h1>
           </div>
           <div className="my-auto flex flex-col items-center space-y-4 p-4">
             {/* Main stats */}

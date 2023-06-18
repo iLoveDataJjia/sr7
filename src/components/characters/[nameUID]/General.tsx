@@ -76,7 +76,7 @@ export default function General({ character }: { character: Character }) {
         <div className="space-y-2 p-4">
           <div className="flex items-center space-x-4">
             <span className="h-5 w-0.5 bg-blue-500" />
-            <p className="text-lg font-bold">Playstyle</p>
+            <h1 className="text-lg font-bold">Playstyle</h1>
           </div>
           <p className="break-all text-justify text-sm italic">{character.dynamic.playstyle}</p>
         </div>

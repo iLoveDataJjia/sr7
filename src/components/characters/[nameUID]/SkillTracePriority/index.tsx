@@ -13,7 +13,7 @@ export default function SkillTracePriority({ character }: { character: Character
       <div className="space-y-4 p-4">
         <div className="flex items-center space-x-4">
           <span className="h-5 w-0.5 bg-blue-500" />
-          <p className="text-lg font-bold">Skill priority</p>
+          <h1 className="text-lg font-bold">Skill priority</h1>
         </div>
         <div className="flex items-center justify-center">
           {character.dynamic.skillPriority.flatMap((skill, idx) => {
@@ -28,7 +28,7 @@ export default function SkillTracePriority({ character }: { character: Character
       <div className="space-y-4 p-4">
         <div className="flex items-center space-x-4">
           <span className="h-5 w-0.5 bg-blue-500" />
-          <p className="text-lg font-bold">Trace priority</p>
+          <h1 className="text-lg font-bold">Trace priority</h1>
         </div>
         <div className="flex items-center justify-center">
           {character.dynamic.tracePriority.flatMap((trace, idx) => {
