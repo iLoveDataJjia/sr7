@@ -56,7 +56,7 @@ export default function Equipement({ character }: { character: Character }) {
                   className="group relative flex items-center rounded-md bg-indigo-900 shadow hover:bg-indigo-800"
                 >
                   <div className="relative h-14 w-14 rounded-md bg-indigo-700 p-1">
-                    <Image src={`/relics/${_}.webp`} alt={_} width={56} height={56} />
+                    <Image src={`/assets/relics/${_}.webp`} alt={_} width={56} height={56} />
                     <div
                       className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center
                       rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow group-hover:bg-gray-600"
@@ -78,7 +78,7 @@ export default function Equipement({ character }: { character: Character }) {
                   className="group relative flex items-center rounded-md bg-indigo-900 shadow hover:bg-indigo-800"
                 >
                   <div className="relative h-14 w-14 rounded-md bg-indigo-700 p-1">
-                    <Image src={`/ornaments/${_}.webp`} alt={_} width={56} height={56} />
+                    <Image src={`/assets/ornaments/${_}.webp`} alt={_} width={56} height={56} />
                     <div
                       className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-75 items-center justify-center
                       rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow group-hover:bg-gray-600"
@@ -109,7 +109,7 @@ export default function Equipement({ character }: { character: Character }) {
                   className="group flex w-52 items-center justify-between rounded-md bg-indigo-900 shadow hover:bg-indigo-800"
                 >
                   <Image
-                    src={`/general/${_.typeUID}.webp`}
+                    src={`/assets/general/${_.typeUID}.webp`}
                     alt={_.typeUID}
                     className="rounded-md bg-gray-700 p-1 group-hover:bg-gray-600"
                     width={40}

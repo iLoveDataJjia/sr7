@@ -1,6 +1,7 @@
 import Star from "@/assets/general/star.svg";
 import StatIcon from "@/components/StatIcon";
 import { Character, tierCSS } from "@/data/Characters";
+import { srEncodeURL } from "@/utils/String";
 import Image from "next/image";
 
 /**
@@ -15,10 +16,7 @@ export default function General({ character }: { character: Character }) {
     <div
       className={`relative justify-between space-y-8 rounded-xl bg-slate-950 bg-cover bg-right`}
       style={{
-        backgroundImage: `url(/characters/${character.nameUID
-          .replaceAll(" ", "%20")
-          .replaceAll("(", "%28")
-          .replaceAll(")", "%29")}/wp.webp)`,
+        backgroundImage: `url(/assets/characters/${srEncodeURL(character.nameUID, true)}/wp.webp)`,
       }}
     >
       {/* Character */}
@@ -31,7 +29,7 @@ export default function General({ character }: { character: Character }) {
             ))}
           </div>
           <Image
-            src={`/characters/${character.nameUID}/photo.webp`}
+            src={`/assets/characters/${character.nameUID}/photo.webp`}
             alt={character.nameUID}
             width={96}
             height={96}
@@ -50,7 +48,7 @@ export default function General({ character }: { character: Character }) {
           <div className="flex space-x-6">
             <div className="flex items-center space-x-2">
               <Image
-                src={`/elements/${character.static.element}.webp`}
+                src={`/assets/elements/${character.static.element}.webp`}
                 alt={character.static.element}
                 width={40}
                 height={40}
@@ -58,7 +56,12 @@ export default function General({ character }: { character: Character }) {
               <p className="text-xl font-bold">{character.static.element}</p>
             </div>
             <div className="flex items-center space-x-2">
-              <Image src={`/paths/${character.static.path}.webp`} alt={character.static.path} width={32} height={32} />
+              <Image
+                src={`/assets/paths/${character.static.path}.webp`}
+                alt={character.static.path}
+                width={32}
+                height={32}
+              />
               <p className="text-xl font-bold">{character.static.path}</p>
             </div>
           </div>

@@ -1,5 +1,5 @@
-import NavBar from "./components/NavBar";
 import "./globals.css";
+import NavBar from "@/components/NavBar";
 
 export const metadata = {
   title: "SR7.NL - Honkai Impact Star Rail build hub. Unleash the power of your beloved waifus and husbandos!",
@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/webp" href="/general/logo.webp" />
+        <link rel="icon" type="image/webp" href="/assets/general/logo.webp" />
       </head>
       <body>
         <span className="fixed inset-0 -z-50 bg-slate-950" />

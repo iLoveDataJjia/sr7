@@ -27,16 +27,24 @@ const nextConfig = {
     return config;
   },
 
-  // Redirect (https://nextjs.org/docs/pages/api-reference/next-config-js/redirects)
-  async redirects() {
-    return [
-      {
-        source: "//:path*",
-        destination: "/characters/clara",
-        permanent: false,
-      },
-    ];
-  },
+  // Output build path
+  distDir: "dist",
+
+  // Static export (https://nextjs.org/docs/pages/building-your-application/deploying/static-exports)
+  output: "export",
+  images: { unoptimized: true },
+  trailingSlash: true, // Remove "".html" (https://stackoverflow.com/questions/62867105/how-to-deal-with-nextjs-exporting-files-with-html-extension-but-inlink-there)
+
+  // Redirect (https://nextjs.org/docs/pages/api-reference/next-config-js/redirects & not usable with static export)
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "//:path*",
+  //       destination: "/characters/clara",
+  //       permanent: false,
+  //     },
+  //   ];
+  // },
 };
 
 module.exports = nextConfig;

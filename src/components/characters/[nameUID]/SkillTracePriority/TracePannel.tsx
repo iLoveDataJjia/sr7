@@ -17,7 +17,7 @@ export default function TracePannel({ character, typeUID }: { character: Charact
         className="flex h-24 w-16 flex-col items-center justify-center space-y-1 self-stretch rounded-md bg-gray-700 px-2 shadow
           group-hover:bg-gray-600"
       >
-        <Image src={`/characters/${character.nameUID}/${typeUID}.webp`} alt={data.name} width={40} height={40} />
+        <Image src={`/assets/characters/${character.nameUID}/${typeUID}.webp`} alt={data.name} width={40} height={40} />
         <p className="text-center text-xs font-semibold">{typeUID}</p>
       </div>
       <p className="w-28 px-2 text-center text-xs font-semibold">{data.name}</p>

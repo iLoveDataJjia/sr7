@@ -37,7 +37,7 @@ export default function PannelHover({
       <div className="flex justify-center space-x-4">
         <div className="flex w-40 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
           <Image
-            src={`/elements/${charData.static.element}.webp`}
+            src={`/assets/elements/${charData.static.element}.webp`}
             alt={charData.static.element}
             width={20}
             height={20}
@@ -45,25 +45,25 @@ export default function PannelHover({
           <p className="text-sm font-medium">{charData.static.element}</p>
         </div>
         <div className="flex w-40 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
-          <Image src={`/paths/${charData.static.path}.webp`} alt={charData.static.path} width={20} height={20} />
+          <Image src={`/assets/paths/${charData.static.path}.webp`} alt={charData.static.path} width={20} height={20} />
           <p className="text-sm font-medium">{charData.static.path}</p>
         </div>
       </div>
       <div className="mx-auto flex w-40 items-center justify-center space-x-1.5 self-stretch rounded-md bg-slate-900 py-1.5 shadow">
         <Image
-          src={`/lightcones/${charData.dynamic.lightcones[0]}.webp`}
+          src={`/assets/lightcones/${charData.dynamic.lightcones[0]}.webp`}
           alt={charData.dynamic.lightcones[0]}
           width={24}
           height={24}
         />
         <Image
-          src={`/relics/${charData.dynamic.relics[0]}.webp`}
+          src={`/assets/relics/${charData.dynamic.relics[0]}.webp`}
           alt={charData.dynamic.relics[0]}
           width={24}
           height={24}
         />
         <Image
-          src={`/ornaments/${charData.dynamic.ornaments[0]}.webp`}
+          src={`/assets/ornaments/${charData.dynamic.ornaments[0]}.webp`}
           alt={charData.dynamic.ornaments[0]}
           width={24}
           height={24}

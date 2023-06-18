@@ -32,7 +32,7 @@ export default function LightconePhoto({
   if (cssGradColor)
     return (
       <div className={`rounded-md ${cssGradColor} p-1 shadow` + (className ? ` ${className}` : "")}>
-        <Image src={`/lightcones/${nameUID}.webp`} alt={nameUID} width={64} height={64} />
+        <Image src={`/assets/lightcones/${nameUID}.webp`} alt={nameUID} width={64} height={64} />
         {children && children}
       </div>
     );
