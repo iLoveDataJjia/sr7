@@ -14,7 +14,7 @@ export default function General({ character }: { character: Character }) {
   // Render
   return (
     <div
-      className={`relative justify-between space-y-8 rounded-xl bg-slate-950 bg-cover bg-right`}
+      className={`space-y-8 rounded-xl bg-cover bg-right`}
       style={{
         backgroundImage: `url(/assets/characters/${srEncodeURL(character.nameUID, true)}/wp.webp)`,
       }}

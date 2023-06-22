@@ -9,7 +9,7 @@ import { useEffect } from "react";
 export default function NotFound() {
   const router = useRouter();
   useEffect(() => {
-    router.push("/characters/clara");
+    router.push("/");
   }, [router]);
   return <></>;
 }

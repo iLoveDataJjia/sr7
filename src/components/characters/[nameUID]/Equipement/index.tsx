@@ -109,7 +109,7 @@ export default function Equipement({ character }: { character: Character }) {
                   className="group flex w-52 items-center justify-between rounded-md bg-indigo-900 shadow hover:bg-indigo-800"
                 >
                   <Image
-                    src={`/assets/general/${_.typeUID}.webp`}
+                    src={`/assets/equipements/${_.typeUID}.webp`}
                     alt={_.typeUID}
                     className="rounded-md bg-gray-700 p-1 group-hover:bg-gray-600"
                     width={40}
