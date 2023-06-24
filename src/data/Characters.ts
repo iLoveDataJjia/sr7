@@ -44,7 +44,7 @@ export function getCharacters(nameUIDs?: string[]) {
 export interface Character {
   nameUID: string;
   static: {
-    star: number;
+    star: 5 | 4;
     path: Path;
     element: Element;
     attributes: {
