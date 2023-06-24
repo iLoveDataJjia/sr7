@@ -32,7 +32,7 @@ export default function FilterPopover<A extends Element | Path | number>({
         <p className="hover:text text-sm text-indigo-300 text-opacity-50">
           {nbSelected === 0 ? baseTitle : `${nbSelected} selected`}
         </p>
-        <Dropdown className="w-3 fill-indigo-300 transition-all duration-300 ease-in-out ui-open:-rotate-180" />
+        <Dropdown className="w-3 fill-indigo-300 transition-all duration-100 ease-in-out ui-open:-rotate-180" />
       </Popover.Button>
 
       {/* Pannel */}
@@ -44,7 +44,7 @@ export default function FilterPopover<A extends Element | Path | number>({
         leaveFrom="transform scale-100 opacity-100"
         leaveTo="transform scale-95 opacity-0"
       >
-        <Popover.Panel className="absolute top-full w-full translate-y-3 space-y-1.5 rounded-md bg-indigo-950 px-4 py-2 shadow transition-all duration-300 ease-in-out">
+        <Popover.Panel className="absolute top-full w-full translate-y-3 space-y-1.5 rounded-md bg-indigo-950 px-4 py-2 shadow transition-all duration-100 ease-in-out">
           {possibleSelect.map((select) => (
             <Switch
               key={select}
@@ -57,11 +57,11 @@ export default function FilterPopover<A extends Element | Path | number>({
                   {checked ? (
                     <Checked className="h-2.5 w-2.5 fill-indigo-300" />
                   ) : (
-                    <span className="h-2.5 w-2.5 rounded-sm bg-indigo-300 opacity-50 transition-all duration-300 ease-in-out group-hover:opacity-100" />
+                    <span className="h-2.5 w-2.5 rounded-sm bg-indigo-300 opacity-50 transition-all duration-100 ease-in-out group-hover:opacity-100" />
                   )}
                   {imgs[select]}
                   {withSelectText && (
-                    <p className="text-sm text-indigo-300 opacity-50 transition-all duration-300 ease-in-out group-hover:font-bold group-hover:opacity-100 ui-checked:font-bold ui-checked:opacity-100">
+                    <p className="text-sm text-indigo-300 opacity-50 transition-all duration-100 ease-in-out group-hover:font-bold group-hover:opacity-100 ui-checked:font-bold ui-checked:opacity-100">
                       {select}
                     </p>
                   )}
