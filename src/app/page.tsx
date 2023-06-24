@@ -1,4 +1,4 @@
-import TierListTab from "@/components/TierListTab";
+import TierListTab from "./TierListTab";
 
 /**
  * Route entrypoint.

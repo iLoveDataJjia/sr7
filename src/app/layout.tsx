@@ -1,5 +1,5 @@
+import NavBar from "./NavBar";
 import "./globals.css";
-import NavBar from "@/components/NavBar";
 
 export const metadata = {
   title: "SR7.NL - Honkai Impact Star Rail build hub. Unleash the power of your beloved waifus and husbandos!",

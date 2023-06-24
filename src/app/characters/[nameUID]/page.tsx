@@ -1,7 +1,7 @@
-import Comp from "@/components/characters/[nameUID]/Comp";
-import Equipement from "@/components/characters/[nameUID]/Equipement";
-import General from "@/components/characters/[nameUID]/General";
-import SkillTracePriority from "@/components/characters/[nameUID]/SkillTracePriority";
+import Comp from "./Comp";
+import Equipement from "./Equipement";
+import General from "./General";
+import SkillTracePriority from "./SkillTracePriority";
 import { getCharacters } from "@/data/Characters";
 import { srCapitalize, srDecodeURL } from "@/utils/String";
 
