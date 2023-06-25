@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "SR7.NL - Honkai Impact Star Rail build hub. Unleash the power of your beloved waifus and husbandos!",
@@ -13,6 +14,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link rel="icon" type="image/webp" href="/assets/general/logo.webp" />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2443745935997146"
+          strategy="lazyOnload"
+          crossOrigin="anonymous"
+        />
       </head>
       <body>
         <span className="fixed inset-0 -z-50 bg-slate-950" />
