@@ -1,3 +1,5 @@
+"use client";
+
 import Checked from "@/assets/general/checked.svg";
 import Dropdown from "@/assets/general/dropdown.svg";
 import { Element, Path } from "@/data/Utils";
@@ -28,7 +30,7 @@ export default function FilterPopover<A extends Element | Path | number>({
   return (
     <Popover className="relative">
       {/* Button */}
-      <Popover.Button className="group flex w-52 items-center justify-between rounded-md bg-indigo-950 px-3 py-1.5 shadow outline-none">
+      <Popover.Button className="group flex w-52 items-center justify-between rounded-md bg-indigo-950 px-3 py-1.5 shadow focus:outline-none">
         <p className="hover:text text-sm text-indigo-300 text-opacity-50">
           {nbSelected === 0 ? baseTitle : `${nbSelected} selected`}
         </p>

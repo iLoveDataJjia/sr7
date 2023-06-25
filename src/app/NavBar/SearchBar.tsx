@@ -67,13 +67,16 @@ export default function SearchBar() {
   // States & Get characters
   const [input, setInput] = useState("");
   const [isFocus, setIsFocus] = useState(false);
-  const chars = getCharacters().filter((_) => _.nameUID.toLowerCase().startsWith(input.toLowerCase()));
+  const chars =
+    input !== "" && isFocus
+      ? getCharacters().filter((_) => _.nameUID.toLowerCase().startsWith(input.toLowerCase()))
+      : [];
 
   // Render
   return (
     <div className="relative flex grow items-center space-x-4 rounded-full bg-indigo-950 px-4 py-2.5 shadow">
       {/* Displayed */}
-      <Search className="h-4 w-4 fill-white" />
+      <Search className="h-4 w-4 fill-indigo-300" />
       <input
         type="text"
         placeholder="Search Character"
@@ -85,30 +88,28 @@ export default function SearchBar() {
       />
 
       {/* On change & focus */}
-      {input !== "" && isFocus && (
-        <div className="absolute -left-4 top-full flex w-max min-w-full translate-y-4 flex-col justify-center shadow">
-          {chars.map((char, idx) => (
-            <SearchBarResult
-              key={idx}
-              char={char}
-              idx={idx}
-              className={
-                chars.length === 1
-                  ? "rounded-md"
-                  : idx === 0
-                  ? "rounded-t-md"
-                  : idx === chars.length - 1
-                  ? "rounded-b-md"
-                  : ""
-              }
-              onClick={() => {
-                setInput(char.nameUID);
-                window.scroll({ top: 0, left: 0 });
-              }}
-            />
-          ))}
-        </div>
-      )}
+      <div className="absolute -left-4 top-full flex w-max min-w-full translate-y-4 flex-col justify-center shadow">
+        {chars.map((char, idx) => (
+          <SearchBarResult
+            key={idx}
+            char={char}
+            idx={idx}
+            className={
+              chars.length === 1
+                ? "rounded-md"
+                : idx === 0
+                ? "rounded-t-md"
+                : idx === chars.length - 1
+                ? "rounded-b-md"
+                : ""
+            }
+            onClick={() => {
+              setInput(char.nameUID);
+              window.scroll({ top: 0, left: 0 });
+            }}
+          />
+        ))}
+      </div>
     </div>
   );
 }
