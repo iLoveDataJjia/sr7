@@ -14,7 +14,7 @@ import Link from "next/link";
  */
 export default function Footer() {
   return (
-    <div className="mx-2 flex items-center justify-between border-t-[1px] border-indigo-300 border-opacity-50 p-6">
+    <footer className="mx-2 flex items-center justify-between border-t-[1px] border-indigo-300 border-opacity-50 p-6">
       <Link href={"/"} className="text-sm font-bold text-indigo-300">
         © 2023 - SR7.NL
       </Link>
@@ -82,6 +82,6 @@ export default function Footer() {
           Policy {/* TODO Page */}
         </Link>
       </div>
-    </div>
+    </footer>
   );
 }

@@ -7,7 +7,7 @@ import Image from "next/image";
  */
 export default function NavBar({ className }: { className?: string }) {
   return (
-    <div
+    <nav
       className={"flex items-center justify-between space-x-8 bg-slate-950 p-4" + (className ? ` ${className}` : "")}
     >
       <a className="flex items-center space-x-2" href="/">
@@ -16,6 +16,6 @@ export default function NavBar({ className }: { className?: string }) {
       </a>
       <SearchBar />
       <p className="w-4/12 text-justify text-xs font-thin italic text-indigo-300">{metadata.title}</p>
-    </div>
+    </nav>
   );
 }
