@@ -78,7 +78,7 @@ export default function General({ character }: { character: Character }) {
             <span className="h-5 w-0.5 bg-blue-500" />
             <h1 className="text-lg font-bold">Playstyle</h1>
           </div>
-          <p className="break-all text-justify text-sm italic">{character.dynamic.playstyle}</p>
+          <p className="text-justify text-sm italic">{character.dynamic.playstyle}</p>
         </div>
       </div>
 

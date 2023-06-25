@@ -15,7 +15,7 @@ export default function NavBar({ className }: { className?: string }) {
         <div className="text-sm font-bold">SR7.NL</div>
       </a>
       <SearchBar />
-      <p className="w-4/12 break-all text-justify text-xs font-thin italic text-indigo-300">{metadata.title}</p>
+      <p className="w-4/12 text-justify text-xs font-thin italic text-indigo-300">{metadata.title}</p>
     </div>
   );
 }
