@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <span className="fixed inset-0 -z-50 bg-slate-950" />
         <div className="min-w-fit text-white">
-          <div className="relative mx-auto max-w-5xl">
+          <div className="relative mx-auto min-w-[941px] max-w-5xl">
             <NavBar className="sticky top-0 z-50" />
             {children}
             <Footer />
