@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 import "./globals.css";
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="relative mx-auto max-w-5xl">
             <NavBar className="sticky top-0 z-50" />
             {children}
+            <Footer />
           </div>
         </div>
       </body>
