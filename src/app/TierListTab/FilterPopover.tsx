@@ -46,7 +46,7 @@ export default function FilterPopover<A extends Element | Path | number>({
         leaveFrom="transform scale-100 opacity-100"
         leaveTo="transform scale-95 opacity-0"
       >
-        <Popover.Panel className="absolute top-full w-full translate-y-3 space-y-1.5 rounded-md bg-indigo-950 px-4 py-2 shadow transition-all duration-100 ease-in-out">
+        <Popover.Panel className="absolute top-full w-full translate-y-3 space-y-1.5 rounded-md bg-indigo-950 px-4 py-2 shadow">
           {possibleSelect.map((select) => (
             <Switch
               key={select}

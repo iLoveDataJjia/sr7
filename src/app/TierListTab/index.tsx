@@ -1,6 +1,7 @@
 "use client";
 
 import FilterPopover from "./FilterPopover";
+import Table from "./Table";
 import Filter from "@/assets/general/filter.svg";
 import Star from "@/assets/general/star.svg";
 import { getCharacters } from "@/data/Characters";
@@ -70,11 +71,10 @@ export default function TierListTab() {
       (noSelectedPath || selectedPath[char.static.path]) &&
       (noSelectedStar || selectedStar[char.static.star])
   );
-  console.log(characters);
 
   // Render
   return (
-    <div>
+    <div className="space-y-6">
       {/* Filters */}
       <div className="flex items-center space-x-8">
         <div className="flex items-center space-x-2">
@@ -105,6 +105,7 @@ export default function TierListTab() {
       </div>
 
       {/* Table */}
+      <Table characters={characters} />
     </div>
   );
 }

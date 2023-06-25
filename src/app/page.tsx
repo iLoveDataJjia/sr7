@@ -6,7 +6,10 @@ import TierListTab from "./TierListTab";
 export default function Page() {
   return (
     <div className="m-4">
-      <div className="rounded-xl bg-cover bg-right-top" style={{ backgroundImage: `url(/assets/general/wp.webp)` }}>
+      <div
+        className="rounded-xl bg-[length:100%] bg-right-top bg-no-repeat"
+        style={{ backgroundImage: `url(/assets/general/wp.webp)` }}
+      >
         {/* Title */}
         <div className="flex space-x-4 py-12 pl-8">
           <span className="w-[2px] bg-blue-500" />

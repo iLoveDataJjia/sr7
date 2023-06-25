@@ -22,6 +22,18 @@ export function tierCSS(tier: Tier) {
 }
 
 /**
+ * Star CSS fill and text color.
+ */
+export function starCSS(star: 5 | 4) {
+  switch (star) {
+    case 5:
+      return { fill: "fill-amber-500", text: "text-amber-500" };
+    case 4:
+      return { fill: "fill-purple-500", text: "text-purple-500" };
+  }
+}
+
+/**
  * Regex to fix "Trailblazer (?)" into "Trailblazer".
  */
 export function displayable(nameUID: string) {
