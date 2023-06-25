@@ -4,7 +4,7 @@ import FilterPopover from "./FilterPopover";
 import Table from "./Table";
 import Filter from "@/assets/general/filter.svg";
 import Star from "@/assets/general/star.svg";
-import { getCharacters } from "@/data/Characters";
+import { getCharacters, tierOrder } from "@/data/Characters";
 import { Element, Path } from "@/data/Utils";
 import Image from "next/image";
 import { useState } from "react";
@@ -65,12 +65,14 @@ export default function TierListTab() {
   const noSelectedElem = Object.values(selectedElem).filter((_) => _ === true).length === 0;
   const noSelectedPath = Object.values(selectedPath).filter((_) => _ === true).length === 0;
   const noSelectedStar = Object.values(selectedStar).filter((_) => _ === true).length === 0;
-  const characters = getCharacters().filter(
-    (char) =>
-      (noSelectedElem || selectedElem[char.static.element]) &&
-      (noSelectedPath || selectedPath[char.static.path]) &&
-      (noSelectedStar || selectedStar[char.static.star])
-  );
+  const characters = getCharacters()
+    .filter(
+      (char) =>
+        (noSelectedElem || selectedElem[char.static.element]) &&
+        (noSelectedPath || selectedPath[char.static.path]) &&
+        (noSelectedStar || selectedStar[char.static.star])
+    )
+    .sort((a, b) => tierOrder(b.dynamic.tier) - tierOrder(a.dynamic.tier));
 
   // Render
   return (

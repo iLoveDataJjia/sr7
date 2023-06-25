@@ -2,6 +2,26 @@ import { Path, Element, Stat } from "./Utils";
 import data from "./characters.json";
 
 /**
+ * Tier order.
+ */
+export function tierOrder(tier: Tier) {
+  switch (tier) {
+    case Tier["S+"]:
+      return 6;
+    case Tier["S"]:
+      return 5;
+    case Tier["A"]:
+      return 4;
+    case Tier["B"]:
+      return 3;
+    case Tier["C"]:
+      return 2;
+    case Tier["D"]:
+      return 1;
+  }
+}
+
+/**
  * Tier CSS border and text color.
  */
 export function tierCSS(tier: Tier) {
