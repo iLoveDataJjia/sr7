@@ -21,52 +21,55 @@ export default function Footer() {
       <div className="flex items-center justify-between space-x-5">
         <a
           href="https://www.hoyolab.com/circles/6/39/official"
-          className="group rounded-3xl p-1.5 shadow transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300"
+          className="group rounded-3xl p-1.5 transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300 hover:shadow"
         >
           <Hoyolab className="h-6 w-6 fill-indigo-300 transition-all duration-300 ease-in-out group-hover:fill-slate-950" />
         </a>
         <a
           href="https://www.reddit.com/r/HonkaiStarRail/"
-          className="group rounded-3xl p-1.5 shadow transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300"
+          className="group rounded-3xl p-1.5 transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300 hover:shadow"
         >
           <Reddit className="h-6 w-6 fill-indigo-300 transition-all duration-300 ease-in-out group-hover:fill-slate-950" />
         </a>
         <a
           href="https://www.instagram.com/honkaistarrail/"
-          className="group rounded-3xl p-1.5 shadow transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300"
+          className="group rounded-3xl p-1.5 transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300 hover:shadow"
         >
           <Instagram className="h-6 w-6 fill-indigo-300 transition-all duration-300 ease-in-out group-hover:fill-slate-950" />
         </a>
         <a
           href="https://www.facebook.com/HonkaiStarRail/"
-          className="group rounded-3xl p-1.5 shadow transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300"
+          className="group rounded-3xl p-1.5 transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300 hover:shadow"
         >
           <Facebook className="h-6 w-6 fill-indigo-300 transition-all duration-300 ease-in-out group-hover:fill-slate-950" />
         </a>
-        <a href="https://hsr.hoyoverse.com/" className="shadow transition-all duration-300 ease-in-out hover:scale-110">
+        <a
+          href="https://hsr.hoyoverse.com/"
+          className="transition-all duration-300 ease-in-out hover:scale-110 hover:shadow"
+        >
           <Image src={"/assets/general/official.webp"} alt="StarRail" height={60} width={60} className="rounded-md" />
         </a>
         <a
           href="https://discord.com/invite/honkaistarrail"
-          className="group rounded-3xl p-1.5 shadow transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300"
+          className="group rounded-3xl p-1.5 transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300 hover:shadow"
         >
           <Discord className="h-6 w-6 fill-indigo-300 transition-all duration-300 ease-in-out group-hover:fill-slate-950" />
         </a>
         <a
           href="https://www.youtube.com/@honkaistarrail"
-          className="group rounded-3xl p-1.5 shadow transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300"
+          className="group rounded-3xl p-1.5 transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300 hover:shadow"
         >
           <Youtube className="h-6 w-6 fill-indigo-300 transition-all duration-300 ease-in-out group-hover:fill-slate-950" />
         </a>
         <a
           href="https://twitter.com/honkaistarrail"
-          className="group rounded-3xl p-1.5 shadow transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300"
+          className="group rounded-3xl p-1.5 transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300 hover:shadow"
         >
           <Twitter className="h-6 w-6 fill-indigo-300 transition-all duration-300 ease-in-out group-hover:fill-slate-950" />
         </a>
         <a
           href="https://www.tiktok.com/discover/honkai-impact-star-rail"
-          className="group rounded-3xl p-1.5 shadow transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300"
+          className="group rounded-3xl p-1.5 transition-all duration-300 ease-in-out hover:rounded-md hover:bg-indigo-300 hover:shadow"
         >
           <Tiktok className="h-6 w-6 fill-indigo-300 transition-all duration-300 ease-in-out group-hover:fill-slate-950" />
         </a>

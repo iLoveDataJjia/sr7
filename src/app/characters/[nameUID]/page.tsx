@@ -15,6 +15,24 @@ export async function generateStaticParams() {
 }
 
 /**
+ * Generate metadata.
+ */
+export async function generateMetadata({ params: { nameUID } }: { params: { nameUID: string } }) {
+  // Get character
+  const nameUIDDecoded = srCapitalize(srDecodeURL(nameUID));
+  const character = getCharacters([nameUIDDecoded])[0];
+
+  // Render
+  return {
+    title: `SR7.NL - ${character.nameUID}`,
+    description: character.dynamic.playstyle,
+    openGraph: {
+      images: `/assets/characters/${character.nameUID}/photo.webp`,
+    },
+  };
+}
+
+/**
  * Route entrypoint.
  */
 export default function Page({ params: { nameUID } }: { params: { nameUID: string } }) {

@@ -3,17 +3,26 @@ import NavBar from "./NavBar";
 import "./globals.css";
 import Script from "next/script";
 
+/**
+ * Metadata.
+ */
 export const metadata = {
+  metadataBase: new URL("https://sr7.nl"),
   title: "SR7.NL - Honkai Impact Star Rail build hub. Unleash the power of your beloved waifus and husbandos!",
   description:
     "Enhance your Honkai Impact Star Rail gaming experience with our website dedicated to character builds, team compositions, and equipment recommendations. Discover optimal strategies, synergies, and equipment builds to conquer challenges and create formidable teams in Honkai Impact Star Rail. Unlock the full potential of your characters and dominate the game with our expert insights and recommendations.",
+  openGraph: {
+    images: "/assets/general/logo.webp",
+  },
 };
 
+/**
+ * Layout.
+ */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/webp" href="/assets/general/logo.webp" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2443745935997146"
