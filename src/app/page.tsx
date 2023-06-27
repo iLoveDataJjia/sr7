@@ -1,4 +1,5 @@
 import TierListTab from "./TierListTab";
+import { metadata } from "./layout";
 
 /**
  * Route entrypoint.
@@ -15,10 +16,7 @@ export default function Page() {
           <span className="w-[2px] bg-blue-500" />
           <div className="w-5/12 space-y-2 p-2">
             <h1 className="text-2xl font-bold">Honkai StarRail Tier List</h1>
-            <p className="text-sm italic">
-              SR7.NL provides the essential, constantly updated Honkai StarRail Tier list for the latest patch,
-              utilizing data science to determine the optimal characters for any team.
-            </p>
+            <p className="text-sm italic">{metadata.description}</p>
           </div>
         </div>
 

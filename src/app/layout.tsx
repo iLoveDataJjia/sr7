@@ -8,9 +8,9 @@ import Script from "next/script";
  */
 export const metadata = {
   metadataBase: new URL("https://sr7.nl"),
-  title: "SR7.NL - Honkai Impact Star Rail build hub. Unleash the power of your beloved waifus and husbandos!",
+  title: "SR7.NL - Honkai Impact Star Rail. For your beloved waifus & husbandos!",
   description:
-    "Enhance your Honkai Impact Star Rail gaming experience with our website dedicated to character builds, team compositions, and equipment recommendations. Discover optimal strategies, synergies, and equipment builds to conquer challenges and create formidable teams in Honkai Impact Star Rail. Unlock the full potential of your characters and dominate the game with our expert insights and recommendations.",
+    "SR7.NL provides the essential, constantly updated Honkai StarRail Tier list and character builds for the latest patch, utilizing data science to determine the optimal characters for any team.",
   openGraph: {
     images: "/assets/general/logo.webp",
   },
