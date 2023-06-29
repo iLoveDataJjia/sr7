@@ -30,7 +30,7 @@ export default function FilterPopover<A extends Element | Path | number>({
   return (
     <Popover className="relative">
       {/* Button */}
-      <Popover.Button className="group flex w-52 items-center justify-between rounded-md bg-indigo-950 px-3 py-1.5 shadow focus:outline-none">
+      <Popover.Button className="group flex w-52 items-center justify-between rounded-md bg-indigo-950 px-3 py-1.5 shadow outline-none">
         <p className="hover:text text-sm text-indigo-300 text-opacity-50">
           {nbSelected === 0 ? baseTitle : `${nbSelected} selected`}
         </p>
@@ -39,6 +39,7 @@ export default function FilterPopover<A extends Element | Path | number>({
 
       {/* Pannel */}
       <Transition
+        unmount={false}
         enter="transition duration-100 ease-out"
         enterFrom="transform scale-95 opacity-0"
         enterTo="transform scale-100 opacity-100"
@@ -46,7 +47,10 @@ export default function FilterPopover<A extends Element | Path | number>({
         leaveFrom="transform scale-100 opacity-100"
         leaveTo="transform scale-95 opacity-0"
       >
-        <Popover.Panel className="absolute top-full w-full translate-y-3 space-y-1.5 rounded-md bg-indigo-950 px-4 py-2 shadow">
+        <Popover.Panel
+          unmount={false}
+          className="absolute top-full w-full translate-y-3 space-y-1.5 rounded-md bg-indigo-950 px-4 py-2 shadow"
+        >
           {possibleSelect.map((select) => (
             <Switch
               key={select}
