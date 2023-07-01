@@ -1,12 +1,32 @@
 /**
  * Star CSS fill and text color.
  */
-export function starCSS(star: 5 | 4) {
+export function starCSS(star: 5 | 4 | 3 | 2) {
   switch (star) {
     case 5:
-      return { fill: "fill-amber-500", text: "text-amber-500" };
+      return {
+        fill: "fill-amber-500",
+        text: "text-amber-500",
+        gradient: "from-amber-700 via-amber-500 via-60% to-amber-200",
+      };
     case 4:
-      return { fill: "fill-purple-500", text: "text-purple-500" };
+      return {
+        fill: "fill-purple-700",
+        text: "text-purple-700",
+        gradient: "from-purple-950 via-purple-700 via-60% to-purple-400",
+      };
+    case 3:
+      return {
+        fill: "fill-blue-800",
+        text: "text-blue-800",
+        gradient: "from-blue-950 via-blue-800 via-60% to-blue-500",
+      };
+    case 2:
+      return {
+        fill: "fill-green-800",
+        text: "text-green-800",
+        gradient: "from-green-950 via-green-800 via-60% to-green-500",
+      };
   }
 }
 

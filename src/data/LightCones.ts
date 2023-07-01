@@ -16,7 +16,7 @@ export function getLightCones(nameUIDs: string[]) {
 interface LightCone {
   nameUID: string;
   path: Path;
-  star: number;
+  star: 5 | 4 | 3;
   source: string;
   desc: string;
 }

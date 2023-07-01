@@ -5,7 +5,7 @@ import Table from "./Table";
 import Filter from "@/assets/general/filter.svg";
 import Star from "@/assets/general/star.svg";
 import { getCharacters, tierOrder } from "@/data/Characters";
-import { Element, Path } from "@/data/Utils";
+import { Element, Path, starCSS } from "@/data/Utils";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -49,14 +49,14 @@ export default function TierListTab() {
   const imgsStar = {
     5: (
       <div className="flex items-center space-x-0.5">
-        <p className="font-bold text-amber-500">5</p>
-        <Star className="h-4 w-4 fill-amber-500" />
+        <p className={`font-bold ${starCSS(5).text}`}>5</p>
+        <Star className={`h-4 w-4 ${starCSS(5).fill}`} />
       </div>
     ),
     4: (
       <div className="flex items-center space-x-0.5">
-        <p className="font-bold text-purple-500">4</p>
-        <Star className="h-4 w-4 fill-purple-500" />
+        <p className={`font-bold ${starCSS(4).text}`}>4</p>
+        <Star className={`h-4 w-4 ${starCSS(4).fill}`} />
       </div>
     ),
   };
