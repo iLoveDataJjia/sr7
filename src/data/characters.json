@@ -1243,6 +1243,118 @@
     }
   },
   {
+    "nameUID": "Luocha",
+    "static": {
+      "star": 5,
+      "path": "The Abundance",
+      "element": "Imaginary",
+      "attributes": [
+        { "typeUID": "HP", "value": 1280 },
+        { "typeUID": "ATK", "value": 756 },
+        { "typeUID": "DEF", "value": 363 },
+        { "typeUID": "SPD", "value": 101 },
+        { "typeUID": "TAUNT", "value": 100 }
+      ],
+      "skills": [
+        {
+          "typeUID": "Normal ATK",
+          "name": "Thorns of the Abyss",
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Imaginary DMG equal to 50/100/110% of Luocha's ATK to a single enemy.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Skill",
+          "name": "Prayer of Abyss Flower",
+          "source": "Restore",
+          "cost": null,
+          "desc": "After using his Skill, Luocha immediately restores the target ally's HP equal to 40/60/64% of Luocha's ATK plus 200/800/890. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Ultimate",
+          "name": "Death Wish",
+          "source": "AoE",
+          "cost": "100 energy",
+          "desc": "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 120/200/216% of Luocha's ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Talent",
+          "name": "Cycle of Life",
+          "source": "Restore",
+          "cost": null,
+          "desc": "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to 12/18/19.2% of Luocha's ATK plus 60/240/267. The Field's effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+          "enhanced": []
+        }
+      ],
+      "traces": [
+        {
+          "typeUID": "Ascension 2",
+          "name": "Cleansing Revival",
+          "desc": "When the Skill's effect is triggered, removes 1 debuff(s) from a target ally.",
+          "minors": [
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "DEF", "value": "+5%", "unlock": "Unlocks at A3" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Sanctified",
+          "desc": "When any enemy in the Field is attacked by an ally, all allies (except the attacker) restore HP equal to 7% of Luocha's ATK plus 93.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 6",
+          "name": "Through the Valley",
+          "desc": "The chance to resist Crowd Control debuffs increases by 70%.",
+          "minors": [
+            { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
+            { "stat": "HP", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
+          ]
+        }
+      ]
+    },
+    "dynamic": {
+      "tier": "S+",
+      "playstyle": "Luocha is primarily used as an SP generator for the party, like other support units. It's best to use his Skill once to generate an Abyss Flower and then activate his Ultimate to obtain another Abyss Flower and trigger his Talent, Cycle of Life. However, be cautious not to use his Skill unnecessarily while Cycle of Life is active. But, if your teammates are in dire need or if you have to remove debuffs from your allies, you can still use his Skill in those specific situations.",
+      "lightcones": ["Echoes of the Coffin", "Post-Op Conversation", "Time Waits for No One", "Cornucopia"],
+      "relics": ["Musketeer of Wild Wheat", "Passerby of Wandering Cloud"],
+      "ornaments": ["Fleet of the Ageless", "Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Outgoing Healing"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["ATK%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["SPD", "ATK%", "Break Effect", "HP%"]
+      },
+      "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "comp": {
+        "best": [
+          { "char": "Luocha", "role": "Healer" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Seele", "role": "Main DPS" }
+        ],
+        "f2p": [
+          { "char": "Luocha", "role": "Healer" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Dan Heng", "role": "Main DPS" }
+        ]
+      }
+    }
+  },
+  {
     "nameUID": "March 7th",
     "static": {
       "star": 4,
