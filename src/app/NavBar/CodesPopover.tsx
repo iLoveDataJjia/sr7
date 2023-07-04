@@ -10,7 +10,6 @@ import { getItem } from "@/data/Items";
 import { starCSS } from "@/data/Utils";
 import { Popover, Transition } from "@headlessui/react";
 import Image from "next/image";
-import Link from "next/link";
 import { useState, useEffect } from "react";
 
 /**
@@ -41,8 +40,8 @@ export default function CodesPopover() {
         <ActiveCodes className="h-7 w-7 fill-indigo-300 transition-all duration-300 ease-in-out focus:outline-none group-hover:fill-slate-950" />
         <div
           className={
-            "absolute -right-[16px] -top-[16px] scale-[0.65] rounded-full border-4 border-slate-950 bg-rose-500 px-2.5 py-0.5 text-center font-bold" +
-            (wasOpened ? " hidden" : "")
+            "absolute -right-4 -top-4 scale-[0.60] rounded-full border-4 border-slate-950 bg-rose-500 px-2.5 text-center text-lg font-bold" +
+            (wasOpened || codes.length === 0 ? " hidden" : "")
           }
         >
           {codes.length}
@@ -60,25 +59,28 @@ export default function CodesPopover() {
         leaveTo="transform scale-95 opacity-0"
       >
         <Popover.Panel unmount={false} className="absolute left-1/2 w-max -translate-x-1/2 translate-y-2.5 shadow">
+          {/* Header */}
           <h1
             className={
-              "bg-indigo-900 py-1.5 text-center text-sm font-bold" +
+              "bg-indigo-900 px-4 py-1.5 text-center text-sm font-bold transition-all duration-100 ease-in-out hover:bg-indigo-800" +
               (codes.length === 0 ? " rounded-md" : " rounded-t-md")
             }
           >
             {`${month} ${year}`} - {codes.length} active code(s)
           </h1>
+
+          {/* Codes */}
           {codes.map((code, idx) => (
             <div
               key={code.codeUID}
               className={
-                "flex items-center justify-between space-x-8 px-4 py-2.5" +
-                (idx % 2 ? " bg-indigo-900" : " bg-indigo-950") +
+                "flex items-center justify-between space-x-4 px-4 py-2.5 transition-all duration-100 ease-in-out" +
+                (idx % 2 ? " bg-indigo-900 hover:bg-indigo-700" : " bg-indigo-950 hover:bg-indigo-800") +
                 (idx === codes.length - 1 ? " rounded-b-md" : "")
               }
             >
               {/* Code */}
-              <p className="text-sm font-semibold">{code.codeUID}</p>
+              <p className="w-40 text-sm font-semibold">{code.codeUID}</p>
 
               {/* Items */}
               <div className="flex space-x-1.5">
