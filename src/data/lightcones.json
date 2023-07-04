@@ -119,6 +119,13 @@
     "desc": "When the wearer unleashes their Ultimate, they restore HP by 18/21/24/27/30% of their Max HP."
   },
   {
+    "nameUID": "Echoes of the Coffin",
+    "path": "The Abundance",
+    "star": 5,
+    "source": "Thorns",
+    "desc": "Increases the wearer's ATK by 24/28/32/36/40%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3/3.5/4/4.5/5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12/14/16/18/20 SPD for 1 turn."
+  },
+  {
     "nameUID": "Eyes of the Prey",
     "path": "The Nihility",
     "star": 4,
