@@ -2940,5 +2940,116 @@
         ]
       }
     }
+  },
+  {
+    "nameUID": "Yukong",
+    "static": {
+      "star": 4,
+      "path": "The Harmony",
+      "element": "Imaginary",
+      "attributes": [
+        { "typeUID": "HP", "value": 917 },
+        { "typeUID": "ATK", "value": 599 },
+        { "typeUID": "DEF", "value": 374 },
+        { "typeUID": "SPD", "value": 107 },
+        { "typeUID": "TAUNT", "value": 100 }
+      ],
+      "skills": [
+        {
+          "typeUID": "Normal ATK",
+          "name": "Arrowslinger",
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals 50/100/110% of Yukong's ATK as Imaginary DMG to a target enemy.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Skill",
+          "name": "Emboldening Salvo",
+          "source": "Support",
+          "cost": null,
+          "desc": "Obtains 2 stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by 40/80/88%, and every time an ally's turn ends, Yukong loses 1 stack of \"Roaring Bowstrings.\" When it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Ultimate",
+          "name": "Diving Kestrel",
+          "source": "Single Target",
+          "cost": "130 energy",
+          "desc": "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by 21/28/29.4% and CRIT DMG by 39/65/70.2%. At the same time, deals Imaginary DMG equal to 228/380/410% of Yukong's ATK to a single enemy.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Talent",
+          "name": "Seven Layers, One Arrow",
+          "source": "Enhance",
+          "cost": null,
+          "desc": "Basic ATK additionally deals Imaginary DMG equal to 40/80/88% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+          "enhanced": []
+        }
+      ],
+      "traces": [
+        {
+          "typeUID": "Ascension 2",
+          "name": "Archerion",
+          "desc": "Yukong can resist 1 debuff application for 1 time. This effect can be triggered again in 2 turn(s).",
+          "minors": [
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "Imaginary DMG", "value": "+3.2%", "unlock": "Unlocks at A3" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Bowmaster",
+          "desc": "When Yukong is on the field, Imaginary DMG dealt by all allies increases by 12%.",
+          "minors": [
+            { "stat": "Imaginary DMG", "value": "+4.8%", "unlock": "Unlocks at A4" },
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 6",
+          "name": "Majestas",
+          "desc": "When Roaring Bowstrings is active, Yukong regenerates 2 additional Energy every time an ally takes action.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "HP", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "Imaginary DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
+          ]
+        }
+      ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Yukong plays a crucial support role, bolstering her allies' ATK and CRIT Rate while also amplifying the performance of burst-type DPS characters through her skills and ultimate abilities. Her presence greatly enhances the team's overall effectiveness, making her an invaluable asset in battles.",
+      "lightcones": ["But The Battle Isn't Over", "Past and Future", "Dance! Dance! Dance!", "Meshing Cogs"],
+      "relics": ["Musketeer of Wild Wheat", "Wastelander of Banditry Desert"],
+      "ornaments": ["Fleet of the Ageless", "Inert Salsotto"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate"] },
+          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
+          { "typeUID": "Sphere", "stats": ["Imaginary DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%", "Break Effect"] }
+        ],
+        "subStats": ["SPD", "CRIT Rate", "CRIT DMG", "ATK%"]
+      },
+      "skillPriority": ["Skill", "Ultimate", "Normal ATK", "Talent"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "comp": {
+        "best": [
+          { "char": "Yanqing", "role": "Main DPS" },
+          { "char": "Yukong", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Yukong", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "March 7th", "role": "Tank" }
+        ]
+      }
+    }
   }
 ]
