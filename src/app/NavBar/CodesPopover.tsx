@@ -59,7 +59,10 @@ export default function CodesPopover() {
         leaveFrom="transform scale-100 opacity-100"
         leaveTo="transform scale-95 opacity-0"
       >
-        <Popover.Panel unmount={false} className="absolute left-1/2 w-max -translate-x-1/2 translate-y-2.5 shadow">
+        <Popover.Panel
+          unmount={false}
+          className="absolute left-1/2 w-max -translate-x-1/2 translate-y-2.5 -space-y-[1px] shadow"
+        >
           {/* Header */}
           <h1
             className={
