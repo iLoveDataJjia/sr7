@@ -18,7 +18,9 @@ export default function NavBar({ className }: { className?: string }) {
       </Link>
       <SearchBar />
       <CodesPopover />
-      <p className="w-4/12 text-justify text-xs font-thin italic text-indigo-300">{metadata.title}</p>
+      <p className="w-4/12 text-justify text-xs font-thin italic text-indigo-300">
+        SR7.NL - Honkai Impact Star Rail. For your beloved waifus & husbandos!
+      </p>
     </nav>
   );
 }
