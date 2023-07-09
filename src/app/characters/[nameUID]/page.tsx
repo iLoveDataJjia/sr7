@@ -24,7 +24,7 @@ export async function generateMetadata({ params: { nameUID } }: { params: { name
 
   // Render
   return {
-    title: `SR7.NL - ${character.nameUID}`,
+    title: `Honkai: Star Rail ${character.nameUID} Build`,
     description: character.dynamic.playstyle,
     openGraph: {
       images: `/assets/characters/${character.nameUID}/photo.webp`,

@@ -15,7 +15,7 @@ export default function Page() {
         <div className="flex space-x-4 py-12 pl-8">
           <span className="w-[2px] bg-blue-500" />
           <div className="w-5/12 space-y-2 p-2">
-            <h1 className="text-2xl font-bold">Honkai StarRail Tier List</h1>
+            <h1 className="text-2xl font-bold">Honkai: Star Rail Tier List</h1>
             <p className="text-sm italic">{metadata.description}</p>
           </div>
         </div>
