@@ -10,6 +10,7 @@ import { getItem } from "@/data/Items";
 import { starCSS } from "@/data/Utils";
 import { Popover, Transition } from "@headlessui/react";
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 /**
@@ -139,7 +140,7 @@ export default function CodesPopover() {
                 </div>
 
                 {/* Go to link */}
-                <a
+                <Link
                   href="https://hsr.hoyoverse.com/gift"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -158,7 +159,7 @@ export default function CodesPopover() {
                   >
                     Redeem code
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
