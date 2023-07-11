@@ -93,7 +93,12 @@ export default function Footer() {
         </Link>
       </div>
       <div className="flex space-x-4">
-        <Link href="mailto:hsr.sr7@gmail.com" className="text-xs font-thin text-indigo-300">
+        <Link
+          href="mailto:hsr.sr7@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs font-thin text-indigo-300"
+        >
           Contact
         </Link>
         {/* <Link href={"/"} className="text-xs font-thin text-indigo-300">Credits</Link> */}

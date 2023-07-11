@@ -321,7 +321,12 @@ export default function Page() {
         <div className="flex space-x-1">
           <p>Administrator</p>
           <p>-</p>
-          <Link href="mailto:hsr.sr7@gmail.com" className="font-bold text-indigo-500 hover:underline">
+          <Link
+            href="mailto:hsr.sr7@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-indigo-500 hover:underline"
+          >
             hsr.sr7@gmail.com
           </Link>
         </div>
