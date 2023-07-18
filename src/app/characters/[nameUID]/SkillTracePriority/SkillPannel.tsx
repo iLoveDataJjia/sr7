@@ -1,5 +1,5 @@
 import SkillPannelHover from "./SkillPannelHover";
-import { Character, Skill } from "@/data/Characters";
+import { Character, Skill } from "@/data/characters";
 import Image from "next/image";
 
 /**

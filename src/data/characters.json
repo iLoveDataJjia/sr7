@@ -77,6 +77,38 @@
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "To the Bitter End",
+          "desc": "When HP is lower than or equal to 50% of Max HP, increases Skill's DMG by 10%."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Breaking Free",
+          "desc": "Using Skill or Ultimate removes 1 debuff from oneself."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Power Through",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Turn the Tables",
+          "desc": "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is triggered once or after 2 turn(s) have elapsed."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Hammer and Tongs",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Self-Sacrifice",
+          "desc": "When HP drops to 50% or below, Ultimate deals 20% more DMG. The DMG multiplier of DMG taken by the target enemy now applies to adjacent enemies as well."
+        }
       ]
     },
     "dynamic": {
@@ -187,6 +219,38 @@
             { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 75" },
             { "stat": "Fire DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Star Sings Sans Verses or Vocals",
+          "desc": "When using Skill, deals DMG for 1 extra time to a random enemy."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Moon Speaks in Wax and Wane",
+          "desc": "After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Meteor Showers for Wish and Want",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Aurora Basks in Beauty and Bliss",
+          "desc": "Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Nebula Secludes in Cold Cosmos",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Galaxy Dreams in Calm and Comfort",
+          "desc": "Charging stack(s) lost in each turn is reduced by 1."
         }
       ]
     },
@@ -305,6 +369,38 @@
             { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 75" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Ambrosial Aqua",
+          "desc": "If the target ally's current HP is equal to their Max HP when Invigoration ends, Bailu additionally regenerates 8 Energy for this target."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Sylphic Slumber",
+          "desc": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Omniscient Opulence",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Evil Excision",
+          "desc": "Every healing provided by Bailu's Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s)."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Waning Worries",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Drooling Drop of Draconic Divinity",
+          "desc": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle."
+        }
       ]
     },
     "dynamic": {
@@ -415,6 +511,38 @@
             { "stat": "CRIT DMG", "value": "+10.7%", "unlock": "Unlocks at Lv. 75" },
             { "stat": "Wind DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Hone Your Strength",
+          "desc": "Using Bronya's Skill has a 50% fixed chance of recovering 1 Skill Point. This effect has a 1 turn cooldown."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Quick March",
+          "desc": "When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Bombardment",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Take by Surprise",
+          "desc": "After an ally uses Basic ATK on an enemy with Wind Weakness, Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to 80% of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Unstoppable",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Piercing Rainbow",
+          "desc": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s)."
         }
       ]
     },
@@ -529,6 +657,38 @@
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "A Tall Figure",
+          "desc": "Using Skill will not remove Marks of Counter on the enemy."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "A Tight Embrace",
+          "desc": "After using the Ultimate, ATK increases by 30% for 2 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Cold Steel Armor",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Family\u00e2\u0080\u0099s Warmth",
+          "desc": "After Clara is hit, the DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "A Small Promise",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Long Company",
+          "desc": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1."
+        }
       ]
     },
     "dynamic": {
@@ -640,6 +800,38 @@
             { "stat": "Wind DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "The Higher You Fly, the Harder You Fall",
+          "desc": "When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Quell the Venom Octet, Quench the Vice O'Flame",
+          "desc": "Reduces Talent cooldown by 1 turn."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Seen and Unseen",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Roaring Dragon and Soaring Sun",
+          "desc": "When Dan Heng uses his Ultimate to defeat an enemy, his next action is Advanced Forward by 100%."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "A Drop of Rain Feeds a Torrent",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "The Troubled Soul Lies in Wait",
+          "desc": "Slow triggered by Skill reduces the enemy\u00e2\u0080\u0099s SPD by an additional 10%."
+        }
       ]
     },
     "dynamic": {
@@ -750,6 +942,38 @@
             { "stat": "Effect RES", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
             { "stat": "Ice DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Due Diligence",
+          "desc": "Base chance for Gepard's Skill to Freeze enemies increases by 35%."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Lingering Cold",
+          "desc": "After an enemy Frozen by Gepard's Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Never Surrender",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Faith Moves Mountains",
+          "desc": "When Gepard is in battle, all allies' Effect RES increases by 20%."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Cold Iron Fist",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Unyielding Determination",
+          "desc": "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP."
         }
       ]
     },
@@ -863,6 +1087,38 @@
             { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 75" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Kick You When You're Down",
+          "desc": "If the enemy's HP percentage is at 50% or less, Herta's Basic ATK deals Additional Ice DMG equal to 40% of Herta's ATK."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Keep the Ball Rolling",
+          "desc": "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "That's the Kind of Girl I Am",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Hit Where it Hurts",
+          "desc": "When Talent is triggered, DMG increases by 10%."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Cuss Big or Cuss Nothing",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "No One Can Betray Me",
+          "desc": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s)."
+        }
       ]
     },
     "dynamic": {
@@ -974,6 +1230,38 @@
             { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Childhood",
+          "desc": "After \"Victory Rush\" is triggered, Himeko's SPD increases by 20% for 2 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Convergence",
+          "desc": "Deals 15% more DMG to enemies whose HP percentage is 50% or less."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Poised",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Dedication",
+          "desc": "When Himeko's Skill inflicts Weakness Break on an enemy, she gains 1 extra point(s) of Charge."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Aspiration",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Trailblaze",
+          "desc": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy."
         }
       ]
     },
@@ -1095,6 +1383,38 @@
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Early to Bed. Early to Rise",
+          "desc": "Enhanced Skill deals 20% increased DMG."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Happy Tummy. Happy Body",
+          "desc": "Extends the duration of Burn caused by Skill by 1 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Don\u00e2\u0080\u0099t Be Picky. Nothing\u00e2\u0080\u0099s Icky",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "It's Okay to Not Know",
+          "desc": "When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the target enemy, equivalent to that of Skill."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Let the Moles' Deeds Be Known",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Always Ready to Punch and Kick",
+          "desc": "Hook deals 20% more DMG to enemies inflicted with Burn."
+        }
       ]
     },
     "dynamic": {
@@ -1206,6 +1526,38 @@
             { "stat": "DEF", "value": "+7.5%", "unlock": "Unlocks at A6" },
             { "stat": "CRIT Rate", "value": "+5.3%", "unlock": "Unlocks at Lv. 75" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Slash, Seas Split",
+          "desc": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the target enemy."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Swing, Skies Squashed",
+          "desc": "After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20% for 2 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Strike, Suns Subdued",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Spin, Stars Sieged",
+          "desc": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Stride, Spoils Seized",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Sweep, Souls Slain",
+          "desc": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
         }
       ]
     },
@@ -1319,6 +1671,38 @@
             { "stat": "HP", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Ablution of the Quick",
+          "desc": "While the Field is active, ATK of all allies increases by 20%."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Bestowal From the Pure",
+          "desc": "When his Skill is triggered, if the target ally's HP is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Surveyal by the Fool",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Heavy Lies the Crown",
+          "desc": "When Luocha's Field is active, enemies become Weakened and deal 12% less DMG."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Cicatrix 'Neath the Pain",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Reunion With the Dust",
+          "desc": "When Ultimate is used, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s)."
+        }
       ]
     },
     "dynamic": {
@@ -1429,6 +1813,38 @@
             { "stat": "Ice DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 75" },
             { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 80" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Memory of You",
+          "desc": "Every time March 7th's Ultimate Freezes a target, she regenerates 6 Energy."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Memory of It",
+          "desc": "Upon entering battle, grants a Shield equal to 24% of March 7th's DEF plus 320 to the ally with the lowest HP percentage, lasting for 3 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Memory of Everything",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Never Forfeit Again",
+          "desc": "The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to 30% of March 7th's DEF."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Never Forget Again",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Just Like This, Always...",
+          "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."
         }
       ]
     },
@@ -1542,6 +1958,34 @@
             { "stat": "Effect RES", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Pharmacology Expertise",
+          "desc": "After being attacked, if the current HP percentage is 30% or lower, heals self for 1 time to restore HP by an amount equal to 15% of Max HP plus 400. This effect can only be triggered 1 time per battle."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Clinical Research",
+          "desc": "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "The Right Cure",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        { "typeUID": "Eidolon 4", "name": "Miracle Cure", "desc": "After being attacked, regenerates 5 extra Energy." },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Preventive Treatment",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Doctor\u00e2\u0080\u0099s Grace",
+          "desc": "Natasha's Basic ATK deals Additional Physical DMG equal to 40% of her Max HP."
+        }
       ]
     },
     "dynamic": {
@@ -1653,6 +2097,38 @@
             { "stat": "Effect HIT Rate", "value": "+6%", "unlock": "Unlocks at A6" },
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Victory Report",
+          "desc": "When an enemy is defeated, Pela regenerates 5 Energy."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Adamant Charge",
+          "desc": "Using Skill to remove buff(s) increases SPD by 10% for 2 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Suppressive Force",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Full Analysis",
+          "desc": "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Absolute Jeopardy",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Feeble Pursuit",
+          "desc": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to 40% of Pela's ATK to the enemy."
         }
       ]
     },
@@ -1773,6 +2249,34 @@
             { "stat": "Quantum DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 75" }
           ]
         }
+      ],
+      "eidolons": [
+        { "typeUID": "Eidolon 1", "name": "Rise Through the Tiles", "desc": "Ultimate deals 10% more DMG." },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Sleep on the Tiles",
+          "desc": "Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Read Between the Tiles",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Right on the Tiles",
+          "desc": "After this character's Skill is used, there is a 24% fixed chance to gain Autarky, which lasts until the end of the current turn. With Autarky, using Basic ATK or Enhanced Basic ATK immediately launches 1 follow-up attack on the same target, dealing Quantum DMG equal to 100% of the previous Basic ATK (or Enhanced Basic ATK)'s DMG."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Gambit for the Tiles",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Prevail Beyond the Tiles",
+          "desc": "Recovers 1 Skill Point after using Enhanced Basic ATK."
+        }
       ]
     },
     "dynamic": {
@@ -1885,6 +2389,38 @@
             { "stat": "Effect HIT Rate", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Rising Love",
+          "desc": "When using Skill, deals DMG for 1 extra time(s) to a random enemy."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Infectious Enthusiasm",
+          "desc": "When an enemy with Wind Shear is defeated, there is a 100% base chance to inflict 1 stack(s) of Wind Shear, equivalent to the Talent's Wind Shear."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Big Money!",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "The Deeper the Love, the Stronger the Hate",
+          "desc": "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Huuuuge Money!",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Increased Spending",
+          "desc": "Talent's Wind Shear DMG multiplier increases by 15%."
+        }
       ]
     },
     "dynamic": {
@@ -1995,6 +2531,38 @@
             { "stat": "CRIT DMG", "value": "+10.7%", "unlock": "Unlocks at Lv. 75" },
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Extirpating Slash",
+          "desc": "When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Dancing Butterfly",
+          "desc": "The SPD Boost effect of Seele's Skill can stack up to 2 time(s)."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Dazzled",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "A Glimpse",
+          "desc": "Seele regenerates 15 Energy when she defeats an enemy."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Keen and Sharp",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Separation",
+          "desc": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered. When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed."
         }
       ]
     },
@@ -2108,6 +2676,38 @@
             { "stat": "Effect HIT Rate", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Echo Chamber",
+          "desc": "Basic ATK deals Lightning DMG equal to 60% of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Encore!",
+          "desc": "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Listen, the Heartbeat of the Gears",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Make Some Noise!",
+          "desc": "Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Belobog\u00e2\u0080\u0099s Loudest Roar!",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "This Song Rocks to Heaven!",
+          "desc": "Serval deals 30% more DMG to Shocked enemies."
+        }
       ]
     },
     "dynamic": {
@@ -2219,6 +2819,38 @@
             { "stat": "Quantum DMG", "value": "+4.8%", "unlock": "Unlocks at A6" },
             { "stat": "Effect HIT Rate", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Social Engineering",
+          "desc": "After using her Ultimate to attack enemies, Silver Wolf regenerates 7 Energy for every debuff that the target enemy currently has. This effect can be triggered up to 5 time(s) in each use of her Ultimate."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Zombie Network",
+          "desc": "When an enemy enters battle, reduces their Effect RES by 20%."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Payload",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Bounce Attack",
+          "desc": "After using her Ultimate to attack enemies, deals Additional Quantum DMG equal to 20% of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of 5 time(s) during each use of her Ultimate."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Brute Force Attack",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Overlay Network",
+          "desc": "For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%."
         }
       ]
     },
@@ -2336,6 +2968,34 @@
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Cut With Ease",
+          "desc": "After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Refine in Toil",
+          "desc": "After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Rise From Fame",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        { "typeUID": "Eidolon 4", "name": "Cleave With Heart", "desc": "Sushang's Break Effect increases by 40%." },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Prevail via Taixu",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Dwell Like Water",
+          "desc": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost."
+        }
       ]
     },
     "dynamic": {
@@ -2446,6 +3106,38 @@
             { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 75" },
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Windfall of Lucky Springs",
+          "desc": "After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Gainfully Gives, Givingly Gains",
+          "desc": "The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Halcyon Bequest",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Jovial Versatility",
+          "desc": "The DMG multiplier provided by Benediction increases by 20%."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Sauntering Coquette",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Peace Brings Wealth to All",
+          "desc": "Ultimate regenerates 10 more Energy for the target ally."
         }
       ]
     },
@@ -2565,6 +3257,38 @@
             { "stat": "DEF", "value": "+10%", "unlock": "Unlocks at Lv. 80" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Earth-Shaking Resonance",
+          "desc": "When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, deal Additional Fire DMG equal to 50% of the Trailblazer's DEF."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Time-Defying Tenacity",
+          "desc": "The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Trail-Blazing Blueprint",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Nation-Building Oath",
+          "desc": "At the start of the battle, immediately gains 4 stack(s) of Magma Will."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Spirit-Warming Flame",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "City-Forging Bulwarks",
+          "desc": "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s)."
+        }
       ]
     },
     "dynamic": {
@@ -2678,6 +3402,38 @@
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "A Falling Star",
+          "desc": "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "An Unwilling Host",
+          "desc": "Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "A Leading Whisper",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "A Destructing Glance",
+          "desc": "When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "A Surviving Hope",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "A Trailblazing Will",
+          "desc": "The Trailblazer's Talent is also triggered when they defeat an enemy."
+        }
       ]
     },
     "dynamic": {
@@ -2789,6 +3545,38 @@
             { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
             { "stat": "Imaginary DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 75" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Legacy of Honor",
+          "desc": "After Welt uses his Ultimate, his abilities are enhanced. The next 2 time(s) he uses his Basic ATK or Skill, deals Additional DMG to the target equal to 50% of his Basic ATK's DMG multiplier or 80% of his Skill's DMG multiplier respectively."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Conflux of Stars",
+          "desc": "When his Talent is triggered, Welt regenerates 3 Energy."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Prayer of Peace",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Appellation of Justice",
+          "desc": "Base chance for Skill to inflict SPD Reduction increases by 35%."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Power of Kindness",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Prospect of Glory",
+          "desc": "When using Skill, deals DMG for 1 extra time to a random enemy."
         }
       ]
     },
@@ -2906,6 +3694,38 @@
             { "stat": "ATK", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
           ]
         }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Svelte Saber",
+          "desc": "When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to 60% of his ATK."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Supine Serenade",
+          "desc": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Sword Savant",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Searing Sting",
+          "desc": "When the current HP percentage is 80% or higher, Ice RES PEN increases by 12%."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Surging Strife",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Swift Swoop",
+          "desc": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn."
+        }
       ]
     },
     "dynamic": {
@@ -3016,6 +3836,38 @@
             { "stat": "HP", "value": "+8%", "unlock": "Unlocks at Lv. 75" },
             { "stat": "Imaginary DMG", "value": "+6.4%", "unlock": "Unlocks at Lv. 80" }
           ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Aerial Marshal",
+          "desc": "At the start of battle, increases the SPD of all allies by 10% for 2 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Skyward Command",
+          "desc": "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional 5 energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong casts her Ultimate."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Torrential Fusillade",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Zephyrean Echoes",
+          "desc": "When \"Roaring Bowstrings\" is active, Yukong deals 30% more DMG to enemies."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "August Deadshot",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Bowstring Thunderclap",
+          "desc": "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of \"Roaring Bowstrings.\""
         }
       ]
     },

@@ -2,7 +2,7 @@
 
 import Checked from "@/assets/general/checked.svg";
 import Dropdown from "@/assets/general/dropdown.svg";
-import { Element, Path } from "@/data/Utils";
+import { Element, Path } from "@/data/utils";
 import { Popover, Transition, Switch } from "@headlessui/react";
 import { Dispatch, SetStateAction } from "react";
 

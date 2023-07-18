@@ -2,7 +2,7 @@
 
 import Search from "@/assets/general/search.svg";
 import Star from "@/assets/general/star.svg";
-import { getCharacters, displayable, tierCSS, Character } from "@/data/Characters";
+import { getCharacters, displayable, tierCSS, Character } from "@/data/characters";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";

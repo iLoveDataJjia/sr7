@@ -1,10 +1,20 @@
-import items from "./items.json";
+import consumables from "./items/consumables.json";
+import generals from "./items/generals.json";
+import materials from "./items/materials.json";
 
 /**
  * Get item.
  */
 export function getItem(nameUID: string) {
-  return items.filter((_) => _.nameUID === nameUID)[0] as Item;
+  // Search
+  const consumable = consumables.filter((_) => _.nameUID === nameUID).at(0);
+  const material = materials.filter((_) => _.nameUID === nameUID).at(0);
+  const general = generals.filter((_) => _.nameUID === nameUID)[0];
+
+  // Reduce & Return
+  const item = consumable ? consumable : material ? material : general;
+  const itemType = consumable ? ItemType["consumables"] : general ? ItemType["generals"] : ItemType["materials"];
+  return { ...item, type: itemType } as Item;
 }
 
 /**
@@ -12,5 +22,15 @@ export function getItem(nameUID: string) {
  */
 export interface Item {
   nameUID: string;
+  type: ItemType;
   star: 5 | 4 | 3 | 2;
+}
+
+/**
+ * Item type.
+ */
+export enum ItemType {
+  "consumables" = "consumables",
+  "generals" = "generals",
+  "materials" = "materials",
 }

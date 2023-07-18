@@ -1,5 +1,5 @@
 import TracePannelHover from "./TracePannelHover";
-import { Character, Trace } from "@/data/Characters";
+import { Character, Trace } from "@/data/characters";
 import Image from "next/image";
 
 /**

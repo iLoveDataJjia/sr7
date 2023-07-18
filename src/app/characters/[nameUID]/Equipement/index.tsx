@@ -2,7 +2,7 @@ import LightconeHover from "./LightconeHover";
 import LightconePhoto from "./LightconePhoto";
 import OrnamentHover from "./OrnamentHover";
 import RelicHover from "./RelicHover";
-import { Character } from "@/data/Characters";
+import { Character } from "@/data/characters";
 import Image from "next/image";
 
 /**

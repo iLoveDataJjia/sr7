@@ -2,7 +2,7 @@ import Comp from "./Comp";
 import Equipement from "./Equipement";
 import General from "./General";
 import SkillTracePriority from "./SkillTracePriority";
-import { getCharacters } from "@/data/Characters";
+import { getCharacters } from "@/data/characters";
 import { srCapitalize, srDecodeURL } from "@/utils/String";
 
 /**

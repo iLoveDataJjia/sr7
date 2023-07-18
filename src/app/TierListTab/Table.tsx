@@ -1,7 +1,7 @@
 import Star from "@/assets/general/star.svg";
-import { Character } from "@/data/Characters";
-import { tierCSS } from "@/data/Characters";
-import { starCSS, Stat } from "@/data/Utils";
+import { Character } from "@/data/characters";
+import { tierCSS } from "@/data/characters";
+import { starCSS, Stat } from "@/data/utils";
 import Image from "next/image";
 import Link from "next/link";
 

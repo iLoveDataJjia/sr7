@@ -17,7 +17,7 @@ import Quantum_DMG from "@/assets/stats/Quantum DMG.svg";
 import SPD from "@/assets/stats/SPD.svg";
 import TAUNT from "@/assets/stats/TAUNT.svg";
 import Wind_DMG from "@/assets/stats/Wind DMG.svg";
-import { Stat } from "@/data/Utils";
+import { Stat } from "@/data/utils";
 
 /**
  * Attribute icon.

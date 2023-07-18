@@ -1,5 +1,5 @@
-import { Path, Element, Stat } from "./Utils";
 import data from "./characters.json";
+import { Path, Element, Stat } from "./utils";
 
 /**
  * Tier order.
@@ -94,6 +94,11 @@ export interface Character {
         unlock: string;
       }[];
     }[];
+    eidolons: {
+      typeUID: Eidolon;
+      name: string;
+      desc: string;
+    }[];
   };
   dynamic: {
     tier: Tier;
@@ -152,6 +157,18 @@ export enum Trace {
   "Ascension 2" = "Ascension 2",
   "Ascension 4" = "Ascension 4",
   "Ascension 6" = "Ascension 6",
+}
+
+/**
+ * Eidolon.
+ */
+export enum Eidolon {
+  "Eidolon 1" = "Eidolon 1",
+  "Eidolon 2" = "Eidolon 2",
+  "Eidolon 3" = "Eidolon 3",
+  "Eidolon 4" = "Eidolon 4",
+  "Eidolon 5" = "Eidolon 5",
+  "Eidolon 6" = "Eidolon 6",
 }
 
 /**

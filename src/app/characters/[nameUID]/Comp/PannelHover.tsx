@@ -1,6 +1,6 @@
 import Star from "@/assets/general/star.svg";
-import { Character } from "@/data/Characters";
-import { Role } from "@/data/Characters";
+import { Character } from "@/data/characters";
+import { Role } from "@/data/characters";
 import { useMouseCSSPos } from "@/hooks/Mouse";
 import Image from "next/image";
 

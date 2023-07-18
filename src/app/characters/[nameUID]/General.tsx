@@ -1,6 +1,6 @@
 import Star from "@/assets/general/star.svg";
 import StatIcon from "@/components/StatIcon";
-import { Character, tierCSS } from "@/data/Characters";
+import { Character, tierCSS } from "@/data/characters";
 import { srEncodeURL } from "@/utils/String";
 import Image from "next/image";
 

@@ -1,5 +1,5 @@
 import Pannel from "./Pannel";
-import { Character } from "@/data/Characters";
+import { Character } from "@/data/characters";
 
 /**
  * Comp tab.
