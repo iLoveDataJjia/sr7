@@ -1,6 +1,6 @@
-import consumables from "./items/consumables.json";
-import generals from "./items/generals.json";
-import materials from "./items/materials.json";
+import consumables from "./consumables.json";
+import generals from "./generals.json";
+import materials from "./materials.json";
 
 /**
  * Get item.
