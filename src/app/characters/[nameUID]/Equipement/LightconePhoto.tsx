@@ -1,5 +1,5 @@
-import { getLightCones } from "@/data/LightCones";
-import { starCSS } from "@/data/Utils";
+import { getLightCones } from "@/data/lightcones";
+import { starCSS } from "@/data/utils";
 import Image from "next/image";
 
 /**

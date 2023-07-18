@@ -1,7 +1,7 @@
 import Separator from "./Separator";
 import SkillPannel from "./SkillPannel";
 import TracePannel from "./TracePannel";
-import { Character } from "@/data/Characters";
+import { Character } from "@/data/characters";
 
 /**
  * Skill & trace priority tab.

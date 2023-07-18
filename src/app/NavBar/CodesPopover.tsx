@@ -5,9 +5,9 @@ import CopyToCliboard from "@/assets/codes/copyToClipboard.svg";
 import GoToLink from "@/assets/codes/goToLink.svg";
 import Checked from "@/assets/general/checked.svg";
 import TextHighlighter from "@/components/TextHighlighter";
-import { getCodes } from "@/data/Codes";
-import { getItem } from "@/data/Items";
-import { starCSS } from "@/data/Utils";
+import { getCodes } from "@/data/codes";
+import { getItem } from "@/data/items";
+import { starCSS } from "@/data/utils";
 import { Popover, Transition } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -91,7 +91,7 @@ export default function CodesPopover() {
                 {code.items.map((item) => (
                   <div key={item.nameUID} className="group relative">
                     <Image
-                      src={`/assets/items/${item.nameUID}.webp`}
+                      src={`/assets/items/${getItem(item.nameUID).type}/${item.nameUID}.webp`}
                       alt={item.nameUID}
                       height={25}
                       width={25}

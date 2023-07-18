@@ -4,8 +4,8 @@ import FilterPopover from "./FilterPopover";
 import Table from "./Table";
 import Filter from "@/assets/general/filter.svg";
 import Star from "@/assets/general/star.svg";
-import { getCharacters, tierOrder } from "@/data/Characters";
-import { Element, Path, starCSS } from "@/data/Utils";
+import { getCharacters, tierOrder } from "@/data/characters";
+import { Element, Path, starCSS } from "@/data/utils";
 import Image from "next/image";
 import { useState } from "react";
 

@@ -1,8 +1,8 @@
 "use client";
 
 import PannelHover from "./PannelHover";
-import { getCharacters, displayable } from "@/data/Characters";
-import { Role } from "@/data/Characters";
+import { getCharacters, displayable } from "@/data/characters";
+import { Role } from "@/data/characters";
 import Image from "next/image";
 import Link from "next/link";
 

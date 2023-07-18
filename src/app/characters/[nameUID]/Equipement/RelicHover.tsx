@@ -1,6 +1,6 @@
 "use client";
 
-import { getRelics } from "@/data/Relics";
+import { getRelics } from "@/data/relics";
 import { useMouseCSSPos } from "@/hooks/Mouse";
 
 /**

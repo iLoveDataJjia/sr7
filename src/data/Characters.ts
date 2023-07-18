@@ -1,5 +1,5 @@
-import { Path, Element, Stat } from "./Utils";
 import data from "./characters.json";
+import { Path, Element, Stat } from "./utils";
 
 /**
  * Tier order.

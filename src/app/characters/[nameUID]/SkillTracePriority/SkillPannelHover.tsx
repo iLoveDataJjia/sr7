@@ -1,8 +1,8 @@
 "use client";
 
 import TextHighlighter from "@/components/TextHighlighter";
-import { Skill } from "@/data/Characters";
-import { SkillSource } from "@/data/Characters";
+import { Skill } from "@/data/characters";
+import { SkillSource } from "@/data/characters";
 import { useMouseCSSPos } from "@/hooks/Mouse";
 
 /**

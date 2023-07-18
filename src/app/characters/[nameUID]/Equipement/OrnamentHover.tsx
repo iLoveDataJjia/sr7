@@ -1,6 +1,6 @@
 "use client";
 
-import { getOrnaments } from "@/data/Ornaments";
+import { getOrnaments } from "@/data/ornaments";
 import { useMouseCSSPos } from "@/hooks/Mouse";
 
 /**

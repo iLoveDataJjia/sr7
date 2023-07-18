@@ -1,8 +1,8 @@
 "use client";
 
 import StatIcon from "@/components/StatIcon";
-import { Trace } from "@/data/Characters";
-import { Stat } from "@/data/Utils";
+import { Trace } from "@/data/characters";
+import { Stat } from "@/data/utils";
 import { useMouseCSSPos } from "@/hooks/Mouse";
 
 /**

@@ -1,5 +1,5 @@
-import { Path } from "./Utils";
 import data from "./lightcones.json";
+import { Path } from "./utils";
 
 /**
  * Get light cone(s).
