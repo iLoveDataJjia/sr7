@@ -128,6 +128,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Arlan", "role": "Main DPS" },
@@ -276,6 +277,7 @@
       },
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Seele", "role": "Main DPS" },
@@ -420,6 +422,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Bailu", "role": "Healer" },
@@ -563,6 +566,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 1"],
       "comp": {
         "best": [
           { "char": "Seele", "role": "Main DPS" },
@@ -676,7 +680,7 @@
         },
         {
           "typeUID": "Eidolon 4",
-          "name": "Family\u00e2\u0080\u0099s Warmth",
+          "name": "Family's Warmth",
           "desc": "After Clara is hit, the DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn."
         },
         {
@@ -708,6 +712,7 @@
       },
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Clara", "role": "Main DPS" },
@@ -830,7 +835,7 @@
         {
           "typeUID": "Eidolon 6",
           "name": "The Troubled Soul Lies in Wait",
-          "desc": "Slow triggered by Skill reduces the enemy\u00e2\u0080\u0099s SPD by an additional 10%."
+          "desc": "Slow triggered by Skill reduces the enemy's SPD by an additional 10%."
         }
       ]
     },
@@ -851,6 +856,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 1"],
       "comp": {
         "best": [
           { "char": "Dan Heng", "role": "Main DPS" },
@@ -994,6 +1000,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Normal ATK", "Talent"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Gepard", "role": "Tank" },
@@ -1138,6 +1145,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
       "comp": {
         "best": [
           { "char": "Jing Yuan", "role": "Main DPS" },
@@ -1282,6 +1290,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Himeko", "role": "Main DPS" },
@@ -1397,7 +1406,7 @@
         },
         {
           "typeUID": "Eidolon 3",
-          "name": "Don\u00e2\u0080\u0099t Be Picky. Nothing\u00e2\u0080\u0099s Icky",
+          "name": "Don't Be Picky. Nothing's Icky",
           "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10."
         },
         {
@@ -1434,6 +1443,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 6", "Eidolon 2"],
       "comp": {
         "best": [
           { "char": "Hook", "role": "Main DPS" },
@@ -1578,6 +1588,7 @@
       },
       "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
       "comp": {
         "best": [
           { "char": "Jing Yuan", "role": "Main DPS" },
@@ -1722,6 +1733,7 @@
       },
       "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 1"],
       "comp": {
         "best": [
           { "char": "Luocha", "role": "Healer" },
@@ -1865,6 +1877,7 @@
       },
       "skillPriority": ["Skill", "Ultimate", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 1", "Eidolon 4"],
       "comp": {
         "best": [
           { "char": "Clara", "role": "Main DPS" },
@@ -1983,7 +1996,7 @@
         },
         {
           "typeUID": "Eidolon 6",
-          "name": "Doctor\u00e2\u0080\u0099s Grace",
+          "name": "Doctor's Grace",
           "desc": "Natasha's Basic ATK deals Additional Physical DMG equal to 40% of her Max HP."
         }
       ]
@@ -2005,6 +2018,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Seele", "role": "Main DPS" },
@@ -2149,6 +2163,7 @@
       },
       "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
       "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 1", "Eidolon 2"],
       "comp": {
         "best": [
           { "char": "Jing Yuan", "role": "Main DPS" },
@@ -2296,6 +2311,7 @@
       },
       "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
       "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 4"],
       "comp": {
         "best": [
           { "char": "Qingque", "role": "Main DPS" },
@@ -2440,6 +2456,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
       "comp": {
         "best": [
           { "char": "Sampo", "role": "Sub DPS" },
@@ -2583,6 +2600,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 4", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Seele", "role": "Main DPS" },
@@ -2700,7 +2718,7 @@
         },
         {
           "typeUID": "Eidolon 5",
-          "name": "Belobog\u00e2\u0080\u0099s Loudest Roar!",
+          "name": "Belobog's Loudest Roar!",
           "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
         },
         {
@@ -2727,6 +2745,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Jing Yuan", "role": "Main DPS" },
@@ -2876,6 +2895,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 1"],
       "comp": {
         "best": [
           { "char": "Seele", "role": "Main DPS" },
@@ -3015,6 +3035,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 1"],
       "comp": {
         "best": [
           { "char": "Sushang", "role": "Main DPS" },
@@ -3158,6 +3179,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 4"],
       "comp": {
         "best": [
           { "char": "Seele", "role": "Main DPS" },
@@ -3308,6 +3330,7 @@
       },
       "skillPriority": ["Ultimate", "Talent", "Normal ATK", "Skill"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Trailblazer (Fire)", "role": "Tank" },
@@ -3453,6 +3476,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 6", "Eidolon 1"],
       "comp": {
         "best": [
           { "char": "Trailblazer (Physical)", "role": "Main DPS" },
@@ -3602,6 +3626,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 1"],
       "comp": {
         "best": [
           { "char": "Seele", "role": "Main DPS" },
@@ -3745,6 +3770,7 @@
       },
       "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
       "comp": {
         "best": [
           { "char": "Yanqing", "role": "Main DPS" },
@@ -3888,6 +3914,7 @@
       },
       "skillPriority": ["Skill", "Ultimate", "Normal ATK", "Talent"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
       "comp": {
         "best": [
           { "char": "Yanqing", "role": "Main DPS" },
