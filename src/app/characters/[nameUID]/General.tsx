@@ -23,7 +23,7 @@ export default function General({ character }: { character: Character }) {
       <div className="flex items-center space-x-4 py-4">
         {/* Photo */}
         <div className={`relative flex h-24 w-24 flex-col items-center rounded-md border-2 ${tierColor.border} shadow`}>
-          <div className="absolute -top-4 flex">
+          <div className="absolute -top-5 flex">
             {Array.from({ length: character.static.star }, (_, idx) => (
               <Star key={idx} className="h-5 w-5 fill-yellow-500" />
             ))}

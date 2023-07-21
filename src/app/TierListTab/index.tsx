@@ -50,13 +50,13 @@ export default function TierListTab() {
     5: (
       <div className="flex items-center space-x-0.5">
         <p className={`font-bold ${starCSS(5).text}`}>5</p>
-        <Star className={`h-4 w-4 ${starCSS(5).fill}`} />
+        <Star className={`h-5 w-5 ${starCSS(5).fill}`} />
       </div>
     ),
     4: (
       <div className="flex items-center space-x-0.5">
         <p className={`font-bold ${starCSS(4).text}`}>4</p>
-        <Star className={`h-4 w-4 ${starCSS(4).fill}`} />
+        <Star className={`h-5 w-5 ${starCSS(4).fill}`} />
       </div>
     ),
   };
@@ -81,7 +81,7 @@ export default function TierListTab() {
       <div className="flex items-center space-x-8">
         <div className="flex items-center space-x-2">
           <Filter className="h-4 fill-white" />
-          <h1 className="font-bold">Filters</h1>
+          <h2 className="font-bold">Filters</h2>
         </div>
         <FilterPopover
           baseTitle="Select element"

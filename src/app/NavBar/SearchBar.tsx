@@ -45,7 +45,7 @@ function SearchBarResult({
         <div className="flex flex-col items-center space-y-1">
           <div className="flex items-center space-x-0.5">
             <p className="font-bold">{char.static.star}</p>
-            <Star className="h-4 w-4 fill-amber-500" />
+            <Star className="h-5 w-5 fill-amber-500" />
           </div>
           <div
             className={`rounded-md border-[1px] ${tierColorCSS.border} w-7 text-center text-xs font-bold ${tierColorCSS.text}`}
