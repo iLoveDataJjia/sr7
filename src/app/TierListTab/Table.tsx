@@ -20,8 +20,8 @@ export default function Table({ characters }: { characters: Character[] }) {
         <div className="flex w-5 justify-center text-sm font-semibold">Star</div>
         <div className="flex w-5 justify-center text-sm font-semibold">Tier</div>
         <div className="flex w-5 justify-center text-sm font-semibold">HP</div>
-        <div className="flex w-5 justify-center text-sm font-semibold">DEF</div>
         <div className="flex w-5 justify-center text-sm font-semibold">ATK</div>
+        <div className="flex w-5 justify-center text-sm font-semibold">DEF</div>
         <div className="flex w-5 justify-center text-sm font-semibold">SPD</div>
         <div className="flex w-5 justify-center text-sm font-semibold">TAUNT</div>
         <div className="flex w-32 justify-center text-sm font-semibold">Best team</div>
@@ -86,7 +86,7 @@ export default function Table({ characters }: { characters: Character[] }) {
               <div className="flex w-5 justify-center">
                 <div className="flex items-center space-x-0.5">
                   <p className={"font-bold" + ` ${starCSS(char.static.star).text}`}>{char.static.star}</p>
-                  <Star className={"h-4 w-4" + ` ${starCSS(char.static.star).fill}`} />
+                  <Star className={"h-5 w-5" + ` ${starCSS(char.static.star).fill}`} />
                 </div>
               </div>
               <div className={"flex w-5 justify-center font-bold" + ` ${tierCSS(char.dynamic.tier).text}`}>
@@ -98,10 +98,10 @@ export default function Table({ characters }: { characters: Character[] }) {
                 <p className="font-bold">{char.static.attributes.filter((_) => _.typeUID === Stat["HP"])[0].value}</p>
               </div>
               <div className="flex w-5 justify-center">
-                <p className="font-bold">{char.static.attributes.filter((_) => _.typeUID === Stat["DEF"])[0].value}</p>
+                <p className="font-bold">{char.static.attributes.filter((_) => _.typeUID === Stat["ATK"])[0].value}</p>
               </div>
               <div className="flex w-5 justify-center">
-                <p className="font-bold">{char.static.attributes.filter((_) => _.typeUID === Stat["ATK"])[0].value}</p>
+                <p className="font-bold">{char.static.attributes.filter((_) => _.typeUID === Stat["DEF"])[0].value}</p>
               </div>
               <div className="flex w-5 justify-center">
                 <p className="font-bold">{char.static.attributes.filter((_) => _.typeUID === Stat["SPD"])[0].value}</p>

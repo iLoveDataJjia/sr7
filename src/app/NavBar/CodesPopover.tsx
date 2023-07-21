@@ -64,14 +64,14 @@ export default function CodesPopover() {
           className="absolute left-1/2 w-max -translate-x-1/2 translate-y-2.5 -space-y-[1px] shadow"
         >
           {/* Header */}
-          <h1
+          <h2
             className={
               "bg-indigo-900 px-4 py-1.5 text-center text-sm font-bold transition-all duration-100 ease-in-out hover:bg-indigo-800" +
               (codes.length === 0 ? " rounded-md" : " rounded-t-md")
             }
           >
             {`${month} ${year}`} - {codes.length} active code(s)
-          </h1>
+          </h2>
 
           {/* Codes */}
           {codes.map((code, idx) => (
