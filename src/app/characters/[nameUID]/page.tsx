@@ -1,7 +1,7 @@
 import Comp from "./Comp";
 import Equipement from "./Equipement";
 import General from "./General";
-import SkillTracePriority from "./SkillTracePriority";
+import SkillTraceEidolonPriority from "./SkillTraceEidolonPriority";
 import { getCharacters } from "@/data/characters";
 import { srCapitalize, srDecodeURL } from "@/utils/String";
 
@@ -45,7 +45,7 @@ export default function Page({ params: { nameUID } }: { params: { nameUID: strin
     <div className="m-4 space-y-8">
       <General character={character} />
       <Equipement character={character} />
-      <SkillTracePriority character={character} />
+      <SkillTraceEidolonPriority character={character} />
       <Comp character={character} />
     </div>
   );
