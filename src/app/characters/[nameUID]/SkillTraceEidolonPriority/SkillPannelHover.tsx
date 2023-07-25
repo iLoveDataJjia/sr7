@@ -26,7 +26,7 @@ function SkillPannelHoverCore({
       <p className="font-bold text-blue-500">{name}</p>
       <div className="flex items-center justify-center space-x-4">
         <div
-          className="flex w-40 items-center justify-center self-stretch rounded-md bg-slate-900
+          className="flex w-40 items-center justify-center rounded-md bg-slate-900
             py-2 text-sm font-bold shadow"
         >
           {type}
