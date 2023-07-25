@@ -20,7 +20,7 @@ export default function EidolonPannel({
 
   // Render
   return (
-    <div className="group relative flex h-32 w-24 flex-col-reverse rounded-md bg-indigo-900 shadow hover:bg-indigo-800">
+    <div className="group relative flex h-40 w-28 flex-col-reverse rounded-md bg-indigo-900 shadow hover:bg-indigo-800">
       {/* Displayed */}
       {priorityIdx !== -1 && (
         <div className="absolute right-0 top-0 -translate-y-1/2 translate-x-1/2 scale-90 rounded-full bg-gray-700 px-3 py-1.5 text-sm font-bold shadow group-hover:bg-gray-600">
@@ -33,9 +33,9 @@ export default function EidolonPannel({
       >
         <p className="p-0.5 text-center text-xs font-semibold">{typeUID}</p>
       </div>
-      <div className="my-auto flex flex-col items-center space-y-3">
+      <div className="my-auto flex flex-col items-center space-y-1">
         <Image src={`/assets/characters/${character.nameUID}/${typeUID}.webp`} alt={data.name} width={40} height={40} />
-        <p className="w-28 px-5 pb-0.5 text-center text-xs font-semibold">{data.name}</p>
+        <p className="w-28 px-3 pb-0.5 text-center text-xs font-semibold">{data.name}</p>
       </div>
 
       {/* Hovering */}
