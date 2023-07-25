@@ -21,7 +21,7 @@ export default function EidolonPannelHover({ typeUID, name, desc }: { typeUID: E
     >
       <p className="font-bold text-blue-500">{name}</p>
       <div
-        className="mx-auto flex w-40 items-center justify-center self-stretch rounded-md bg-slate-900 py-2 text-sm font-bold
+        className="mx-auto flex w-40 items-center justify-center rounded-md bg-slate-900 py-2 text-sm font-bold
         shadow"
       >
         {typeUID}

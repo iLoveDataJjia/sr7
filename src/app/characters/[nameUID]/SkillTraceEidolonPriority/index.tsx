@@ -5,7 +5,7 @@ import TracePannel from "./TracePannel";
 import { Character } from "@/data/characters";
 
 /**
- * Skill & trace priority tab.
+ * Skill, trace & eidolon priority tab.
  */
 export default function SkillTraceEidolonPriority({ character }: { character: Character }) {
   return (
@@ -49,24 +49,14 @@ export default function SkillTraceEidolonPriority({ character }: { character: Ch
         <div className="flex items-center justify-center space-x-10">
           {character.static.eidolons.flatMap((eidolon) => {
             const priorityIdx = character.dynamic.eidolonPriority.indexOf(eidolon.typeUID);
-            if (character.dynamic.eidolonPriority.includes(eidolon.typeUID)) {
-              return [
-                <EidolonPannel
-                  character={character}
-                  typeUID={eidolon.typeUID}
-                  key={eidolon.typeUID}
-                  priorityIdx={priorityIdx}
-                />,
-              ];
-            } else
-              return [
-                <EidolonPannel
-                  character={character}
-                  typeUID={eidolon.typeUID}
-                  key={eidolon.typeUID}
-                  priorityIdx={priorityIdx}
-                />,
-              ];
+            return (
+              <EidolonPannel
+                character={character}
+                typeUID={eidolon.typeUID}
+                key={eidolon.typeUID}
+                priorityIdx={priorityIdx}
+              />
+            );
           })}
         </div>
       </div>

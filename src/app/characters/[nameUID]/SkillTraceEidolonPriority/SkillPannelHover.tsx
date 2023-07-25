@@ -33,7 +33,7 @@ function SkillPannelHoverCore({
         </div>
         {cost && (
           <div
-            className="flex w-40 items-center justify-center self-stretch rounded-md bg-slate-900 py-2
+            className="flex w-40 items-center justify-center rounded-md bg-slate-900 py-2
             text-sm font-bold text-emerald-500 shadow"
           >
             {cost}
