@@ -49,12 +49,13 @@ export default function SkillTraceEidolonPriority({ character }: { character: Ch
         <div className="flex items-center justify-center space-x-10">
           {character.static.eidolons.flatMap((eidolon) => {
             const priorityIdx = character.dynamic.eidolonPriority.indexOf(eidolon.typeUID);
+            const priorityNumber = priorityIdx == -1 ? undefined : priorityIdx + 1;
             return (
               <EidolonPannel
                 character={character}
                 typeUID={eidolon.typeUID}
                 key={eidolon.typeUID}
-                priorityIdx={priorityIdx}
+                priorityNumber={priorityNumber}
               />
             );
           })}

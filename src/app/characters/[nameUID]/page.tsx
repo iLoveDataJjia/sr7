@@ -20,16 +20,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params: { nameUID } }: { params: { nameUID: string } }) {
   // Get character
   const nameUIDDecoded = srCapitalize(srDecodeURL(nameUID));
-  const character = getCharacters([nameUIDDecoded])[0];
+  const character = getCharacters([nameUIDDecoded]).at(0);
 
   // Render
-  return {
-    title: `Honkai: Star Rail ${character.nameUID} Build`,
-    description: character.dynamic.playstyle,
-    openGraph: {
-      images: `/assets/characters/${character.nameUID}/photo.webp`,
-    },
-  };
+  return (
+    character && {
+      title: `Honkai: Star Rail ${character.nameUID} Build`,
+      description: character.dynamic.playstyle,
+      openGraph: {
+        images: `/assets/characters/${character.nameUID}/photo.webp`,
+      },
+    }
+  );
 }
 
 /**

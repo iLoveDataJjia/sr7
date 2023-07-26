@@ -112,8 +112,7 @@ export interface Character {
     };
     skillPriority: Skill[];
     tracePriority: Trace[];
-    eidolonPriority: Eidolon[],
-
+    eidolonPriority: Eidolon[];
     comp: {
       best: {
         char: string;
