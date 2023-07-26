@@ -8,8 +8,6 @@ import { useEffect } from "react";
  */
 export default function Error({}: { error: Error; reset: () => void }) {
   const router = useRouter();
-  useEffect(() => {
-    router.push("/characters/clara");
-  }, [router]);
+  useEffect(() => router.push("/"), [router]);
   return <></>;
 }
