@@ -4,6 +4,10 @@
     "setEffect2": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF."
   },
   {
+    "nameUID": "Broken Keel",
+    "setEffect2": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%."
+  },
+  {
     "nameUID": "Celestial Differentiator",
     "setEffect2": "Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack."
   },
@@ -18,6 +22,10 @@
   {
     "nameUID": "Pan-Galactic Commercial Enterprise",
     "setEffect2": "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum of 25%."
+  },
+  {
+    "nameUID": "Rutilant Arena",
+    "setEffect2": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%."
   },
   {
     "nameUID": "Space Sealing Station",
