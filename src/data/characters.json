@@ -406,7 +406,7 @@
       ]
     },
     "dynamic": {
-      "tier": "S+",
+      "tier": "S",
       "playstyle": "Bailu is a healing specialist who keeps allies safe and is resilient thanks to scaling off HP. Her Skill, Singing Among Clouds, initially heals one ally and then randomly bounces to two others, including herself. With her Ultimate, Felicitous Thunderleap, Bailu not only heals all allies but also provides a buff called Invigoration, which acts like a pseudo-shield.",
       "lightcones": ["Time Waits for No One", "Post-Op Conversation", "Shared Feeling", "Cornucopia"],
       "relics": ["Passerby of Wandering Cloud", "Musketeer of Wild Wheat"],
@@ -435,6 +435,159 @@
           { "char": "Asta", "role": "Support" },
           { "char": "Tingyun", "role": "Support" },
           { "char": "Dan Heng", "role": "Main DPS" }
+        ]
+      }
+    }
+  },
+  {
+    "nameUID": "Blade",
+    "static": {
+      "star": 5,
+      "path": "The Destruction",
+      "element": "Wind",
+      "attributes": [
+        { "typeUID": "HP", "value": 1358 },
+        { "typeUID": "ATK", "value": 543 },
+        { "typeUID": "DEF", "value": 485 },
+        { "typeUID": "SPD", "value": 97 },
+        { "typeUID": "TAUNT", "value": 125 }
+      ],
+      "skills": [
+        {
+          "typeUID": "Normal ATK",
+          "name": "Shard Sword",
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals 50/100/110% of Blade's ATK as Wind DMG to a target enemy.",
+          "enhanced": [
+            {
+              "nameUID": "Forest of Swords",
+              "source": "Blast",
+              "cost": null,
+              "desc": "Consumes HP equal to 10% of Blade's Max HP and deals Wind DMG equal to the sum of 20/40/44% of his ATK and 50/100/110% of his Max HP to a single enemy. In addition, deals Wind DMG equal to the sum of 8/16/18% of Blade's ATK and 20/40/44% of his Max HP to adjacent targets. If Blade's current HP is insufficient, his HP will be reduced to 1 when using Forest of Swords. Forest of Swords cannot regenerate Skill Points."
+            }
+          ]
+        },
+        {
+          "typeUID": "Skill",
+          "name": "Hellscape",
+          "source": "Enhance",
+          "cost": null,
+          "desc": "Consumes HP equal to 30% of Blade's Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 12/40/43%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Ultimate",
+          "name": "Death Sentence",
+          "source": "Blast",
+          "cost": "130 energy",
+          "desc": "Sets Blade's current HP to 50% of his Max HP and deals to a single enemy Wind DMG equal to the sum of 24/40/43% of his ATK, 60/100/108% of his Max HP, and 60/100/108% of the total HP he has lost in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of 9.6/16/17% of his ATK, 24/40/43% of his Max HP, and 24/40/43% of the total HP he has lost in the current battle. The total HP Blade has lost in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+          "enhanced": []
+        },
+        {
+          "typeUID": "Talent",
+          "name": "Shuhu's Gift",
+          "source": "AoE",
+          "cost": null,
+          "desc": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked. When Charge stack reaches maximum, immediately launches a follow-up attack on all enemies, dealing Wind DMG equal to 22/44/48% of Blade's ATK plus 55/110/121% of his Max HP. At the same time, restores Blade's HP by 25% of his Max HP. After the follow-up attack, all Charges are consumed.",
+          "enhanced": []
+        }
+      ],
+      "traces": [
+        {
+          "typeUID": "Ascension 2",
+          "name": "Vita Infinita",
+          "desc": "When Blade's current HP is at 50% of Max HP or lower, Incoming Healing increases by 20%",
+          "minors": [
+            { "stat": "CRIT Rate", "value": "+2.7%", "unlock": "Unlocks at A2" },
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "Effect RES", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Neverending Deaths",
+          "desc": "If Blade hits a Weakness Broken enemy after using Forest of Swords, he will restore HP equal to 5% of his Max HP plus 100.",
+          "minors": [
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "CRIT Rate", "value": "+4%", "unlock": "Unlocks at A5" },
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 6",
+          "name": "Cyclone of Destruction",
+          "desc": "DMG dealt by Talent's follow-up attack increases by 20%.",
+          "minors": [
+            { "stat": "Effect RES", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "CRIT Rate", "value": "+5.3%", "unlock": "Unlocks at Lv. 75" },
+            { "stat": "HP", "value": "+8%", "unlock": "Unlocks at Lv. 80" }
+          ]
+        }
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Blade Cuts the Deepest in Hell",
+          "desc": "Blade's Ultimate deals additionally increased DMG to a single enemy target, with the increased amount equal to 150% of Blade's total HP loss in the current battle. The total HP Blade has lost in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Ten Thousand Sorrows From One Broken Dream",
+          "desc": "When Blade is in the Hellscape state, his CRIT Rate increases by 15%."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Hardened Blade Bleeds Coldest Shade",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Rejected by Death, Infected With Life",
+          "desc": "When Blade's current HP drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s)."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Death By Ten Lords' Gaze",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Reborn Into an Empty Husk",
+          "desc": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 50% of his Max HP."
+        }
+      ]
+    },
+    "dynamic": {
+      "tier": "S",
+      "playstyle": "Blade's Talent ability relies on two methods to accumulate charges: either taking damage or using his own HP. However, pairing Blade with characters from the path of Perseverance, who provide shields preventing him from taking damage, should be avoided. Blade's Ultimate serves two crucial purposes: firstly, it enables him to reach a maximum cap of 90% total HP loss, thereby boosting the damage of his Ultimate. Secondly, it serves as an emergency tool, rescuing him from the brink of death.",
+      "lightcones": ["The Unreachable Side", "A Secret Vow", "Mutual Demise", "On the Fall of an Aeon"],
+      "relics": ["Longevous Disciple", "Eagle of Twilight Line"],
+      "ornaments": ["Inert Salsotto", "Rutilant Arena"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT DMG", "CRIT Rate"] },
+          { "typeUID": "Feet", "stats": ["SPD", "HP%"] },
+          { "typeUID": "Sphere", "stats": ["Wind DMG", "HP%"] },
+          { "typeUID": "Rope", "stats": ["HP%"] }
+        ],
+        "subStats": ["CRIT DMG", "CRIT Rate", "SPD", "HP%"]
+      },
+      "skillPriority": ["Normal ATK", "Talent", "Ultimate", "Skill"],
+      "tracePriority": ["Ascension 6", "Ascension 4", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 1", "Eidolon 4", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Blade", "role": "Main DPS" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Luocha", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Blade", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
         ]
       }
     }
@@ -696,7 +849,7 @@
       ]
     },
     "dynamic": {
-      "tier": "S",
+      "tier": "A",
       "playstyle": "Clara is an offensive unit adept at counterattacking enemies. She takes reduced damage and retaliates with a counterattack when attacked. The Mark of Counter mechanic marks enemies who target Clara, making them more vulnerable to her Skill. Clara's Ultimate further reduces damage taken and increases her chances of being targeted. Clara's Ultimate also enhances her counterattack to deal area-of-effect damage when other party members are hit.",
       "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "Under the Blue Sky", "Collapsing Sky"],
       "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
@@ -840,7 +993,7 @@
       ]
     },
     "dynamic": {
-      "tier": "A",
+      "tier": "B",
       "playstyle": "Dan Heng, a single-target DMG dealer, gains enhanced damage on slowed enemies with his Basic Attacks and Ultimate. His Skill can hit a single enemy multiple times, instantly applying Slow on a critical hit. When a party member affects Dan Heng with a Skill, his subsequent attacks bypass enemy Wind RES.",
       "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Arrows"],
       "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
@@ -984,7 +1137,7 @@
       ]
     },
     "dynamic": {
-      "tier": "S+",
+      "tier": "S",
       "playstyle": "Gepard's special ability, Integrity, draws enemy attention towards him. Using his Ultimate, Gepard creates a shield based on his DEF stat, protecting the entire party for three turns. Furthermore, his Skill performs a triple attack on a single target, greatly increasing the likelihood of freezing enemies and rendering them unable to move.",
       "lightcones": ["Moment of Victory", "Texture of Memories", "Landau's Choice", "Amber"],
       "relics": ["Knight of Purity Palace", "Guard of Wuthering Snow"],
@@ -1129,7 +1282,7 @@
       ]
     },
     "dynamic": {
-      "tier": "D",
+      "tier": "C",
       "playstyle": "Herta's talent enables her to execute follow-up attacks on all enemies when they reach half health. Her Skill, \"One-Time Offer,\" is a straightforward AoE attack dealing Ice DMG to all enemies. If enemies are not at half health, they suffer an additional 20% DMG from this skill. Similarly, Herta's Ultimate, \"It's Magic, I Added Some Magic,\" inflicts Ice DMG on all enemies but with a higher multiplier.",
       "lightcones": ["Before Dawn", "The Birth of the Self", "Night on the Milky Way", "Sagacity"],
       "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],
@@ -1427,7 +1580,7 @@
       ]
     },
     "dynamic": {
-      "tier": "A",
+      "tier": "B",
       "playstyle": "Hook, a formidable Main DPS, excels in dealing high single-target damage and inflicting Burn on enemies with her Skill, \"Hey! Remember Hook?\", which applies significant Fire damage and a two-turn Burn debuff. Empowered by her Ultimate, \"Boom! Here Comes the Fire!\", the Skill becomes a devastating AoE attack, amplifying its effects. Burned enemies trigger Hook's Talent, \"Ha! Oil to the Flames!\", granting additional Fire damage and Energy restoration.",
       "lightcones": ["On the Fall of an Aeon", "Something Irreplaceable", "Woof! Walk Time!", "Collapsing Sky"],
       "relics": ["Firesmith of Lava-Forging", "Musketeer of Wild Wheat"],
@@ -1572,7 +1725,7 @@
       ]
     },
     "dynamic": {
-      "tier": "S+",
+      "tier": "A",
       "playstyle": "Jing Yuan stands as the game's most potent AoE DMG dealer. Maximizing the use of his Skill and Ultimate prior to the Lightning-Lord's turn is crucial to amplify the subsequent follow-up attacks. Upon unlocking the Bonus Ability, War Martial, Jing Yuan's CRIT Rate rises by 10% after employing his skill.",
       "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
       "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
@@ -2002,7 +2155,7 @@
       ]
     },
     "dynamic": {
-      "tier": "S",
+      "tier": "A",
       "playstyle": "Natasha epitomizes the role of a pure healer. Her Skill, \"Love, Heal, and Choose,\" heals a single ally and provides a small heal over time for the subsequent two turns. With her Ultimate, \"Gift of Rebirth,\" Natasha restores a substantial amount of health to all allies based on her HP.",
       "lightcones": ["Time Waits for No One", "Post-Op Conversation", "Warmth Shortens Cold Nights", "Cornucopia"],
       "relics": ["Passerby of Wandering Cloud"],
@@ -2147,7 +2300,7 @@
       ]
     },
     "dynamic": {
-      "tier": "A",
+      "tier": "S",
       "playstyle": "Pela enhances ally damage by debuffing enemies' DEF and turns the tide of battle by dispelling positive effects. Her Skill, \"Frostbite,\" removes buffs from enemies, while her Ultimate, \"Zone Suppression,\" reduces enemy DEF. Additionally, Pela's Talent, \"Data Collecting,\" grants Energy upon inflicting debuffs, allowing her to activate her Ultimate more frequently.",
       "lightcones": ["Resolution Shines As Pearls of Sweat", "Eyes of the Prey", "In the Name of the World", "Void"],
       "relics": ["Thief of Shooting Meteor"],
@@ -2295,7 +2448,7 @@
       ]
     },
     "dynamic": {
-      "tier": "B",
+      "tier": "A",
       "playstyle": "Qingque, a luck-based Main DPS, leverages her Skill \"A Scoop of Moon\" to draw two tiles and stack up to four DMG buffs without ending her turn. When Qingque accumulates four matching tiles, her Basic ATK receives a massive DMG boost, enabling her to strike adjacent enemies. This enhanced ATK does not generate Skill Points. With her Ultimate, \"A Quartet? Woo-hoo!,\" Qingque unleashes heavy Quantum DMG upon all enemies while obtaining four matching tiles, ensuring her relentless onslaught of AoE DMG.",
       "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
       "relics": ["Genius of Brilliant Stars", "Musketeer of Wild Wheat"],
@@ -2729,7 +2882,7 @@
       ]
     },
     "dynamic": {
-      "tier": "A",
+      "tier": "B",
       "playstyle": "Serval excels at dealing strong Lightning AoE DMG to multiple enemies and inflicting Shock, a damage over time effect, with her Skill. Her Ultimate not only deals a huge chunk of DMG, but also extends the duration of Shock on affected enemies. Unlocking Mania at Character Ascension 6 grants Serval a 20% ATK boost for 2 turns after defeating an enemy. It is ideal to defeat an enemy before using her Ultimate for optimal DMG output.",
       "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Data Bank"],
       "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
@@ -3019,7 +3172,7 @@
       ]
     },
     "dynamic": {
-      "tier": "A",
+      "tier": "B",
       "playstyle": "Sushang is a powerful DPS unit specializing in dealing high Physical DMG through the Sword Stance mechanic. Sword Stance is an additional instance of Physical DMG triggered by breaking an enemy's Weakness, both with her Skill and Ultimate. Additionally, her SPD increases when a party member breaks an enemy's Weakness. Sushang also advances herself forward after using her Basic Attack or Skill if there are enemies on the field with Weakness Break. Her Ultimate inflicts massive DMG and advances her turn by 100%, granting her an extra turn.",
       "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Darting Arrow"],
       "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
@@ -3314,7 +3467,7 @@
       ]
     },
     "dynamic": {
-      "tier": "S",
+      "tier": "A",
       "playstyle": "Trailblazer's Skill taunts enemies and grants him 1 stack. Each time the Trailblazer is hit, he gains 1 stack of Magma Will for a max of 8 stack(s). Consuming 4 stacks enhances his Basic ATK, dealing damage to a single enemy and adjacent enemies. The first Eidolon unlocks the enhanced attack, adding damage based on Trailblazer's DEF. His Ultimate deals damage scaling with ATK and DEF. After using the Ultimate, his next Basic ATK is automatically enhanced without consuming Magma Will stacks.",
       "lightcones": ["Moment of Victory", "Landau's Choice", "This Is Me!", "Amber"],
       "relics": ["Knight of Purity Palace", "Guard of Wuthering Snow"],
@@ -3460,7 +3613,7 @@
       ]
     },
     "dynamic": {
-      "tier": "B",
+      "tier": "C",
       "playstyle": "Upon reaching Ascension 6, Trailblazer gains a 25% DMG Boost to his Skill or Ultimate from his Skill. Unlocking the 6th Eidolon further enhances his capabilities, granting him up to a 20% ATK boost when performing a Weakness Break or defeating an enemy. Additionally, the 4th Eidolon provides a 25% CRIT Rate boost against enemies with Weakness Break.",
       "lightcones": ["On the Fall of an Aeon", "Something Irreplaceable", "The Moles Welcome You", "Collapsing Sky"],
       "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
@@ -3605,7 +3758,7 @@
       ]
     },
     "dynamic": {
-      "tier": "S",
+      "tier": "A",
       "playstyle": "Welt's Skill bounces off multiple enemies, allowing him to easily Weakness Break with Imaginary. When the Toughness Bar of enemies is broken by an Imaginary Element character, they are afflicted with Imprison, delaying their action and reducing their SPD. Welt's Talent boosts his damage against Slowed enemies. With his A2 unlocked, casting Welt's Ultimate increases enemy damage received by 12%. After unlocking his A6 passive, allies dealing with enemies with broken Toughness Bars deal 20% more damage.",
       "lightcones": [
         "In the Name of the World",
@@ -3754,7 +3907,7 @@
       ]
     },
     "dynamic": {
-      "tier": "S",
+      "tier": "A",
       "playstyle": "Yanqing is a powerful Main DPS who deals high damage with Soulsteel Sync, but loses it upon taking damage. Yanqing's Skill, Darting Ironthorn, inflicts Ice damage on an enemy and triggers Soulsteel Sync. Soulsteel Sync provides a 15% increase in Crit Rate and Crit Damage, a 50% chance of performing a follow-up attack with a 65% chance of freezing the target, and frozen enemies take Ice damage at the start of each turn. Yanqing's Ultimate, Amidst the Raining Bliss, deals Ice damage to a single enemy and further boosts his Crit Rate. If Soulsteel Sync is active, it also increases his Crit Damage.",
       "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Arrows"],
       "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],

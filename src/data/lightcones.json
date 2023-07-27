@@ -406,6 +406,13 @@
     "desc": "Increases the wearer's DMG by 12/15/18/21/24%. For every defeated enemy, the wearer's ATK increases by 4/5/6/7/8%, stacking up to 3 time(s)."
   },
   {
+    "nameUID": "The Unreachable Side",
+    "path": "The Destruction",
+    "star": 5,
+    "source": "Unfulfilled Yearning",
+    "desc": "Increases the wearer's CRIT rate by 18/21/24/27/30% and increases their Max HP by 18/21/24/27/30%. When the wearer is attacked or consumes their own HP, their DMG increases by 24/28/32/36/40%. This effect is removed after the wearer uses an attack."
+  },
+  {
     "nameUID": "This Is Me!",
     "path": "The Preservation",
     "star": 4,

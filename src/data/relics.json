@@ -40,6 +40,16 @@
     "setEffect4": "Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%."
   },
   {
+    "nameUID": "Longevous Disciple",
+    "setEffect2": "Increases Max HP by 12%.",
+    "setEffect4": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks."
+  },
+  {
+    "nameUID": "Messenger Traversing Hackerspace",
+    "setEffect2": "Increases SPD by 6%.",
+    "setEffect4": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+  },
+  {
     "nameUID": "Musketeer of Wild Wheat",
     "setEffect2": "ATK increases by 10%.",
     "setEffect4": "The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%."
