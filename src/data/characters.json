@@ -116,40 +116,7 @@
         { "name": "Squirming Core", "quantity": "12" },
         { "name": "Lightning Crown of the Past Shadow", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "C",
-      "playstyle": "Arlan, a damage dealer, increases his power by sacrificing HP through his Skill. As his health percentage decreases relative to his Max HP, his damage grows. To protect Arlan from incapacitation at low health, include Preservation characters in the party. When Arlan's health is below 30% and he defeats an enemy, he can heal himself based on his Max HP.  At 50% HP, Arlan gains a shield that blocks the next incoming attack.",
-      "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "A Secret Vow", "Mutual Demise"],
-      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Arlan", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Gepard", "role": "Tank" }
-        ],
-        "f2p": [
-          { "char": "Arlan", "role": "Main DPS" },
-          { "char": "Natasha", "role": "Healer" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "March 7th", "role": "Tank" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -198,6 +165,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "C",
+      "playstyle": "Arlan, a damage dealer, increases his power by sacrificing HP through his Skill. As his health percentage decreases relative to his Max HP, his damage grows. To protect Arlan from incapacitation at low health, include Preservation characters in the party. When Arlan's health is below 30% and he defeats an enemy, he can heal himself based on his Max HP.  At 50% HP, Arlan gains a shield that blocks the next incoming attack.",
+      "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "A Secret Vow", "Mutual Demise"],
+      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Arlan", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Gepard", "role": "Tank" }
+        ],
+        "f2p": [
+          { "char": "Arlan", "role": "Main DPS" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "March 7th", "role": "Tank" }
+        ]
+      }
     }
   },
   {
@@ -315,45 +315,7 @@
         { "name": "Silvermane Medal", "quantity": "12" },
         { "name": "Endotherm Chitin", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Asta is a valuable combat character for enhancing the damage and speed of your team. Her ultimate ability increases the speed of all team members for two turns, while her talent accumulates Charges, boosting the attack of all fighters up to five times. Remember that Asta needs to hit an enemy to gain a Charge, and three Charges are removed every two turns.",
-      "lightcones": [
-        "But The Battle Isn't Over",
-        "Dance! Dance! Dance!",
-        "Carve the Moon, Weave the Clouds",
-        "Meshing Cogs"
       ],
-      "relics": ["Musketeer of Wild Wheat", "Thief of Shooting Meteor"],
-      "ornaments": ["Fleet of the Ageless", "Talia - Kingdom of Banditry"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["HP%"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["HP%", "Fire DMG"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["SPD", "Break Effect", "HP%"]
-      },
-      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
-      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Seele", "role": "Main DPS" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -402,6 +364,44 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Asta is a valuable combat character for enhancing the damage and speed of your team. Her ultimate ability increases the speed of all team members for two turns, while her talent accumulates Charges, boosting the attack of all fighters up to five times. Remember that Asta needs to hit an enemy to gain a Charge, and three Charges are removed every two turns.",
+      "lightcones": [
+        "But The Battle Isn't Over",
+        "Dance! Dance! Dance!",
+        "Carve the Moon, Weave the Clouds",
+        "Meshing Cogs"
+      ],
+      "relics": ["Musketeer of Wild Wheat", "Thief of Shooting Meteor"],
+      "ornaments": ["Fleet of the Ageless", "Talia - Kingdom of Banditry"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["HP%"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["HP%", "Fire DMG"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["SPD", "Break Effect", "HP%"]
+      },
+      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -520,40 +520,7 @@
         { "name": "Squirming Core", "quantity": "15" },
         { "name": "Lightning Crown of the Past Shadow", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S",
-      "playstyle": "Bailu is a healing specialist who keeps allies safe and is resilient thanks to scaling off HP. Her Skill, Singing Among Clouds, initially heals one ally and then randomly bounces to two others, including herself. With her Ultimate, Felicitous Thunderleap, Bailu not only heals all allies but also provides a buff called Invigoration, which acts like a pseudo-shield.",
-      "lightcones": ["Time Waits for No One", "Post-Op Conversation", "Shared Feeling", "Cornucopia"],
-      "relics": ["Passerby of Wandering Cloud", "Musketeer of Wild Wheat"],
-      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["Outgoing Healing", "HP%"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["HP%"] },
-          { "typeUID": "Rope", "stats": ["HP%"] }
-        ],
-        "subStats": ["SPD", "HP%", "DEF%"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Bailu", "role": "Healer" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Seele", "role": "Main DPS" }
-        ],
-        "f2p": [
-          { "char": "Bailu", "role": "Healer" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Dan Heng", "role": "Main DPS" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -602,6 +569,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S",
+      "playstyle": "Bailu is a healing specialist who keeps allies safe and is resilient thanks to scaling off HP. Her Skill, Singing Among Clouds, initially heals one ally and then randomly bounces to two others, including herself. With her Ultimate, Felicitous Thunderleap, Bailu not only heals all allies but also provides a buff called Invigoration, which acts like a pseudo-shield.",
+      "lightcones": ["Time Waits for No One", "Post-Op Conversation", "Shared Feeling", "Cornucopia"],
+      "relics": ["Passerby of Wandering Cloud", "Musketeer of Wild Wheat"],
+      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Outgoing Healing", "HP%"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["HP%"] },
+          { "typeUID": "Rope", "stats": ["HP%"] }
+        ],
+        "subStats": ["SPD", "HP%", "DEF%"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Seele", "role": "Main DPS" }
+        ],
+        "f2p": [
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Dan Heng", "role": "Main DPS" }
+        ]
+      }
     }
   },
   {
@@ -728,40 +728,7 @@
         { "name": "Immortal Lumintwig", "quantity": "15" },
         { "name": "Ascendant Debris", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S",
-      "playstyle": "Blade's Talent ability relies on two methods to accumulate charges: either taking damage or using his own HP. However, pairing Blade with characters from the path of Perseverance, who provide shields preventing him from taking damage, should be avoided. Blade's Ultimate serves two crucial purposes: firstly, it enables him to reach a maximum cap of 90% total HP loss, thereby boosting the damage of his Ultimate. Secondly, it serves as an emergency tool, rescuing him from the brink of death.",
-      "lightcones": ["The Unreachable Side", "A Secret Vow", "Mutual Demise", "On the Fall of an Aeon"],
-      "relics": ["Longevous Disciple", "Eagle of Twilight Line"],
-      "ornaments": ["Inert Salsotto", "Rutilant Arena"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT DMG", "CRIT Rate"] },
-          { "typeUID": "Feet", "stats": ["SPD", "HP%"] },
-          { "typeUID": "Sphere", "stats": ["Wind DMG", "HP%"] },
-          { "typeUID": "Rope", "stats": ["HP%"] }
-        ],
-        "subStats": ["CRIT DMG", "CRIT Rate", "SPD", "HP%"]
-      },
-      "skillPriority": ["Normal ATK", "Talent", "Ultimate", "Skill"],
-      "tracePriority": ["Ascension 6", "Ascension 4", "Ascension 2"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 1", "Eidolon 4", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Blade", "role": "Main DPS" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Silver Wolf", "role": "Support" },
-          { "char": "Luocha", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Blade", "role": "Main DPS" },
-          { "char": "Pela", "role": "Support" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -810,6 +777,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S",
+      "playstyle": "Blade's Talent ability relies on two methods to accumulate charges: either taking damage or using his own HP. However, pairing Blade with characters from the path of Perseverance, who provide shields preventing him from taking damage, should be avoided. Blade's Ultimate serves two crucial purposes: firstly, it enables him to reach a maximum cap of 90% total HP loss, thereby boosting the damage of his Ultimate. Secondly, it serves as an emergency tool, rescuing him from the brink of death.",
+      "lightcones": ["The Unreachable Side", "A Secret Vow", "Mutual Demise", "On the Fall of an Aeon"],
+      "relics": ["Longevous Disciple", "Eagle of Twilight Line"],
+      "ornaments": ["Inert Salsotto", "Rutilant Arena"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT DMG", "CRIT Rate"] },
+          { "typeUID": "Feet", "stats": ["SPD", "HP%"] },
+          { "typeUID": "Sphere", "stats": ["Wind DMG", "HP%"] },
+          { "typeUID": "Rope", "stats": ["HP%"] }
+        ],
+        "subStats": ["CRIT DMG", "CRIT Rate", "SPD", "HP%"]
+      },
+      "skillPriority": ["Normal ATK", "Talent", "Ultimate", "Skill"],
+      "tracePriority": ["Ascension 6", "Ascension 4", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 1", "Eidolon 4", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Blade", "role": "Main DPS" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Luocha", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Blade", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -927,40 +927,7 @@
         { "name": "Silvermane Medal", "quantity": "15" },
         { "name": "Storm Eye", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S+",
-      "playstyle": "Bronya excels with her Combat Redeployment skill, granting an ally an additional turn with boosted damage and removing one debuff. Maximize the use of Bronya's Ultimate to enhance all allies' attack and CRIT DMG. Bronya thrives when paired with a potent DPS character.",
-      "lightcones": ["But The Battle Isn't Over", "Past and Future", "Memories of the Past", "Chorus"],
-      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
-      "ornaments": ["Fleet of the Ageless"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["DEF%", "HP%"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["SPD", "CRIT DMG", "DEF%", "HP%"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 1"],
-      "comp": {
-        "best": [
-          { "char": "Seele", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -1009,6 +976,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S+",
+      "playstyle": "Bronya excels with her Combat Redeployment skill, granting an ally an additional turn with boosted damage and removing one debuff. Maximize the use of Bronya's Ultimate to enhance all allies' attack and CRIT DMG. Bronya thrives when paired with a potent DPS character.",
+      "lightcones": ["But The Battle Isn't Over", "Past and Future", "Memories of the Past", "Chorus"],
+      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
+      "ornaments": ["Fleet of the Ageless"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["DEF%", "HP%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["SPD", "CRIT DMG", "DEF%", "HP%"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 1"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -1128,40 +1128,7 @@
         { "name": "Ancient Engine", "quantity": "15" },
         { "name": "Broken Teeth of Iron Wolf", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Clara is an offensive unit adept at counterattacking enemies. She takes reduced damage and retaliates with a counterattack when attacked. The Mark of Counter mechanic marks enemies who target Clara, making them more vulnerable to her Skill. Clara's Ultimate further reduces damage taken and increases her chances of being targeted. Clara's Ultimate also enhances her counterattack to deal area-of-effect damage when other party members are hit.",
-      "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "Under the Blue Sky", "Collapsing Sky"],
-      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "ATK", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
-      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -1210,6 +1177,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Clara is an offensive unit adept at counterattacking enemies. She takes reduced damage and retaliates with a counterattack when attacked. The Mark of Counter mechanic marks enemies who target Clara, making them more vulnerable to her Skill. Clara's Ultimate further reduces damage taken and increases her chances of being targeted. Clara's Ultimate also enhances her counterattack to deal area-of-effect damage when other party members are hit.",
+      "lightcones": ["Something Irreplaceable", "On the Fall of an Aeon", "Under the Blue Sky", "Collapsing Sky"],
+      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "ATK", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Clara", "role": "Main DPS" },
+          { "char": "March 7th", "role": "Tank" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Clara", "role": "Main DPS" },
+          { "char": "March 7th", "role": "Tank" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -1327,40 +1327,7 @@
         { "name": "Squirming Core", "quantity": "12" },
         { "name": "Storm Eye", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "B",
-      "playstyle": "Dan Heng, a single-target DMG dealer, gains enhanced damage on slowed enemies with his Basic Attacks and Ultimate. His Skill can hit a single enemy multiple times, instantly applying Slow on a critical hit. When a party member affects Dan Heng with a Skill, his subsequent attacks bypass enemy Wind RES.",
-      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Arrows"],
-      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Wind DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
-      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 1"],
-      "comp": {
-        "best": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Welt", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -1409,6 +1376,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "B",
+      "playstyle": "Dan Heng, a single-target DMG dealer, gains enhanced damage on slowed enemies with his Basic Attacks and Ultimate. His Skill can hit a single enemy multiple times, instantly applying Slow on a critical hit. When a party member affects Dan Heng with a Skill, his subsequent attacks bypass enemy Wind RES.",
+      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Arrows"],
+      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Wind DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 1"],
+      "comp": {
+        "best": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Welt", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -1526,40 +1526,7 @@
         { "name": "Silvermane Medal", "quantity": "15" },
         { "name": "Horn of Snow", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S",
-      "playstyle": "Gepard's special ability, Integrity, draws enemy attention towards him. Using his Ultimate, Gepard creates a shield based on his DEF stat, protecting the entire party for three turns. Furthermore, his Skill performs a triple attack on a single target, greatly increasing the likelihood of freezing enemies and rendering them unable to move.",
-      "lightcones": ["Moment of Victory", "Texture of Memories", "Landau's Choice", "Amber"],
-      "relics": ["Knight of Purity Palace", "Guard of Wuthering Snow"],
-      "ornaments": ["Belobog of the Architects", "Fleet of the Ageless"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["DEF%"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["DEF%"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["DEF%", "SPD", "Effect HIT Rate", "HP%"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Normal ATK", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Gepard", "role": "Tank" },
-          { "char": "Bailu", "role": "Healer" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Seele", "role": "Main DPS" }
-        ],
-        "f2p": [
-          { "char": "Gepard", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -1608,6 +1575,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S",
+      "playstyle": "Gepard's special ability, Integrity, draws enemy attention towards him. Using his Ultimate, Gepard creates a shield based on his DEF stat, protecting the entire party for three turns. Furthermore, his Skill performs a triple attack on a single target, greatly increasing the likelihood of freezing enemies and rendering them unable to move.",
+      "lightcones": ["Moment of Victory", "Texture of Memories", "Landau's Choice", "Amber"],
+      "relics": ["Knight of Purity Palace", "Guard of Wuthering Snow"],
+      "ornaments": ["Belobog of the Architects", "Fleet of the Ageless"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["DEF%"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["DEF%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["DEF%", "SPD", "Effect HIT Rate", "HP%"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Normal ATK", "Talent"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Gepard", "role": "Tank" },
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Seele", "role": "Main DPS" }
+        ],
+        "f2p": [
+          { "char": "Gepard", "role": "Tank" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -1726,40 +1726,7 @@
         { "name": "Squirming Core", "quantity": "12" },
         { "name": "Horn of Snow", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "C",
-      "playstyle": "Herta's talent enables her to execute follow-up attacks on all enemies when they reach half health. Her Skill, \"One-Time Offer,\" is a straightforward AoE attack dealing Ice DMG to all enemies. If enemies are not at half health, they suffer an additional 20% DMG from this skill. Similarly, Herta's Ultimate, \"It's Magic, I Added Some Magic,\" inflicts Ice DMG on all enemies but with a higher multiplier.",
-      "lightcones": ["Before Dawn", "The Birth of the Self", "Night on the Milky Way", "Sagacity"],
-      "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT DMG", "CRIT Rate", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
-      "comp": {
-        "best": [
-          { "char": "Jing Yuan", "role": "Main DPS" },
-          { "char": "Herta", "role": "Sub DPS" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Natasha", "role": "Healer" },
-          { "char": "Herta", "role": "Sub DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Trailblazer (Fire)", "role": "Tank" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -1808,6 +1775,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "C",
+      "playstyle": "Herta's talent enables her to execute follow-up attacks on all enemies when they reach half health. Her Skill, \"One-Time Offer,\" is a straightforward AoE attack dealing Ice DMG to all enemies. If enemies are not at half health, they suffer an additional 20% DMG from this skill. Similarly, Herta's Ultimate, \"It's Magic, I Added Some Magic,\" inflicts Ice DMG on all enemies but with a higher multiplier.",
+      "lightcones": ["Before Dawn", "The Birth of the Self", "Night on the Milky Way", "Sagacity"],
+      "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT DMG", "CRIT Rate", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
+      "comp": {
+        "best": [
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Herta", "role": "Sub DPS" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "Herta", "role": "Sub DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" }
+        ]
+      }
     }
   },
   {
@@ -1926,40 +1926,7 @@
         { "name": "Squirming Core", "quantity": "15" },
         { "name": "Endotherm Chitin", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "B",
-      "playstyle": "Himeko is a master of obliterating multiple enemies using powerful Fire attacks like her Ultimate and Follow Up Attack. She gains Charge when an enemy's Weakness breaks, and with three Charge stacks, an ally's attack triggers a devastating AoE Fire Follow Up attack. Additionally, Himeko's attacks deal increased damage to burned enemies. She maintains a higher chance of landing critical hits as long as her HP remains at 80% or above.",
-      "lightcones": ["Before Dawn", "Night on the Milky Way", "The Seriousness of Breakfast", "Data Bank"],
-      "relics": ["Firesmith of Lava-Forging", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Fire DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
-      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Himeko", "role": "Main DPS" },
-          { "char": "Pela", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Himeko", "role": "Main DPS" },
-          { "char": "Hook", "role": "Sub DPS" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -2008,6 +1975,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "B",
+      "playstyle": "Himeko is a master of obliterating multiple enemies using powerful Fire attacks like her Ultimate and Follow Up Attack. She gains Charge when an enemy's Weakness breaks, and with three Charge stacks, an ally's attack triggers a devastating AoE Fire Follow Up attack. Additionally, Himeko's attacks deal increased damage to burned enemies. She maintains a higher chance of landing critical hits as long as her HP remains at 80% or above.",
+      "lightcones": ["Before Dawn", "Night on the Milky Way", "The Seriousness of Breakfast", "Data Bank"],
+      "relics": ["Firesmith of Lava-Forging", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Inert Salsotto"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Fire DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Himeko", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Himeko", "role": "Main DPS" },
+          { "char": "Hook", "role": "Sub DPS" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -2134,40 +2134,7 @@
         { "name": "Ancient Engine", "quantity": "12" },
         { "name": "Endotherm Chitin", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "B",
-      "playstyle": "Hook, a formidable Main DPS, excels in dealing high single-target damage and inflicting Burn on enemies with her Skill, \"Hey! Remember Hook?\", which applies significant Fire damage and a two-turn Burn debuff. Empowered by her Ultimate, \"Boom! Here Comes the Fire!\", the Skill becomes a devastating AoE attack, amplifying its effects. Burned enemies trigger Hook's Talent, \"Ha! Oil to the Flames!\", granting additional Fire damage and Energy restoration.",
-      "lightcones": ["On the Fall of an Aeon", "Something Irreplaceable", "Woof! Walk Time!", "Collapsing Sky"],
-      "relics": ["Firesmith of Lava-Forging", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Fire DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 4", "Eidolon 6", "Eidolon 2"],
-      "comp": {
-        "best": [
-          { "char": "Hook", "role": "Main DPS" },
-          { "char": "Pela", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Trailblazer (Fire)", "role": "Tank" },
-          { "char": "Hook", "role": "Main DPS" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -2216,6 +2183,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "B",
+      "playstyle": "Hook, a formidable Main DPS, excels in dealing high single-target damage and inflicting Burn on enemies with her Skill, \"Hey! Remember Hook?\", which applies significant Fire damage and a two-turn Burn debuff. Empowered by her Ultimate, \"Boom! Here Comes the Fire!\", the Skill becomes a devastating AoE attack, amplifying its effects. Burned enemies trigger Hook's Talent, \"Ha! Oil to the Flames!\", granting additional Fire damage and Energy restoration.",
+      "lightcones": ["On the Fall of an Aeon", "Something Irreplaceable", "Woof! Walk Time!", "Collapsing Sky"],
+      "relics": ["Firesmith of Lava-Forging", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Fire DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 6", "Eidolon 2"],
+      "comp": {
+        "best": [
+          { "char": "Hook", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Trailblazer (Fire)", "role": "Tank" },
+          { "char": "Hook", "role": "Main DPS" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -2334,40 +2334,7 @@
         { "name": "Immortal Lumintwig", "quantity": "15" },
         { "name": "Shape Shifter's Lightning Staff", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Jing Yuan stands as the game's most potent AoE DMG dealer. Maximizing the use of his Skill and Ultimate prior to the Lightning-Lord's turn is crucial to amplify the subsequent follow-up attacks. Upon unlocking the Bonus Ability, War Martial, Jing Yuan's CRIT Rate rises by 10% after employing his skill.",
-      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
-      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
-      "ornaments": ["Inert Salsotto", "Space Sealing Station"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
-      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
-      "comp": {
-        "best": [
-          { "char": "Jing Yuan", "role": "Main DPS" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" },
-          { "char": "Trailblazer (Fire)", "role": "Tank" }
-        ],
-        "f2p": [
-          { "char": "Jing Yuan", "role": "Main DPS" },
-          { "char": "Pela", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -2416,6 +2383,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Jing Yuan stands as the game's most potent AoE DMG dealer. Maximizing the use of his Skill and Ultimate prior to the Lightning-Lord's turn is crucial to amplify the subsequent follow-up attacks. Upon unlocking the Bonus Ability, War Martial, Jing Yuan's CRIT Rate rises by 10% after employing his skill.",
+      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
+      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
+      "ornaments": ["Inert Salsotto", "Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
+      "comp": {
+        "best": [
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" }
+        ],
+        "f2p": [
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -2534,40 +2534,7 @@
         { "name": "Artifex's Gyreheart", "quantity": "15" },
         { "name": "Golden Crown of the Past Shadow", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S+",
-      "playstyle": "Luocha is primarily used as an SP generator for the party, like other support units. It's best to use his Skill once to generate an Abyss Flower and then activate his Ultimate to obtain another Abyss Flower and trigger his Talent, Cycle of Life. However, be cautious not to use his Skill unnecessarily while Cycle of Life is active. But, if your teammates are in dire need or if you have to remove debuffs from your allies, you can still use his Skill in those specific situations.",
-      "lightcones": ["Echoes of the Coffin", "Post-Op Conversation", "Time Waits for No One", "Cornucopia"],
-      "relics": ["Musketeer of Wild Wheat", "Passerby of Wandering Cloud"],
-      "ornaments": ["Fleet of the Ageless", "Space Sealing Station"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["Outgoing Healing"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["ATK%"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["SPD", "ATK%", "Break Effect", "HP%"]
-      },
-      "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
-      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 1"],
-      "comp": {
-        "best": [
-          { "char": "Luocha", "role": "Healer" },
-          { "char": "Silver Wolf", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Seele", "role": "Main DPS" }
-        ],
-        "f2p": [
-          { "char": "Luocha", "role": "Healer" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Dan Heng", "role": "Main DPS" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -2616,6 +2583,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S+",
+      "playstyle": "Luocha is primarily used as an SP generator for the party, like other support units. It's best to use his Skill once to generate an Abyss Flower and then activate his Ultimate to obtain another Abyss Flower and trigger his Talent, Cycle of Life. However, be cautious not to use his Skill unnecessarily while Cycle of Life is active. But, if your teammates are in dire need or if you have to remove debuffs from your allies, you can still use his Skill in those specific situations.",
+      "lightcones": ["Echoes of the Coffin", "Post-Op Conversation", "Time Waits for No One", "Cornucopia"],
+      "relics": ["Musketeer of Wild Wheat", "Passerby of Wandering Cloud"],
+      "ornaments": ["Fleet of the Ageless", "Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Outgoing Healing"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["ATK%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["SPD", "ATK%", "Break Effect", "HP%"]
+      },
+      "skillPriority": ["Talent", "Skill", "Ultimate", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 1"],
+      "comp": {
+        "best": [
+          { "char": "Luocha", "role": "Healer" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Seele", "role": "Main DPS" }
+        ],
+        "f2p": [
+          { "char": "Luocha", "role": "Healer" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Dan Heng", "role": "Main DPS" }
+        ]
+      }
     }
   },
   {
@@ -2733,40 +2733,7 @@
         { "name": "Conqueror's Will", "quantity": "12" },
         { "name": "Horn of Snow", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "March 7th's Skill grants a DEF-scaling shield to a chosen party member. If the shielded character has over 30% HP, they become a target more frequently. At A2, March can remove debuffs using her Skill. When an enemy attacks a shielded character, March retaliates with a Follow Up attack. Her Ultimate deals AoE Ice damage and has a chance to Freeze enemies.",
-      "lightcones": ["Moment of Victory", "Day One of My New Life", "This Is Me!", "Amber"],
-      "relics": ["Knight of Purity Palace", "Musketeer of Wild Wheat"],
-      "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["Effect HIT Rate", "DEF%"] },
-          { "typeUID": "Feet", "stats": ["SPD", "DEF%"] },
-          { "typeUID": "Sphere", "stats": ["DEF%"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate", "DEF%"] }
-        ],
-        "subStats": ["DEF%", "SPD", "Effect HIT Rate", "HP%"]
-      },
-      "skillPriority": ["Skill", "Ultimate", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 6", "Eidolon 1", "Eidolon 4"],
-      "comp": {
-        "best": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Clara", "role": "Main DPS" },
-          { "char": "March 7th", "role": "Tank" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -2815,6 +2782,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "March 7th's Skill grants a DEF-scaling shield to a chosen party member. If the shielded character has over 30% HP, they become a target more frequently. At A2, March can remove debuffs using her Skill. When an enemy attacks a shielded character, March retaliates with a Follow Up attack. Her Ultimate deals AoE Ice damage and has a chance to Freeze enemies.",
+      "lightcones": ["Moment of Victory", "Day One of My New Life", "This Is Me!", "Amber"],
+      "relics": ["Knight of Purity Palace", "Musketeer of Wild Wheat"],
+      "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Effect HIT Rate", "DEF%"] },
+          { "typeUID": "Feet", "stats": ["SPD", "DEF%"] },
+          { "typeUID": "Sphere", "stats": ["DEF%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate", "DEF%"] }
+        ],
+        "subStats": ["DEF%", "SPD", "Effect HIT Rate", "HP%"]
+      },
+      "skillPriority": ["Skill", "Ultimate", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 1", "Eidolon 4"],
+      "comp": {
+        "best": [
+          { "char": "Clara", "role": "Main DPS" },
+          { "char": "March 7th", "role": "Tank" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Clara", "role": "Main DPS" },
+          { "char": "March 7th", "role": "Tank" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -2929,40 +2929,7 @@
         { "name": "Ancient Engine", "quantity": "12" },
         { "name": "Broken Teeth of Iron Wolf", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Natasha epitomizes the role of a pure healer. Her Skill, \"Love, Heal, and Choose,\" heals a single ally and provides a small heal over time for the subsequent two turns. With her Ultimate, \"Gift of Rebirth,\" Natasha restores a substantial amount of health to all allies based on her HP.",
-      "lightcones": ["Time Waits for No One", "Post-Op Conversation", "Warmth Shortens Cold Nights", "Cornucopia"],
-      "relics": ["Passerby of Wandering Cloud"],
-      "ornaments": ["Fleet of the Ageless"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["Outgoing Healing", "HP%"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["HP%"] },
-          { "typeUID": "Rope", "stats": ["HP%"] }
-        ],
-        "subStats": ["SPD", "HP%", "DEF%"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
-      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Seele", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -3011,6 +2978,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Natasha epitomizes the role of a pure healer. Her Skill, \"Love, Heal, and Choose,\" heals a single ally and provides a small heal over time for the subsequent two turns. With her Ultimate, \"Gift of Rebirth,\" Natasha restores a substantial amount of health to all allies based on her HP.",
+      "lightcones": ["Time Waits for No One", "Post-Op Conversation", "Warmth Shortens Cold Nights", "Cornucopia"],
+      "relics": ["Passerby of Wandering Cloud"],
+      "ornaments": ["Fleet of the Ageless"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Outgoing Healing", "HP%"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["HP%"] },
+          { "typeUID": "Rope", "stats": ["HP%"] }
+        ],
+        "subStats": ["SPD", "HP%", "DEF%"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 2", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -3129,40 +3129,7 @@
         { "name": "Squirming Core", "quantity": "12" },
         { "name": "Horn of Snow", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S",
-      "playstyle": "Pela enhances ally damage by debuffing enemies' DEF and turns the tide of battle by dispelling positive effects. Her Skill, \"Frostbite,\" removes buffs from enemies, while her Ultimate, \"Zone Suppression,\" reduces enemy DEF. Additionally, Pela's Talent, \"Data Collecting,\" grants Energy upon inflicting debuffs, allowing her to activate her Ultimate more frequently.",
-      "lightcones": ["Resolution Shines As Pearls of Sweat", "Eyes of the Prey", "In the Name of the World", "Void"],
-      "relics": ["Thief of Shooting Meteor"],
-      "ornaments": ["Pan-Galactic Commercial Enterprise", "Fleet of the Ageless"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["Effect HIT Rate"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["Effect HIT Rate", "SPD", "ATK%"]
-      },
-      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
-      "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
-      "eidolonPriority": ["Eidolon 4", "Eidolon 1", "Eidolon 2"],
-      "comp": {
-        "best": [
-          { "char": "Jing Yuan", "role": "Main DPS" },
-          { "char": "Pela", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Hook", "role": "Main DPS" },
-          { "char": "Pela", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -3211,6 +3178,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S",
+      "playstyle": "Pela enhances ally damage by debuffing enemies' DEF and turns the tide of battle by dispelling positive effects. Her Skill, \"Frostbite,\" removes buffs from enemies, while her Ultimate, \"Zone Suppression,\" reduces enemy DEF. Additionally, Pela's Talent, \"Data Collecting,\" grants Energy upon inflicting debuffs, allowing her to activate her Ultimate more frequently.",
+      "lightcones": ["Resolution Shines As Pearls of Sweat", "Eyes of the Prey", "In the Name of the World", "Void"],
+      "relics": ["Thief of Shooting Meteor"],
+      "ornaments": ["Pan-Galactic Commercial Enterprise", "Fleet of the Ageless"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Effect HIT Rate"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["Effect HIT Rate", "SPD", "ATK%"]
+      },
+      "skillPriority": ["Ultimate", "Talent", "Skill", "Normal ATK"],
+      "tracePriority": ["Ascension 4", "Ascension 2", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 1", "Eidolon 2"],
+      "comp": {
+        "best": [
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Hook", "role": "Main DPS" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -3332,40 +3332,7 @@
         { "name": "Conqueror's Will", "quantity": "12" },
         { "name": "Void Cast Iron", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Qingque, a luck-based Main DPS, leverages her Skill \"A Scoop of Moon\" to draw two tiles and stack up to four DMG buffs without ending her turn. When Qingque accumulates four matching tiles, her Basic ATK receives a massive DMG boost, enabling her to strike adjacent enemies. This enhanced ATK does not generate Skill Points. With her Ultimate, \"A Quartet? Woo-hoo!,\" Qingque unleashes heavy Quantum DMG upon all enemies while obtaining four matching tiles, ensuring her relentless onslaught of AoE DMG.",
-      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
-      "relics": ["Genius of Brilliant Stars", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
-      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 4"],
-      "comp": {
-        "best": [
-          { "char": "Qingque", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Qingque", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -3414,6 +3381,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Qingque, a luck-based Main DPS, leverages her Skill \"A Scoop of Moon\" to draw two tiles and stack up to four DMG buffs without ending her turn. When Qingque accumulates four matching tiles, her Basic ATK receives a massive DMG boost, enabling her to strike adjacent enemies. This enhanced ATK does not generate Skill Points. With her Ultimate, \"A Quartet? Woo-hoo!,\" Qingque unleashes heavy Quantum DMG upon all enemies while obtaining four matching tiles, ensuring her relentless onslaught of AoE DMG.",
+      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Sagacity"],
+      "relics": ["Genius of Brilliant Stars", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Normal ATK", "Skill", "Ultimate", "Talent"],
+      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 4"],
+      "comp": {
+        "best": [
+          { "char": "Qingque", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Qingque", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -3532,40 +3532,7 @@
         { "name": "Ancient Engine", "quantity": "12" },
         { "name": "Storm Eye", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "B",
-      "playstyle": "Sampo's primary mechanic involves stacking Wind Shear on enemies, inflicting DoT based on his ATK stat. His Basic attacks, Skill, and Ultimate can apply Wind Shear thanks to his Talent. Both his Skill and Ultimate deal AoE damage, allowing Wind Shear to stack on multiple enemies. Additionally, Sampo's Ultimate benefits other party members' DoT Debuffs, such as Bleed, Shock, Burn, Freeze, and Wind Shear.",
-      "lightcones": ["In the Name of the World", "Eyes of the Prey", "Good Night and Sleep Well", "Void"],
-      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
-      "ornaments": ["Pan-Galactic Commercial Enterprise"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["ATK%", "Effect HIT Rate"] },
-          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
-          { "typeUID": "Sphere", "stats": ["Wind DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["ATK%", "SPD", "Effect HIT Rate"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
-      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
-      "comp": {
-        "best": [
-          { "char": "Sampo", "role": "Sub DPS" },
-          { "char": "Serval", "role": "Sub DPS" },
-          { "char": "Welt", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Sampo", "role": "Sub DPS" },
-          { "char": "Serval", "role": "Sub DPS" },
-          { "char": "Hook", "role": "Main DPS" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -3614,6 +3581,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "B",
+      "playstyle": "Sampo's primary mechanic involves stacking Wind Shear on enemies, inflicting DoT based on his ATK stat. His Basic attacks, Skill, and Ultimate can apply Wind Shear thanks to his Talent. Both his Skill and Ultimate deal AoE damage, allowing Wind Shear to stack on multiple enemies. Additionally, Sampo's Ultimate benefits other party members' DoT Debuffs, such as Bleed, Shock, Burn, Freeze, and Wind Shear.",
+      "lightcones": ["In the Name of the World", "Eyes of the Prey", "Good Night and Sleep Well", "Void"],
+      "relics": ["Eagle of Twilight Line", "Musketeer of Wild Wheat"],
+      "ornaments": ["Pan-Galactic Commercial Enterprise"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["ATK%", "Effect HIT Rate"] },
+          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
+          { "typeUID": "Sphere", "stats": ["Wind DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["ATK%", "SPD", "Effect HIT Rate"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
+      "comp": {
+        "best": [
+          { "char": "Sampo", "role": "Sub DPS" },
+          { "char": "Serval", "role": "Sub DPS" },
+          { "char": "Welt", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Sampo", "role": "Sub DPS" },
+          { "char": "Serval", "role": "Sub DPS" },
+          { "char": "Hook", "role": "Main DPS" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -3731,40 +3731,7 @@
         { "name": "Conqueror's Will", "quantity": "15" },
         { "name": "Void Cast Iron", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S+",
-      "playstyle": "Seele's main mechanic, Resurgence, grants her an extra turn upon defeating an enemy. To perform the Double Resurgence trick, defeat an enemy with a Basic Attack or Skill, activate Seele's Ultimate before the turn ends, use her Ultimate to eliminate another enemy, and defeat a third enemy with a Basic Attack or Skill. This enables you to double your Resurgence and gain two additional turns. Seele's Technique grants her stealth in the overworld, and attacking while in this state triggers automatic Resurgence at the start of battles.",
-      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Darting Arrow"],
-      "relics": ["Genius of Brilliant Stars", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%"] },
-          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 6", "Ascension 4", "Ascension 2"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Seele", "role": "Main DPS" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Seele", "role": "Main DPS" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" },
-          { "char": "Trailblazer (Fire)", "role": "Tank" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -3813,6 +3780,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S+",
+      "playstyle": "Seele's main mechanic, Resurgence, grants her an extra turn upon defeating an enemy. To perform the Double Resurgence trick, defeat an enemy with a Basic Attack or Skill, activate Seele's Ultimate before the turn ends, use her Ultimate to eliminate another enemy, and defeat a third enemy with a Basic Attack or Skill. This enables you to double your Resurgence and gain two additional turns. Seele's Technique grants her stealth in the overworld, and attacking while in this state triggers automatic Resurgence at the start of battles.",
+      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Darting Arrow"],
+      "relics": ["Genius of Brilliant Stars", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%"] },
+          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 4", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 4", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" }
+        ]
+      }
     }
   },
   {
@@ -3931,40 +3931,7 @@
         { "name": "Silvermane Medal", "quantity": "12" },
         { "name": "Lightning Crown of the Past Shadow", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "B",
-      "playstyle": "Serval excels at dealing strong Lightning AoE DMG to multiple enemies and inflicting Shock, a damage over time effect, with her Skill. Her Ultimate not only deals a huge chunk of DMG, but also extends the duration of Shock on affected enemies. Unlocking Mania at Character Ascension 6 grants Serval a 20% ATK boost for 2 turns after defeating an enemy. It is ideal to defeat an enemy before using her Ultimate for optimal DMG output.",
-      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Data Bank"],
-      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station", "Celestial Differentiator"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Jing Yuan", "role": "Main DPS" },
-          { "char": "Serval", "role": "Sub DPS" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Serval", "role": "Sub DPS" },
-          { "char": "Natasha", "role": "Healer" },
-          { "char": "March 7th", "role": "Tank" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -4013,6 +3980,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "B",
+      "playstyle": "Serval excels at dealing strong Lightning AoE DMG to multiple enemies and inflicting Shock, a damage over time effect, with her Skill. Her Ultimate not only deals a huge chunk of DMG, but also extends the duration of Shock on affected enemies. Unlocking Mania at Character Ascension 6 grants Serval a 20% ATK boost for 2 turns after defeating an enemy. It is ideal to defeat an enemy before using her Ultimate for optimal DMG output.",
+      "lightcones": ["Before Dawn", "Today Is Another Peaceful Day", "Night on the Milky Way", "Data Bank"],
+      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Celestial Differentiator"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Jing Yuan", "role": "Main DPS" },
+          { "char": "Serval", "role": "Sub DPS" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Serval", "role": "Sub DPS" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "March 7th", "role": "Tank" }
+        ]
+      }
     }
   },
   {
@@ -4131,45 +4131,7 @@
         { "name": "Ancient Engine", "quantity": "15" },
         { "name": "Void Cast Iron", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S+",
-      "playstyle": "Silver Wolf possesses a unique Skill that grants an extra Elemental Weakness to a chosen enemy. This additional weakness aligns with a random ally's element. Moreover, her attacks have a probability of debuffing foes by primarily reducing their DEF. As a support unit, Silver Wolf greatly benefits from having a DPS companion who can exploit the debuffs she inflicts on enemies.",
-      "lightcones": [
-        "Incessant Rain",
-        "Before the Tutorial Mission Starts",
-        "Resolution Shines As Pearls of Sweat",
-        "In the Name of the World"
       ],
-      "relics": ["Musketeer of Wild Wheat", "Thief of Shooting Meteor"],
-      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["Effect HIT Rate"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["Effect HIT Rate", "SPD", "Break Effect"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 1"],
-      "comp": {
-        "best": [
-          { "char": "Seele", "role": "Main DPS" },
-          { "char": "Silver Wolf", "role": "Support" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Qingque", "role": "Main DPS" },
-          { "char": "Silver Wolf", "role": "Support" },
-          { "char": "Trailblazer (Physical)", "role": "Sub DPS" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -4218,6 +4180,44 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S+",
+      "playstyle": "Silver Wolf possesses a unique Skill that grants an extra Elemental Weakness to a chosen enemy. This additional weakness aligns with a random ally's element. Moreover, her attacks have a probability of debuffing foes by primarily reducing their DEF. As a support unit, Silver Wolf greatly benefits from having a DPS companion who can exploit the debuffs she inflicts on enemies.",
+      "lightcones": [
+        "Incessant Rain",
+        "Before the Tutorial Mission Starts",
+        "Resolution Shines As Pearls of Sweat",
+        "In the Name of the World"
+      ],
+      "relics": ["Musketeer of Wild Wheat", "Thief of Shooting Meteor"],
+      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["Effect HIT Rate"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["Quantum DMG"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["Effect HIT Rate", "SPD", "Break Effect"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 1"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Qingque", "role": "Main DPS" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Trailblazer (Physical)", "role": "Sub DPS" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -4331,40 +4331,7 @@
         { "name": "Artifex's Gyreheart", "quantity": "12" },
         { "name": "Broken Teeth of Iron Wolf", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "B",
-      "playstyle": "Sushang is a powerful DPS unit specializing in dealing high Physical DMG through the Sword Stance mechanic. Sword Stance is an additional instance of Physical DMG triggered by breaking an enemy's Weakness, both with her Skill and Ultimate. Additionally, her SPD increases when a party member breaks an enemy's Weakness. Sushang also advances herself forward after using her Basic Attack or Skill if there are enemies on the field with Weakness Break. Her Ultimate inflicts massive DMG and advances her turn by 100%, granting her an extra turn.",
-      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Darting Arrow"],
-      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station", "Talia - Kingdom of Banditry"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
-      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 1"],
-      "comp": {
-        "best": [
-          { "char": "Sushang", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Sushang", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -4413,6 +4380,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "B",
+      "playstyle": "Sushang is a powerful DPS unit specializing in dealing high Physical DMG through the Sword Stance mechanic. Sword Stance is an additional instance of Physical DMG triggered by breaking an enemy's Weakness, both with her Skill and Ultimate. Additionally, her SPD increases when a party member breaks an enemy's Weakness. Sushang also advances herself forward after using her Basic Attack or Skill if there are enemies on the field with Weakness Break. Her Ultimate inflicts massive DMG and advances her turn by 100%, granting her an extra turn.",
+      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Darting Arrow"],
+      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station", "Talia - Kingdom of Banditry"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 4", "Ascension 6", "Ascension 2"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 1"],
+      "comp": {
+        "best": [
+          { "char": "Sushang", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Sushang", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -4530,40 +4530,7 @@
         { "name": "Immortal Lumintwig", "quantity": "12" },
         { "name": "Lightning Crown of the Past Shadow", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "S",
-      "playstyle": "Tingyun's Skill grants the Benediction buff to the targeted character, increasing their ATK and enabling additional instances of Lightning DMG. Her Ultimate further enhances the targeted character's DMG and restores their energy.",
-      "lightcones": ["Dance! Dance! Dance!", "Carve the Moon, Weave the Clouds", "But The Battle Isn't Over", "Chorus"],
-      "relics": ["Musketeer of Wild Wheat", "Eagle of Twilight Line"],
-      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["ATK%"] },
-          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
-          { "typeUID": "Sphere", "stats": ["ATK%"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["SPD", "ATK%", "HP%", "DEF%"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 4"],
-      "comp": {
-        "best": [
-          { "char": "Seele", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -4612,6 +4579,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "S",
+      "playstyle": "Tingyun's Skill grants the Benediction buff to the targeted character, increasing their ATK and enabling additional instances of Lightning DMG. Her Ultimate further enhances the targeted character's DMG and restores their energy.",
+      "lightcones": ["Dance! Dance! Dance!", "Carve the Moon, Weave the Clouds", "But The Battle Isn't Over", "Chorus"],
+      "relics": ["Musketeer of Wild Wheat", "Eagle of Twilight Line"],
+      "ornaments": ["Fleet of the Ageless", "Sprightly Vonwacq"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["ATK%"] },
+          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
+          { "typeUID": "Sphere", "stats": ["ATK%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["SPD", "ATK%", "HP%", "DEF%"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 2", "Eidolon 6", "Eidolon 4"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -4736,40 +4736,7 @@
         { "name": "Conqueror's Will", "quantity": "15" },
         { "name": "Enigmatic Ectostella", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Trailblazer's Skill taunts enemies and grants him 1 stack. Each time the Trailblazer is hit, he gains 1 stack of Magma Will for a max of 8 stack(s). Consuming 4 stacks enhances his Basic ATK, dealing damage to a single enemy and adjacent enemies. The first Eidolon unlocks the enhanced attack, adding damage based on Trailblazer's DEF. His Ultimate deals damage scaling with ATK and DEF. After using the Ultimate, his next Basic ATK is automatically enhanced without consuming Magma Will stacks.",
-      "lightcones": ["Moment of Victory", "Landau's Choice", "This Is Me!", "Amber"],
-      "relics": ["Knight of Purity Palace", "Guard of Wuthering Snow"],
-      "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["DEF%"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["DEF%"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["SPD", "DEF%", "HP%"]
-      },
-      "skillPriority": ["Ultimate", "Talent", "Normal ATK", "Skill"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Trailblazer (Fire)", "role": "Tank" },
-          { "char": "Bailu", "role": "Healer" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Seele", "role": "Main DPS" }
-        ],
-        "f2p": [
-          { "char": "Trailblazer (Fire)", "role": "Tank" },
-          { "char": "Natasha", "role": "Healer" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Dan Heng", "role": "Main DPS" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -4818,6 +4785,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Trailblazer's Skill taunts enemies and grants him 1 stack. Each time the Trailblazer is hit, he gains 1 stack of Magma Will for a max of 8 stack(s). Consuming 4 stacks enhances his Basic ATK, dealing damage to a single enemy and adjacent enemies. The first Eidolon unlocks the enhanced attack, adding damage based on Trailblazer's DEF. His Ultimate deals damage scaling with ATK and DEF. After using the Ultimate, his next Basic ATK is automatically enhanced without consuming Magma Will stacks.",
+      "lightcones": ["Moment of Victory", "Landau's Choice", "This Is Me!", "Amber"],
+      "relics": ["Knight of Purity Palace", "Guard of Wuthering Snow"],
+      "ornaments": ["Fleet of the Ageless", "Belobog of the Architects"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["DEF%"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["DEF%"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["SPD", "DEF%", "HP%"]
+      },
+      "skillPriority": ["Ultimate", "Talent", "Normal ATK", "Skill"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Trailblazer (Fire)", "role": "Tank" },
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Seele", "role": "Main DPS" }
+        ],
+        "f2p": [
+          { "char": "Trailblazer (Fire)", "role": "Tank" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Dan Heng", "role": "Main DPS" }
+        ]
+      }
     }
   },
   {
@@ -4937,40 +4937,7 @@
         { "name": "Conqueror's Will", "quantity": "15" },
         { "name": "Enigmatic Ectostella", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "C",
-      "playstyle": "Upon reaching Ascension 6, Trailblazer gains a 25% DMG Boost to his Skill or Ultimate from his Skill. Unlocking the 6th Eidolon further enhances his capabilities, granting him up to a 20% ATK boost when performing a Weakness Break or defeating an enemy. Additionally, the 4th Eidolon provides a 25% CRIT Rate boost against enemies with Weakness Break.",
-      "lightcones": ["On the Fall of an Aeon", "Something Irreplaceable", "The Moles Welcome You", "Collapsing Sky"],
-      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
-          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 4", "Eidolon 6", "Eidolon 1"],
-      "comp": {
-        "best": [
-          { "char": "Trailblazer (Physical)", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Trailblazer (Physical)", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Pela", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -5019,6 +4986,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "C",
+      "playstyle": "Upon reaching Ascension 6, Trailblazer gains a 25% DMG Boost to his Skill or Ultimate from his Skill. Unlocking the 6th Eidolon further enhances his capabilities, granting him up to a 20% ATK boost when performing a Weakness Break or defeating an enemy. Additionally, the 4th Eidolon provides a 25% CRIT Rate boost against enemies with Weakness Break.",
+      "lightcones": ["On the Fall of an Aeon", "Something Irreplaceable", "The Moles Welcome You", "Collapsing Sky"],
+      "relics": ["Champion of Streetwise Boxing", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
+          { "typeUID": "Sphere", "stats": ["Physical DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "ATK%", "SPD"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 6", "Ascension 2", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 6", "Eidolon 1"],
+      "comp": {
+        "best": [
+          { "char": "Trailblazer (Physical)", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Trailblazer (Physical)", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Pela", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -5137,45 +5137,7 @@
         { "name": "Silvermane Medal", "quantity": "15" },
         { "name": "Golden Crown of the Past Shadow", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Welt's Skill bounces off multiple enemies, allowing him to easily Weakness Break with Imaginary. When the Toughness Bar of enemies is broken by an Imaginary Element character, they are afflicted with Imprison, delaying their action and reducing their SPD. Welt's Talent boosts his damage against Slowed enemies. With his A2 unlocked, casting Welt's Ultimate increases enemy damage received by 12%. After unlocking his A6 passive, allies dealing with enemies with broken Toughness Bars deal 20% more damage.",
-      "lightcones": [
-        "In the Name of the World",
-        "Resolution Shines As Pearls of Sweat",
-        "Good Night and Sleep Well",
-        "Loop"
       ],
-      "relics": ["Wastelander of Banditry Desert"],
-      "ornaments": ["Pan-Galactic Commercial Enterprise", "Fleet of the Ageless"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["SPD"] },
-          { "typeUID": "Sphere", "stats": ["Imaginary DMG"] },
-          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
-        ],
-        "subStats": ["CRIT Rate", "CRIT DMG", "SPD", "Effect HIT Rate"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
-      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 1"],
-      "comp": {
-        "best": [
-          { "char": "Seele", "role": "Main DPS" },
-          { "char": "Welt", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Welt", "role": "Support" },
-          { "char": "Asta", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -5224,6 +5186,44 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Welt's Skill bounces off multiple enemies, allowing him to easily Weakness Break with Imaginary. When the Toughness Bar of enemies is broken by an Imaginary Element character, they are afflicted with Imprison, delaying their action and reducing their SPD. Welt's Talent boosts his damage against Slowed enemies. With his A2 unlocked, casting Welt's Ultimate increases enemy damage received by 12%. After unlocking his A6 passive, allies dealing with enemies with broken Toughness Bars deal 20% more damage.",
+      "lightcones": [
+        "In the Name of the World",
+        "Resolution Shines As Pearls of Sweat",
+        "Good Night and Sleep Well",
+        "Loop"
+      ],
+      "relics": ["Wastelander of Banditry Desert"],
+      "ornaments": ["Pan-Galactic Commercial Enterprise", "Fleet of the Ageless"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate", "CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["Imaginary DMG"] },
+          { "typeUID": "Rope", "stats": ["Energy Regen Rate"] }
+        ],
+        "subStats": ["CRIT Rate", "CRIT DMG", "SPD", "Effect HIT Rate"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 4", "Ascension 6"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 1"],
+      "comp": {
+        "best": [
+          { "char": "Seele", "role": "Main DPS" },
+          { "char": "Welt", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Welt", "role": "Support" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -5341,40 +5341,7 @@
         { "name": "Conqueror's Will", "quantity": "15" },
         { "name": "Gelid Chitin", "quantity": "65" },
         { "name": "Credit", "quantity": "308,000" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Yanqing is a powerful Main DPS who deals high damage with Soulsteel Sync, but loses it upon taking damage. Yanqing's Skill, Darting Ironthorn, inflicts Ice damage on an enemy and triggers Soulsteel Sync. Soulsteel Sync provides a 15% increase in Crit Rate and Crit Damage, a 50% chance of performing a follow-up attack with a 65% chance of freezing the target, and frozen enemies take Ice damage at the start of each turn. Yanqing's Ultimate, Amidst the Raining Bliss, deals Ice damage to a single enemy and further boosts his Crit Rate. If Soulsteel Sync is active, it also increases his Crit Damage.",
-      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Arrows"],
-      "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],
-      "ornaments": ["Space Sealing Station"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT DMG"] },
-          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
-          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%"] }
-        ],
-        "subStats": ["CRIT DMG", "ATK%", "SPD", "CRIT Rate"]
-      },
-      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
-      "comp": {
-        "best": [
-          { "char": "Yanqing", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Bronya", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" }
-        ],
-        "f2p": [
-          { "char": "Yanqing", "role": "Main DPS" },
-          { "char": "Tingyun", "role": "Support" },
-          { "char": "Pela", "role": "Tank" },
-          { "char": "Natasha", "role": "Healer" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -5423,6 +5390,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Yanqing is a powerful Main DPS who deals high damage with Soulsteel Sync, but loses it upon taking damage. Yanqing's Skill, Darting Ironthorn, inflicts Ice damage on an enemy and triggers Soulsteel Sync. Soulsteel Sync provides a 15% increase in Crit Rate and Crit Damage, a 50% chance of performing a follow-up attack with a 65% chance of freezing the target, and frozen enemies take Ice damage at the start of each turn. Yanqing's Ultimate, Amidst the Raining Bliss, deals Ice damage to a single enemy and further boosts his Crit Rate. If Soulsteel Sync is active, it also increases his Crit Damage.",
+      "lightcones": ["In the Night", "Sleep Like the Dead", "Swordplay", "Arrows"],
+      "relics": ["Hunter of Glacial Forest", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT DMG"] },
+          { "typeUID": "Feet", "stats": ["ATK%", "SPD"] },
+          { "typeUID": "Sphere", "stats": ["Ice DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["CRIT DMG", "ATK%", "SPD", "CRIT Rate"]
+      },
+      "skillPriority": ["Ultimate", "Skill", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 1", "Eidolon 4", "Eidolon 6"],
+      "comp": {
+        "best": [
+          { "char": "Yanqing", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Bronya", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Yanqing", "role": "Main DPS" },
+          { "char": "Tingyun", "role": "Support" },
+          { "char": "Pela", "role": "Tank" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
     }
   },
   {
@@ -5540,40 +5540,7 @@
         { "name": "Artifex's Gyreheart", "quantity": "12" },
         { "name": "Golden Crown of the Past Shadow", "quantity": "50" },
         { "name": "Credit", "quantity": "246,400" }
-      ]
-    },
-    "dynamic": {
-      "tier": "A",
-      "playstyle": "Yukong plays a crucial support role, bolstering her allies' ATK and CRIT Rate while also amplifying the performance of burst-type DPS characters through her skills and ultimate abilities. Her presence greatly enhances the team's overall effectiveness, making her an invaluable asset in battles.",
-      "lightcones": ["But The Battle Isn't Over", "Past and Future", "Dance! Dance! Dance!", "Meshing Cogs"],
-      "relics": ["Musketeer of Wild Wheat", "Wastelander of Banditry Desert"],
-      "ornaments": ["Fleet of the Ageless", "Inert Salsotto"],
-      "statPriority": {
-        "mainStats": [
-          { "typeUID": "Body", "stats": ["CRIT Rate"] },
-          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
-          { "typeUID": "Sphere", "stats": ["Imaginary DMG"] },
-          { "typeUID": "Rope", "stats": ["ATK%", "Break Effect"] }
-        ],
-        "subStats": ["SPD", "CRIT Rate", "CRIT DMG", "ATK%"]
-      },
-      "skillPriority": ["Skill", "Ultimate", "Normal ATK", "Talent"],
-      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
-      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
-      "comp": {
-        "best": [
-          { "char": "Yanqing", "role": "Main DPS" },
-          { "char": "Yukong", "role": "Support" },
-          { "char": "Bailu", "role": "Healer" },
-          { "char": "Trailblazer (Fire)", "role": "Tank" }
-        ],
-        "f2p": [
-          { "char": "Dan Heng", "role": "Main DPS" },
-          { "char": "Yukong", "role": "Support" },
-          { "char": "Natasha", "role": "Healer" },
-          { "char": "March 7th", "role": "Tank" }
-        ]
-      },
+      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -5622,6 +5589,39 @@
           ]
         }
       ]
+    },
+    "dynamic": {
+      "tier": "A",
+      "playstyle": "Yukong plays a crucial support role, bolstering her allies' ATK and CRIT Rate while also amplifying the performance of burst-type DPS characters through her skills and ultimate abilities. Her presence greatly enhances the team's overall effectiveness, making her an invaluable asset in battles.",
+      "lightcones": ["But The Battle Isn't Over", "Past and Future", "Dance! Dance! Dance!", "Meshing Cogs"],
+      "relics": ["Musketeer of Wild Wheat", "Wastelander of Banditry Desert"],
+      "ornaments": ["Fleet of the Ageless", "Inert Salsotto"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["CRIT Rate"] },
+          { "typeUID": "Feet", "stats": ["SPD", "ATK%"] },
+          { "typeUID": "Sphere", "stats": ["Imaginary DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%", "Break Effect"] }
+        ],
+        "subStats": ["SPD", "CRIT Rate", "CRIT DMG", "ATK%"]
+      },
+      "skillPriority": ["Skill", "Ultimate", "Normal ATK", "Talent"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 6", "Eidolon 4", "Eidolon 2"],
+      "comp": {
+        "best": [
+          { "char": "Yanqing", "role": "Main DPS" },
+          { "char": "Yukong", "role": "Support" },
+          { "char": "Bailu", "role": "Healer" },
+          { "char": "Trailblazer (Fire)", "role": "Tank" }
+        ],
+        "f2p": [
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Yukong", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" },
+          { "char": "March 7th", "role": "Tank" }
+        ]
+      }
     }
   }
 ]
