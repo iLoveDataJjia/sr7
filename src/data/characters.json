@@ -110,13 +110,6 @@
           "desc": "When HP drops to 50% or below, Ultimate deals 20% more DMG. The DMG multiplier of DMG taken by the target enemy now applies to adjacent enemies as well."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Extinguished Core", "quantity": "12" },
-        { "name": "Glimmering Core", "quantity": "13" },
-        { "name": "Squirming Core", "quantity": "12" },
-        { "name": "Lightning Crown of the Past Shadow", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -308,13 +301,6 @@
           "name": "Galaxy Dreams in Calm and Comfort",
           "desc": "Charging stack(s) lost in each turn is reduced by 1."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Silvermane Badge", "quantity": "12" },
-        { "name": "Silvermane Insignia", "quantity": "13" },
-        { "name": "Silvermane Medal", "quantity": "12" },
-        { "name": "Endotherm Chitin", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
       ],
       "ascensionsPerLevel": [
         {
@@ -513,13 +499,6 @@
           "name": "Drooling Drop of Draconic Divinity",
           "desc": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Extinguished Core", "quantity": "15" },
-        { "name": "Glimmering Core", "quantity": "15" },
-        { "name": "Squirming Core", "quantity": "15" },
-        { "name": "Lightning Crown of the Past Shadow", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
       ],
       "ascensionsPerLevel": [
         {
@@ -722,13 +701,6 @@
           "desc": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 50% of his Max HP."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Immortal Scionette", "quantity": "15" },
-        { "name": "Immortal Aeroblossom", "quantity": "15" },
-        { "name": "Immortal Lumintwig", "quantity": "15" },
-        { "name": "Ascendant Debris", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -920,13 +892,6 @@
           "name": "Piercing Rainbow",
           "desc": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s)."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Silvermane Badge", "quantity": "15" },
-        { "name": "Silvermane Insignia", "quantity": "15" },
-        { "name": "Silvermane Medal", "quantity": "15" },
-        { "name": "Storm Eye", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
       ],
       "ascensionsPerLevel": [
         {
@@ -1122,13 +1087,6 @@
           "desc": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Ancient Part", "quantity": "15" },
-        { "name": "Ancient Spindle", "quantity": "15" },
-        { "name": "Ancient Engine", "quantity": "15" },
-        { "name": "Broken Teeth of Iron Wolf", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -1321,13 +1279,6 @@
           "desc": "Slow triggered by Skill reduces the enemy's SPD by an additional 10%."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Extinguished Core", "quantity": "12" },
-        { "name": "Glimmering Core", "quantity": "13" },
-        { "name": "Squirming Core", "quantity": "12" },
-        { "name": "Storm Eye", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -1519,13 +1470,6 @@
           "name": "Unyielding Determination",
           "desc": "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Silvermane Badge", "quantity": "15" },
-        { "name": "Silvermane Insignia", "quantity": "15" },
-        { "name": "Silvermane Medal", "quantity": "15" },
-        { "name": "Horn of Snow", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
       ],
       "ascensionsPerLevel": [
         {
@@ -1720,13 +1664,6 @@
           "desc": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s)."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Extinguished Core", "quantity": "12" },
-        { "name": "Glimmering Core", "quantity": "13" },
-        { "name": "Squirming Core", "quantity": "12" },
-        { "name": "Horn of Snow", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -1919,13 +1856,6 @@
           "name": "Trailblaze",
           "desc": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Extinguished Core", "quantity": "15" },
-        { "name": "Glimmering Core", "quantity": "15" },
-        { "name": "Squirming Core", "quantity": "15" },
-        { "name": "Endotherm Chitin", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
       ],
       "ascensionsPerLevel": [
         {
@@ -2128,13 +2058,6 @@
           "desc": "Hook deals 20% more DMG to enemies inflicted with Burn."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Ancient Part", "quantity": "12" },
-        { "name": "Ancient Spindle", "quantity": "13" },
-        { "name": "Ancient Engine", "quantity": "12" },
-        { "name": "Endotherm Chitin", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -2327,13 +2250,6 @@
           "name": "Sweep, Souls Slain",
           "desc": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Immortal Scionette", "quantity": "15" },
-        { "name": "Immortal Aeroblossom", "quantity": "15" },
-        { "name": "Immortal Lumintwig", "quantity": "15" },
-        { "name": "Shape Shifter's Lightning Staff", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
       ],
       "ascensionsPerLevel": [
         {
@@ -2528,13 +2444,6 @@
           "desc": "When Ultimate is used, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s)."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Artifex's Module", "quantity": "15" },
-        { "name": "Artifex's Cogwheel", "quantity": "15" },
-        { "name": "Artifex's Gyreheart", "quantity": "15" },
-        { "name": "Golden Crown of the Past Shadow", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -2727,13 +2636,6 @@
           "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Thief's Instinct", "quantity": "12" },
-        { "name": "Usurper's Scheme", "quantity": "13" },
-        { "name": "Conqueror's Will", "quantity": "12" },
-        { "name": "Horn of Snow", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -2922,13 +2824,6 @@
           "name": "Doctor's Grace",
           "desc": "Natasha's Basic ATK deals Additional Physical DMG equal to 40% of her Max HP."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Ancient Part", "quantity": "12" },
-        { "name": "Ancient Spindle", "quantity": "13" },
-        { "name": "Ancient Engine", "quantity": "12" },
-        { "name": "Broken Teeth of Iron Wolf", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
       ],
       "ascensionsPerLevel": [
         {
@@ -3122,13 +3017,6 @@
           "name": "Feeble Pursuit",
           "desc": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to 40% of Pela's ATK to the enemy."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Extinguished Core", "quantity": "12" },
-        { "name": "Glimmering Core", "quantity": "13" },
-        { "name": "Squirming Core", "quantity": "12" },
-        { "name": "Horn of Snow", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
       ],
       "ascensionsPerLevel": [
         {
@@ -3326,13 +3214,6 @@
           "desc": "Recovers 1 Skill Point after using Enhanced Basic ATK."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Thief's Instinct", "quantity": "12" },
-        { "name": "Usurper's Scheme", "quantity": "13" },
-        { "name": "Conqueror's Will", "quantity": "12" },
-        { "name": "Void Cast Iron", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -3526,13 +3407,6 @@
           "desc": "Talent's Wind Shear DMG multiplier increases by 15%."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Ancient Part", "quantity": "12" },
-        { "name": "Ancient Spindle", "quantity": "13" },
-        { "name": "Ancient Engine", "quantity": "12" },
-        { "name": "Storm Eye", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -3724,13 +3598,6 @@
           "name": "Separation",
           "desc": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered. When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Thief's Instinct", "quantity": "15" },
-        { "name": "Usurper's Scheme", "quantity": "15" },
-        { "name": "Conqueror's Will", "quantity": "15" },
-        { "name": "Void Cast Iron", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
       ],
       "ascensionsPerLevel": [
         {
@@ -3925,13 +3792,6 @@
           "desc": "Serval deals 30% more DMG to Shocked enemies."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Silvermane Badge", "quantity": "12" },
-        { "name": "Silvermane Insignia", "quantity": "13" },
-        { "name": "Silvermane Medal", "quantity": "12" },
-        { "name": "Lightning Crown of the Past Shadow", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -4124,13 +3984,6 @@
           "name": "Overlay Network",
           "desc": "For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Ancient Part", "quantity": "15" },
-        { "name": "Ancient Spindle", "quantity": "15" },
-        { "name": "Ancient Engine", "quantity": "15" },
-        { "name": "Void Cast Iron", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
       ],
       "ascensionsPerLevel": [
         {
@@ -4325,13 +4178,6 @@
           "desc": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Artifex's Module", "quantity": "12" },
-        { "name": "Artifex's Cogwheel", "quantity": "13" },
-        { "name": "Artifex's Gyreheart", "quantity": "12" },
-        { "name": "Broken Teeth of Iron Wolf", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -4523,13 +4369,6 @@
           "name": "Peace Brings Wealth to All",
           "desc": "Ultimate regenerates 10 more Energy for the target ally."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Immortal Scionette", "quantity": "12" },
-        { "name": "Immortal Aeroblossom", "quantity": "13" },
-        { "name": "Immortal Lumintwig", "quantity": "12" },
-        { "name": "Lightning Crown of the Past Shadow", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
       ],
       "ascensionsPerLevel": [
         {
@@ -4730,13 +4569,6 @@
           "desc": "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s)."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Thief's Instinct", "quantity": "15" },
-        { "name": "Usurper's Scheme", "quantity": "15" },
-        { "name": "Conqueror's Will", "quantity": "15" },
-        { "name": "Enigmatic Ectostella", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -4931,13 +4763,6 @@
           "desc": "The Trailblazer's Talent is also triggered when they defeat an enemy."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Thief's Instinct", "quantity": "15" },
-        { "name": "Usurper's Scheme", "quantity": "15" },
-        { "name": "Conqueror's Will", "quantity": "15" },
-        { "name": "Enigmatic Ectostella", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -5130,13 +4955,6 @@
           "name": "Prospect of Glory",
           "desc": "When using Skill, deals DMG for 1 extra time to a random enemy."
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Silvermane Badge", "quantity": "15" },
-        { "name": "Silvermane Insignia", "quantity": "15" },
-        { "name": "Silvermane Medal", "quantity": "15" },
-        { "name": "Golden Crown of the Past Shadow", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
       ],
       "ascensionsPerLevel": [
         {
@@ -5335,13 +5153,6 @@
           "desc": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn."
         }
       ],
-      "ascensionsMat": [
-        { "name": "Thief's Instinct", "quantity": "15" },
-        { "name": "Usurper's Scheme", "quantity": "15" },
-        { "name": "Conqueror's Will", "quantity": "15" },
-        { "name": "Gelid Chitin", "quantity": "65" },
-        { "name": "Credit", "quantity": "308000" }
-      ],
       "ascensionsPerLevel": [
         {
           "level": "20",
@@ -5533,13 +5344,6 @@
           "name": "Bowstring Thunderclap",
           "desc": "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of \"Roaring Bowstrings.\""
         }
-      ],
-      "ascensionsMat": [
-        { "name": "Artifex's Module", "quantity": "12" },
-        { "name": "Artifex's Cogwheel", "quantity": "13" },
-        { "name": "Artifex's Gyreheart", "quantity": "12" },
-        { "name": "Golden Crown of the Past Shadow", "quantity": "50" },
-        { "name": "Credit", "quantity": "246400" }
       ],
       "ascensionsPerLevel": [
         {
