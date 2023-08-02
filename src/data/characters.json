@@ -112,49 +112,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Extinguished Core", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Extinguished Core", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "2" },
-            { "name": "Glimmering Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
+            { "name": "Glimmering Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "5" },
-            { "name": "Glimmering Core", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
+            { "name": "Glimmering Core", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "15" },
-            { "name": "Squirming Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
+            { "name": "Squirming Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "28" },
-            { "name": "Squirming Core", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
+            { "name": "Squirming Core", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -304,49 +304,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Silvermane Badge", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Silvermane Badge", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "2" },
-            { "name": "Silvermane Insignia", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Endotherm Chitin", "quantity": 2 },
+            { "name": "Silvermane Insignia", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "5" },
-            { "name": "Silvermane Insignia", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Endotherm Chitin", "quantity": 5 },
+            { "name": "Silvermane Insignia", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "15" },
-            { "name": "Silvermane Medal", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Endotherm Chitin", "quantity": 15 },
+            { "name": "Silvermane Medal", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "28" },
-            { "name": "Silvermane Medal", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Endotherm Chitin", "quantity": 28 },
+            { "name": "Silvermane Medal", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -502,49 +502,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Extinguished Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Extinguished Core", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "3" },
-            { "name": "Glimmering Core", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 3 },
+            { "name": "Glimmering Core", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "7" },
-            { "name": "Glimmering Core", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 7 },
+            { "name": "Glimmering Core", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "20" },
-            { "name": "Squirming Core", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 20 },
+            { "name": "Squirming Core", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "35" },
-            { "name": "Squirming Core", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 35 },
+            { "name": "Squirming Core", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -703,49 +703,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Immortal Scionette", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Immortal Scionette", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Immortal Scionette", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Immortal Scionette", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Ascendant Debris", "quantity": "3" },
-            { "name": "Immortal Aeroblossom", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Ascendant Debris", "quantity": 3 },
+            { "name": "Immortal Aeroblossom", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Ascendant Debris", "quantity": "7" },
-            { "name": "Immortal Aeroblossom", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Ascendant Debris", "quantity": 7 },
+            { "name": "Immortal Aeroblossom", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Ascendant Debris", "quantity": "20" },
-            { "name": "Immortal Lumintwig", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Ascendant Debris", "quantity": 20 },
+            { "name": "Immortal Lumintwig", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Ascendant Debris", "quantity": "35" },
-            { "name": "Immortal Lumintwig", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Ascendant Debris", "quantity": 35 },
+            { "name": "Immortal Lumintwig", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -895,49 +895,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Silvermane Badge", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Silvermane Badge", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Storm Eye", "quantity": "3" },
-            { "name": "Silvermane Insignia", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Storm Eye", "quantity": 3 },
+            { "name": "Silvermane Insignia", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Storm Eye", "quantity": "7" },
-            { "name": "Silvermane Insignia", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Storm Eye", "quantity": 7 },
+            { "name": "Silvermane Insignia", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Storm Eye", "quantity": "20" },
-            { "name": "Silvermane Medal", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Storm Eye", "quantity": 20 },
+            { "name": "Silvermane Medal", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Storm Eye", "quantity": "35" },
-            { "name": "Silvermane Medal", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Storm Eye", "quantity": 35 },
+            { "name": "Silvermane Medal", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -1089,49 +1089,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Ancient Part", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Ancient Part", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Ancient Part", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Ancient Part", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "3" },
-            { "name": "Ancient Spindle", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 3 },
+            { "name": "Ancient Spindle", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "7" },
-            { "name": "Ancient Spindle", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 7 },
+            { "name": "Ancient Spindle", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "20" },
-            { "name": "Ancient Engine", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 20 },
+            { "name": "Ancient Engine", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "35" },
-            { "name": "Ancient Engine", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 35 },
+            { "name": "Ancient Engine", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -1281,49 +1281,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Extinguished Core", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Extinguished Core", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Storm Eye", "quantity": "2" },
-            { "name": "Glimmering Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Storm Eye", "quantity": 2 },
+            { "name": "Glimmering Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Storm Eye", "quantity": "5" },
-            { "name": "Glimmering Core", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Storm Eye", "quantity": 5 },
+            { "name": "Glimmering Core", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Storm Eye", "quantity": "15" },
-            { "name": "Squirming Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Storm Eye", "quantity": 15 },
+            { "name": "Squirming Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Storm Eye", "quantity": "28" },
-            { "name": "Squirming Core", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Storm Eye", "quantity": 28 },
+            { "name": "Squirming Core", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -1473,49 +1473,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Silvermane Badge", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Silvermane Badge", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "3" },
-            { "name": "Silvermane Insignia", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Horn of Snow", "quantity": 3 },
+            { "name": "Silvermane Insignia", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "7" },
-            { "name": "Silvermane Insignia", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Horn of Snow", "quantity": 7 },
+            { "name": "Silvermane Insignia", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "20" },
-            { "name": "Silvermane Medal", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Horn of Snow", "quantity": 20 },
+            { "name": "Silvermane Medal", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "35" },
-            { "name": "Silvermane Medal", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Horn of Snow", "quantity": 35 },
+            { "name": "Silvermane Medal", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -1666,49 +1666,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Extinguished Core", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Extinguished Core", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "2" },
-            { "name": "Glimmering Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Horn of Snow", "quantity": 2 },
+            { "name": "Glimmering Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "5" },
-            { "name": "Glimmering Core", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Horn of Snow", "quantity": 5 },
+            { "name": "Glimmering Core", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "15" },
-            { "name": "Squirming Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Horn of Snow", "quantity": 15 },
+            { "name": "Squirming Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "28" },
-            { "name": "Squirming Core", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Horn of Snow", "quantity": 28 },
+            { "name": "Squirming Core", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -1859,49 +1859,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Extinguished Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Extinguished Core", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "3" },
-            { "name": "Glimmering Core", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Endotherm Chitin", "quantity": 3 },
+            { "name": "Glimmering Core", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "7" },
-            { "name": "Glimmering Core", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Endotherm Chitin", "quantity": 7 },
+            { "name": "Glimmering Core", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "20" },
-            { "name": "Squirming Core", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Endotherm Chitin", "quantity": 20 },
+            { "name": "Squirming Core", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "35" },
-            { "name": "Squirming Core", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Endotherm Chitin", "quantity": 35 },
+            { "name": "Squirming Core", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -2060,49 +2060,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Ancient Part", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Ancient Part", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Ancient Part", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Ancient Part", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "2" },
-            { "name": "Ancient Spindle", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Endotherm Chitin", "quantity": 2 },
+            { "name": "Ancient Spindle", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "5" },
-            { "name": "Ancient Spindle", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Endotherm Chitin", "quantity": 5 },
+            { "name": "Ancient Spindle", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "15" },
-            { "name": "Ancient Engine", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Endotherm Chitin", "quantity": 15 },
+            { "name": "Ancient Engine", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Endotherm Chitin", "quantity": "28" },
-            { "name": "Ancient Engine", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Endotherm Chitin", "quantity": 28 },
+            { "name": "Ancient Engine", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -2253,49 +2253,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Immortal Scionette", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Immortal Scionette", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Immortal Scionette", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Immortal Scionette", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Shape Shifter's Lightning Staff", "quantity": "3" },
-            { "name": "Immortal Aeroblossom", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Shape Shifter's Lightning Staff", "quantity": 3 },
+            { "name": "Immortal Aeroblossom", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Shape Shifter's Lightning Staff", "quantity": "7" },
-            { "name": "Immortal Aeroblossom", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Shape Shifter's Lightning Staff", "quantity": 7 },
+            { "name": "Immortal Aeroblossom", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Shape Shifter's Lightning Staff", "quantity": "20" },
-            { "name": "Immortal Lumintwig", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Shape Shifter's Lightning Staff", "quantity": 20 },
+            { "name": "Immortal Lumintwig", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Shape Shifter's Lightning Staff", "quantity": "35" },
-            { "name": "Immortal Lumintwig", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Shape Shifter's Lightning Staff", "quantity": 35 },
+            { "name": "Immortal Lumintwig", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -2446,49 +2446,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Artifex's Module", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Artifex's Module", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Artifex's Module", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Artifex's Module", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "3" },
-            { "name": "Artifex's Cogwheel", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 3 },
+            { "name": "Artifex's Cogwheel", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "7" },
-            { "name": "Artifex's Cogwheel", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 7 },
+            { "name": "Artifex's Cogwheel", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "20" },
-            { "name": "Artifex's Gyreheart", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 20 },
+            { "name": "Artifex's Gyreheart", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "35" },
-            { "name": "Artifex's Gyreheart", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 35 },
+            { "name": "Artifex's Gyreheart", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -2638,49 +2638,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Thief's Instinct", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Thief's Instinct", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "2" },
-            { "name": "Usurper's Scheme", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Horn of Snow", "quantity": 2 },
+            { "name": "Usurper's Scheme", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "5" },
-            { "name": "Usurper's Scheme", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Horn of Snow", "quantity": 5 },
+            { "name": "Usurper's Scheme", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "15" },
-            { "name": "Conqueror's Will", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Horn of Snow", "quantity": 15 },
+            { "name": "Conqueror's Will", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "28" },
-            { "name": "Conqueror's Will", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Horn of Snow", "quantity": 28 },
+            { "name": "Conqueror's Will", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -2827,49 +2827,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Ancient Part", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Ancient Part", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Ancient Part", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Ancient Part", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "2" },
-            { "name": "Ancient Spindle", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 2 },
+            { "name": "Ancient Spindle", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "5" },
-            { "name": "Ancient Spindle", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 5 },
+            { "name": "Ancient Spindle", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "15" },
-            { "name": "Ancient Engine", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 15 },
+            { "name": "Ancient Engine", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "28" },
-            { "name": "Ancient Engine", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 28 },
+            { "name": "Ancient Engine", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -3020,49 +3020,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Extinguished Core", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Extinguished Core", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Extinguished Core", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "2" },
-            { "name": "Glimmering Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Horn of Snow", "quantity": 2 },
+            { "name": "Glimmering Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "5" },
-            { "name": "Glimmering Core", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Horn of Snow", "quantity": 5 },
+            { "name": "Glimmering Core", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "15" },
-            { "name": "Squirming Core", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Horn of Snow", "quantity": 15 },
+            { "name": "Squirming Core", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Horn of Snow", "quantity": "28" },
-            { "name": "Squirming Core", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Horn of Snow", "quantity": 28 },
+            { "name": "Squirming Core", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -3216,49 +3216,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Thief's Instinct", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Thief's Instinct", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "2" },
-            { "name": "Usurper's Scheme", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Void Cast Iron", "quantity": 2 },
+            { "name": "Usurper's Scheme", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "5" },
-            { "name": "Usurper's Scheme", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Void Cast Iron", "quantity": 5 },
+            { "name": "Usurper's Scheme", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "15" },
-            { "name": "Conqueror's Will", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Void Cast Iron", "quantity": 15 },
+            { "name": "Conqueror's Will", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "28" },
-            { "name": "Conqueror's Will", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Void Cast Iron", "quantity": 28 },
+            { "name": "Conqueror's Will", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -3409,49 +3409,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Ancient Part", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Ancient Part", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Ancient Part", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Ancient Part", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Storm Eye", "quantity": "2" },
-            { "name": "Ancient Spindle", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Storm Eye", "quantity": 2 },
+            { "name": "Ancient Spindle", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Storm Eye", "quantity": "5" },
-            { "name": "Ancient Spindle", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Storm Eye", "quantity": 5 },
+            { "name": "Ancient Spindle", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Storm Eye", "quantity": "15" },
-            { "name": "Ancient Engine", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Storm Eye", "quantity": 15 },
+            { "name": "Ancient Engine", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Storm Eye", "quantity": "28" },
-            { "name": "Ancient Engine", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Storm Eye", "quantity": 28 },
+            { "name": "Ancient Engine", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -3601,49 +3601,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Thief's Instinct", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Thief's Instinct", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "3" },
-            { "name": "Usurper's Scheme", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Void Cast Iron", "quantity": 3 },
+            { "name": "Usurper's Scheme", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "7" },
-            { "name": "Usurper's Scheme", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Void Cast Iron", "quantity": 7 },
+            { "name": "Usurper's Scheme", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "20" },
-            { "name": "Conqueror's Will", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Void Cast Iron", "quantity": 20 },
+            { "name": "Conqueror's Will", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "35" },
-            { "name": "Conqueror's Will", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Void Cast Iron", "quantity": 35 },
+            { "name": "Conqueror's Will", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -3794,49 +3794,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Silvermane Badge", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Silvermane Badge", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "2" },
-            { "name": "Silvermane Insignia", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
+            { "name": "Silvermane Insignia", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "5" },
-            { "name": "Silvermane Insignia", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
+            { "name": "Silvermane Insignia", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "15" },
-            { "name": "Silvermane Medal", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
+            { "name": "Silvermane Medal", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "28" },
-            { "name": "Silvermane Medal", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
+            { "name": "Silvermane Medal", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -3987,49 +3987,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Ancient Part", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Ancient Part", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Ancient Part", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Ancient Part", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "3" },
-            { "name": "Ancient Spindle", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Void Cast Iron", "quantity": 3 },
+            { "name": "Ancient Spindle", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "7" },
-            { "name": "Ancient Spindle", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Void Cast Iron", "quantity": 7 },
+            { "name": "Ancient Spindle", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "20" },
-            { "name": "Ancient Engine", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Void Cast Iron", "quantity": 20 },
+            { "name": "Ancient Engine", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Void Cast Iron", "quantity": "35" },
-            { "name": "Ancient Engine", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Void Cast Iron", "quantity": 35 },
+            { "name": "Ancient Engine", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -4180,49 +4180,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Artifex's Module", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Artifex's Module", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Artifex's Module", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Artifex's Module", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "2" },
-            { "name": "Artifex's Cogwheel", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 2 },
+            { "name": "Artifex's Cogwheel", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "5" },
-            { "name": "Artifex's Cogwheel", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 5 },
+            { "name": "Artifex's Cogwheel", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "15" },
-            { "name": "Artifex's Gyreheart", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 15 },
+            { "name": "Artifex's Gyreheart", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": "28" },
-            { "name": "Artifex's Gyreheart", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 28 },
+            { "name": "Artifex's Gyreheart", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -4372,49 +4372,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Immortal Scionette", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Immortal Scionette", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Immortal Scionette", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Immortal Scionette", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "2" },
-            { "name": "Immortal Aeroblossom", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
+            { "name": "Immortal Aeroblossom", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "5" },
-            { "name": "Immortal Aeroblossom", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
+            { "name": "Immortal Aeroblossom", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "15" },
-            { "name": "Immortal Lumintwig", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
+            { "name": "Immortal Lumintwig", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": "28" },
-            { "name": "Immortal Lumintwig", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
+            { "name": "Immortal Lumintwig", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
@@ -4571,49 +4571,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Thief's Instinct", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Thief's Instinct", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": "3" },
-            { "name": "Usurper's Scheme", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Enigmatic Ectostella", "quantity": 3 },
+            { "name": "Usurper's Scheme", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": "7" },
-            { "name": "Usurper's Scheme", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Enigmatic Ectostella", "quantity": 7 },
+            { "name": "Usurper's Scheme", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": "20" },
-            { "name": "Conqueror's Will", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Enigmatic Ectostella", "quantity": 20 },
+            { "name": "Conqueror's Will", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": "35" },
-            { "name": "Conqueror's Will", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Enigmatic Ectostella", "quantity": 35 },
+            { "name": "Conqueror's Will", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -4765,49 +4765,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Thief's Instinct", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Thief's Instinct", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": "3" },
-            { "name": "Usurper's Scheme", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Enigmatic Ectostella", "quantity": 3 },
+            { "name": "Usurper's Scheme", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": "7" },
-            { "name": "Usurper's Scheme", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Enigmatic Ectostella", "quantity": 7 },
+            { "name": "Usurper's Scheme", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": "20" },
-            { "name": "Conqueror's Will", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Enigmatic Ectostella", "quantity": 20 },
+            { "name": "Conqueror's Will", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": "35" },
-            { "name": "Conqueror's Will", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Enigmatic Ectostella", "quantity": 35 },
+            { "name": "Conqueror's Will", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -4958,49 +4958,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Silvermane Badge", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Silvermane Badge", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Silvermane Badge", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "3" },
-            { "name": "Silvermane Insignia", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 3 },
+            { "name": "Silvermane Insignia", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "7" },
-            { "name": "Silvermane Insignia", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 7 },
+            { "name": "Silvermane Insignia", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "20" },
-            { "name": "Silvermane Medal", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 20 },
+            { "name": "Silvermane Medal", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "35" },
-            { "name": "Silvermane Medal", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 35 },
+            { "name": "Silvermane Medal", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -5155,49 +5155,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "5" },
-            { "name": "Credit", "quantity": "4000" }
+            { "name": "Thief's Instinct", "quantity": 5 },
+            { "name": "Credit", "quantity": 4000 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Thief's Instinct", "quantity": "10" },
-            { "name": "Credit", "quantity": "8000" }
+            { "name": "Thief's Instinct", "quantity": 10 },
+            { "name": "Credit", "quantity": 8000 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Gelid Chitin", "quantity": "3" },
-            { "name": "Usurper's Scheme", "quantity": "6" },
-            { "name": "Credit", "quantity": "16000" }
+            { "name": "Gelid Chitin", "quantity": 3 },
+            { "name": "Usurper's Scheme", "quantity": 6 },
+            { "name": "Credit", "quantity": 16000 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Gelid Chitin", "quantity": "7" },
-            { "name": "Usurper's Scheme", "quantity": "9" },
-            { "name": "Credit", "quantity": "40000" }
+            { "name": "Gelid Chitin", "quantity": 7 },
+            { "name": "Usurper's Scheme", "quantity": 9 },
+            { "name": "Credit", "quantity": 40000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Gelid Chitin", "quantity": "20" },
-            { "name": "Conqueror's Will", "quantity": "6" },
-            { "name": "Credit", "quantity": "80000" }
+            { "name": "Gelid Chitin", "quantity": 20 },
+            { "name": "Conqueror's Will", "quantity": 6 },
+            { "name": "Credit", "quantity": 80000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Gelid Chitin", "quantity": "35" },
-            { "name": "Conqueror's Will", "quantity": "9" },
-            { "name": "Credit", "quantity": "160000" }
+            { "name": "Gelid Chitin", "quantity": 35 },
+            { "name": "Conqueror's Will", "quantity": 9 },
+            { "name": "Credit", "quantity": 160000 }
           ]
         }
       ]
@@ -5347,49 +5347,49 @@
       ],
       "ascensionsPerLevel": [
         {
-          "level": "20",
+          "level": 20,
           "materials": [
-            { "name": "Artifex's Module", "quantity": "4" },
-            { "name": "Credit", "quantity": "3200" }
+            { "name": "Artifex's Module", "quantity": 4 },
+            { "name": "Credit", "quantity": 3200 }
           ]
         },
         {
-          "level": "30",
+          "level": 30,
           "materials": [
-            { "name": "Artifex's Module", "quantity": "8" },
-            { "name": "Credit", "quantity": "6400" }
+            { "name": "Artifex's Module", "quantity": 8 },
+            { "name": "Credit", "quantity": 6400 }
           ]
         },
         {
-          "level": "40",
+          "level": 40,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "2" },
-            { "name": "Artifex's Cogwheel", "quantity": "5" },
-            { "name": "Credit", "quantity": "12800" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 2 },
+            { "name": "Artifex's Cogwheel", "quantity": 5 },
+            { "name": "Credit", "quantity": 12800 }
           ]
         },
         {
-          "level": "50",
+          "level": 50,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "5" },
-            { "name": "Artifex's Cogwheel", "quantity": "8" },
-            { "name": "Credit", "quantity": "32000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 5 },
+            { "name": "Artifex's Cogwheel", "quantity": 8 },
+            { "name": "Credit", "quantity": 32000 }
           ]
         },
         {
-          "level": "60",
+          "level": 60,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "15" },
-            { "name": "Artifex's Gyreheart", "quantity": "5" },
-            { "name": "Credit", "quantity": "64000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 15 },
+            { "name": "Artifex's Gyreheart", "quantity": 5 },
+            { "name": "Credit", "quantity": 64000 }
           ]
         },
         {
-          "level": "70",
+          "level": 70,
           "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": "28" },
-            { "name": "Artifex's Gyreheart", "quantity": "7" },
-            { "name": "Credit", "quantity": "128000" }
+            { "name": "Golden Crown of the Past Shadow", "quantity": 28 },
+            { "name": "Artifex's Gyreheart", "quantity": 7 },
+            { "name": "Credit", "quantity": 128000 }
           ]
         }
       ]
