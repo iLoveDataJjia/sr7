@@ -99,9 +99,8 @@ export interface Character {
       name: string;
       desc: string;
     }[];
-    ascensionsMat: Ascension[];
     ascensionsPerLevel: {
-      level: string;
+      level: number;
       materials: Ascension[];
     }[];
   };
@@ -210,7 +209,11 @@ export enum Role {
   "Healer" = "Healer",
 }
 
+/**
+ * Ascension materials per level.
+ */
+
 export interface Ascension {
   name: string;
-  quantity: string;
+  quantity: number;
 }

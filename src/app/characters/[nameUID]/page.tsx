@@ -1,3 +1,4 @@
+import AscensionMaterials from "./AscensionMaterials";
 import Comp from "./Comp";
 import Equipement from "./Equipement";
 import General from "./General";
@@ -49,6 +50,7 @@ export default function Page({ params: { nameUID } }: { params: { nameUID: strin
       <Equipement character={character} />
       <SkillTraceEidolonPriority character={character} />
       <Comp character={character} />
+      <AscensionMaterials character={character} />
     </div>
   );
 }
