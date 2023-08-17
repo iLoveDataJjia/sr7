@@ -3,7 +3,10 @@ import { getItem } from "@/data/items";
 import { starCSS } from "@/data/utils";
 import Image from "next/image";
 
-export default function MaterialPhoto({ name: name, quantity: quantity }: { name: string; quantity: number }) {
+/**
+ * Pannel of a Material
+ */
+export default function MaterialPannel({ name: name, quantity: quantity }: { name: string; quantity: number }) {
   // Gradient color
   const star = getItem(name).star;
 

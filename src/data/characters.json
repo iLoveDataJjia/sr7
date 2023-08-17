@@ -110,54 +110,65 @@
           "desc": "When HP drops to 50% or below, Ultimate deals 20% more DMG. The DMG multiplier of DMG taken by the target enemy now applies to adjacent enemies as well."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Extinguished Core", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Extinguished Core", "quantity": 12 },
+            { "name": "Glimmering Core", "quantity": 13 },
+            { "name": "Squirming Core", "quantity": 12 },
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Extinguished Core", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
-            { "name": "Glimmering Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
-            { "name": "Glimmering Core", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
-            { "name": "Squirming Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
-            { "name": "Squirming Core", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 5 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 8 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 5 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 7 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "C",
@@ -302,54 +313,65 @@
           "desc": "Charging stack(s) lost in each turn is reduced by 1."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Silvermane Badge", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Silvermane Badge", "quantity": 12 },
+            { "name": "Silvermane Insignia", "quantity": 13 },
+            { "name": "Silvermane Medal", "quantity": 12 },
+            { "name": "Endotherm Chitin", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Silvermane Badge", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 2 },
-            { "name": "Silvermane Insignia", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 5 },
-            { "name": "Silvermane Insignia", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 15 },
-            { "name": "Silvermane Medal", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 28 },
-            { "name": "Silvermane Medal", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 5 },
+              { "name": "Endotherm Chitin", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 8 },
+              { "name": "Endotherm Chitin", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 5 },
+              { "name": "Endotherm Chitin", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 7 },
+              { "name": "Endotherm Chitin", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -500,54 +522,65 @@
           "desc": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Extinguished Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Extinguished Core", "quantity": 15 },
+            { "name": "Glimmering Core", "quantity": 15 },
+            { "name": "Squirming Core", "quantity": 15 },
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Extinguished Core", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 3 },
-            { "name": "Glimmering Core", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 7 },
-            { "name": "Glimmering Core", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 20 },
-            { "name": "Squirming Core", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 35 },
-            { "name": "Squirming Core", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 6 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 9 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 6 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 9 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S",
@@ -701,54 +734,65 @@
           "desc": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 50% of his Max HP."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Immortal Scionette", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Immortal Scionette", "quantity": 15 },
+            { "name": "Immortal Aeroblossom", "quantity": 15 },
+            { "name": "Immortal Lumintwig", "quantity": 15 },
+            { "name": "Ascendant Debris", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Immortal Scionette", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Ascendant Debris", "quantity": 3 },
-            { "name": "Immortal Aeroblossom", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Ascendant Debris", "quantity": 7 },
-            { "name": "Immortal Aeroblossom", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Ascendant Debris", "quantity": 20 },
-            { "name": "Immortal Lumintwig", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Ascendant Debris", "quantity": 35 },
-            { "name": "Immortal Lumintwig", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Immortal Scionette", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Immortal Scionette", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Immortal Aeroblossom", "quantity": 6 },
+              { "name": "Ascendant Debris", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Immortal Aeroblossom", "quantity": 9 },
+              { "name": "Ascendant Debris", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Immortal Lumintwig", "quantity": 6 },
+              { "name": "Ascendant Debris", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Immortal Lumintwig", "quantity": 9 },
+              { "name": "Ascendant Debris", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S",
@@ -893,54 +937,65 @@
           "desc": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s)."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Silvermane Badge", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Silvermane Badge", "quantity": 15 },
+            { "name": "Silvermane Insignia", "quantity": 15 },
+            { "name": "Silvermane Medal", "quantity": 15 },
+            { "name": "Storm Eye", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Silvermane Badge", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 3 },
-            { "name": "Silvermane Insignia", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 7 },
-            { "name": "Silvermane Insignia", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 20 },
-            { "name": "Silvermane Medal", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 35 },
-            { "name": "Silvermane Medal", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 6 },
+              { "name": "Storm Eye", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 9 },
+              { "name": "Storm Eye", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 6 },
+              { "name": "Storm Eye", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 9 },
+              { "name": "Storm Eye", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S+",
@@ -1087,54 +1142,65 @@
           "desc": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Ancient Part", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Ancient Part", "quantity": 15 },
+            { "name": "Ancient Spindle", "quantity": 15 },
+            { "name": "Ancient Engine", "quantity": 15 },
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Ancient Part", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 3 },
-            { "name": "Ancient Spindle", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 7 },
-            { "name": "Ancient Spindle", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 20 },
-            { "name": "Ancient Engine", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 35 },
-            { "name": "Ancient Engine", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 6 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 9 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 6 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 9 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -1279,54 +1345,65 @@
           "desc": "Slow triggered by Skill reduces the enemy's SPD by an additional 10%."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Extinguished Core", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Extinguished Core", "quantity": 12 },
+            { "name": "Glimmering Core", "quantity": 13 },
+            { "name": "Squirming Core", "quantity": 12 },
+            { "name": "Storm Eye", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Extinguished Core", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 2 },
-            { "name": "Glimmering Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 5 },
-            { "name": "Glimmering Core", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 15 },
-            { "name": "Squirming Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 28 },
-            { "name": "Squirming Core", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 5 },
+              { "name": "Storm Eye", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 8 },
+              { "name": "Storm Eye", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 5 },
+              { "name": "Storm Eye", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 7 },
+              { "name": "Storm Eye", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "B",
@@ -1471,54 +1548,65 @@
           "desc": "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Silvermane Badge", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Silvermane Badge", "quantity": 15 },
+            { "name": "Silvermane Insignia", "quantity": 15 },
+            { "name": "Silvermane Medal", "quantity": 15 },
+            { "name": "Horn of Snow", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Silvermane Badge", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 3 },
-            { "name": "Silvermane Insignia", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 7 },
-            { "name": "Silvermane Insignia", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 20 },
-            { "name": "Silvermane Medal", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 35 },
-            { "name": "Silvermane Medal", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 6 },
+              { "name": "Horn of Snow", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 9 },
+              { "name": "Horn of Snow", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 6 },
+              { "name": "Horn of Snow", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 9 },
+              { "name": "Horn of Snow", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S",
@@ -1664,54 +1752,65 @@
           "desc": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s)."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Extinguished Core", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Extinguished Core", "quantity": 12 },
+            { "name": "Glimmering Core", "quantity": 13 },
+            { "name": "Squirming Core", "quantity": 12 },
+            { "name": "Horn of Snow", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Extinguished Core", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 2 },
-            { "name": "Glimmering Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 5 },
-            { "name": "Glimmering Core", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 15 },
-            { "name": "Squirming Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 28 },
-            { "name": "Squirming Core", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 5 },
+              { "name": "Horn of Snow", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 8 },
+              { "name": "Horn of Snow", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 5 },
+              { "name": "Horn of Snow", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 7 },
+              { "name": "Horn of Snow", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "C",
@@ -1857,54 +1956,65 @@
           "desc": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Extinguished Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Extinguished Core", "quantity": 15 },
+            { "name": "Glimmering Core", "quantity": 15 },
+            { "name": "Squirming Core", "quantity": 15 },
+            { "name": "Endotherm Chitin", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Extinguished Core", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 3 },
-            { "name": "Glimmering Core", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 7 },
-            { "name": "Glimmering Core", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 20 },
-            { "name": "Squirming Core", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 35 },
-            { "name": "Squirming Core", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 6 },
+              { "name": "Endotherm Chitin", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 9 },
+              { "name": "Endotherm Chitin", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 6 },
+              { "name": "Endotherm Chitin", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 9 },
+              { "name": "Endotherm Chitin", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "B",
@@ -2058,54 +2168,65 @@
           "desc": "Hook deals 20% more DMG to enemies inflicted with Burn."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Ancient Part", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Ancient Part", "quantity": 12 },
+            { "name": "Ancient Spindle", "quantity": 13 },
+            { "name": "Ancient Engine", "quantity": 12 },
+            { "name": "Endotherm Chitin", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Ancient Part", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 2 },
-            { "name": "Ancient Spindle", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 5 },
-            { "name": "Ancient Spindle", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 15 },
-            { "name": "Ancient Engine", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Endotherm Chitin", "quantity": 28 },
-            { "name": "Ancient Engine", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 5 },
+              { "name": "Endotherm Chitin", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 8 },
+              { "name": "Endotherm Chitin", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 5 },
+              { "name": "Endotherm Chitin", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 7 },
+              { "name": "Endotherm Chitin", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "B",
@@ -2251,54 +2372,65 @@
           "desc": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Immortal Scionette", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Immortal Scionette", "quantity": 15 },
+            { "name": "Immortal Aeroblossom", "quantity": 15 },
+            { "name": "Immortal Lumintwig", "quantity": 15 },
+            { "name": "Shape Shifter's Lightning Staff", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Immortal Scionette", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Shape Shifter's Lightning Staff", "quantity": 3 },
-            { "name": "Immortal Aeroblossom", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Shape Shifter's Lightning Staff", "quantity": 7 },
-            { "name": "Immortal Aeroblossom", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Shape Shifter's Lightning Staff", "quantity": 20 },
-            { "name": "Immortal Lumintwig", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Shape Shifter's Lightning Staff", "quantity": 35 },
-            { "name": "Immortal Lumintwig", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Immortal Scionette", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Immortal Scionette", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Immortal Aeroblossom", "quantity": 6 },
+              { "name": "Shape Shifter's Lightning Staff", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Immortal Aeroblossom", "quantity": 9 },
+              { "name": "Shape Shifter's Lightning Staff", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Immortal Lumintwig", "quantity": 6 },
+              { "name": "Shape Shifter's Lightning Staff", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Immortal Lumintwig", "quantity": 9 },
+              { "name": "Shape Shifter's Lightning Staff", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -2444,54 +2576,65 @@
           "desc": "When Ultimate is used, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s)."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Artifex's Module", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Artifex's Module", "quantity": 15 },
+            { "name": "Artifex's Cogwheel", "quantity": 15 },
+            { "name": "Artifex's Gyreheart", "quantity": 15 },
+            { "name": "Golden Crown of the Past Shadow", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Artifex's Module", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 3 },
-            { "name": "Artifex's Cogwheel", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 7 },
-            { "name": "Artifex's Cogwheel", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 20 },
-            { "name": "Artifex's Gyreheart", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 35 },
-            { "name": "Artifex's Gyreheart", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Artifex's Module", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Artifex's Module", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Artifex's Cogwheel", "quantity": 6 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Artifex's Cogwheel", "quantity": 9 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Artifex's Gyreheart", "quantity": 6 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Artifex's Gyreheart", "quantity": 9 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S+",
@@ -2636,54 +2779,65 @@
           "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Thief's Instinct", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Thief's Instinct", "quantity": 12 },
+            { "name": "Usurper's Scheme", "quantity": 13 },
+            { "name": "Conqueror's Will", "quantity": 12 },
+            { "name": "Horn of Snow", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Thief's Instinct", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 2 },
-            { "name": "Usurper's Scheme", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 5 },
-            { "name": "Usurper's Scheme", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 15 },
-            { "name": "Conqueror's Will", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 28 },
-            { "name": "Conqueror's Will", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 5 },
+              { "name": "Horn of Snow", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 8 },
+              { "name": "Horn of Snow", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 5 },
+              { "name": "Horn of Snow", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 7 },
+              { "name": "Horn of Snow", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -2825,54 +2979,65 @@
           "desc": "Natasha's Basic ATK deals Additional Physical DMG equal to 40% of her Max HP."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Ancient Part", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Ancient Part", "quantity": 12 },
+            { "name": "Ancient Spindle", "quantity": 13 },
+            { "name": "Ancient Engine", "quantity": 12 },
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Ancient Part", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 2 },
-            { "name": "Ancient Spindle", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 5 },
-            { "name": "Ancient Spindle", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 15 },
-            { "name": "Ancient Engine", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 28 },
-            { "name": "Ancient Engine", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 5 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 8 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 5 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 7 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -3018,54 +3183,65 @@
           "desc": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to 40% of Pela's ATK to the enemy."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Extinguished Core", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Extinguished Core", "quantity": 12 },
+            { "name": "Glimmering Core", "quantity": 13 },
+            { "name": "Squirming Core", "quantity": 12 },
+            { "name": "Horn of Snow", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Extinguished Core", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 2 },
-            { "name": "Glimmering Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 5 },
-            { "name": "Glimmering Core", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 15 },
-            { "name": "Squirming Core", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Horn of Snow", "quantity": 28 },
-            { "name": "Squirming Core", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Extinguished Core", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 5 },
+              { "name": "Horn of Snow", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Glimmering Core", "quantity": 8 },
+              { "name": "Horn of Snow", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 5 },
+              { "name": "Horn of Snow", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Squirming Core", "quantity": 7 },
+              { "name": "Horn of Snow", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S",
@@ -3214,54 +3390,65 @@
           "desc": "Recovers 1 Skill Point after using Enhanced Basic ATK."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Thief's Instinct", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Thief's Instinct", "quantity": 12 },
+            { "name": "Usurper's Scheme", "quantity": 13 },
+            { "name": "Conqueror's Will", "quantity": 12 },
+            { "name": "Void Cast Iron", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Thief's Instinct", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 2 },
-            { "name": "Usurper's Scheme", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 5 },
-            { "name": "Usurper's Scheme", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 15 },
-            { "name": "Conqueror's Will", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 28 },
-            { "name": "Conqueror's Will", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 5 },
+              { "name": "Void Cast Iron", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 8 },
+              { "name": "Void Cast Iron", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 5 },
+              { "name": "Void Cast Iron", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 7 },
+              { "name": "Void Cast Iron", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -3407,54 +3594,65 @@
           "desc": "Talent's Wind Shear DMG multiplier increases by 15%."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Ancient Part", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Ancient Part", "quantity": 12 },
+            { "name": "Ancient Spindle", "quantity": 13 },
+            { "name": "Ancient Engine", "quantity": 12 },
+            { "name": "Storm Eye", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Ancient Part", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 2 },
-            { "name": "Ancient Spindle", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 5 },
-            { "name": "Ancient Spindle", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 15 },
-            { "name": "Ancient Engine", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Storm Eye", "quantity": 28 },
-            { "name": "Ancient Engine", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 5 },
+              { "name": "Storm Eye", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 8 },
+              { "name": "Storm Eye", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 5 },
+              { "name": "Storm Eye", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 7 },
+              { "name": "Storm Eye", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "B",
@@ -3599,54 +3797,65 @@
           "desc": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered. When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Thief's Instinct", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Thief's Instinct", "quantity": 15 },
+            { "name": "Usurper's Scheme", "quantity": 15 },
+            { "name": "Conqueror's Will", "quantity": 15 },
+            { "name": "Void Cast Iron", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Thief's Instinct", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 3 },
-            { "name": "Usurper's Scheme", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 7 },
-            { "name": "Usurper's Scheme", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 20 },
-            { "name": "Conqueror's Will", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 35 },
-            { "name": "Conqueror's Will", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 6 },
+              { "name": "Void Cast Iron", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 9 },
+              { "name": "Void Cast Iron", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 6 },
+              { "name": "Void Cast Iron", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 9 },
+              { "name": "Void Cast Iron", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S+",
@@ -3792,54 +4001,65 @@
           "desc": "Serval deals 30% more DMG to Shocked enemies."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Silvermane Badge", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Silvermane Badge", "quantity": 12 },
+            { "name": "Silvermane Insignia", "quantity": 13 },
+            { "name": "Silvermane Medal", "quantity": 12 },
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Silvermane Badge", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
-            { "name": "Silvermane Insignia", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
-            { "name": "Silvermane Insignia", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
-            { "name": "Silvermane Medal", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
-            { "name": "Silvermane Medal", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 5 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 8 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 5 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 7 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "B",
@@ -3985,54 +4205,65 @@
           "desc": "For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Ancient Part", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Ancient Part", "quantity": 15 },
+            { "name": "Ancient Spindle", "quantity": 15 },
+            { "name": "Ancient Engine", "quantity": 15 },
+            { "name": "Void Cast Iron", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Ancient Part", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 3 },
-            { "name": "Ancient Spindle", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 7 },
-            { "name": "Ancient Spindle", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 20 },
-            { "name": "Ancient Engine", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Void Cast Iron", "quantity": 35 },
-            { "name": "Ancient Engine", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Ancient Part", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 6 },
+              { "name": "Void Cast Iron", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Ancient Spindle", "quantity": 9 },
+              { "name": "Void Cast Iron", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 6 },
+              { "name": "Void Cast Iron", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Ancient Engine", "quantity": 9 },
+              { "name": "Void Cast Iron", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S+",
@@ -4178,54 +4409,65 @@
           "desc": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Artifex's Module", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Artifex's Module", "quantity": 12 },
+            { "name": "Artifex's Cogwheel", "quantity": 13 },
+            { "name": "Artifex's Gyreheart", "quantity": 12 },
+            { "name": "Broken Teeth of Iron Wolf", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Artifex's Module", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 2 },
-            { "name": "Artifex's Cogwheel", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 5 },
-            { "name": "Artifex's Cogwheel", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 15 },
-            { "name": "Artifex's Gyreheart", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Broken Teeth of Iron Wolf", "quantity": 28 },
-            { "name": "Artifex's Gyreheart", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Artifex's Module", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Artifex's Module", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Artifex's Cogwheel", "quantity": 5 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Artifex's Cogwheel", "quantity": 8 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Artifex's Gyreheart", "quantity": 5 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Artifex's Gyreheart", "quantity": 7 },
+              { "name": "Broken Teeth of Iron Wolf", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "B",
@@ -4370,54 +4612,65 @@
           "desc": "Ultimate regenerates 10 more Energy for the target ally."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Immortal Scionette", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Immortal Scionette", "quantity": 12 },
+            { "name": "Immortal Aeroblossom", "quantity": 13 },
+            { "name": "Immortal Lumintwig", "quantity": 12 },
+            { "name": "Lightning Crown of the Past Shadow", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Immortal Scionette", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
-            { "name": "Immortal Aeroblossom", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
-            { "name": "Immortal Aeroblossom", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
-            { "name": "Immortal Lumintwig", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
-            { "name": "Immortal Lumintwig", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Immortal Scionette", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Immortal Scionette", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Immortal Aeroblossom", "quantity": 5 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Immortal Aeroblossom", "quantity": 8 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Immortal Lumintwig", "quantity": 5 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Immortal Lumintwig", "quantity": 7 },
+              { "name": "Lightning Crown of the Past Shadow", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S",
@@ -4569,54 +4822,65 @@
           "desc": "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s)."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Thief's Instinct", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Thief's Instinct", "quantity": 15 },
+            { "name": "Usurper's Scheme", "quantity": 15 },
+            { "name": "Conqueror's Will", "quantity": 15 },
+            { "name": "Enigmatic Ectostella", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Thief's Instinct", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": 3 },
-            { "name": "Usurper's Scheme", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": 7 },
-            { "name": "Usurper's Scheme", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": 20 },
-            { "name": "Conqueror's Will", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": 35 },
-            { "name": "Conqueror's Will", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 6 },
+              { "name": "Enigmatic Ectostella", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 9 },
+              { "name": "Enigmatic Ectostella", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 6 },
+              { "name": "Enigmatic Ectostella", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 9 },
+              { "name": "Enigmatic Ectostella", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -4763,54 +5027,65 @@
           "desc": "The Trailblazer's Talent is also triggered when they defeat an enemy."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Thief's Instinct", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Thief's Instinct", "quantity": 15 },
+            { "name": "Usurper's Scheme", "quantity": 15 },
+            { "name": "Conqueror's Will", "quantity": 15 },
+            { "name": "Enigmatic Ectostella", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Thief's Instinct", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": 3 },
-            { "name": "Usurper's Scheme", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": 7 },
-            { "name": "Usurper's Scheme", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": 20 },
-            { "name": "Conqueror's Will", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Enigmatic Ectostella", "quantity": 35 },
-            { "name": "Conqueror's Will", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 6 },
+              { "name": "Enigmatic Ectostella", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 9 },
+              { "name": "Enigmatic Ectostella", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 6 },
+              { "name": "Enigmatic Ectostella", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 9 },
+              { "name": "Enigmatic Ectostella", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "C",
@@ -4956,54 +5231,65 @@
           "desc": "When using Skill, deals DMG for 1 extra time to a random enemy."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Silvermane Badge", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Silvermane Badge", "quantity": 15 },
+            { "name": "Silvermane Insignia", "quantity": 15 },
+            { "name": "Silvermane Medal", "quantity": 15 },
+            { "name": "Golden Crown of the Past Shadow", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Silvermane Badge", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 3 },
-            { "name": "Silvermane Insignia", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 7 },
-            { "name": "Silvermane Insignia", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 20 },
-            { "name": "Silvermane Medal", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 35 },
-            { "name": "Silvermane Medal", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Silvermane Badge", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 6 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Silvermane Insignia", "quantity": 9 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 6 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Silvermane Medal", "quantity": 9 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -5153,54 +5439,65 @@
           "desc": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn."
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Thief's Instinct", "quantity": 5 },
-            { "name": "Credit", "quantity": 4000 }
+            { "name": "Thief's Instinct", "quantity": 15 },
+            { "name": "Usurper's Scheme", "quantity": 15 },
+            { "name": "Conqueror's Will", "quantity": 15 },
+            { "name": "Gelid Chitin", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Thief's Instinct", "quantity": 10 },
-            { "name": "Credit", "quantity": 8000 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Gelid Chitin", "quantity": 3 },
-            { "name": "Usurper's Scheme", "quantity": 6 },
-            { "name": "Credit", "quantity": 16000 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Gelid Chitin", "quantity": 7 },
-            { "name": "Usurper's Scheme", "quantity": 9 },
-            { "name": "Credit", "quantity": 40000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Gelid Chitin", "quantity": 20 },
-            { "name": "Conqueror's Will", "quantity": 6 },
-            { "name": "Credit", "quantity": 80000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Gelid Chitin", "quantity": 35 },
-            { "name": "Conqueror's Will", "quantity": 9 },
-            { "name": "Credit", "quantity": 160000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 6 },
+              { "name": "Gelid Chitin", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 9 },
+              { "name": "Gelid Chitin", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 6 },
+              { "name": "Gelid Chitin", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 9 },
+              { "name": "Gelid Chitin", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
@@ -5345,54 +5642,65 @@
           "desc": "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of \"Roaring Bowstrings.\""
         }
       ],
-      "ascensionsPerLevel": [
-        {
-          "level": 20,
+      "ascensions": {
+        "total": {
           "materials": [
-            { "name": "Artifex's Module", "quantity": 4 },
-            { "name": "Credit", "quantity": 3200 }
+            { "name": "Artifex's Module", "quantity": 12 },
+            { "name": "Artifex's Cogwheel", "quantity": 13 },
+            { "name": "Artifex's Gyreheart", "quantity": 12 },
+            { "name": "Golden Crown of the Past Shadow", "quantity": 50 },
+            { "name": "Credit", "quantity": 246400 }
           ]
         },
-        {
-          "level": 30,
-          "materials": [
-            { "name": "Artifex's Module", "quantity": 8 },
-            { "name": "Credit", "quantity": 6400 }
-          ]
-        },
-        {
-          "level": 40,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 2 },
-            { "name": "Artifex's Cogwheel", "quantity": 5 },
-            { "name": "Credit", "quantity": 12800 }
-          ]
-        },
-        {
-          "level": 50,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 5 },
-            { "name": "Artifex's Cogwheel", "quantity": 8 },
-            { "name": "Credit", "quantity": 32000 }
-          ]
-        },
-        {
-          "level": 60,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 15 },
-            { "name": "Artifex's Gyreheart", "quantity": 5 },
-            { "name": "Credit", "quantity": 64000 }
-          ]
-        },
-        {
-          "level": 70,
-          "materials": [
-            { "name": "Golden Crown of the Past Shadow", "quantity": 28 },
-            { "name": "Artifex's Gyreheart", "quantity": 7 },
-            { "name": "Credit", "quantity": 128000 }
-          ]
-        }
-      ]
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Artifex's Module", "quantity": 4 },
+              { "name": "Credit", "quantity": 3200 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Artifex's Module", "quantity": 8 },
+              { "name": "Credit", "quantity": 6400 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Artifex's Cogwheel", "quantity": 5 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 2 },
+              { "name": "Credit", "quantity": 12800 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Artifex's Cogwheel", "quantity": 8 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 5 },
+              { "name": "Credit", "quantity": 32000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Artifex's Gyreheart", "quantity": 5 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 15 },
+              { "name": "Credit", "quantity": 64000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Artifex's Gyreheart", "quantity": 7 },
+              { "name": "Golden Crown of the Past Shadow", "quantity": 28 },
+              { "name": "Credit", "quantity": 128000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "A",
