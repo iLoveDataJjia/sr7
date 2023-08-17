@@ -99,6 +99,16 @@ export interface Character {
       name: string;
       desc: string;
     }[];
+    ascensions: {
+      total: { materials: { name: string; quantity: number }[] };
+      perLevel: {
+        level: number;
+        materials: {
+          name: string;
+          quantity: number;
+        }[];
+      }[];
+    };
   };
   dynamic: {
     tier: Tier;
