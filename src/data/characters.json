@@ -110,7 +110,7 @@
           "desc": "When HP drops to 50% or below, Ultimate deals 20% more DMG. The DMG multiplier of DMG taken by the target enemy now applies to adjacent enemies as well."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Extinguished Core", "quantity": 12 },
@@ -313,7 +313,7 @@
           "desc": "Charging stack(s) lost in each turn is reduced by 1."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Silvermane Badge", "quantity": 12 },
@@ -522,7 +522,7 @@
           "desc": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Extinguished Core", "quantity": 15 },
@@ -734,7 +734,7 @@
           "desc": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 50% of his Max HP."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Immortal Scionette", "quantity": 15 },
@@ -937,7 +937,7 @@
           "desc": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s)."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Silvermane Badge", "quantity": 15 },
@@ -1142,7 +1142,7 @@
           "desc": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Ancient Part", "quantity": 15 },
@@ -1345,7 +1345,7 @@
           "desc": "Slow triggered by Skill reduces the enemy's SPD by an additional 10%."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Extinguished Core", "quantity": 12 },
@@ -1548,7 +1548,7 @@
           "desc": "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Silvermane Badge", "quantity": 15 },
@@ -1752,7 +1752,7 @@
           "desc": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s)."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Extinguished Core", "quantity": 12 },
@@ -1956,7 +1956,7 @@
           "desc": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Extinguished Core", "quantity": 15 },
@@ -2168,7 +2168,7 @@
           "desc": "Hook deals 20% more DMG to enemies inflicted with Burn."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Ancient Part", "quantity": 12 },
@@ -2372,7 +2372,7 @@
           "desc": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Immortal Scionette", "quantity": 15 },
@@ -2576,7 +2576,7 @@
           "desc": "When Ultimate is used, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s)."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Artifex's Module", "quantity": 15 },
@@ -2779,7 +2779,7 @@
           "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Thief's Instinct", "quantity": 12 },
@@ -2979,7 +2979,7 @@
           "desc": "Natasha's Basic ATK deals Additional Physical DMG equal to 40% of her Max HP."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Ancient Part", "quantity": 12 },
@@ -3183,7 +3183,7 @@
           "desc": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to 40% of Pela's ATK to the enemy."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Extinguished Core", "quantity": 12 },
@@ -3390,7 +3390,7 @@
           "desc": "Recovers 1 Skill Point after using Enhanced Basic ATK."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Thief's Instinct", "quantity": 12 },
@@ -3594,7 +3594,7 @@
           "desc": "Talent's Wind Shear DMG multiplier increases by 15%."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Ancient Part", "quantity": 12 },
@@ -3797,7 +3797,7 @@
           "desc": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered. When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Thief's Instinct", "quantity": 15 },
@@ -4001,7 +4001,7 @@
           "desc": "Serval deals 30% more DMG to Shocked enemies."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Silvermane Badge", "quantity": 12 },
@@ -4205,7 +4205,7 @@
           "desc": "For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Ancient Part", "quantity": 15 },
@@ -4409,7 +4409,7 @@
           "desc": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Artifex's Module", "quantity": 12 },
@@ -4612,7 +4612,7 @@
           "desc": "Ultimate regenerates 10 more Energy for the target ally."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Immortal Scionette", "quantity": 12 },
@@ -4822,7 +4822,7 @@
           "desc": "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s)."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Thief's Instinct", "quantity": 15 },
@@ -5027,7 +5027,7 @@
           "desc": "The Trailblazer's Talent is also triggered when they defeat an enemy."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Thief's Instinct", "quantity": 15 },
@@ -5231,7 +5231,7 @@
           "desc": "When using Skill, deals DMG for 1 extra time to a random enemy."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Silvermane Badge", "quantity": 15 },
@@ -5439,7 +5439,7 @@
           "desc": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn."
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Thief's Instinct", "quantity": 15 },
@@ -5642,7 +5642,7 @@
           "desc": "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of \"Roaring Bowstrings.\""
         }
       ],
-      "ascensionsMat": {
+      "ascensionMats": {
         "total": {
           "materials": [
             { "name": "Artifex's Module", "quantity": 12 },

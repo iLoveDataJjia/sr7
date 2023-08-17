@@ -8,7 +8,7 @@ import Image from "next/image";
  */
 export default function AscensionMaterials({ character }: { character: Character }) {
   // Get Data
-  const data = character.static.ascensionsMat;
+  const data = character.static.ascensionMats;
 
   // Render
   return (
