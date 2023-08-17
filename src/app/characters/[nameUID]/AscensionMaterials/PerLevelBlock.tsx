@@ -3,7 +3,7 @@ import MaterialPannel from "./MaterialPannel";
 /**
  * Per level part(s) of ascension materials.
  */
-export default function PerLevelBloc({
+export default function PerLevelBlock({
   level,
   materials,
 }: {

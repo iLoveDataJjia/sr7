@@ -1,5 +1,5 @@
-import PerLevelBloc from "./PerLevelBloc";
-import TotalBloc from "./TotalBloc";
+import PerLevelBlock from "./PerLevelBlock";
+import TotalBlock from "./TotalBlock";
 import { Character } from "@/data/characters";
 import Image from "next/image";
 
@@ -37,11 +37,11 @@ export default function AscensionMaterials({ character }: { character: Character
         <div className="grid grid-cols-3">
           {data.perLevel.map((materialsPerLevel, idx) => (
             <div key={idx} className={"border-r-2 border-slate-950" + (idx < 3 ? " border-b-2" : "")}>
-              <PerLevelBloc level={materialsPerLevel.level} materials={materialsPerLevel.materials} />
+              <PerLevelBlock level={materialsPerLevel.level} materials={materialsPerLevel.materials} />
             </div>
           ))}
         </div>
-        <TotalBloc materials={data.total.materials} />
+        <TotalBlock materials={data.total.materials} />
       </div>
     </div>
   );
