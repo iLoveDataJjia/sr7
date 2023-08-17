@@ -1,25 +1,29 @@
 import MaterialPannel from "./MaterialPannel";
-import { Material } from "@/data/characters";
 
 /**
- * Display one block of Ascension materials per level.
+ * Per level part(s) of ascension materials.
  */
-export default function AscensionMaterialsPerLevel({ data }: { data: { level: number; materials: Material[] } }) {
-  // Render
+export default function PerLevelBloc({
+  level,
+  materials,
+}: {
+  level: number;
+  materials: { name: string; quantity: number }[];
+}) {
   return (
     <div className="flex flex-col p-4">
+      {/* Title */}
       <div className="flex items-center space-x-4">
-        {/* Title */}
         <span className="h-5 w-0.5 bg-blue-500" />
         <h1 className="font-bold">
-          Lv. {data.level} &#8594; {data.level}+
+          Lv. {level} &#8594; {level}+
         </h1>
       </div>
 
       {/* Pannel */}
       <div className="space-y-4 p-4">
-        {data.materials.map((_, idx) => (
-          <div key={idx} className="">
+        {materials.map((_, idx) => (
+          <div key={idx}>
             <MaterialPannel name={_.name} quantity={_.quantity} />
           </div>
         ))}

@@ -1,10 +1,9 @@
 import MaterialPannel from "./MaterialPannel";
-import { Material } from "@/data/characters";
 
 /**
- * Display the part "total" of Ascension materials.
+ * Total part of ascension materials.
  */
-export default function TotalAscensionMat({ data }: { data: { materials: Material[] } }): JSX.Element {
+export default function TotalBloc({ materials }: { materials: { name: string; quantity: number }[] }): JSX.Element {
   // Render
   return (
     <div className="flex flex-1 flex-col p-4">
@@ -16,7 +15,7 @@ export default function TotalAscensionMat({ data }: { data: { materials: Materia
 
       {/* Pannel */}
       <div className="m-auto space-y-3 p-2">
-        {data.materials.map((_, idx) => (
+        {materials.map((_, idx) => (
           <MaterialPannel name={_.name} quantity={_.quantity} key={idx} />
         ))}
       </div>

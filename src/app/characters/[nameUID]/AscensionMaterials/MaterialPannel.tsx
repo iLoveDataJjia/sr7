@@ -4,9 +4,9 @@ import { starCSS } from "@/data/utils";
 import Image from "next/image";
 
 /**
- * Pannel of a Material
+ * Material pannel.
  */
-export default function MaterialPannel({ name: name, quantity: quantity }: { name: string; quantity: number }) {
+export default function MaterialPannel({ name, quantity }: { name: string; quantity: number }) {
   // Gradient color
   const star = getItem(name).star;
 
@@ -22,7 +22,7 @@ export default function MaterialPannel({ name: name, quantity: quantity }: { nam
         )}
       </div>
 
-      {/* Materials' name and quantity */}
+      {/* Name & quantity */}
       <TextHighlighter
         text={`${name} x${quantity}`}
         regexGroup={/(x\d+)/}

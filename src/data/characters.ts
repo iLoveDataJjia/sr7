@@ -100,8 +100,14 @@ export interface Character {
       desc: string;
     }[];
     ascensions: {
-      perLevel: { level: number; materials: Material[] }[];
-      total: { materials: Material[] };
+      total: { materials: { name: string; quantity: number }[] };
+      perLevel: {
+        level: number;
+        materials: {
+          name: string;
+          quantity: number;
+        }[];
+      }[];
     };
   };
   dynamic: {
@@ -207,13 +213,4 @@ export enum Role {
   "Tank" = "Tank",
   "Support" = "Support",
   "Healer" = "Healer",
-}
-
-/**
- * Ascension materials per level.
- */
-
-export interface Material {
-  name: string;
-  quantity: number;
 }
