@@ -100,8 +100,8 @@ export interface Character {
       desc: string;
     }[];
     ascensions: {
-      perLevel: MaterialsPerLevel[];
-      total: TotalMaterials;
+      perLevel: { level: number; materials: Material[] }[];
+      total: { materials: Material[] };
     };
   };
   dynamic: {
@@ -216,13 +216,4 @@ export enum Role {
 export interface Material {
   name: string;
   quantity: number;
-}
-
-export interface TotalMaterials {
-  materials: Material[];
-}
-
-export interface MaterialsPerLevel {
-  level: number;
-  materials: Material[];
 }

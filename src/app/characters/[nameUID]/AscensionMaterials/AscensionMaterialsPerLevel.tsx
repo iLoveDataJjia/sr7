@@ -1,10 +1,10 @@
 import MaterialPannel from "./MaterialPannel";
-import { MaterialsPerLevel } from "@/data/characters";
+import { Material } from "@/data/characters";
 
 /**
  * Display one block of Ascension materials per level.
  */
-export default function AscensionMaterialsPerLevel({ data }: { data: MaterialsPerLevel }) {
+export default function AscensionMaterialsPerLevel({ data }: { data: { level: number; materials: Material[] } }) {
   // Render
   return (
     <div className="flex flex-col p-4">

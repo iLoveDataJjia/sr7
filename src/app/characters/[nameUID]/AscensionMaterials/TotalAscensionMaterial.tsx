@@ -1,10 +1,10 @@
 import MaterialPannel from "./MaterialPannel";
-import { TotalMaterials } from "@/data/characters";
+import { Material } from "@/data/characters";
 
 /**
  * Display the part "total" of Ascension materials.
  */
-export default function TotalAscensionMat({ data }: { data: TotalMaterials }): JSX.Element {
+export default function TotalAscensionMat({ data }: { data: { materials: Material[] } }): JSX.Element {
   // Render
   return (
     <div className="flex flex-1 flex-col p-4">
