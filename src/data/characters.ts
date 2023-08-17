@@ -99,7 +99,7 @@ export interface Character {
       name: string;
       desc: string;
     }[];
-    ascensions: {
+    ascensionsMat: {
       total: { materials: { name: string; quantity: number }[] };
       perLevel: {
         level: number;
