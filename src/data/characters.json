@@ -168,6 +168,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Extinguished Core ", "quantity": 4 },
+              { "name": "Glimmering Core ", "quantity": 5 },
+              { "name": "Squirming Core ", "quantity": 5 },
+              { "name": "Shattered Blade ", "quantity": 2 },
+              { "name": "Lifeless Blade ", "quantity": 6 },
+              { "name": "Worldbreaker Blade ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Extinguished Core ", "quantity": 4 },
+                { "name": "Shattered Blade ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 2 },
+                { "name": "Lifeless Blade ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 3 },
+                { "name": "Lifeless Blade ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 2 },
+                { "name": "Worldbreaker Blade ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 3 },
+                { "name": "Worldbreaker Blade ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -371,6 +428,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Silvermane Badge ", "quantity": 4 },
+              { "name": "Silvermane Insignia ", "quantity": 5 },
+              { "name": "Silvermane Medal ", "quantity": 5 },
+              { "name": "Harmonic Tune ", "quantity": 2 },
+              { "name": "Ancestral Hymn ", "quantity": 6 },
+              { "name": "Stellaris Symphony ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Silvermane Badge ", "quantity": 4 },
+                { "name": "Harmonic Tune ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 2 },
+                { "name": "Ancestral Hymn ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 3 },
+                { "name": "Ancestral Hymn ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 2 },
+                { "name": "Stellaris Symphony ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 3 },
+                { "name": "Stellaris Symphony ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -580,6 +694,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Extinguished Core ", "quantity": 6 },
+              { "name": "Glimmering Core ", "quantity": 7 },
+              { "name": "Squirming Core ", "quantity": 7 },
+              { "name": "Seed of Abundance ", "quantity": 3 },
+              { "name": "Sprout of Life ", "quantity": 8 },
+              { "name": "Flower of Eternity ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Extinguished Core ", "quantity": 6 },
+                { "name": "Seed of Abundance ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 3 },
+                { "name": "Sprout of Life ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 4 },
+                { "name": "Sprout of Life ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 3 },
+                { "name": "Flower of Eternity ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 4 },
+                { "name": "Flower of Eternity ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -792,6 +963,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Immortal Scionette ", "quantity": 6 },
+              { "name": "Immortal Aeroblossom ", "quantity": 7 },
+              { "name": "Immortal Lumintwig ", "quantity": 7 },
+              { "name": "Shattered Blade ", "quantity": 3 },
+              { "name": "Lifeless Blade ", "quantity": 8 },
+              { "name": "Worldbreaker Blade ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Immortal Scionette ", "quantity": 6 },
+                { "name": "Shattered Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Immortal Aeroblossom ", "quantity": 3 },
+                { "name": "Lifeless Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Immortal Aeroblossom ", "quantity": 4 },
+                { "name": "Lifeless Blade ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Immortal Lumintwig ", "quantity": 3 },
+                { "name": "Worldbreaker Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Immortal Lumintwig ", "quantity": 4 },
+                { "name": "Worldbreaker Blade ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -995,6 +1223,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Silvermane Badge ", "quantity": 6 },
+              { "name": "Silvermane Insignia ", "quantity": 7 },
+              { "name": "Silvermane Medal ", "quantity": 7 },
+              { "name": "Harmonic Tune ", "quantity": 3 },
+              { "name": "Ancestral Hymn ", "quantity": 8 },
+              { "name": "Stellaris Symphony ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Silvermane Badge ", "quantity": 6 },
+                { "name": "Harmonic Tune ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 3 },
+                { "name": "Ancestral Hymn ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 4 },
+                { "name": "Ancestral Hymn ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 3 },
+                { "name": "Stellaris Symphony ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 4 },
+                { "name": "Stellaris Symphony ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -1200,6 +1485,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Ancient Part ", "quantity": 6 },
+              { "name": "Ancient Spindle ", "quantity": 7 },
+              { "name": "Ancient Engine ", "quantity": 7 },
+              { "name": "Shattered Blade ", "quantity": 3 },
+              { "name": "Lifeless Blade ", "quantity": 8 },
+              { "name": "Worldbreaker Blade ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Ancient Part ", "quantity": 6 },
+                { "name": "Shattered Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 3 },
+                { "name": "Lifeless Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 4 },
+                { "name": "Lifeless Blade ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 3 },
+                { "name": "Worldbreaker Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 4 },
+                { "name": "Worldbreaker Blade ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -1403,6 +1745,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Extinguished Core ", "quantity": 4 },
+              { "name": "Glimmering Core ", "quantity": 5 },
+              { "name": "Squirming Core ", "quantity": 5 },
+              { "name": "Arrow of the Beast Hunter ", "quantity": 2 },
+              { "name": "Arrow of the Demon Slayer ", "quantity": 6 },
+              { "name": "Arrow of the Starchaser ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Extinguished Core ", "quantity": 4 },
+                { "name": "Arrow of the Beast Hunter ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 2 },
+                { "name": "Arrow of the Demon Slayer ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 3 },
+                { "name": "Arrow of the Demon Slayer ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 2 },
+                { "name": "Arrow of the Starchaser ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 3 },
+                { "name": "Arrow of the Starchaser ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -1606,6 +2005,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Silvermane Badge ", "quantity": 6 },
+              { "name": "Silvermane Insignia ", "quantity": 7 },
+              { "name": "Silvermane Medal ", "quantity": 7 },
+              { "name": "Endurance of Bronze ", "quantity": 3 },
+              { "name": "Oath of Steel ", "quantity": 8 },
+              { "name": "Safeguard of Amber ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Silvermane Badge ", "quantity": 6 },
+                { "name": "Endurance of Bronze ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 3 },
+                { "name": "Oath of Steel ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 4 },
+                { "name": "Oath of Steel ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 3 },
+                { "name": "Safeguard of Amber ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 4 },
+                { "name": "Safeguard of Amber ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -1810,6 +2266,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Extinguished Core ", "quantity": 4 },
+              { "name": "Glimmering Core ", "quantity": 5 },
+              { "name": "Squirming Core ", "quantity": 5 },
+              { "name": "Key of Inspiration ", "quantity": 2 },
+              { "name": "Key of Knowledge ", "quantity": 6 },
+              { "name": "Key of Wisdom ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Extinguished Core ", "quantity": 4 },
+                { "name": "Key of Inspiration ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 2 },
+                { "name": "Key of Knowledge ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 3 },
+                { "name": "Key of Knowledge ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 2 },
+                { "name": "Key of Wisdom ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 3 },
+                { "name": "Key of Wisdom ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -2014,6 +2527,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Extinguished Core ", "quantity": 6 },
+              { "name": "Glimmering Core ", "quantity": 7 },
+              { "name": "Squirming Core ", "quantity": 7 },
+              { "name": "Key of Inspiration ", "quantity": 3 },
+              { "name": "Key of Knowledge ", "quantity": 8 },
+              { "name": "Key of Wisdom ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Extinguished Core ", "quantity": 6 },
+                { "name": "Key of Inspiration ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 3 },
+                { "name": "Key of Knowledge ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 4 },
+                { "name": "Key of Knowledge ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 3 },
+                { "name": "Key of Wisdom ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 4 },
+                { "name": "Key of Wisdom ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -2226,6 +2796,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Ancient Part ", "quantity": 4 },
+              { "name": "Ancient Spindle ", "quantity": 5 },
+              { "name": "Ancient Engine ", "quantity": 5 },
+              { "name": "Shattered Blade ", "quantity": 2 },
+              { "name": "Lifeless Blade ", "quantity": 6 },
+              { "name": "Worldbreaker Blade ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Ancient Part ", "quantity": 4 },
+                { "name": "Shattered Blade ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 2 },
+                { "name": "Lifeless Blade ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 3 },
+                { "name": "Lifeless Blade ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 2 },
+                { "name": "Worldbreaker Blade ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 3 },
+                { "name": "Worldbreaker Blade ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -2430,6 +3057,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Immortal Scionette ", "quantity": 6 },
+              { "name": "Immortal Aeroblossom ", "quantity": 7 },
+              { "name": "Immortal Lumintwig ", "quantity": 7 },
+              { "name": "Key of Inspiration ", "quantity": 3 },
+              { "name": "Key of Knowledge ", "quantity": 8 },
+              { "name": "Key of Wisdom ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Immortal Scionette ", "quantity": 6 },
+                { "name": "Key of Inspiration ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Immortal Aeroblossom ", "quantity": 3 },
+                { "name": "Key of Knowledge ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Immortal Aeroblossom ", "quantity": 4 },
+                { "name": "Key of Knowledge ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Immortal Lumintwig ", "quantity": 3 },
+                { "name": "Key of Wisdom ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Immortal Lumintwig ", "quantity": 4 },
+                { "name": "Key of Wisdom ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -2634,6 +3318,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Artifex's Module ", "quantity": 6 },
+              { "name": "Artifex's Cogwheel ", "quantity": 7 },
+              { "name": "Artifex's Gyreheart ", "quantity": 7 },
+              { "name": "Seed of Abundance ", "quantity": 3 },
+              { "name": "Sprout of Life ", "quantity": 8 },
+              { "name": "Flower of Eternity ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Artifex's Module ", "quantity": 6 },
+                { "name": "Seed of Abundance ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Artifex's Cogwheel ", "quantity": 3 },
+                { "name": "Sprout of Life ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Artifex's Cogwheel ", "quantity": 4 },
+                { "name": "Sprout of Life ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Artifex's Gyreheart ", "quantity": 3 },
+                { "name": "Flower of Eternity ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Artifex's Gyreheart ", "quantity": 4 },
+                { "name": "Flower of Eternity ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -2837,6 +3578,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Thief's Instinct ", "quantity": 4 },
+              { "name": "Usurper's Scheme ", "quantity": 5 },
+              { "name": "Conqueror's Will ", "quantity": 5 },
+              { "name": "Endurance of Bronze ", "quantity": 2 },
+              { "name": "Oath of Steel ", "quantity": 6 },
+              { "name": "Safeguard of Amber ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Thief's Instinct ", "quantity": 4 },
+                { "name": "Endurance of Bronze ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 2 },
+                { "name": "Oath of Steel ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 3 },
+                { "name": "Oath of Steel ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 2 },
+                { "name": "Safeguard of Amber ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 3 },
+                { "name": "Safeguard of Amber ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -3037,6 +3835,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Ancient Part ", "quantity": 4 },
+              { "name": "Ancient Spindle ", "quantity": 5 },
+              { "name": "Ancient Engine ", "quantity": 5 },
+              { "name": "Seed of Abundance ", "quantity": 2 },
+              { "name": "Sprout of Life ", "quantity": 6 },
+              { "name": "Flower of Eternity ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Ancient Part ", "quantity": 4 },
+                { "name": "Seed of Abundance ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 2 },
+                { "name": "Sprout of Life ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 3 },
+                { "name": "Sprout of Life ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 2 },
+                { "name": "Flower of Eternity ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 3 },
+                { "name": "Flower of Eternity ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -3241,6 +4096,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Extinguished Core ", "quantity": 4 },
+              { "name": "Glimmering Core ", "quantity": 5 },
+              { "name": "Squirming Core ", "quantity": 5 },
+              { "name": "Obsidian of Dread ", "quantity": 2 },
+              { "name": "Obsidian of Desolation ", "quantity": 6 },
+              { "name": "Obsidian of Obsession ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Extinguished Core ", "quantity": 4 },
+                { "name": "Obsidian of Dread ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 2 },
+                { "name": "Obsidian of Desolation ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Glimmering Core ", "quantity": 3 },
+                { "name": "Obsidian of Desolation ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 2 },
+                { "name": "Obsidian of Obsession ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Squirming Core ", "quantity": 3 },
+                { "name": "Obsidian of Obsession ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -3448,6 +4360,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Thief's Instinct ", "quantity": 4 },
+              { "name": "Usurper's Scheme ", "quantity": 5 },
+              { "name": "Conqueror's Will ", "quantity": 5 },
+              { "name": "Key of Inspiration ", "quantity": 2 },
+              { "name": "Key of Knowledge ", "quantity": 6 },
+              { "name": "Key of Wisdom ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Thief's Instinct ", "quantity": 4 },
+                { "name": "Key of Inspiration ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 2 },
+                { "name": "Key of Knowledge ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 3 },
+                { "name": "Key of Knowledge ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 2 },
+                { "name": "Key of Wisdom ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 3 },
+                { "name": "Key of Wisdom ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -3652,6 +4621,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Ancient Part ", "quantity": 4 },
+              { "name": "Ancient Spindle ", "quantity": 5 },
+              { "name": "Ancient Engine ", "quantity": 5 },
+              { "name": "Obsidian of Dread ", "quantity": 2 },
+              { "name": "Obsidian of Desolation ", "quantity": 6 },
+              { "name": "Obsidian of Obsession ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Ancient Part ", "quantity": 4 },
+                { "name": "Obsidian of Dread ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 2 },
+                { "name": "Obsidian of Desolation ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 3 },
+                { "name": "Obsidian of Desolation ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 2 },
+                { "name": "Obsidian of Obsession ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 3 },
+                { "name": "Obsidian of Obsession ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -3855,6 +4881,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Thief's Instinct ", "quantity": 6 },
+              { "name": "Usurper's Scheme ", "quantity": 7 },
+              { "name": "Conqueror's Will ", "quantity": 7 },
+              { "name": "Arrow of the Beast Hunter ", "quantity": 3 },
+              { "name": "Arrow of the Demon Slayer ", "quantity": 8 },
+              { "name": "Arrow of the Starchaser ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Thief's Instinct ", "quantity": 6 },
+                { "name": "Arrow of the Beast Hunter ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 3 },
+                { "name": "Arrow of the Demon Slayer ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 4 },
+                { "name": "Arrow of the Demon Slayer ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 3 },
+                { "name": "Arrow of the Starchaser ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 4 },
+                { "name": "Arrow of the Starchaser ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -4059,6 +5142,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Silvermane Badge ", "quantity": 4 },
+              { "name": "Silvermane Insignia ", "quantity": 5 },
+              { "name": "Silvermane Medal ", "quantity": 5 },
+              { "name": "Key of Inspiration ", "quantity": 2 },
+              { "name": "Key of Knowledge ", "quantity": 6 },
+              { "name": "Key of Wisdom ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Silvermane Badge ", "quantity": 4 },
+                { "name": "Key of Inspiration ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 2 },
+                { "name": "Key of Knowledge ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 3 },
+                { "name": "Key of Knowledge ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 2 },
+                { "name": "Key of Wisdom ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 3 },
+                { "name": "Key of Wisdom ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -4263,6 +5403,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Ancient Part ", "quantity": 6 },
+              { "name": "Ancient Spindle ", "quantity": 7 },
+              { "name": "Ancient Engine ", "quantity": 7 },
+              { "name": "Obsidian of Dread ", "quantity": 3 },
+              { "name": "Obsidian of Desolation ", "quantity": 8 },
+              { "name": "Obsidian of Obsession ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Ancient Part ", "quantity": 6 },
+                { "name": "Obsidian of Dread ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 3 },
+                { "name": "Obsidian of Desolation ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Ancient Spindle ", "quantity": 4 },
+                { "name": "Obsidian of Desolation ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 3 },
+                { "name": "Obsidian of Obsession ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Ancient Engine ", "quantity": 4 },
+                { "name": "Obsidian of Obsession ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -4467,6 +5664,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Artifex's Module ", "quantity": 4 },
+              { "name": "Artifex's Cogwheel ", "quantity": 5 },
+              { "name": "Artifex's Gyreheart ", "quantity": 5 },
+              { "name": "Arrow of the Beast Hunter ", "quantity": 2 },
+              { "name": "Arrow of the Demon Slayer ", "quantity": 6 },
+              { "name": "Arrow of the Starchaser ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Artifex's Module ", "quantity": 4 },
+                { "name": "Arrow of the Beast Hunter ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Artifex's Cogwheel ", "quantity": 2 },
+                { "name": "Arrow of the Demon Slayer ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Artifex's Cogwheel ", "quantity": 3 },
+                { "name": "Arrow of the Demon Slayer ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Artifex's Gyreheart ", "quantity": 2 },
+                { "name": "Arrow of the Starchaser ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Artifex's Gyreheart ", "quantity": 3 },
+                { "name": "Arrow of the Starchaser ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -4670,6 +5924,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Immortal Scionette ", "quantity": 4 },
+              { "name": "Immortal Aeroblossom ", "quantity": 5 },
+              { "name": "Immortal Lumintwig ", "quantity": 5 },
+              { "name": "Harmonic Tune ", "quantity": 2 },
+              { "name": "Ancestral Hymn ", "quantity": 6 },
+              { "name": "Stellaris Symphony ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Immortal Scionette ", "quantity": 4 },
+                { "name": "Harmonic Tune ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Immortal Aeroblossom ", "quantity": 2 },
+                { "name": "Ancestral Hymn ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Immortal Aeroblossom ", "quantity": 3 },
+                { "name": "Ancestral Hymn ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Immortal Lumintwig ", "quantity": 2 },
+                { "name": "Stellaris Symphony ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Immortal Lumintwig ", "quantity": 3 },
+                { "name": "Stellaris Symphony ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -4880,6 +6191,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Thief's Instinct ", "quantity": 6 },
+              { "name": "Usurper's Scheme ", "quantity": 7 },
+              { "name": "Conqueror's Will ", "quantity": 7 },
+              { "name": "Endurance of Bronze ", "quantity": 3 },
+              { "name": "Oath of Steel ", "quantity": 8 },
+              { "name": "Safeguard of Amber ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Thief's Instinct ", "quantity": 6 },
+                { "name": "Endurance of Bronze ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 3 },
+                { "name": "Oath of Steel ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 4 },
+                { "name": "Oath of Steel ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 3 },
+                { "name": "Safeguard of Amber ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 4 },
+                { "name": "Safeguard of Amber ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -5085,6 +6453,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Thief's Instinct ", "quantity": 6 },
+              { "name": "Usurper's Scheme ", "quantity": 7 },
+              { "name": "Conqueror's Will ", "quantity": 7 },
+              { "name": "Shattered Blade ", "quantity": 3 },
+              { "name": "Lifeless Blade ", "quantity": 8 },
+              { "name": "Worldbreaker Blade ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Thief's Instinct ", "quantity": 6 },
+                { "name": "Shattered Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 3 },
+                { "name": "Lifeless Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 4 },
+                { "name": "Lifeless Blade ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 3 },
+                { "name": "Worldbreaker Blade ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 4 },
+                { "name": "Worldbreaker Blade ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -5289,6 +6714,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Silvermane Badge ", "quantity": 6 },
+              { "name": "Silvermane Insignia ", "quantity": 7 },
+              { "name": "Silvermane Medal ", "quantity": 7 },
+              { "name": "Obsidian of Dread ", "quantity": 3 },
+              { "name": "Obsidian of Desolation ", "quantity": 8 },
+              { "name": "Obsidian of Obsession ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Silvermane Badge ", "quantity": 6 },
+                { "name": "Obsidian of Dread ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 3 },
+                { "name": "Obsidian of Desolation ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Silvermane Insignia ", "quantity": 4 },
+                { "name": "Obsidian of Desolation ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 3 },
+                { "name": "Obsidian of Obsession ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Silvermane Medal ", "quantity": 4 },
+                { "name": "Obsidian of Obsession ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -5497,6 +6979,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Thief's Instinct ", "quantity": 6 },
+              { "name": "Usurper's Scheme ", "quantity": 7 },
+              { "name": "Conqueror's Will ", "quantity": 7 },
+              { "name": "Arrow of the Beast Hunter ", "quantity": 3 },
+              { "name": "Arrow of the Demon Slayer ", "quantity": 8 },
+              { "name": "Arrow of the Starchaser ", "quantity": 11 },
+              { "name": "Credit", "quantity": 240000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Thief's Instinct ", "quantity": 6 },
+                { "name": "Arrow of the Beast Hunter ", "quantity": 3 },
+                { "name": "Credit", "quantity": 5000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 3 },
+                { "name": "Arrow of the Demon Slayer ", "quantity": 3 },
+                { "name": "Credit", "quantity": 10000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Usurper's Scheme ", "quantity": 4 },
+                { "name": "Arrow of the Demon Slayer ", "quantity": 5 },
+                { "name": "Credit", "quantity": 20000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 3 },
+                { "name": "Arrow of the Starchaser ", "quantity": 3 },
+                { "name": "Credit", "quantity": 45000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Conqueror's Will ", "quantity": 4 },
+                { "name": "Arrow of the Starchaser ", "quantity": 8 },
+                { "name": "Credit", "quantity": 160000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
@@ -5700,6 +7239,63 @@
             ]
           }
         ]
+      },
+      "tracesMat": {
+        "basicAtk": {
+          "total": {
+            "materials": [
+              { "name": "Artifex's Module ", "quantity": 4 },
+              { "name": "Artifex's Cogwheel ", "quantity": 5 },
+              { "name": "Artifex's Gyreheart ", "quantity": 5 },
+              { "name": "Harmonic Tune ", "quantity": 2 },
+              { "name": "Ancestral Hymn ", "quantity": 6 },
+              { "name": "Stellaris Symphony ", "quantity": 8 },
+              { "name": "Credit", "quantity": 192000 }
+            ]
+          },
+          "perLevel": [
+            {
+              "level": 2,
+              "materials": [
+                { "name": "Artifex's Module ", "quantity": 4 },
+                { "name": "Harmonic Tune ", "quantity": 2 },
+                { "name": "Credit", "quantity": 4000 }
+              ]
+            },
+            {
+              "level": 3,
+              "materials": [
+                { "name": "Artifex's Cogwheel ", "quantity": 2 },
+                { "name": "Ancestral Hymn ", "quantity": 2 },
+                { "name": "Credit", "quantity": 8000 }
+              ]
+            },
+            {
+              "level": 4,
+              "materials": [
+                { "name": "Artifex's Cogwheel ", "quantity": 3 },
+                { "name": "Ancestral Hymn ", "quantity": 4 },
+                { "name": "Credit", "quantity": 16000 }
+              ]
+            },
+            {
+              "level": 5,
+              "materials": [
+                { "name": "Artifex's Gyreheart ", "quantity": 2 },
+                { "name": "Stellaris Symphony ", "quantity": 2 },
+                { "name": "Credit", "quantity": 36000 }
+              ]
+            },
+            {
+              "level": 6,
+              "materials": [
+                { "name": "Artifex's Gyreheart ", "quantity": 3 },
+                { "name": "Stellaris Symphony ", "quantity": 6 },
+                { "name": "Credit", "quantity": 128000 }
+              ]
+            }
+          ]
+        }
       }
     },
     "dynamic": {
