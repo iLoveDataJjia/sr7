@@ -3,7 +3,7 @@ import MaterialPannel from "./MaterialPannel";
 /**
  * Total part of ascension materials.
  */
-export default function TotalBloc({ materials }: { materials: { name: string; quantity: number }[] }): JSX.Element {
+export default function TotalBlock({ materials }: { materials: { name: string; quantity: number }[] }): JSX.Element {
   // Render
   return (
     <div className="flex flex-1 flex-col p-4">
