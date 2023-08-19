@@ -1,5 +1,5 @@
-import PerLevelBlock from "./components/PerLevelBlock/PerLevelBlock";
-import TotalBlock from "./components/TotalBlock/TotalBlock";
+import PerLevelBlock from "./components/PerLevelBlock";
+import TotalBlock from "./components/TotalBlock";
 import { Character } from "@/data/characters";
 import Image from "next/image";
 
@@ -43,14 +43,13 @@ export default function AscensionMaterials({ character }: { character: Character
               }
             >
               <PerLevelBlock
-                level={materialsPerLevel.level}
+                title={"Lv. " + materialsPerLevel.level + " \u2192 " + materialsPerLevel.level + "+"}
                 materials={materialsPerLevel.materials}
-                format="ascension"
               />
             </div>
           ))}
         </div>
-        <TotalBlock materials={data.total.materials} format="basicAtk" />
+        <TotalBlock title="Total" materials={data.total.materials} />
       </div>
     </div>
   );
