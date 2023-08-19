@@ -33,12 +33,12 @@ export default function AscensionMaterials({ character }: { character: Character
 
       {/* Materials display */}
       <div className="flex rounded-b-md rounded-r-md bg-indigo-950">
-        <div className="grid grid-cols-3 border-r-2 border-slate-950">
+        <div className="grid w-max grid-cols-3 border-r-2 border-slate-950">
           {data.perLevel.map((materialsPerLevel, idx) => (
             <div
               key={idx}
               className={
-                "border-slate-950" + (idx < 3 ? " border-b-2" : "") + ((idx + 1) % 3 !== 0 ? " border-r-2" : "")
+                "border-slate-950 " + (idx < 3 ? " border-b-2" : "") + ((idx + 1) % 3 !== 0 ? " border-r-2" : "")
               }
             >
               <MaterialBlock

@@ -3,7 +3,7 @@ import MaterialPannel from "./MaterialPannel";
 /**
  * Display one block of (?) materials.
  */
-export default function TotalBlock({
+export default function MaterialBlock({
   title,
   materials,
 }: {
@@ -12,7 +12,7 @@ export default function TotalBlock({
 }) {
   // Render
   return (
-    <div className="flex flex-1 flex-col p-4">
+    <div className="flex flex-col p-4">
       {/* Title */}
       <div className="flex items-center space-x-4">
         <span className="h-5 w-0.5 bg-blue-500" />
