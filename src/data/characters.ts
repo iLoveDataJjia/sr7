@@ -109,6 +109,18 @@ export interface Character {
         }[];
       }[];
     };
+    traceMats: {
+      basicAtk: {
+        total: { materials: { name: string; quantity: number }[] };
+        perLevel: {
+          level: number;
+          materials: {
+            name: string;
+            quantity: number;
+          }[];
+        }[];
+      };
+    };
   };
   dynamic: {
     tier: Tier;
