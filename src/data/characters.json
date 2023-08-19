@@ -2467,6 +2467,106 @@
     }
   },
   {
+    "nameUID": "Kafka",
+    "static": {
+      "star": 5,
+      "path": "The Nihility",
+      "element": "Lightning",
+      "attributes": [
+        { "typeUID": "HP", "value": 1086 },
+        { "typeUID": "ATK", "value": 679 },
+        { "typeUID": "DEF", "value": 485 },
+        { "typeUID": "SPD", "value": 100 },
+        { "typeUID": "TAUNT", "value": 100 }
+      ],
+      "skills": [
+        {
+          "typeUID": "Normal ATK",
+          "name": "Midnight Tumult",
+          "desc": "Deals Lightning DMG equal to 50% of Kafka's ATK to a single enemy."
+        },
+        {
+          "typeUID": "Skill",
+          "name": "Caressing Moonlight",
+          "desc": "Deals Lightning DMG equal to 80% of Kafka's ATK to a target enemy and Lightning DMG equal to 30% of Kafka's ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 60% of their original DMG."
+        },
+        {
+          "typeUID": "Ultimate",
+          "name": "Twilight Trill",
+          "desc": "Deals Lightning DMG equal to 48% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 80% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 116% of Kafka's ATK at the beginning of each turn."
+        },
+        {
+          "typeUID": "Talent",
+          "name": "Gentle but Cruel",
+          "desc": "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to 42% of her ATK to that target, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for 2 turns. This effect can only be triggered 1 time per turn."
+        }
+      ],
+      "traces": [
+        {
+          "typeUID": "Ascension 2",
+          "name": "Torture",
+          "desc": "When the Ultimate is used, enemy targets will now receive DMG immediately from all currently applied DoT sources instead of just receiving DMG immediately from the currently applied Shock state.",
+          "minors": [
+            { "stat": "Effect HIT Rate", "value": "+4%", "unlock": "Unlocks at A2" },
+            { "stat": "ATK", "value": "+4%", "unlock": "Unlocks at A3" },
+            { "stat": "HP", "value": "+4%", "unlock": "Unlocks at A3" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 4",
+          "name": "Plunder",
+          "desc": "If an enemy is defeated while Shocked, Kafka additionally regenerates 5 Energy.",
+          "minors": [
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A4" },
+            { "stat": "Effect HIT Rate", "value": "+6%", "unlock": "Unlocks at A5" },
+            { "stat": "ATK", "value": "+6%", "unlock": "Unlocks at A5" }
+          ]
+        },
+        {
+          "typeUID": "Ascension 6",
+          "name": "Thorns",
+          "desc": "The base chance for Ultimate, Technique, or the follow-up attack triggered by the Talent to inflict Shock increases by 30%.",
+          "minors": [
+            { "stat": "HP", "value": "+6%", "unlock": "Unlocks at A6" },
+            { "stat": "Effect HIT Rate", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
+          ]
+        }
+      ]
+    },
+    "dynamic": {
+      "tier": "S",
+      "playstyle": "When a teammate uses a Basic ATK, Kafka triggers a Follow-up attack once per turn. Kafka's Skill deals AoE Lightning damage to enemies. If an enemy currently has a Damage-over-Time effect (such as Shock or Wind Shear), the DoT effect activates. Kafka's Ultimate deals damage to all enemies, applying Shock. If enemies are already shocked, the Shock status immediately triggers, adding extra Lightning DoT each turn.",
+      "lightcones": ["Patience Is All You Need", "Good Night and Sleep Well", "In the Name of the World", "Fermata"],
+      "relics": ["Band of Sizzling Thunder", "Musketeer of Wild Wheat"],
+      "ornaments": ["Space Sealing Station"],
+      "statPriority": {
+        "mainStats": [
+          { "typeUID": "Body", "stats": ["ATK%"] },
+          { "typeUID": "Feet", "stats": ["SPD"] },
+          { "typeUID": "Sphere", "stats": ["Lightning DMG"] },
+          { "typeUID": "Rope", "stats": ["ATK%"] }
+        ],
+        "subStats": ["SPD", "ATK%", "CRIT Rate", "CRIT DMG"]
+      },
+      "skillPriority": ["Skill", "Ultimate", "Talent", "Normal ATK"],
+      "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "comp": {
+        "best": [
+          { "char": "Kafka", "role": "Main DPS" },
+          { "char": "Sampo", "role": "Sub DPS" },
+          { "char": "Silver Wolf", "role": "Support" },
+          { "char": "Luocha", "role": "Healer" }
+        ],
+        "f2p": [
+          { "char": "Kafka", "role": "Sub DPS" },
+          { "char": "Dan Heng", "role": "Main DPS" },
+          { "char": "Asta", "role": "Support" },
+          { "char": "Natasha", "role": "Healer" }
+        ]
+      }
+    }
+  },
+  {
     "nameUID": "Luocha",
     "static": {
       "star": 5,
