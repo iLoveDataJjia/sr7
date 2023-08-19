@@ -20,7 +20,7 @@ export default function TotalBlock({
       </div>
 
       {/* Pannel */}
-      <div className="m-auto space-y-3 p-2">
+      <div className="m-auto space-y-4 p-2">
         {materials.map((_, idx) => (
           <MaterialPannel name={_.name} quantity={_.quantity} key={idx} />
         ))}
