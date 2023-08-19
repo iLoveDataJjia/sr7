@@ -33,7 +33,7 @@ export default function BasicAtkMaterials({ character }: { character: Character 
 
       {/* Materials display */}
       <div className="flex rounded-b-md rounded-r-md bg-indigo-950">
-        <div className="grid grid-cols-3 border-r-2 border-slate-950">
+        <div className="grid flex-grow grid-cols-3 border-r-2 border-slate-950">
           {data.basicAtk.perLevel.map((materialsPerLevel, idx) => (
             <div
               key={idx}
@@ -48,7 +48,7 @@ export default function BasicAtkMaterials({ character }: { character: Character 
             </div>
           ))}
         </div>
-        <MaterialBlock title="Total" materials={data.basicAtk.total.materials} />
+        <MaterialBlock title="Total" materials={data.basicAtk.total.materials} className="flex-grow" />
       </div>
     </div>
   );
