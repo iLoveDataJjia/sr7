@@ -1,7 +1,7 @@
 import MaterialPannel from "./MaterialPannel";
 
 /**
- * Total part of (?) materials.
+ * Display one block of (?) materials.
  */
 export default function TotalBlock({
   title,

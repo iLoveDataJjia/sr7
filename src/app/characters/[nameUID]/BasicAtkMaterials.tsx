@@ -3,9 +3,9 @@ import { Character } from "@/data/characters";
 import Image from "next/image";
 
 /**
- * Ascension materials tab.
+ * Basic Atk materials tab.
  */
-export default function AscensionMaterials({ character }: { character: Character }) {
+export default function BasicAtkMaterials({ character }: { character: Character }) {
   // Get Data
   const data = character.static.traceMats;
 
