@@ -4,15 +4,15 @@ import MaterialPannel from "./MaterialPannel";
  * Total part of (?) materials.
  */
 export default function TotalBlock({
-  materials,
   title,
+  materials,
 }: {
-  materials: { name: string; quantity: number }[];
   title: string;
-}): JSX.Element {
+  materials: { name: string; quantity: number }[];
+}) {
   // Render
   return (
-    <div className="flex flex-1 flex-col border-l-2 border-slate-950 p-4">
+    <div className="flex flex-1 flex-col p-4">
       {/* Title */}
       <div className="flex items-center space-x-4">
         <span className="h-5 w-0.5 bg-blue-500" />
@@ -20,7 +20,7 @@ export default function TotalBlock({
       </div>
 
       {/* Pannel */}
-      <div className="m-auto space-y-4 p-2">
+      <div className="m-auto space-y-4 p-4">
         {materials.map((_, idx) => (
           <MaterialPannel name={_.name} quantity={_.quantity} key={idx} />
         ))}
