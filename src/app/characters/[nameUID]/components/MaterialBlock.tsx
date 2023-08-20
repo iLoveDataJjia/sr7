@@ -1,7 +1,7 @@
-import MaterialPannel from "./MaterialPannel";
+import MaterialPanel from "./MaterialPanel";
 
 /**
- * Display one block of (?) materials.
+ * Display one block containing material panels.
  */
 export default function MaterialBlock({
   title,
@@ -24,7 +24,7 @@ export default function MaterialBlock({
       {/* Pannel */}
       <div className="m-auto space-y-4 py-4">
         {materials.map((_, idx) => (
-          <MaterialPannel name={_.name} quantity={_.quantity} key={idx} />
+          <MaterialPanel name={_.name} quantity={_.quantity} key={idx} />
         ))}
       </div>
     </div>

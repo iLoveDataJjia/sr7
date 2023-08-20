@@ -170,7 +170,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Extinguished Core", "quantity": 4 },
@@ -430,7 +430,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Silvermane Badge", "quantity": 4 },
@@ -696,7 +696,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Extinguished Core", "quantity": 6 },
@@ -965,7 +965,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Immortal Scionette", "quantity": 6 },
@@ -1225,7 +1225,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Silvermane Badge", "quantity": 6 },
@@ -1487,7 +1487,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Ancient Part", "quantity": 6 },
@@ -1747,7 +1747,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Extinguished Core", "quantity": 4 },
@@ -2007,7 +2007,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Silvermane Badge", "quantity": 6 },
@@ -2268,7 +2268,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Extinguished Core", "quantity": 4 },
@@ -2529,7 +2529,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Extinguished Core", "quantity": 6 },
@@ -2798,7 +2798,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Ancient Part", "quantity": 4 },
@@ -3059,7 +3059,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Immortal Scionette", "quantity": 6 },
@@ -3320,7 +3320,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Artifex's Module", "quantity": 6 },
@@ -3580,7 +3580,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Thief's Instinct", "quantity": 4 },
@@ -3837,7 +3837,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Ancient Part", "quantity": 4 },
@@ -4098,7 +4098,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Extinguished Core", "quantity": 4 },
@@ -4362,7 +4362,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Thief's Instinct", "quantity": 4 },
@@ -4623,7 +4623,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Ancient Part", "quantity": 4 },
@@ -4883,7 +4883,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Thief's Instinct", "quantity": 6 },
@@ -5144,7 +5144,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Silvermane Badge", "quantity": 4 },
@@ -5405,7 +5405,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Ancient Part", "quantity": 6 },
@@ -5666,7 +5666,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Artifex's Module", "quantity": 4 },
@@ -5926,7 +5926,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Immortal Scionette", "quantity": 4 },
@@ -6193,7 +6193,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Thief's Instinct", "quantity": 6 },
@@ -6455,7 +6455,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Thief's Instinct", "quantity": 6 },
@@ -6716,7 +6716,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Silvermane Badge", "quantity": 6 },
@@ -6981,7 +6981,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Thief's Instinct", "quantity": 6 },
@@ -7241,7 +7241,7 @@
         ]
       },
       "traceMats": {
-        "basicAtk": {
+        "normalAtk": {
           "total": {
             "materials": [
               { "name": "Artifex's Module", "quantity": 4 },

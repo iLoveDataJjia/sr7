@@ -1,4 +1,4 @@
-import Pannel from "./Pannel";
+import Panel from "./Panel";
 import { Character } from "@/data/characters";
 
 /**
@@ -26,7 +26,7 @@ export default function Comp({ character }: { character: Character }) {
         </div>
         <div className="flex justify-evenly space-x-4">
           {bestTeam.map(({ nameUID, role }) => (
-            <Pannel key={nameUID} nameUID={nameUID} role={role} />
+            <Panel key={nameUID} nameUID={nameUID} role={role} />
           ))}
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function Comp({ character }: { character: Character }) {
         </div>
         <div className="flex justify-evenly space-x-4">
           {f2pTeam.map(({ nameUID, role }) => (
-            <Pannel key={nameUID} nameUID={nameUID} role={role} />
+            <Panel key={nameUID} nameUID={nameUID} role={role} />
           ))}
         </div>
       </div>

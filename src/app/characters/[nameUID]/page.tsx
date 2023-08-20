@@ -1,8 +1,8 @@
 import AscensionMaterials from "./AscensionMaterials";
-import BasicAtkMaterials from "./BasicAtkMaterials";
 import Comp from "./Comp";
 import Equipement from "./Equipement";
 import General from "./General";
+import NormalAtkMaterials from "./NormalAtkMaterials";
 import SkillTraceEidolonPriority from "./SkillTraceEidolonPriority";
 import { getCharacters } from "@/data/characters";
 import { srCapitalize, srDecodeURL } from "@/utils/String";
@@ -52,7 +52,7 @@ export default function Page({ params: { nameUID } }: { params: { nameUID: strin
       <SkillTraceEidolonPriority character={character} />
       <Comp character={character} />
       <AscensionMaterials character={character} />
-      <BasicAtkMaterials character={character} />
+      <NormalAtkMaterials character={character} />
     </div>
   );
 }

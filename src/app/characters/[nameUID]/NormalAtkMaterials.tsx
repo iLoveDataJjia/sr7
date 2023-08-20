@@ -3,9 +3,9 @@ import { Character } from "@/data/characters";
 import Image from "next/image";
 
 /**
- * Basic Atk materials tab.
+ * Normal ATK materials tab.
  */
-export default function BasicAtkMaterials({ character }: { character: Character }) {
+export default function NormalAtkMaterials({ character }: { character: Character }) {
   // Get Data
   const data = character.static.traceMats;
 
@@ -17,14 +17,14 @@ export default function BasicAtkMaterials({ character }: { character: Character 
         <h1 className="text-lg font-bold">Normal ATK materials</h1>
         <div className="flex">
           <Image
-            src={`/assets/items/materials/${data.basicAtk.total.materials[3].name}.webp`}
-            alt={data.basicAtk.total.materials[3].name}
+            src={`/assets/items/materials/${data.normalAtk.total.materials[3].name}.webp`}
+            alt={data.normalAtk.total.materials[3].name}
             width={30}
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.basicAtk.total.materials[0].name}.webp`}
-            alt={data.basicAtk.total.materials[0].name}
+            src={`/assets/items/materials/${data.normalAtk.total.materials[0].name}.webp`}
+            alt={data.normalAtk.total.materials[0].name}
             width={30}
             height={30}
           />
@@ -34,7 +34,7 @@ export default function BasicAtkMaterials({ character }: { character: Character 
       {/* Materials display */}
       <div className="flex rounded-b-md rounded-r-md bg-indigo-950">
         <div className="grid flex-grow grid-cols-3 border-r-2 border-slate-950">
-          {data.basicAtk.perLevel.map((materialsPerLevel, idx) => (
+          {data.normalAtk.perLevel.map((materialsPerLevel, idx) => (
             <div
               key={idx}
               className={
@@ -48,7 +48,7 @@ export default function BasicAtkMaterials({ character }: { character: Character 
             </div>
           ))}
         </div>
-        <MaterialBlock title="Total" materials={data.basicAtk.total.materials} className="flex-grow" />
+        <MaterialBlock title="Total" materials={data.normalAtk.total.materials} className="flex-grow" />
       </div>
     </div>
   );

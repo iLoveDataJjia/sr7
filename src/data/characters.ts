@@ -110,7 +110,7 @@ export interface Character {
       }[];
     };
     traceMats: {
-      basicAtk: {
+      normalAtk: {
         total: { materials: { name: string; quantity: number }[] };
         perLevel: {
           level: number;
