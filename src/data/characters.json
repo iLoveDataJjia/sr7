@@ -2483,22 +2483,34 @@
         {
           "typeUID": "Normal ATK",
           "name": "Midnight Tumult",
-          "desc": "Deals Lightning DMG equal to 50% of Kafka's ATK to a single enemy."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "Deals Lightning DMG equal to 50/100/110% of Kafka's ATK to a single enemy.",
+          "enhanced": []
         },
         {
           "typeUID": "Skill",
           "name": "Caressing Moonlight",
-          "desc": "Deals Lightning DMG equal to 80% of Kafka's ATK to a target enemy and Lightning DMG equal to 30% of Kafka's ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 60% of their original DMG."
+          "source": "Blast",
+          "cost": null,
+          "desc": "Deals Lightning DMG equal to 80/160/176% of Kafka's ATK to a target enemy and Lightning DMG equal to 30/60/66% of Kafka's ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 60/75/78% of their original DMG.",
+          "enhanced": []
         },
         {
           "typeUID": "Ultimate",
           "name": "Twilight Trill",
-          "desc": "Deals Lightning DMG equal to 48% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 80% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 116% of Kafka's ATK at the beginning of each turn."
+          "source": "AoE",
+          "cost": "120 energy",
+          "desc": "Deals Lightning DMG equal to 48/80/86% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 80/100/104% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 116/290/318% of Kafka's ATK at the beginning of each turn.",
+          "enhanced": []
         },
         {
           "typeUID": "Talent",
           "name": "Gentle but Cruel",
-          "desc": "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to 42% of her ATK to that target, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for 2 turns. This effect can only be triggered 1 time per turn."
+          "source": "Single Target",
+          "cost": null,
+          "desc": "After an ally of Kafka's uses Basic ATK on an enemy, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to 42/140/159% of her ATK to that enemy, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for 2 turns. This effect can only be triggered 1 time per turn.",
+          "enhanced": []
         }
       ],
       "traces": [
@@ -2531,7 +2543,98 @@
             { "stat": "Effect HIT Rate", "value": "+8%", "unlock": "Unlocks at Lv. 75" }
           ]
         }
-      ]
+      ],
+      "eidolons": [
+        {
+          "typeUID": "Eidolon 1",
+          "name": "Da Capo",
+          "desc": "When the Talent triggers a follow-up attack, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s)."
+        },
+        {
+          "typeUID": "Eidolon 2",
+          "name": "Fortississimo",
+          "desc": "While Kafka is on the field, DoT dealt by all allies increases by 25%."
+        },
+        {
+          "typeUID": "Eidolon 3",
+          "name": "Capriccio",
+          "desc": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "typeUID": "Eidolon 4",
+          "name": "Recitativo",
+          "desc": "When an enemy target takes DMG from the Shock status inflicted by Kafka, Kafka additionally regenerates 2 Energy."
+        },
+        {
+          "typeUID": "Eidolon 5",
+          "name": "Doloroso",
+          "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent ATK Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "typeUID": "Eidolon 6",
+          "name": "Leggiero",
+          "desc": "The DMG multiplier for Shock DMG dealt by Ultimate, Technique, or the follow-up attack triggered by Talent increases by 156%, and extends the duration of Shock on the enemy target by 1 turn(s)."
+        }
+      ],
+      "ascensionMats": {
+        "total": {
+          "materials": [
+            { "name": "Thief's Instinct", "quantity": 15 },
+            { "name": "Usurper's Scheme", "quantity": 15 },
+            { "name": "Conqueror's Will", "quantity": 15 },
+            { "name": "Shape Shifter's Lightning Staff", "quantity": 65 },
+            { "name": "Credit", "quantity": 308000 }
+          ]
+        },
+        "perLevel": [
+          {
+            "level": 20,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 5 },
+              { "name": "Credit", "quantity": 4000 }
+            ]
+          },
+          {
+            "level": 30,
+            "materials": [
+              { "name": "Thief's Instinct", "quantity": 10 },
+              { "name": "Credit", "quantity": 8000 }
+            ]
+          },
+          {
+            "level": 40,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 6 },
+              { "name": "Shape Shifter's Lightning Staff", "quantity": 3 },
+              { "name": "Credit", "quantity": 16000 }
+            ]
+          },
+          {
+            "level": 50,
+            "materials": [
+              { "name": "Usurper's Scheme", "quantity": 9 },
+              { "name": "Shape Shifter's Lightning Staff", "quantity": 7 },
+              { "name": "Credit", "quantity": 40000 }
+            ]
+          },
+          {
+            "level": 60,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 6 },
+              { "name": "Shape Shifter's Lightning Staff", "quantity": 20 },
+              { "name": "Credit", "quantity": 80000 }
+            ]
+          },
+          {
+            "level": 70,
+            "materials": [
+              { "name": "Conqueror's Will", "quantity": 9 },
+              { "name": "Shape Shifter's Lightning Staff", "quantity": 35 },
+              { "name": "Credit", "quantity": 160000 }
+            ]
+          }
+        ]
+      }
     },
     "dynamic": {
       "tier": "S",
@@ -2550,6 +2653,7 @@
       },
       "skillPriority": ["Skill", "Ultimate", "Talent", "Normal ATK"],
       "tracePriority": ["Ascension 2", "Ascension 6", "Ascension 4"],
+      "eidolonPriority": ["Eidolon 4", "Eidolon 2", "Eidolon 1"],
       "comp": {
         "best": [
           { "char": "Kafka", "role": "Main DPS" },

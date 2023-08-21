@@ -294,7 +294,7 @@
     "desc": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16/20/24/28/32% increased DMG for 1 turn(s)."
   },
   {
-    "nameUID": "Patience is All You Need",
+    "nameUID": "Patience Is All You Need",
     "path": "The Nihility",
     "star": 5,
     "source": "Spider Web",
