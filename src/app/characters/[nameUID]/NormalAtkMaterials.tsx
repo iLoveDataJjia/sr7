@@ -38,7 +38,7 @@ export default function NormalAtkMaterials({ character }: { character: Character
             <div
               key={idx}
               className={
-                "border-slate-950" + (idx < 3 ? " border-b-2" : "") + ((idx + 1) % 3 !== 0 ? " border-r-2" : "")
+                "border-slate-950" + (idx >= 3 ? " border-t-2" : "") + ((idx + 1) % 3 !== 0 ? " border-r-2" : "")
               }
             >
               <MaterialBlock
