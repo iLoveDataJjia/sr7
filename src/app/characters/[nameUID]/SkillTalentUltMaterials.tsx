@@ -29,14 +29,14 @@ export default function SkillTalentUltMaterials({ character }: { character: Char
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.skillTalentUlt.total.materials[3].name}.webp`}
-            alt={data.skillTalentUlt.total.materials[3].name}
+            src={`/assets/items/materials/${data.skillTalentUlt.total.materials[6].name}.webp`}
+            alt={data.skillTalentUlt.total.materials[6].name}
             width={30}
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.skillTalentUlt.total.materials[0].name}.webp`}
-            alt={data.skillTalentUlt.total.materials[0].name}
+            src={`/assets/items/materials/${data.skillTalentUlt.total.materials[7].name}.webp`}
+            alt={data.skillTalentUlt.total.materials[7].name}
             width={30}
             height={30}
           />
