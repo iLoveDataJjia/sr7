@@ -21,7 +21,7 @@ export default function MaterialBlock({
         <h1 className="font-bold">{title}</h1>
       </div>
 
-      {/* Pannel */}
+      {/* Panel */}
       <div className="m-auto space-y-4 py-4">
         {materials.map((_, idx) => (
           <MaterialPanel name={_.name} quantity={_.quantity} key={idx} />
