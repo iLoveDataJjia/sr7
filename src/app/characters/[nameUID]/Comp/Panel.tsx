@@ -1,15 +1,15 @@
 "use client";
 
-import PannelHover from "./PannelHover";
+import PanelHover from "./PanelHover";
 import { getCharacters, displayable } from "@/data/characters";
 import { Role } from "@/data/characters";
 import Image from "next/image";
 import Link from "next/link";
 
 /**
- * Pannel.
+ * Panel.
  */
-export default function Pannel({ nameUID, role }: { nameUID: string; role: Role }) {
+export default function Panel({ nameUID, role }: { nameUID: string; role: Role }) {
   // Get data
   const charData = getCharacters([nameUID])[0];
 
@@ -44,7 +44,7 @@ export default function Pannel({ nameUID, role }: { nameUID: string; role: Role 
       </div>
 
       {/* Hovered */}
-      <PannelHover charData={charData} role={role} className="absolute z-50 hidden group-hover:block" />
+      <PanelHover charData={charData} role={role} className="absolute z-50 hidden group-hover:block" />
     </Link>
   );
 }

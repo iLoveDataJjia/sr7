@@ -4,15 +4,15 @@ import { starCSS } from "@/data/utils";
 import Image from "next/image";
 
 /**
- * Material pannel.
+ * Material panel.
  */
-export default function MaterialPannel({ name, quantity }: { name: string; quantity: number }) {
+export default function MaterialPanel({ name, quantity }: { name: string; quantity: number }) {
   // Gradient color
   const star = getItem(name).star;
 
   // Render
   return (
-    <div className="flex items-center rounded-md bg-indigo-900 hover:bg-indigo-800">
+    <div className="flex w-max items-center rounded-md bg-indigo-900 hover:bg-indigo-800">
       {/* Image */}
       <div className={`rounded-md ${starCSS(star).gradient} h-10 w-10 bg-gradient-to-b p-1 shadow`}>
         {name === "Credit" ? (

@@ -5,9 +5,9 @@ import { useMouseCSSPos } from "@/hooks/Mouse";
 import Image from "next/image";
 
 /**
- * Pannel hover.
+ * Panel hover.
  */
-export default function PannelHover({
+export default function PanelHover({
   charData,
   role,
   className,

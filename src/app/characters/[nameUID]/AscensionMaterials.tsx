@@ -1,5 +1,4 @@
-import PerLevelBlock from "./PerLevelBlock";
-import TotalBlock from "./TotalBlock";
+import MaterialBlock from "./components/MaterialBlock";
 import { Character } from "@/data/characters";
 import Image from "next/image";
 
@@ -14,7 +13,7 @@ export default function AscensionMaterials({ character }: { character: Character
   return (
     <div className="flex flex-col">
       {/* Section Title */}
-      <div className="flex items-center space-x-4 self-start rounded-t-md border-t-2 border-t-amber-500 bg-indigo-950 px-4 py-2">
+      <div className="flex items-center space-x-4 self-start rounded-t-md border-y-2 border-b-slate-950 border-t-amber-500 bg-indigo-950 px-4 py-2">
         <h1 className="text-lg font-bold">Ascension materials</h1>
         <div className="flex">
           <Image
@@ -34,14 +33,22 @@ export default function AscensionMaterials({ character }: { character: Character
 
       {/* Materials display */}
       <div className="flex rounded-b-md rounded-r-md bg-indigo-950">
-        <div className="grid grid-cols-3">
+        <div className="grid flex-grow grid-cols-3 border-r-2 border-slate-950">
           {data.perLevel.map((materialsPerLevel, idx) => (
-            <div key={idx} className={"border-r-2 border-slate-950" + (idx < 3 ? " border-b-2" : "")}>
-              <PerLevelBlock level={materialsPerLevel.level} materials={materialsPerLevel.materials} />
+            <div
+              key={idx}
+              className={
+                "border-slate-950 " + (idx < 3 ? " border-b-2" : "") + ((idx + 1) % 3 !== 0 ? " border-r-2" : "")
+              }
+            >
+              <MaterialBlock
+                title={"Lv. " + materialsPerLevel.level + " \u2192 " + materialsPerLevel.level + "+"}
+                materials={materialsPerLevel.materials}
+              />
             </div>
           ))}
         </div>
-        <TotalBlock materials={data.total.materials} />
+        <MaterialBlock title="Total" materials={data.total.materials} className="flex-grow" />
       </div>
     </div>
   );
