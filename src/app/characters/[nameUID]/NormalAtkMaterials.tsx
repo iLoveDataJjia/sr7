@@ -13,7 +13,7 @@ export default function NormalAtkMaterials({ character }: { character: Character
   return (
     <div className="flex flex-col">
       {/* Section Title */}
-      <div className="flex items-center space-x-4 self-start rounded-t-md border-t-2 border-t-amber-500 bg-indigo-950 px-4 py-2">
+      <div className="flex items-center space-x-4 self-start rounded-t-md border-y-2 border-b-slate-950 border-t-amber-500 bg-indigo-950 px-4 py-2">
         <h1 className="text-lg font-bold">Normal ATK materials</h1>
         <div className="flex">
           <Image
