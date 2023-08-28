@@ -120,6 +120,16 @@ export interface Character {
           }[];
         }[];
       };
+      skillTalentUlt: {
+        total: { materials: { name: string; quantity: number }[] };
+        perLevel: {
+          level: number;
+          materials: {
+            name: string;
+            quantity: number;
+          }[];
+        }[];
+      };
     };
   };
   dynamic: {
