@@ -14,7 +14,7 @@ import Link from "next/link";
  */
 export default function Footer() {
   return (
-    <footer className="mx-4 mt-8 flex items-center justify-between border-t-[1px] border-indigo-300 border-opacity-50 px-4 py-6">
+    <footer className="mx-4 flex items-center justify-between border-t-[1px] border-indigo-300 border-opacity-50 px-4 py-6">
       <Link href={"/"} className="text-sm font-bold text-indigo-300">
         © 2023 - SR7.NL
       </Link>

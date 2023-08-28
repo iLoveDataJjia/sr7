@@ -7,7 +7,7 @@ import Image from "next/image";
  */
 export default function SkillTalentUltMaterials({ character }: { character: Character }) {
   // Get Data
-  const data = character.static.traceMats;
+  const data = character.static.traceMats.skillTalentUlt;
 
   // Render
   return (
@@ -17,26 +17,26 @@ export default function SkillTalentUltMaterials({ character }: { character: Char
         <h1 className="text-lg font-bold">Skill, Talent & Ult. materials</h1>
         <div className="flex">
           <Image
-            src={`/assets/items/materials/${data.skillTalentUlt.total.materials[3].name}.webp`}
-            alt={data.skillTalentUlt.total.materials[3].name}
+            src={`/assets/items/materials/${data.total.materials[3].name}.webp`}
+            alt={data.total.materials[3].name}
             width={30}
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.skillTalentUlt.total.materials[0].name}.webp`}
-            alt={data.skillTalentUlt.total.materials[0].name}
+            src={`/assets/items/materials/${data.total.materials[0].name}.webp`}
+            alt={data.total.materials[0].name}
             width={30}
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.skillTalentUlt.total.materials[6].name}.webp`}
-            alt={data.skillTalentUlt.total.materials[6].name}
+            src={`/assets/items/materials/${data.total.materials[6].name}.webp`}
+            alt={data.total.materials[6].name}
             width={30}
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.skillTalentUlt.total.materials[7].name}.webp`}
-            alt={data.skillTalentUlt.total.materials[7].name}
+            src={`/assets/items/materials/${data.total.materials[7].name}.webp`}
+            alt={data.total.materials[7].name}
             width={30}
             height={30}
           />
@@ -46,7 +46,7 @@ export default function SkillTalentUltMaterials({ character }: { character: Char
       {/* Materials display */}
       <div className="flex rounded-b-md rounded-r-md bg-indigo-950">
         <div className="grid flex-grow grid-cols-3 border-r-2 border-slate-950">
-          {data.skillTalentUlt.perLevel.map((materialsPerLevel, idx) => (
+          {data.perLevel.map((materialsPerLevel, idx) => (
             <div
               key={idx}
               className={
@@ -60,7 +60,7 @@ export default function SkillTalentUltMaterials({ character }: { character: Char
             </div>
           ))}
         </div>
-        <MaterialBlock title="Total for each" materials={data.skillTalentUlt.total.materials} className="flex-grow" />
+        <MaterialBlock title="Total for each" materials={data.total.materials} className="flex-grow" />
       </div>
     </div>
   );
