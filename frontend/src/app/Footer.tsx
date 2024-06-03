@@ -57,7 +57,13 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="transition-all duration-300 ease-in-out hover:scale-110 hover:shadow"
         >
-          <Image src={"/assets/general/official.webp"} alt="StarRail" height={60} width={60} className="rounded-md" />
+          <Image
+            src={"/sr7/assets/general/official.webp"}
+            alt="StarRail"
+            height={60}
+            width={60}
+            className="rounded-md"
+          />
         </Link>
         <Link
           href="https://discord.com/invite/honkaistarrail"

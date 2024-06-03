@@ -37,7 +37,7 @@ export default function PanelHover({
       <div className="flex justify-center space-x-4">
         <div className="flex w-40 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
           <Image
-            src={`/assets/elements/${charData.static.element}.webp`}
+            src={`/sr7/assets/elements/${charData.static.element}.webp`}
             alt={charData.static.element}
             width={20}
             height={20}
@@ -45,25 +45,30 @@ export default function PanelHover({
           <p className="text-sm font-medium">{charData.static.element}</p>
         </div>
         <div className="flex w-40 items-center justify-center space-x-2 self-stretch rounded-md bg-slate-900 py-2 shadow">
-          <Image src={`/assets/paths/${charData.static.path}.webp`} alt={charData.static.path} width={20} height={20} />
+          <Image
+            src={`/sr7/assets/paths/${charData.static.path}.webp`}
+            alt={charData.static.path}
+            width={20}
+            height={20}
+          />
           <p className="text-sm font-medium">{charData.static.path}</p>
         </div>
       </div>
       <div className="mx-auto flex w-40 items-center justify-center space-x-1.5 self-stretch rounded-md bg-slate-900 py-1.5 shadow">
         <Image
-          src={`/assets/lightcones/${charData.dynamic.lightcones[0]}.webp`}
+          src={`/sr7/assets/lightcones/${charData.dynamic.lightcones[0]}.webp`}
           alt={charData.dynamic.lightcones[0]}
           width={24}
           height={24}
         />
         <Image
-          src={`/assets/relics/${charData.dynamic.relics[0]}.webp`}
+          src={`/sr7/assets/relics/${charData.dynamic.relics[0]}.webp`}
           alt={charData.dynamic.relics[0]}
           width={24}
           height={24}
         />
         <Image
-          src={`/assets/ornaments/${charData.dynamic.ornaments[0]}.webp`}
+          src={`/sr7/assets/ornaments/${charData.dynamic.ornaments[0]}.webp`}
           alt={charData.dynamic.ornaments[0]}
           width={24}
           height={24}

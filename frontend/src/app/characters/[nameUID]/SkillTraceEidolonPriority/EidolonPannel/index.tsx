@@ -27,7 +27,12 @@ export default function EidolonPannel({
         </div>
       )}
       <div className="my-auto flex flex-col items-center space-y-1 px-1.5 py-3">
-        <Image src={`/assets/characters/${character.nameUID}/${typeUID}.webp`} alt={data.name} width={40} height={40} />
+        <Image
+          src={`/sr7/assets/characters/${character.nameUID}/${typeUID}.webp`}
+          alt={data.name}
+          width={40}
+          height={40}
+        />
         <p className="text-center text-xs font-semibold">{data.name}</p>
       </div>
       <p className="rounded-md bg-gray-700 py-1 text-center text-xs font-semibold shadow group-hover:bg-gray-600">

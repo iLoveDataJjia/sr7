@@ -24,7 +24,7 @@ export default function LightconePhoto({
         `rounded-md bg-gradient-to-b ${starCSS(star).gradient} p-1 shadow` + (className ? ` ${className}` : "")
       }
     >
-      <Image src={`/assets/lightcones/${nameUID}.webp`} alt={nameUID} width={64} height={64} />
+      <Image src={`/sr7/assets/lightcones/${nameUID}.webp`} alt={nameUID} width={64} height={64} />
       {children && children}
     </div>
   );

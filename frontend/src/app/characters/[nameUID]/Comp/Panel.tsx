@@ -23,7 +23,7 @@ export default function Panel({ nameUID, role }: { nameUID: string; role: Role }
       {/* Displayed */}
       <div className="flex flex-col items-center space-y-3 px-6 py-3 shadow">
         <Image
-          src={`/assets/characters/${nameUID}/photo.webp`}
+          src={`/sr7/assets/characters/${nameUID}/photo.webp`}
           alt={nameUID}
           width={96}
           height={96}
@@ -32,7 +32,7 @@ export default function Panel({ nameUID, role }: { nameUID: string; role: Role }
         <p className="text-2xl font-semibold">{displayable(nameUID)}</p>
         <span className="h-[0.1px] w-full bg-white opacity-50" />
         <Image
-          src={`/assets/elements/${charData.static.element}.webp`}
+          src={`/sr7/assets/elements/${charData.static.element}.webp`}
           alt={charData.static.element}
           width={56}
           height={56}

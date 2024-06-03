@@ -16,7 +16,7 @@ export default function General({ character }: { character: Character }) {
     <div
       className={`space-y-8 rounded-xl bg-cover bg-right`}
       style={{
-        backgroundImage: `url(/assets/characters/${srEncodeURL(character.nameUID, true)}/wp.webp)`,
+        backgroundImage: `url(/sr7/assets/characters/${srEncodeURL(character.nameUID, true)}/wp.webp)`,
       }}
     >
       {/* Character */}
@@ -29,7 +29,7 @@ export default function General({ character }: { character: Character }) {
             ))}
           </div>
           <Image
-            src={`/assets/characters/${character.nameUID}/photo.webp`}
+            src={`/sr7/assets/characters/${character.nameUID}/photo.webp`}
             alt={character.nameUID}
             width={96}
             height={96}
@@ -48,7 +48,7 @@ export default function General({ character }: { character: Character }) {
           <div className="flex space-x-6">
             <div className="flex items-center space-x-2">
               <Image
-                src={`/assets/elements/${character.static.element}.webp`}
+                src={`/sr7/assets/elements/${character.static.element}.webp`}
                 alt={character.static.element}
                 width={40}
                 height={40}
@@ -57,7 +57,7 @@ export default function General({ character }: { character: Character }) {
             </div>
             <div className="flex items-center space-x-2">
               <Image
-                src={`/assets/paths/${character.static.path}.webp`}
+                src={`/sr7/assets/paths/${character.static.path}.webp`}
                 alt={character.static.path}
                 width={32}
                 height={32}

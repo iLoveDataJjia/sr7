@@ -25,7 +25,7 @@ export default function TierListTab() {
     }, {} as { [k in Element]: boolean })
   );
   const imgsElem = allElems.reduce((acc, elem) => {
-    acc[elem] = <Image src={`/assets/elements/${elem}.webp`} alt={elem} width={20} height={20} />;
+    acc[elem] = <Image src={`/sr7/assets/elements/${elem}.webp`} alt={elem} width={20} height={20} />;
     return acc;
   }, {} as { [k in Element]: JSX.Element });
 
@@ -37,7 +37,7 @@ export default function TierListTab() {
     }, {} as { [k in Path]: boolean })
   );
   const imgsPath = allPaths.reduce((acc, path) => {
-    acc[path] = <Image src={`/assets/paths/${path}.webp`} alt={path} width={20} height={20} />;
+    acc[path] = <Image src={`/sr7/assets/paths/${path}.webp`} alt={path} width={20} height={20} />;
     return acc;
   }, {} as { [k in Path]: JSX.Element });
 

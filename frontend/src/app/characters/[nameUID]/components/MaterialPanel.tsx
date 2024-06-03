@@ -16,9 +16,9 @@ export default function MaterialPanel({ name, quantity }: { name: string; quanti
       {/* Image */}
       <div className={`rounded-md ${starCSS(star).gradient} h-10 w-10 bg-gradient-to-b p-1 shadow`}>
         {name === "Credit" ? (
-          <Image src={`/assets/items/generals/${name}.webp`} alt={name} width={40} height={40} />
+          <Image src={`/sr7/assets/items/generals/${name}.webp`} alt={name} width={40} height={40} />
         ) : (
-          <Image src={`/assets/items/materials/${name}.webp`} alt={name} width={40} height={40} />
+          <Image src={`/sr7/assets/items/materials/${name}.webp`} alt={name} width={40} height={40} />
         )}
       </div>
 

@@ -13,7 +13,7 @@ export default function NavBar({ className }: { className?: string }) {
       className={"flex items-center justify-between space-x-8 bg-slate-950 p-4" + (className ? ` ${className}` : "")}
     >
       <Link href="/" className="flex items-center space-x-2.5">
-        <Image src="/assets/general/logo.webp" alt="Logo" width={30} height={30} className="rounded-full" />
+        <Image src="/sr7/assets/general/logo.webp" alt="Logo" width={30} height={30} className="rounded-full" />
         <div className="text-sm font-bold">SR7</div>
       </Link>
       <SearchBar />

@@ -6,14 +6,14 @@ import NormalAtkMaterials from "./NormalAtkMaterials";
 import SkillTalentUltMaterials from "./SkillTalentUltMaterials";
 import SkillTraceEidolonPriority from "./SkillTraceEidolonPriority";
 import { getCharacters } from "@/data/characters";
-import { srCapitalize, srDecodeURL } from "@/utils/String";
+import { srCapitalize, srDecodeURL, srEncodeURL } from "@/utils/String";
 
 /**
  * Make routes static. (Enable SSG too)
  */
 export async function generateStaticParams() {
   return getCharacters().map((_) => ({
-    nameUID: _.nameUID.toLowerCase(),
+    nameUID: srEncodeURL(_.nameUID.toLowerCase()),
   }));
 }
 
@@ -31,7 +31,7 @@ export async function generateMetadata({ params: { nameUID } }: { params: { name
       title: `Honkai: Star Rail ${character.nameUID} Build`,
       description: character.dynamic.playstyle,
       openGraph: {
-        images: `/assets/characters/${character.nameUID}/photo.webp`,
+        images: `assets/characters/${character.nameUID}/photo.webp`,
       },
     }
   );

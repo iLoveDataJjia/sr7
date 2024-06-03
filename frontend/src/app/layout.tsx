@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "SR7 provides the essential, constantly updated Honkai Star Rail tier list and character builds for the latest patch, utilizing data science to determine the optimal characters for any team.",
   openGraph: {
-    images: "/assets/general/logo.webp",
+    images: "/sr7/assets/general/logo.webp",
   },
 };
 

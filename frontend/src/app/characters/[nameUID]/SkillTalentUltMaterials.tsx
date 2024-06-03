@@ -17,25 +17,25 @@ export default function SkillTalentUltMaterials({ character }: { character: Char
         <h1 className="text-lg font-bold">Skill, Talent & Ult. materials</h1>
         <div className="flex">
           <Image
-            src={`/assets/items/materials/${data.total.materials[3].name}.webp`}
+            src={`/sr7/assets/items/materials/${data.total.materials[3].name}.webp`}
             alt={data.total.materials[3].name}
             width={30}
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.total.materials[0].name}.webp`}
+            src={`/sr7/assets/items/materials/${data.total.materials[0].name}.webp`}
             alt={data.total.materials[0].name}
             width={30}
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.total.materials[6].name}.webp`}
+            src={`/sr7/assets/items/materials/${data.total.materials[6].name}.webp`}
             alt={data.total.materials[6].name}
             width={30}
             height={30}
           />
           <Image
-            src={`/assets/items/materials/${data.total.materials[7].name}.webp`}
+            src={`/sr7/assets/items/materials/${data.total.materials[7].name}.webp`}
             alt={data.total.materials[7].name}
             width={30}
             height={30}

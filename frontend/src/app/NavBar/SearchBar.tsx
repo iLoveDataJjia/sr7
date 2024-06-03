@@ -34,7 +34,7 @@ function SearchBarResult({
       onClick={() => onClick?.()}
     >
       <Image
-        src={`/assets/characters/${char.nameUID}/photo.webp`}
+        src={`/sr7/assets/characters/${char.nameUID}/photo.webp`}
         alt={char.nameUID}
         className="rounded-md"
         width={40}
@@ -53,8 +53,13 @@ function SearchBarResult({
             {char.dynamic.tier}
           </div>
         </div>
-        <Image src={`/assets/elements/${char.static.element}.webp`} alt={char.static.element} width={28} height={28} />
-        <Image src={`/assets/paths/${char.static.path}.webp`} alt={char.static.path} width={28} height={28} />
+        <Image
+          src={`/sr7/assets/elements/${char.static.element}.webp`}
+          alt={char.static.element}
+          width={28}
+          height={28}
+        />
+        <Image src={`/sr7/assets/paths/${char.static.path}.webp`} alt={char.static.path} width={28} height={28} />
       </div>
     </Link>
   );

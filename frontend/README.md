@@ -32,3 +32,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Deploy on Github Pages
+
+For Github Pages:
+
+```bash
+git worktree add gh-pages && cd gh-pages
+cd frontend && npm run build && cd ..
+mv frontend/dist .
+ls -A | grep -Ev "^(\.git|dist)$" | xargs rm -rf
+mv dist/* . && rm -rf dist
+touch .nojekyll
+git add .
+git commit -m "DONE: Add 'Deployment for Github Pages'"
+git push --set-upstream origin gh-pages --force
+
+cd frontend
+npm run build
+git branch -D gh-pages 2>/dev/null
+git checkout --orphan gh-pages
+git branch -D gh-pages
+cd ..
+```
+
+_Note: The image supports Windows, Linux, and MacOS, specifically amd64 and arm64._

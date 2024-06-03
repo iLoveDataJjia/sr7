@@ -91,7 +91,7 @@ export default function CodesPopover() {
                 {code.items.map((item) => (
                   <div key={item.nameUID} className="group relative">
                     <Image
-                      src={`/assets/items/${getItem(item.nameUID).type}/${item.nameUID}.webp`}
+                      src={`/sr7/assets/items/${getItem(item.nameUID).type}/${item.nameUID}.webp`}
                       alt={item.nameUID}
                       height={25}
                       width={25}

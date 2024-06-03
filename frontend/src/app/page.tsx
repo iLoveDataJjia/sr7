@@ -9,7 +9,7 @@ export default function Page() {
     <div className="m-4">
       <div
         className="rounded-xl bg-[length:100%] bg-right-top bg-no-repeat"
-        style={{ backgroundImage: `url(/assets/general/wp.webp)` }}
+        style={{ backgroundImage: `url(/sr7/assets/general/wp.webp)` }}
       >
         {/* Title */}
         <div className="flex space-x-4 py-12 pl-8">

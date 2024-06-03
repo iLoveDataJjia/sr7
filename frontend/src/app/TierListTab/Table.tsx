@@ -48,7 +48,7 @@ export default function Table({ characters }: { characters: Character[] }) {
               </div>
               <div className="flex w-5 justify-center">
                 <Image
-                  src={`/assets/elements/${char.static.element}.webp`}
+                  src={`/sr7/assets/elements/${char.static.element}.webp`}
                   alt={char.static.element}
                   height={30}
                   width={30}
@@ -57,7 +57,7 @@ export default function Table({ characters }: { characters: Character[] }) {
               </div>
               <div className="flex w-5 justify-center">
                 <Image
-                  src={`/assets/paths/${char.static.path}.webp`}
+                  src={`/sr7/assets/paths/${char.static.path}.webp`}
                   alt={char.static.path}
                   height={25}
                   width={25}
@@ -72,7 +72,7 @@ export default function Table({ characters }: { characters: Character[] }) {
                   className="group flex max-w-full items-center space-x-3"
                 >
                   <Image
-                    src={`/assets/characters/${char.nameUID}/photo.webp`}
+                    src={`/sr7/assets/characters/${char.nameUID}/photo.webp`}
                     alt={char.static.path}
                     height={30}
                     width={30}
@@ -118,7 +118,7 @@ export default function Table({ characters }: { characters: Character[] }) {
                   {char.dynamic.comp.best.map(({ char }) => (
                     <Link key={char} href={`/characters/${char.toLowerCase()}`}>
                       <Image
-                        src={`/assets/characters/${char}/photo.webp`}
+                        src={`/sr7/assets/characters/${char}/photo.webp`}
                         alt={char}
                         height={25}
                         width={25}
