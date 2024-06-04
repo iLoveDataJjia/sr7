@@ -30,24 +30,13 @@ const nextConfig = {
   // Output build path
   distDir: "dist",
 
-  // Static export (https://nextjs.org/docs/pages/building-your-application/deploying/static-exports)
+  // Static export (https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
   output: "export",
   images: { unoptimized: true },
   trailingSlash: true, // Remove "".html" (https://stackoverflow.com/questions/62867105/how-to-deal-with-nextjs-exporting-files-with-html-extension-but-inlink-there)
 
   // Base path (https://nextjs.org/docs/app/api-reference/next-config-js/basePath)
   basePath: "/sr7",
-
-  // Redirect (https://nextjs.org/docs/pages/api-reference/next-config-js/redirects & not usable with static export)
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: "//:path*",
-  //       destination: "/characters/clara",
-  //       permanent: false,
-  //     },
-  //   ];
-  // },
 };
 
 module.exports = nextConfig;
