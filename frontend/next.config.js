@@ -27,9 +27,6 @@ const nextConfig = {
     return config;
   },
 
-  // Output build path
-  distDir: "dist",
-
   // Static export (https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
   output: "export",
   images: { unoptimized: true },
