@@ -42,20 +42,20 @@ npm run dev
 For Github Pages:
 
 ```bash
-git worktree add gh-pages && cd gh-pages
-cd frontend && npm run build && cd ..
-mv frontend/dist .
-ls -A | grep -Ev "^(\.git|dist)$" | xargs rm -rf
-mv dist/* . && rm -rf dist
-touch .nojekyll
-git add .
-git commit -m "DONE: Add 'Deployment for Github Pages'"
-git push --set-upstream origin gh-pages --force
-
-cd frontend
-npm run build
-git branch -D gh-pages 2>/dev/null
-git checkout --orphan gh-pages
-git branch -D gh-pages
-cd ..
+status=$(git status --porcelain)
+if [[ -n $status ]]; then
+    echo "Error: There are uncommitted changes in the repository."
+    echo "$status"
+else
+    git worktree add gh-pages && cd gh-pages
+    cd frontend && npm run build && cd ..
+    mv frontend/out .
+    ls -A | grep -Ev "^(\.git|out)$" | xargs rm -rf
+    mv out/* . && rm -rf out
+    touch .nojekyll
+    git add .
+    git commit -m "DONE: Add 'Deployment for Github Pages'"
+    git push --set-upstream origin gh-pages --force
+    git worktree remove gh-pages && cd .. && git branch -D gh-pages
+fi
 ```
