@@ -1,7 +1,7 @@
 "use client";
 
 import { Eidolon } from "@/data/characters";
-import { useMouseCSSPos } from "@/hooks/Mouse";
+import { useMouseCSSPos } from "@/hooks/useMouseCSSPos";
 
 /**
  * Eidolon pannel hover.

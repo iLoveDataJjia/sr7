@@ -1,7 +1,7 @@
 "use client";
 
 import { getOrnaments } from "@/data/ornaments";
-import { useMouseCSSPos } from "@/hooks/Mouse";
+import { useMouseCSSPos } from "@/hooks/useMouseCSSPos";
 
 /**
  * Ornament hover pannel.

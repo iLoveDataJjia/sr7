@@ -2,6 +2,7 @@ import Star from "@/assets/general/star.svg";
 import { Character } from "@/data/characters";
 import { tierCSS } from "@/data/characters";
 import { starCSS, Stat } from "@/data/utils";
+import { encodeAsStaticParams } from "@/utils/string";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -38,8 +39,8 @@ export default function Table({ characters }: { characters: Character[] }) {
             <div
               key={char.nameUID}
               className={
-                "flex h-14 items-center justify-around py-3 transition-all duration-100 ease-in-out" +
-                (idx % 2 === 0 ? " bg-indigo-900 hover:bg-indigo-700" : " bg-indigo-800 hover:bg-indigo-600")
+                "flex h-14 items-center justify-around py-3 transition-all duration-100 ease-in-out " +
+                (idx % 2 === 0 ? "bg-indigo-900 hover:bg-indigo-700" : "bg-indigo-800 hover:bg-indigo-600")
               }
             >
               {/* Rank, Element & Path */}
@@ -68,7 +69,7 @@ export default function Table({ characters }: { characters: Character[] }) {
               {/* Character */}
               <div className="flex w-44">
                 <Link
-                  href={`/characters/${char.nameUID.toLowerCase()}`}
+                  href={`/characters/${encodeAsStaticParams(char.nameUID)}`}
                   className="group flex max-w-full items-center space-x-3"
                 >
                   <Image
@@ -116,7 +117,7 @@ export default function Table({ characters }: { characters: Character[] }) {
               <div className="flex w-32 justify-center">
                 <div className="flex space-x-1">
                   {char.dynamic.comp.best.map(({ char }) => (
-                    <Link key={char} href={`/characters/${char.toLowerCase()}`}>
+                    <Link key={char} href={`/characters/${encodeAsStaticParams(char)}`}>
                       <Image
                         src={`/sr7/assets/characters/${char}/photo.webp`}
                         alt={char}

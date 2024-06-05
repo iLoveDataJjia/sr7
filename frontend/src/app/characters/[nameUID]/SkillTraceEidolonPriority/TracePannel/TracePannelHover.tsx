@@ -3,7 +3,7 @@
 import StatIcon from "@/components/StatIcon";
 import { Trace } from "@/data/characters";
 import { Stat } from "@/data/utils";
-import { useMouseCSSPos } from "@/hooks/Mouse";
+import { useMouseCSSPos } from "@/hooks/useMouseCSSPos";
 
 /**
  * Trace pannel hover.

@@ -3,7 +3,7 @@
 import TextHighlighter from "@/components/TextHighlighter";
 import { Skill } from "@/data/characters";
 import { SkillSource } from "@/data/characters";
-import { useMouseCSSPos } from "@/hooks/Mouse";
+import { useMouseCSSPos } from "@/hooks/useMouseCSSPos";
 
 /**
  * Skill pannel hover core elements.
@@ -29,10 +29,7 @@ function SkillPannelHoverCore({
           {type}
         </div>
         {cost && (
-          <div
-            className="flex w-40 items-center justify-center rounded-md bg-slate-900 py-2
-            text-sm font-bold text-emerald-500 shadow"
-          >
+          <div className="flex w-40 items-center justify-center rounded-md bg-slate-900 py-2 text-sm font-bold text-emerald-500 shadow">
             {cost}
           </div>
         )}

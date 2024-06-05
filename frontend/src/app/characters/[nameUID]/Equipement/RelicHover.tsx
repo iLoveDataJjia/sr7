@@ -1,7 +1,7 @@
 "use client";
 
 import { getRelics } from "@/data/relics";
-import { useMouseCSSPos } from "@/hooks/Mouse";
+import { useMouseCSSPos } from "@/hooks/useMouseCSSPos";
 
 /**
  * Relic hover pannel.

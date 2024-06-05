@@ -3,7 +3,7 @@
 import Star from "@/assets/general/star.svg";
 import TextHighlighter from "@/components/TextHighlighter";
 import { getLightCones } from "@/data/lightcones";
-import { useMouseCSSPos } from "@/hooks/Mouse";
+import { useMouseCSSPos } from "@/hooks/useMouseCSSPos";
 import Image from "next/image";
 
 /**

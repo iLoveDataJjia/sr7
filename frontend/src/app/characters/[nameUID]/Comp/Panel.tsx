@@ -3,6 +3,7 @@
 import PanelHover from "./PanelHover";
 import { getCharacters, displayable } from "@/data/characters";
 import { Role } from "@/data/characters";
+import { encodeAsStaticParams } from "@/utils/string";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -17,7 +18,7 @@ export default function Panel({ nameUID, role }: { nameUID: string; role: Role }
   return (
     <Link
       className="group relative w-44 rounded-md bg-indigo-900 hover:bg-indigo-800"
-      href={`/characters/${nameUID.toLowerCase()}`}
+      href={`/characters/${encodeAsStaticParams(nameUID)}`}
       onClick={() => window.scroll({ top: 0, left: 0 })}
     >
       {/* Displayed */}

@@ -6,15 +6,15 @@ import NormalAtkMaterials from "./NormalAtkMaterials";
 import SkillTalentUltMaterials from "./SkillTalentUltMaterials";
 import SkillTraceEidolonPriority from "./SkillTraceEidolonPriority";
 import { getCharacters } from "@/data/characters";
-import { srCapitalize, srDecodeURL, srEncodeURL } from "@/utils/String";
+import { decodeStaticParams, encodeAsStaticParams } from "@/utils/string";
 
 /**
  * Make routes static. (Enable SSG too)
  */
 export async function generateStaticParams() {
-  return getCharacters().map((_) => ({
-    nameUID: srEncodeURL(_.nameUID.toLowerCase()),
-  }));
+  const characterNameUIDs = getCharacters().map((_) => encodeAsStaticParams(_.nameUID));
+  const staticParams = characterNameUIDs.map((_) => ({ nameUID: _ }));
+  return staticParams;
 }
 
 /**
@@ -22,19 +22,17 @@ export async function generateStaticParams() {
  */
 export async function generateMetadata({ params: { nameUID } }: { params: { nameUID: string } }) {
   // Get character
-  const nameUIDDecoded = srCapitalize(srDecodeURL(nameUID));
-  const character = getCharacters([nameUIDDecoded]).at(0);
+  const nameUIDDecoded = decodeStaticParams(nameUID);
+  const character = getCharacters([nameUIDDecoded])[0];
 
   // Render
-  return (
-    character && {
-      title: `Honkai: Star Rail ${character.nameUID} Build`,
-      description: character.dynamic.playstyle,
-      openGraph: {
-        images: `assets/characters/${character.nameUID}/photo.webp`,
-      },
-    }
-  );
+  return {
+    title: `Honkai: Star Rail ${character.nameUID} Build`,
+    description: character.dynamic.playstyle,
+    openGraph: {
+      images: `/sr7/assets/characters/${character.nameUID}/photo.webp`,
+    },
+  };
 }
 
 /**
@@ -42,7 +40,7 @@ export async function generateMetadata({ params: { nameUID } }: { params: { name
  */
 export default function Page({ params: { nameUID } }: { params: { nameUID: string } }) {
   // Get character
-  const nameUIDDecoded = srCapitalize(srDecodeURL(nameUID));
+  const nameUIDDecoded = decodeStaticParams(nameUID);
   const character = getCharacters([nameUIDDecoded])[0];
 
   // Render

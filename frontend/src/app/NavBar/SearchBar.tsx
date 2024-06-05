@@ -3,6 +3,7 @@
 import Search from "@/assets/general/search.svg";
 import Star from "@/assets/general/star.svg";
 import { getCharacters, displayable, tierCSS, Character } from "@/data/characters";
+import { encodeAsStaticParams } from "@/utils/string";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -28,7 +29,7 @@ function SearchBarResult({
   // Render
   return (
     <Link
-      href={`/characters/${char.nameUID.toLowerCase()}`}
+      href={`/characters/${encodeAsStaticParams(char.nameUID)}`}
       key={char.nameUID}
       className={`flex items-center px-4 py-2 ${bgCss}` + (className ? ` ${className}` : "")}
       onClick={() => onClick?.()}
@@ -103,10 +104,10 @@ export default function SearchBar() {
               chars.length === 1
                 ? "rounded-md"
                 : idx === 0
-                ? "rounded-t-md"
-                : idx === chars.length - 1
-                ? "rounded-b-md"
-                : ""
+                  ? "rounded-t-md"
+                  : idx === chars.length - 1
+                    ? "rounded-b-md"
+                    : ""
             }
             onClick={() => {
               setInput(char.nameUID);

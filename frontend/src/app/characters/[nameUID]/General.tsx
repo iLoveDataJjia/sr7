@@ -1,7 +1,6 @@
 import Star from "@/assets/general/star.svg";
 import StatIcon from "@/components/StatIcon";
 import { Character, tierCSS } from "@/data/characters";
-import { srEncodeURL } from "@/utils/String";
 import Image from "next/image";
 
 /**
@@ -16,7 +15,7 @@ export default function General({ character }: { character: Character }) {
     <div
       className={`space-y-8 rounded-xl bg-cover bg-right`}
       style={{
-        backgroundImage: `url(/sr7/assets/characters/${srEncodeURL(character.nameUID, true)}/wp.webp)`,
+        backgroundImage: `url(/sr7/assets/characters/${character.nameUID.replaceAll(" ", "%20").replaceAll("(", "%28").replaceAll(")", "%29")}/wp.webp)`, // Percentage encoding is needed for escaping parentheses.
       }}
     >
       {/* Character */}
