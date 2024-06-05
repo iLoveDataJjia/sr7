@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /assets/characters/*/wp.webp$
+Sitemap: https://lovindata.github.io/sr7/sitemap.xml

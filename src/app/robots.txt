@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /assets/characters/*/wp.webp$
-Sitemap: https://sr7.nl/sitemap.xml
