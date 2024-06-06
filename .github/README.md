@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/lovindata/sr7" target="_blank">
+  <a href="https://lovindata.github.io/sr7" target="_blank">
     <img alt="SR7" src="https://raw.githubusercontent.com/lovindata/sr7/main/.github/logo.webp" width="150" style="max-width: 100%; border-radius: 100%;" />
   </a>
 </p>
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/lovindata/sr7/blob/main/.github/LICENSE">
+    <a href="https://github.com/lovindata/sr7/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/lovindata/sr7" alt="License">
     </a>
 </p>
