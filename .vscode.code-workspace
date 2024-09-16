@@ -1,6 +1,9 @@
 {
   "folders": [
     {
+      "path": "."
+    },
+    {
       "path": ".github"
     },
     {
@@ -8,6 +11,23 @@
     },
     {
       "path": "frontend"
+    },
+  ],
+  "settings": {
+    // General
+    "editor.formatOnSave": true,
+
+    // Git
+    "git.autofetch": "all",
+    "git.autofetchPeriod": 60,
+    "git.pruneOnFetch": true,
+
+    // Json
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
-  ]
+  }
 }
