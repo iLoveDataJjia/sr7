@@ -7,24 +7,28 @@ import Script from "next/script";
  * Metadata.
  */
 export const metadata = {
-  metadataBase: new URL("https://lovindata.github.io/sr7/"),
+  metadataBase: new URL("https://lovindata.github.io"),
   title: "Honkai: Star Rail All Characters List",
   description:
     "SR7 provides the essential, constantly updated Honkai Star Rail tier list and character builds for the latest patch, utilizing data science to determine the optimal characters for any team.",
-  openGraph: {
-    images: "/sr7/assets/general/logo.webp",
-  },
 };
 
 /**
  * Layout.
  */
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <head>
         {/* Google analytics */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-D0F10Q72DX" />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D0F10Q72DX"
+        />
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
